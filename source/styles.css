@@ -164,7 +164,7 @@ small, .small { font-size: .8125rem; line-height: 1.55; color: var(--muted); }
 .chapter-menu summary::after { content: "▾"; color: var(--brass); margin-left: .45rem; }
 .chapter-menu > div { position: absolute; top: calc(100% + 2px); right: 0; width: min(14rem, 75vw); padding: .45rem 1rem; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 8px 20px #18221c18; }
 .chapter-menu.opens-up > div { top: auto; bottom: calc(100% + 2px); }
-.chapter-menu > div { max-height: min(19rem, 54svh); overflow-y: auto; }
+.chapter-menu > div { max-height: min(23rem, calc(100svh - var(--mast) - var(--chapter-nav) - 1.25rem)); overflow-y: auto; }
 .chapter-menu > div a { display: flex; border-bottom: 1px solid var(--line); }
 .chapter-menu > div a:last-child { border: 0; }
 .chapter-progress { height: 2px; position: absolute; bottom: -1px; left: 0; width: 100%; background: #9b622e; transform: scaleX(0); transform-origin: left; }
@@ -214,7 +214,7 @@ select, input { min-height: 44px; border: 1px solid #839287; background: var(--w
 .anchor-picker .small { min-height: 2.5em; }
 .quick-walk { display: grid; grid-template-columns: minmax(0, 1fr); gap: .35rem; margin-bottom: 1rem; font-size: .8rem; font-weight: 800; }
 .anchor-picker select, .quick-walk select { min-width: 0; width: 100%; }
-.quick-walk select { scroll-margin-top: calc(var(--chapter-nav) + .5rem); }
+.quick-walk { scroll-margin-top: calc(var(--chapter-nav) + .5rem); }
 .route-layout { display: grid; gap: 1.35rem; align-items: start; }
 .map-stage { padding: .85rem; background: #e6eadc; min-width: 0; }
 #route-note { display: flex; flex-wrap: wrap; gap: .55rem 1.25rem; align-items: end; justify-content: space-between; margin-bottom: .7rem; line-height: 1.3; }
@@ -371,7 +371,8 @@ tbody tr:first-child td { font-weight: 800; }
   .chapter-menu > div a:nth-last-child(2) { border: 0; }
 }
 @media (max-width: 22rem) {
-  .mast .word { font-size: 1rem; }
+  .mast .word { font-size: .94rem; }
+  .mast nav { gap: .48rem; font-size: .72rem; }
   .atlas-pins text { font-size: 18px; }
   .chapter-facts { gap: .25rem .55rem; }
   .chapter-facts span + span { padding-left: .48rem; }
@@ -380,7 +381,6 @@ tbody tr:first-child td { font-weight: 800; }
   .hero-inner { animation: cover-enter .8s var(--ease) both; }
   .chapter-inner { animation: chapter-enter .52s var(--ease) both; }
   .chapter-art { animation: chapter-image .85s var(--ease) both; }
-  .active-route { stroke-dasharray: 1; animation: route-draw .78s cubic-bezier(.44,.12,.31,1) both; }
   @supports (animation-timeline: view()) {
     #city { view-timeline: --city-scroll block; }
     .chapter-progress { animation: chapter-progress linear both; animation-timeline: --city-scroll; animation-range: contain; }
@@ -391,7 +391,6 @@ tbody tr:first-child td { font-weight: 800; }
 @keyframes cover-enter { from { opacity: .65; transform: translateY(16px); } to { opacity: 1; transform: none; } }
 @keyframes chapter-enter { from { opacity: .65; transform: translateY(13px); } to { opacity: 1; transform: none; } }
 @keyframes chapter-image { from { opacity: .64; transform: scale(1.035); } to { opacity: 1; transform: none; } }
-@keyframes route-draw { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
 @keyframes chapter-progress { to { transform: scaleX(1); } }
 @keyframes picture-focus { from { object-position: center 37%; } to { object-position: center 55%; } }
 @media print {

@@ -1,0 +1,77 @@
+{
+  "baku": {
+    "file": "walk-satellite-baku.webp",
+    "bbox": [
+      49.82255310091731,
+      40.36299041481482,
+      49.870485,
+      40.382375595912286
+    ],
+    "width": 405,
+    "height": 260,
+    "date": "2025-09-01",
+    "item": "S2C_39TUE_20250901_0_L2A",
+    "source": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_39TUE_20250901_0_L2A",
+    "license": "https://dataspace.copernicus.eu/terms-and-conditions"
+  },
+  "tbilisi": {
+    "file": "walk-satellite-tbilisi.webp",
+    "bbox": [
+      44.78005275584853,
+      41.68658504444445,
+      44.818858272327724,
+      41.72380246666666
+    ],
+    "width": 322,
+    "height": 413,
+    "date": "2025-09-25",
+    "item": "S2B_38TMM_20250925_0_L2A",
+    "source": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2B_38TMM_20250925_0_L2A",
+    "license": "https://dataspace.copernicus.eu/terms-and-conditions"
+  },
+  "budapest": {
+    "file": "walk-satellite-budapest.webp",
+    "bbox": [
+      19.0322755166725,
+      47.47255939259259,
+      19.074618483327498,
+      47.51245386666667
+    ],
+    "width": 320,
+    "height": 443,
+    "date": "2025-09-22",
+    "item": "S2A_33TYN_20250922_0_L2A",
+    "source": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_33TYN_20250922_0_L2A",
+    "license": "https://dataspace.copernicus.eu/terms-and-conditions"
+  },
+  "vienna": {
+    "file": "walk-satellite-vienna.webp",
+    "bbox": [
+      16.344471785171923,
+      48.17951330370371,
+      16.44578975219559,
+      48.24487946666666
+    ],
+    "width": 749,
+    "height": 726,
+    "date": "2025-09-03",
+    "item": "S2C_33UWP_20250903_0_L2A",
+    "source": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2C_33UWP_20250903_0_L2A",
+    "license": "https://dataspace.copernicus.eu/terms-and-conditions"
+  },
+  "prague": {
+    "file": "walk-satellite-prague.webp",
+    "bbox": [
+      14.411563499999998,
+      50.072242516412686,
+      14.464663181818183,
+      50.09102296697833
+    ],
+    "width": 378,
+    "height": 260,
+    "date": "2025-09-01",
+    "item": "S2A_33UVR_20250901_0_L2A",
+    "source": "https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_33UVR_20250901_0_L2A",
+    "license": "https://dataspace.copernicus.eu/terms-and-conditions"
+  }
+}

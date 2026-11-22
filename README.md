@@ -7,8 +7,10 @@ Open [the online guide](https://meshthegreat.github.io/december-elsewhere/) or d
 - The atlas previews direct distances from Medina airport to the five city centers. Choose a city in the atlas selector or opt into the interactive globe. Each chapter shows its published flight routing and layovers.
 - Pick a destination, then choose an apartment. The stay price updates in the budget and its public neighborhood anchor appears on the map when matched.
 - Choose any walk to highlight the pedestrian route. The starting point is a public landmark, square or station. Two properties could not be linked to a reliable public starting point.
+- The walk map offers a real Sentinel-2 satellite view and a diagram. Google Maps and Apple Maps open walking directions using the same two public points.
+- Winter covers the trip dates, outdoor activities, direct operator links, and two optional Stageshow presentations. Stay cards distinguish private outdoor space, nearby public space, listed amenities with unclear access, and unverified claims.
 - Change meals, fares and other costs to compare the group's options. Open Car rental costs when needed. Driver, lodging and car inputs are shared. All remaining inputs are per adult. A rental should replace the driver line when the two cover the same outing.
-- Open the original accommodation page to see the property's photos and recheck availability, total fees, bedding and arrival arrangements. The seventeen bundled photographs show the destinations.
+- Open the original accommodation page for the actual room photos and to confirm availability, fees, bedding and arrival arrangements. All 24 licensed place photographs can be viewed and downloaded from the guide.
 - Print from a destination's budget area to expand the full itinerary for printing.
 
 ## Source and maintenance
@@ -28,3 +30,5 @@ Run `python3 source/build.py` to regenerate both formats. Python’s standard li
 Run `python source/verify_premium.py` with Python Playwright and Chrome or Edge to test the offline file. Pass a Pages or subpath-preview URL to run the same interactions against the hosted edition. The [premium review log](reports/PREMIUM-EXPERIENCE.md) records design decisions and review evidence.
 
 Two independent package/runtime checks are reproducible with `node source/verify-independent.cjs reports/independent-package-audit.json` and `node reports/independent-runtime.cjs . > reports/independent-runtime.json`. The browser regression script is `python3 source/verify.py browser-results.json` with Playwright and its Chromium installed. See the verification report for checks actually executed.
+
+Run `python source/verify_winter.py` for the winter guide, Stageshow and satellite regressions. See [the winter release record](reports/WINTER-FIELD-GUIDE.md) for operator sources and rehearsal evidence. The standard-library Python build uses locally vendored Stageshow and React assets. `source/prepare-winter-stage.mjs` can regenerate the vendored scene from the installed skill. `source/fetch-walk-basemaps.py` refreshes the open Sentinel-2 imagery when needed.

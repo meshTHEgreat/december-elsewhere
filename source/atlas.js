@@ -52,22 +52,26 @@ function previewDestination(id, immediate = false) {
   atlasGlobe?.select(id, immediate);
 }
 
-function loadGlobe() {
-  if (window.DecemberGlobe) return Promise.resolve(window.DecemberGlobe);
+const guideModuleLoads = new Map();
+function loadGuideModule(id, name) {
+  if (window[name]) return Promise.resolve(window[name]);
+  if (guideModuleLoads.has(id)) return guideModuleLoads.get(id);
   const script = document.createElement('script');
-  const bundled = el('globe-code');
+  const bundled = el(id);
   if (!bundled.dataset.src) {
     script.textContent = JSON.parse(bundled.textContent);
     document.head.append(script);
     script.remove();
-    return Promise.resolve(window.DecemberGlobe);
+    return Promise.resolve(window[name]);
   }
-  return new Promise((resolve, reject) => {
+  const loading = new Promise((resolve, reject) => {
     script.src = bundled.dataset.src;
-    script.addEventListener('load', () => { script.remove(); resolve(window.DecemberGlobe); }, {once: true});
-    script.addEventListener('error', () => { script.remove(); reject(new Error('Globe asset unavailable')); }, {once: true});
+    script.addEventListener('load', () => { script.remove(); resolve(window[name]); }, {once: true});
+    script.addEventListener('error', () => { script.remove(); reject(new Error('Visual asset unavailable')); }, {once: true});
     document.head.append(script);
-  });
+  }).finally(() => guideModuleLoads.delete(id));
+  guideModuleLoads.set(id,loading);
+  return loading;
 }
 
 function useMap(message = '') {
@@ -95,7 +99,7 @@ function bootAtlas() {
     button.setAttribute('aria-disabled', 'true');
     button.textContent = 'Loading globe';
     try {
-      const module = await loadGlobe();
+      const module = await loadGuideModule('globe-code', 'DecemberGlobe');
       const bounds = panel.getBoundingClientRect();
       if (bounds.bottom < -200 || bounds.top > innerHeight + 200) {
         useMap();

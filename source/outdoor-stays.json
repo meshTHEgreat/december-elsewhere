@@ -1,0 +1,76 @@
+{
+  "listings": {
+    "24291154": {
+      "kind": "private",
+      "label": "Private Nizami Street balcony",
+      "note": "The listing describes a balcony overlooking the street and a park nearby. Ask whether outdoor seating is available in winter."
+    },
+    "33505706": {
+      "kind": "listed",
+      "label": "Rooftop terrace listed · confirm access",
+      "note": "The listing highlights a rooftop terrace. Confirm exclusivity, winter access, and sleeping arrangements for three."
+    },
+    "41492147": {
+      "kind": "unknown",
+      "label": "Outdoor space unverified",
+      "note": "The listing documents the apartment and area. Ask about access to a balcony or courtyard."
+    },
+    "47782977": {
+      "kind": "nearby",
+      "label": "Park nearby · private outdoor space unverified",
+      "note": "The host mentions Hirschstettner Aupark. That is public outdoor space. Ask about a balcony or terrace at the apartment."
+    },
+    "1411583738365530757": {
+      "kind": "private",
+      "label": "Private balcony with Caspian views",
+      "note": "The listing describes direct access from the bedroom and kitchen. It is on the 15th floor, so check wind exposure and furniture."
+    },
+    "1129688233295307149": {
+      "kind": "unknown",
+      "label": "Outdoor space unverified",
+      "note": "The listing provides interior and location details. Ask about a balcony or usable courtyard before choosing it for outdoor space."
+    },
+    "1143563128668540800": {
+      "kind": "listed",
+      "label": "Balcony listed · check access",
+      "note": "The listing includes a balcony and three beds. Confirm private access and usable seating for your dates."
+    },
+    "888747837006251329": {
+      "kind": "private",
+      "label": "Private Buda balcony",
+      "note": "The listing describes a large balcony in a residential area. Consider the longer transfers alongside the outdoor space."
+    },
+    "1644751971236465063": {
+      "kind": "unknown",
+      "label": "Outdoor space unverified",
+      "note": "The location around Johnstraße is documented. Ask the host about usable private outdoor space."
+    },
+    "1566707663347121616": {
+      "kind": "unknown",
+      "label": "Outdoor space unverified",
+      "note": "The public listing describes the tram access. Confirm any outdoor space with the host."
+    }
+  },
+  "alternatives": {
+    "baku": {
+      "title": "Pik Palace, Shahdag · mountain stay",
+      "note": "The operator shows some balcony rooms and suites plus on-site outdoor access. Confirm the specific room category and sleeping arrangement for three.",
+      "url": "https://www.marriott.com/en-us/hotels/gydps-pik-palace-shahdag-autograph-collection/rooms/"
+    },
+    "tbilisi": {
+      "title": "Tbilisi 2 bedroom · private balcony and shared garden",
+      "note": "The listing describes two separate bedrooms, each with its own bathroom, and capacity for four. Check bed configuration for three adults and winter access to the shared garden.",
+      "url": "https://www.airbnb.com/rooms/18619840"
+    },
+    "vienna": {
+      "title": "Apartment with balcony and roof terrace · near Karlsplatz",
+      "note": "The public listing shows a private roof terrace, two bedrooms, three beds and capacity for four. Ask about the stair layout and winter terrace access.",
+      "url": "https://www.airbnb.com/rooms/53697568"
+    },
+    "prague": {
+      "title": "Private Terrace · Prague Castle Views · 3BR",
+      "note": "The listing shows a private terrace and three bedrooms with a king and two single beds. Confirm the exact route from the apartment.",
+      "url": "https://www.airbnb.com/rooms/5865619"
+    }
+  }
+}

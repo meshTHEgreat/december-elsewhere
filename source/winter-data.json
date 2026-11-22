@@ -1,0 +1,256 @@
+{
+  "checked": "23 November 2026",
+  "baku": {
+    "title": "From the Caspian to the Caucasus",
+    "summary": "Baku is a coastal winter break. For a chance to see snow, keep one flexible day for the mountains and check the resort and road status before committing.",
+    "options": [
+      {
+        "id": "baku",
+        "title": "Baku",
+        "area": "Caspian coast",
+        "status": "City plan",
+        "tag": "Snow is uncommon",
+        "photo": "baku-snow.webp",
+        "filmPhoto": "baku-sabir.webp",
+        "filmNote": "Plan for a chilly, windy coast. Treat city snowfall as a bonus.",
+        "journey": "Old City → Sabir Garden → Caspian Boulevard",
+        "time": "In town",
+        "conditions": "Azerbaijan’s Tourism Board describes snow in Baku as rare. The January 2014 street photo shows a past snowfall. It is not a forecast for 5–12 December.",
+        "ideas": [
+          "Walk the Old City and Nizami Street in the quieter part of the day.",
+          "Use the Carpet Museum or a tea stop if the waterfront is windy."
+        ],
+        "check": "Stay in the city if road, visibility, or lift reports make a mountain day poor value.",
+        "links": [
+          [
+            "Tourism Board winter guide",
+            "https://tourismboard.az/storage/2024/02/23/6i5bpZJUtCVqSLNsqx6gfb2R4TVw7lk8kTe6Fc7k.pdf"
+          ],
+          [
+            "Azerbaijan weather service",
+            "https://meteo.az/"
+          ],
+          [
+            "Azerbaijan National Carpet Museum",
+            "https://azcarpetmuseum.az/"
+          ]
+        ]
+      },
+      {
+        "id": "shahdag",
+        "title": "Shahdag",
+        "area": "Near Qusar · Greater Caucasus",
+        "status": "Check before going",
+        "tag": "Ski opening unconfirmed",
+        "photo": "baku-shahdag.webp",
+        "filmPhoto": "baku-shahdag.webp",
+        "filmNote": "Reserve a flexible day. Check the snow report and operating lifts.",
+        "journey": "Baku → Qusar (Gusar) → Shahdag",
+        "time": "212 km from Baku · allow 3–4 h each way",
+        "conditions": "Snow can be present at higher elevations before ski runs open. The tourism board’s general ski-season guidance starts around mid-December. The resort displayed ‘Opening soon’ for winter skiing and snowboarding when checked. A 5–12 December 2026 opening was not verified.",
+        "ideas": [
+          "Try a pedestrian gondola or the Shahdag Coaster if the operator confirms it is running.",
+          "If the ski area is open, check beginner lessons, rentals, lift passes, and the specific runs open before paying.",
+          "If conditions are poor, use Qusar as a lunch stop or keep the Baku city itinerary."
+        ],
+        "check": "Use the 11 December flexible day if conditions are suitable. Get one group quote with the driver’s waiting time, then check the resort webcam, wind, open lifts and road conditions the evening before and morning of the trip.",
+        "links": [
+          [
+            "Shahdag live snow and lift status",
+            "https://shahdag.az/en/live-info"
+          ],
+          [
+            "Shahdag activities",
+            "https://www.shahdag.az/en/sports-activities"
+          ],
+          [
+            "Official transport and transfers",
+            "https://shahdag.az/en/how-to-get-here"
+          ],
+          [
+            "Tourism Board ski-season guide",
+            "https://azerbaijan.travel/storage/pages/2936/608a4d97-c09e-4e14-9a44-f811bff27b0d.pdf"
+          ]
+        ]
+      },
+      {
+        "id": "tufandag",
+        "title": "Tufandag",
+        "area": "Near Gabala · Greater Caucasus",
+        "status": "Check before going",
+        "tag": "Cable car first",
+        "photo": "baku-tufandag.webp",
+        "filmNote": "Treat skiing as a bonus. Check the sightseeing lift and slopes separately.",
+        "journey": "Baku → Gabala → Tufandag",
+        "time": "About 3 h to Gabala in the tourism guide; allow winter buffer",
+        "conditions": "Tufandag is near Gabala. The resort publishes separate cable-car and piste information. Ski availability during 5–12 December 2026 was not verified.",
+        "ideas": [
+          "Take the sightseeing cable car if running. Wind and visibility can change the value of the visit quickly.",
+          "Combine the resort with lunch in Gabala. For a lower-stress outing, consider a night in Gabala if the mountain is the main reason for going.",
+          "Book skiing or a lesson only after the resort confirms open terrain and rentals."
+        ],
+        "check": "Choose Shahdag or Tufandag for a single day trip. Compare door-to-door quotes, ask about a daylight return and check road conditions again before departing. Update the shared driver and individual activity lines in Budget for the mountain outing.",
+        "links": [
+          [
+            "Tufandag lift and slope status",
+            "https://www.tufandag.com/en/lifts-slopes"
+          ],
+          [
+            "Tufandag sightseeing tickets and ski passes",
+            "https://www.tufandag.com/en/tickets-ski-passes"
+          ],
+          [
+            "Azerbaijan Travel Gabala guide",
+            "https://azerbaijan.travel/adventure-great-outdoors-gabala"
+          ]
+        ]
+      }
+    ]
+  },
+  "tbilisi": {
+    "title": "Warm baths, early-season mountains",
+    "summary": "The 5–11 December stay is earlier than Georgia’s announced 20 December ski-season opening.",
+    "options": [
+      {
+        "id": "tbilisi",
+        "title": "Abanotubani",
+        "area": "Tbilisi · Old Town",
+        "status": "City plan",
+        "tag": "Bathhouses",
+        "photo": "tbilisi-winter.webp",
+        "filmNote": "Keep a sulfur-bath visit as the cold-weather plan.",
+        "journey": "Old Town → Abanotubani",
+        "time": "In town",
+        "conditions": "The historic sulfur-bath district is an indoor-friendly winter choice. Check hours, book a private room if that suits the group and allow time for the walk.",
+        "ideas": [],
+        "links": [
+          [
+            "Georgia Travel sulfur baths",
+            "https://georgia.travel/tbilisi-sulfur-baths"
+          ]
+        ]
+      },
+      {
+        "id": "gudauri",
+        "title": "Gudauri",
+        "area": "Greater Caucasus",
+        "status": "Ski season opens after the trip",
+        "tag": "20 December opening",
+        "photo": "tbilisi-gudauri.webp",
+        "filmNote": "The announced ski opening is 20 December, after this stay.",
+        "journey": "Tbilisi → Georgian Military Highway → Gudauri",
+        "time": "Allow most of a day",
+        "conditions": "Georgia’s mountain-resort operator announced 20 December 2026 as the official ski opening. A scenic outing only makes sense if the road is open and the driver confirms weather, visibility and return timing.",
+        "ideas": [],
+        "check": "The February archive photograph shows winter conditions from a different month. Check road restrictions and resort operations before leaving.",
+        "links": [
+          [
+            "Official 2026 ski opening",
+            "https://mta.ski/en/news/skiseason2027"
+          ],
+          [
+            "Gudauri resort status",
+            "https://mta.ski/en/resorts/gudauri-kobi"
+          ],
+          [
+            "Georgia road restrictions",
+            "https://georoad.gov.ge/en/restriction"
+          ]
+        ]
+      }
+    ]
+  },
+  "budapest": {
+    "title": "From the market to the thermal pools",
+    "summary": "Build the 5–12 December trip around warm-water baths and Advent lights.",
+    "options": [
+      {
+        "id": "budapest",
+        "title": "Széchenyi Thermal Bath",
+        "area": "Budapest · City Park",
+        "status": "Indoor and outdoor option",
+        "tag": "Outdoor thermal pools",
+        "photo": "budapest-szechenyi.webp",
+        "filmNote": "Warm outdoor pools make the city a good winter plan without relying on snow.",
+        "journey": "Heroes’ Square → City Park → Széchenyi",
+        "time": "In town",
+        "conditions": "The operator lists warm outdoor thermal pools. Check pool availability and opening hours for the chosen day. The photograph shows the real night-time baths in July.",
+        "ideas": [
+          "Leave one evening for the Advent Basilica market. The organizer lists 13 November 2026 through 1 January 2027."
+        ],
+        "links": [
+          [
+            "Széchenyi hours",
+            "https://www.szechenyibath.hu/opening-hours"
+          ],
+          [
+            "Széchenyi available facilities",
+            "https://www.szechenyibath.hu/en/available-services"
+          ],
+          [
+            "Advent Basilica organizer",
+            "https://adventbazilika.hu/en/contact"
+          ]
+        ]
+      }
+    ]
+  },
+  "vienna": {
+    "title": "Rathausplatz after dark",
+    "summary": "The 5–12 December stay fits Vienna’s published Advent and seasonal ice-skating dates.",
+    "options": [
+      {
+        "id": "vienna",
+        "title": "Rathausplatz",
+        "area": "Vienna · City Hall",
+        "status": "Published dates cover the trip",
+        "tag": "Market and ice skating",
+        "photo": "vienna.webp",
+        "filmNote": "The market and seasonal Ice World cover the planned December dates.",
+        "journey": "Ringstrasse → Rathausplatz",
+        "time": "In town",
+        "conditions": "The City Hall market runs 13 November–26 December 2026. Vienna Ice World is published for 13 November 2026–6 January 2027. Check admission, rentals and daily hours on the official pages.",
+        "ideas": [
+          "Choose Schönbrunn or Spittelberg for a different market atmosphere."
+        ],
+        "links": [
+          [
+            "Vienna Tourism Advent calendar",
+            "https://www.wien.info/en/now-on/christmas/christmas-markets-342664"
+          ],
+          [
+            "Vienna Christmas market operator",
+            "https://www.christkindlmarkt.at/"
+          ]
+        ]
+      }
+    ]
+  },
+  "prague": {
+    "title": "Old Town lights and warm indoor stops",
+    "summary": "The 5–10 December stay overlaps the main markets. Treat photographs of snow as archival.",
+    "options": [
+      {
+        "id": "prague",
+        "title": "Old Town Square",
+        "area": "Prague · Staré Město",
+        "status": "Published dates cover the trip",
+        "tag": "Two central markets",
+        "photo": "prague-detail.webp",
+        "filmNote": "Old Town Square and Wenceslas Square markets cover the planned dates.",
+        "journey": "Old Town Square → Wenceslas Square",
+        "time": "In town",
+        "conditions": "Prague City Tourism lists both markets for 28 November 2026–6 January 2027. Keep an indoor stop handy for wet or icy pavement.",
+        "ideas": [
+          "For the Prague 5 stay, Anděl also has a published market from 27 November through 31 December."
+        ],
+        "links": [
+          [
+            "Prague City Tourism market calendar",
+            "https://prague.eu/en/christmas-markets"
+          ]
+        ]
+      }
+    ]
+  }
+}

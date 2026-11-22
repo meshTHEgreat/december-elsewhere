@@ -30,3 +30,21 @@ No reuse permission for the exact accommodation images was established. [Airbnb 
 | prague-winter.webp | [Charles Bridge in the snow](https://commons.wikimedia.org/wiki/File:Prague_charles_bridge_winter.jpg) | Estec Co. Ltd | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 
 The six new photographs were converted to WebP and resized where necessary. Assets in previews/ are downsampled copies of the credited chapter covers and carry the same licenses as their originals.
+
+## Winter field guide additions
+
+| Asset | Original photograph | Photographer | License |
+| --- | --- | --- | --- |
+| baku-sabir.webp | [Sabir Garden in winter](https://commons.wikimedia.org/wiki/File:Sabir_Garden_Winter.jpg) | Interfase | Public-domain release |
+| baku-snow.webp | [Baku in winter](https://commons.wikimedia.org/wiki/File:Baku_in_winter.jpg) | Interfase | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| baku-shahdag.webp | [Chairlift on a foggy mountain](https://commons.wikimedia.org/wiki/File:Chairlift_on_foggy_mountain_(Unsplash).jpg) | Shabnam Bakhshaliyeva | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| baku-shahdag-view.webp | [Shahdag National Park](https://commons.wikimedia.org/wiki/File:Shahdag_resort.jpg) | Tumanskaya Sabina | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
+| baku-tufandag.webp | [Tufandag resort cable lift](https://commons.wikimedia.org/wiki/File:Ilham_Aliyev_attended_the_opening_ceremony_of_the_first_line_of_the_Tufan_summer_and_winter_ski_resort_in_Gabala_15.jpg) | President.az | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| tbilisi-gudauri.webp | [Gudauri ski resort](https://commons.wikimedia.org/wiki/File:Gudauri_ski_resort,_Georgia_02.jpg) | Levan Gokadze | [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/) |
+| budapest-szechenyi.webp | [Széchenyi Thermal Bath](https://commons.wikimedia.org/wiki/File:Sz%C3%A9chenyi_Thermal_Bath.jpg) | miketnorton | [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/) |
+
+Archive photos were resized as needed and converted to WebP. The photos show their recorded locations, dates and historical conditions. The full-screen viewer and downloadable copy link back to the original file and applicable license.
+
+## Walk satellite images
+
+Contains modified Copernicus Sentinel data 2025. True-color Sentinel-2 L2A scenes are cropped to the route viewports, reprojected to EPSG:4326, and converted to WebP. The manifest records each acquisition date, footprint and STAC item. [Scene manifest](../source/walk-basemaps.json) · [Copernicus use terms](https://dataspace.copernicus.eu/terms-and-conditions) · [Earth Search archive](https://registry.opendata.aws/sentinel-2-l2a-cogs/)

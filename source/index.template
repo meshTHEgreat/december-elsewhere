@@ -15,7 +15,7 @@
 <a href="#main" class="skip">Skip to guide</a>
 <header class="mast">
   <a class="word" href="#top" aria-label="December, Elsewhere home">December<span>,</span> Elsewhere</a>
-  <nav aria-label="Guide"><a href="#destinations">Cities</a><a href="#compare">Compare</a></nav>
+  <nav aria-label="Guide"><a href="#destinations">Cities</a><a href="#winter" data-jump="winter">Winter</a><a href="#compare">Compare</a></nav>
 </header>
 <main id="main">
   <section class="hero" id="top" aria-labelledby="cover-title">
@@ -55,4 +55,5 @@
 <dialog id="photo-dialog" aria-label="Destination photograph"></dialog>
 <script type="text/plain" id="third-party-notices">__NOTICES__</script>
 <script type="text/plain" id="globe-code"__GLOBE_ATTR__>__GLOBE__</script>
+<script type="text/plain" id="winter-stage-code"__WINTER_ATTR__>__WINTER_STAGE__</script>
 <script type="application/json" id="dataset">__DATA__</script><script>__SCRIPT__</script></body></html>

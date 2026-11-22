@@ -14,11 +14,16 @@ maps = load("source/travel-maps.json")
 manifest = load("source/photography.json")
 editorial = load("source/editorial.json")
 land = load("source/vendor/land.json")
+winter = load("source/winter-data.json")
+outdoor = load("source/outdoor-stays.json")
+basemaps = load("source/walk-basemaps.json")
 template = (SOURCE / "index.template").read_text(encoding="utf-8")
-sheet = (SOURCE / "styles.css").read_text(encoding="utf-8")
-script = "\n".join((SOURCE / name).read_text(encoding="utf-8") for name in ("app.js", "atlas.js"))
+sheet = "\n".join(path.read_text(encoding="utf-8") for path in
+                  (SOURCE / "styles.css", SOURCE / "winter.css", VENDOR / "winter-stage.css"))
+script = "\n".join((SOURCE / name).read_text(encoding="utf-8") for name in ("app.js", "winter.js", "atlas.js"))
 fonts = ("bodoni", "bodoni-italic", "manrope")
-licenses = ("THREE-LICENSE.txt", "BODONI-LICENSE.txt", "MANROPE-LICENSE.txt")
+licenses = ("THREE-LICENSE.txt", "BODONI-LICENSE.txt", "MANROPE-LICENSE.txt",
+            "STAGESHOW-LICENSE.txt", "REACT-LICENSE.txt")
 
 
 def data_uri(path, mime):
@@ -35,7 +40,13 @@ def render(online):
         photos.setdefault(entry["city"], []).append(dict(entry, data=src))
     previews = {city: data_uri(ROOT / "assets" / "previews" / entry["cover"], "image/webp")
                 for city, entry in editorial["cities"].items()}
-    raw = json.dumps({"cities": cities, "maps": maps, "editorial": editorial, "land": land, "photos": photos, "previews": previews},
+    maps_with_images = {
+        city: dict(entry, data=(f'media/{entry["file"]}' if online else data_uri(ROOT / "assets" / entry["file"], "image/webp")))
+        for city, entry in basemaps.items()
+    }
+    raw = json.dumps({"cities": cities, "maps": maps, "editorial": editorial, "land": land,
+                      "photos": photos, "previews": previews, "winter": winter, "outdoor": outdoor,
+                      "basemaps": maps_with_images},
                      ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     styles = sheet
     for font in fonts:
@@ -46,8 +57,10 @@ def render(online):
         "DATA": raw,
         "STYLE": styles,
         "COVER": next(photo["data"] for photo in photos["prague"] if photo["file"] == "prague-detail.webp"),
-        "GLOBE": "" if online else json.dumps((VENDOR / "globe.js").read_text(encoding="utf-8"), ensure_ascii=False).replace("<", "\\u003c"),
+        "GLOBE": "" if online else encode_script("globe.js"),
         "GLOBE_ATTR": ' data-src="media/globe.js"' if online else "",
+        "WINTER_STAGE": "" if online else encode_script("winter-stage.js"),
+        "WINTER_ATTR": ' data-src="media/winter-stage.js"' if online else "",
         "NOTICES": "\n\n".join((VENDOR / name).read_text(encoding="utf-8") for name in licenses),
         "SCRIPT": script,
         "SELF": "'self' " if online else "",
@@ -57,6 +70,10 @@ def render(online):
     for key, value in parts.items():
         page = page.replace(f"__{key}__", value)
     return page.encode("utf-8")
+
+
+def encode_script(name):
+    return json.dumps((VENDOR / name).read_text(encoding="utf-8"), ensure_ascii=False).replace("<", "\\u003c")
 
 
 standalone = render(online=False)
@@ -70,5 +87,8 @@ media.mkdir(parents=True, exist_ok=True)
 for entry in manifest:
     name = entry["file"]
     copyfile(ROOT / "assets" / name, media / name)
-for name in (*[f"{font}.woff2" for font in fonts], "globe.js", *licenses):
+for entry in basemaps.values():
+    name = entry["file"]
+    copyfile(ROOT / "assets" / name, media / name)
+for name in (*[f"{font}.woff2" for font in fonts], "globe.js", "winter-stage.js", *licenses):
     copyfile(VENDOR / name, media / name)

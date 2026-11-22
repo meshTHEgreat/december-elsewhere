@@ -32,7 +32,9 @@ with sync_playwright() as runner:
             else:
                 button.focus()
                 button.press('Enter')
-            page.wait_for_function("document.querySelector('.chapter .backdrop').naturalWidth > 0")
+            assert page.locator('.chapter .backdrop').evaluate(
+                "async image => { await image.decode(); return image.naturalWidth > 0; }"
+            )
             assert page.locator('.stay').count()>=2
             assert page.locator('.day').count()>=6
             page.locator('.day summary').nth(1).click()

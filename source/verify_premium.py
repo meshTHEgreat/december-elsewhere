@@ -3,7 +3,7 @@ import argparse
 import hashlib
 import json
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 from playwright.sync_api import expect, sync_playwright
 
@@ -67,6 +67,7 @@ def check_page(browser, url, width, height, mobile, reduced, output):
     }""")
     facts = {city["id"]: city for city in dataset["cities"]}
     counts = {"cities": 0, "stays": 0, "days": 0, "photos": 0, "routes": 0}
+    maps = json.loads((ROOT / "source/travel-maps.json").read_text(encoding="utf-8"))
     for city in CITY_IDS:
         target = page.locator(f".city-tab[data-city='{city}']")
         target.tap() if mobile else target.press("Enter")
@@ -86,8 +87,7 @@ def check_page(browser, url, width, height, mobile, reduced, output):
         for anchor in range(2):
             page.locator("#anchor-select").select_option(index=anchor)
             routes = page.locator("[data-route]")
-            paths = page.locator(".mapbox polyline")
-            assert routes.count() == paths.count()
+            assert routes.count() == len(maps[city]["anchors"][anchor]["routes"])
             for index in range(routes.count()):
                 route = routes.nth(index)
                 if mobile and width < 673:
@@ -96,7 +96,20 @@ def check_page(browser, url, width, height, mobile, reduced, output):
                     route.press("Enter")
                 expect(route).to_have_attribute("aria-pressed", "true")
                 expect(page.locator("#route-note strong")).to_have_text(route.locator("strong").inner_text())
-                assert page.locator(".active-route").evaluate("(path) => path.getTotalLength()") > 0
+                active = page.locator(".active-route")
+                expect(active).to_have_count(1)
+                assert active.evaluate("""path => {
+                    const {x,y,width,height} = path.getBBox();
+                    return path.getTotalLength() > 0 && x >= 20 && y >= 20 &&
+                        x + width <= 580 && y + height <= 330;
+                }""")
+                target = maps[city]["anchors"][anchor]
+                source = ",".join(str(n) for n in target["start"])
+                destination = ",".join(str(n) for n in target["routes"][index]["point"])
+                google = parse_qs(urlparse(page.get_by_role("link", name="Open in Google Maps").get_attribute("href")).query)
+                apple = parse_qs(urlparse(page.get_by_role("link", name="Apple Maps").get_attribute("href")).query)
+                assert google == {"api":["1"], "origin":[source], "destination":[destination], "travelmode":["walking"]}
+                assert apple == {"source":[source], "destination":[destination], "mode":["walking"]}
                 counts["routes"] += 1
         for index, day in enumerate(page.locator(".day").all()):
             if index:
@@ -155,12 +168,12 @@ def check_page(browser, url, width, height, mobile, reduced, output):
     if reduced:
         assert page.evaluate("document.getAnimations().length") == 0
 
-    assert counts == {"cities": 5, "stays": 10, "days": 37, "photos": 17, "routes": 55}, counts
+    assert counts == {"cities": 5, "stays": 10, "days": 37, "photos": 24, "routes": 55}, counts
     assert not errors, errors
     assert not offline or not request_urls, request_urls
     if not offline:
         assert all(urlparse(request).netloc == origin for request in request_urls)
-        assert page.locator("a[download]").get_attribute("href") == "offline.html"
+        assert page.locator(".footer a[download]").get_attribute("href") == "offline.html"
     info = {"viewport": [width, height], "emulated_touch": mobile, "reduced_motion": reduced,
             "offline": offline, "requests": len(request_urls), "checks": counts, "errors": errors}
     context.close()
@@ -176,7 +189,7 @@ def check_fallback(browser, url):
     page = context.new_page()
     page.goto(url)
     page.locator("#atlas-toggle").click()
-    expect(page.get_by_role("status")).to_contain_text("static atlas")
+    expect(page.locator("#atlas-feedback")).to_contain_text("static atlas")
     expect(page.locator("#atlas-flat svg")).to_be_visible()
     expect(page.locator("#atlas-globe canvas")).to_have_count(0)
     page.locator("#atlas-select").select_option("vienna")

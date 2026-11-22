@@ -1,0 +1,78 @@
+#winter { border-top: 1px solid var(--line); }
+.walk-route-summary { display: flex; width: 100%; align-items: end; justify-content: space-between; flex-wrap: wrap; gap: .5rem .75rem; }
+.walk-route-summary .route-time { padding: .42rem .64rem; background: #d3dfd1; }
+.walk-route-summary .route-time small { display: block; font-size: .7rem; }
+.walk-from { width: 100%; }
+.walk-from > span { display: inline-block; }
+.walk-pin { font: 800 23px/1 var(--body); fill: #293a30; paint-order: stroke fill; stroke: #eff0de; stroke-width: 4px; }
+.walk-actions { display: flex; flex-wrap: wrap; gap: .45rem; margin-block: .65rem .45rem; }
+.walk-actions .walk-google { background: #173b31; color: #fffaf0; border-color: #173b31; }
+.walk-actions .walk-google:hover { background: #255243; }
+.walk-provider-note { font-size: .75rem; }
+.walk-scene-credit { display: block; }
+.walk-modes { display: flex; gap: .3rem; margin-block: .15rem .46rem; }
+.walk-modes .action { padding-inline: .68rem; }
+.mapbox { position: relative; overflow: hidden; }
+.mapbox svg { position: relative; }
+.walk-basemap { position: absolute; max-width: none; display: none; filter: brightness(.84) saturate(.88); }
+.mapbox .map-label { font-size: 21px; }
+.walk-scale { fill: none; stroke: #273d33; stroke-width: 3px; }
+.walk-leader { fill: none; stroke: #273d33; stroke-width: 1.5px; stroke-linecap: round; stroke-dasharray: 1 4; vector-effect: non-scaling-stroke; }
+.walk-connection { margin-top: .4rem; }
+.active-route { fill: none; stroke: #a45226; stroke-width: 3px; stroke-linecap: round; stroke-linejoin: round; vector-effect: non-scaling-stroke; }
+.mapbox[data-walk-map="satellite"] { background: #e8ecd9; }
+.mapbox[data-walk-map="satellite"] .walk-basemap { display: block; }
+.mapbox[data-walk-map="satellite"] .walk-grid { opacity: 0; }
+.mapbox[data-walk-map="satellite"] .active-route { stroke: #ffe18a; stroke-width: 4px; filter: drop-shadow(0 1px 1px #151c17) drop-shadow(0 -1px 1px #151c17); }
+.mapbox[data-walk-map="satellite"] .walk-scale { stroke: #fff6de; filter: drop-shadow(0 1px 1px #151c17); }
+.mapbox[data-walk-map="satellite"] .walk-leader { stroke: #fff6de; filter: drop-shadow(0 1px 1px #151c17); }
+.mapbox[data-walk-map="satellite"] .walk-pin, .mapbox[data-walk-map="satellite"] .map-label { fill: #fff6de; paint-order: stroke fill; stroke: #19241d; stroke-width: 4px; }
+.winter-heading { margin: 1rem 0 1.4rem; }
+.winter-options { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,9.75rem),1fr)); gap: .5rem; margin: 1rem 0; }
+.winter-option { display: grid; align-content: center; min-height: 52px; gap: .15rem; padding: .7rem 1rem; border: 1px solid var(--line); background: var(--paper); text-align: left; }
+.winter-option span { font-weight: 800; }
+.winter-option[aria-pressed="true"] { background: #dee8d9; border-color: #6b806e; }
+.winter-option:hover { border-color: var(--brass); }
+.winter-option-layout { display: grid; gap: 1.5rem; align-items: start; }
+.winter-figure { min-width: 0; }
+.winter-figure figcaption { padding-top: .65rem; }
+.winter-figure .photo-open img { aspect-ratio: 1.31; }
+.winter-option-facts { display: grid; gap: .72rem; min-width: 0; }
+.winter-option-facts h3 { font-size: clamp(2.1rem,4.4vw,3.85rem); }
+.winter-status { width: fit-content; padding: .15rem .42rem; border-left: 2px solid #8d572a; background: #ece3d2; color: #674624; font-size: .78rem; font-weight: 800; }
+.winter-route { display: grid; gap: .15rem; padding: .7rem 0; border-block: 1px solid var(--line); }
+.winter-route strong { font-size: .94rem; }
+.winter-option-facts ul { margin: 0; padding-left: 1.12em; }
+.winter-option-facts li + li { margin-top: .4rem; }
+.winter-check { padding: .8rem .9rem; background: #e9eadf; }
+.winter-official { padding-top: .75rem; border-top: 1px solid var(--line); }
+.winter-source { display: block; min-height: 44px; padding: .6rem 0; width: fit-content; font-size: .83rem; font-weight: 720; }
+.photo-download { display: inline-flex; align-items: center; min-height: 44px; padding-inline: .1rem; margin-inline-start: .65rem; font-weight: 780; }
+.winter-briefings { border-block: 1px solid var(--line); padding: 1.2rem 0; margin-top: 2rem; display: grid; gap: .8rem; }
+.winter-briefings h3 { margin-block: .35rem; }
+.winter-film-buttons { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
+.winter-film-message:empty { display: none; }
+.winter-film { text-align: center; }
+.winter-close { margin: .6rem auto 0; }
+.outdoor-guide { display: grid; gap: .8rem; padding: .95rem 1.05rem; margin-top: 1.35rem; background: #e5eadd; border-inline-start: 2px solid #63836b; }
+.outdoor-guide .eyebrow { color: #345443; margin-bottom: .25rem; }
+.outdoor-extra .small { margin-block: .25rem .4rem; }
+.outdoor-space { width: 100%; margin-top: .68rem; padding-top: .55rem; border-top: 1px solid var(--line); font-size: .84rem; }
+.outdoor-space strong { display: block; }
+.outdoor-space[data-access="private"] strong { color: #354f37; }
+.compare-budget-visual { padding: .9rem 1rem; margin-block: 1rem 1.3rem; background: #e7eadd; border: 1px solid #bcc6b6; }
+.compare-budget-row { margin-top: .72rem; }
+.compare-budget-row > div:first-child { display: flex; justify-content: space-between; gap: .5rem; font-size: .85rem; }
+.compare-budget-track { position: relative; height: 14px; margin-top: .22rem; background: #d3dacd; }
+.compare-target { position: absolute; top: 0; bottom: 0; left: var(--target-start); width: calc(var(--target-end) - var(--target-start)); background: #acbea9; }
+.compare-marker { position: absolute; inset-block: 0; left: clamp(0px, calc(var(--marker) - 2px), calc(100% - 4px)); width: 4px; background: #372d1d; }
+.compare-budget-visual > .small { margin-top: .7rem; }
+@media(min-width: 49rem) {
+ .winter-option-layout { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: clamp(2rem,4vw,4rem); }
+ .winter-figure { position: sticky; top: var(--chapter-jump); }
+ .winter-briefings { grid-template-columns: auto 1fr; align-items: center; }
+ .winter-film, .winter-film-message { grid-column: 1/-1; }
+ .winter-film-buttons { justify-content: flex-end; }
+ .outdoor-guide:has(.outdoor-extra) { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media print { #winter,.compare-budget-visual,.outdoor-guide { display: none !important; } }
