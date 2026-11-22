@@ -743,6 +743,13 @@
         "status": "Alternative accommodation",
         "checked": "2026-11-23",
         "note": "Alternative to check; no dated offer verified."
+      },
+      {
+        "label": "Overnight H1 Airport Express",
+        "url": "https://www.airport.az/en/press-release/h1-airport-express-route-will-now-operate-24-7-for-the-convenience-of-passengers/",
+        "status": "Official transport guidance",
+        "checked": "2026-11-23",
+        "note": "Airport notice confirms 24-hour service."
       }
     ],
     "checked": "2026-11-23",
@@ -751,7 +758,7 @@
     "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
     "transport": {
       "city": "Walk around the Old City and central Nizami, use the metro and taxis farther afield.",
-      "transfer": "Prearrange late taxis or ask Nizami host for included transfer. Airport Express is Plan B; check its last departure.",
+      "transfer": "Ask the Nizami host about the included transfer or prebook a taxi for late arrivals. H1 runs around the clock to 28 May; check the night frequency and plan how to reach the apartment from the bus stop.",
       "day": "Gobustan + mud volcanoes + Ateshgah/Yanar Dag: book a driver. Local off-road transfer and tickets may cost extra.",
       "rental": "One economy car starts at 55 AZN/day in a provider guide. Allow SAR 240–400 per group for one day with fuel, parking and an allowance for cover; deposit and any 4×4 required for mud volcanoes excluded. This is a comparison allowance.",
       "source": "https://bakucars.com/baku-rent-a-car/"
@@ -1172,19 +1179,19 @@
           },
           {
             "time": "15:00",
-            "name": "Freedom Square check-in",
+            "name": "Check in at your selected apartment",
             "duration": "45–60 min",
             "mode": "Taxi",
             "travel": "30–50 min",
-            "note": ""
+            "note": "Freedom Square and Station Square are separate neighborhoods. Tell the driver which address you booked."
           },
           {
             "time": "17:00",
             "name": "Dinner and Old Town lanes",
             "duration": "90 min",
-            "mode": "Walk",
-            "travel": "5–15 min / ~0.6 km",
-            "note": ""
+            "mode": "Walk / metro",
+            "travel": "Depends on the stay",
+            "note": "Walk from the Old Town. From Station Square, take the metro toward Liberty Square or eat near the apartment."
           }
         ],
         "meal": "Khinkali and soup ~SAR 35–55.",
@@ -1421,7 +1428,7 @@
       },
       {
         "label": "Road notices",
-        "url": "https://georoad.gov.ge/en/restrictions",
+        "url": "https://georoad.gov.ge/en/restriction",
         "status": "Official",
         "checked": "2026-11-23",
         "note": ""
@@ -1516,6 +1523,13 @@
         "status": "Alternative accommodation",
         "checked": "2026-11-23",
         "note": "Alternative to check; no dated offer verified."
+      },
+      {
+        "label": "Tbilisi airport bus 337",
+        "url": "https://tbilisiairport.com/en-EN/bus/page/bus",
+        "status": "Official transport guidance",
+        "checked": "2026-11-23",
+        "note": "Station Square is on the airport-to-city route."
       }
     ],
     "checked": "2026-11-23",
@@ -1524,7 +1538,7 @@
     "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
     "transport": {
       "city": "Walk the Old Town and use metro or Bolt for hills, station and longer trips.",
-      "transfer": "Airport taxi can go door to door; check destination street and luggage.",
+      "transfer": "A taxi is the door-to-door option, especially with bags. For the Station Square stay, airport bus 337 terminates at the central rail station. For the Old Town stay, confirm where to get off or take a taxi.",
       "day": "Take a driver for Kakheti if tasting wine, or for mountain trips (weather permitting). Mtskheta is a short private transfer.",
       "rental": "Economy rental starts at GEL 75/day in a provider guide. Allow SAR 220–400 per group for one paved-road day including fuel, parking and cover allowance. Confirm winter tyres where required, deposit and excluded roads. Optional replacement for a driver, not a second charge.",
       "source": "https://rentup.ge/faq/"
@@ -1592,13 +1606,13 @@
         "id": "33505706",
         "url": "https://www.airbnb.com/rooms/33505706",
         "price": 2456,
-        "bedrooms": 1,
-        "beds": "King bed + couch; confirm as adult bed",
-        "bathrooms": "Confirm with host",
+        "bedrooms": null,
+        "beds": "Listing overview: 1 king bed + couch",
+        "bathrooms": 1.5,
         "rating": 4.56,
         "reviews": 153,
         "area": "Pest / Opera",
-        "notes": "Host says the Opera is about three minutes on foot. Ask for bed dimensions, lift and sauna conditions. Do not assume two bedrooms.",
+        "notes": "Pest / Opera. The listing overview calls it a studio; the host description calls it one bedroom. Confirm the room layout and a bed for the third traveler before booking.",
         "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
         "loc": [
           47.5028,
@@ -1845,7 +1859,7 @@
         "lat": 47.5007,
         "lon": 19.0538,
         "note": "Advent Bazilika, 13 Nov–1 Jan.",
-        "url": "https://adventbazilika.hu/en/opening-hours"
+        "url": "https://adventbazilika.hu/en/contact"
       },
       {
         "name": "Vörösmarty Square",
@@ -1907,7 +1921,7 @@
     "days": [
       {
         "date": "2026-12-05",
-        "title": "Arrive in Pest",
+        "title": "Arrive in Budapest",
         "stops": [
           {
             "time": "13:00",
@@ -1919,19 +1933,19 @@
           },
           {
             "time": "14:30",
-            "name": "Deák Ferenc tér and check-in",
+            "name": "Transfer to your selected stay",
             "duration": "45–60 min",
-            "mode": "100E / walk",
-            "travel": "35–60 min",
-            "note": ""
+            "mode": "100E / metro or taxi",
+            "travel": "Depends on address and connection",
+            "note": "Use Deák Ferenc tér for Opera. For District XI, see the airport transfer notes in Walks."
           },
           {
             "time": "17:00",
             "name": "Basilica Advent market",
             "duration": "60–90 min",
-            "mode": "Walk",
-            "travel": "8–18 min / ~0.8 km",
-            "note": ""
+            "mode": "Walk / metro",
+            "travel": "Depends on the stay",
+            "note": "Walk from Opera or allow a transit leg from Buda."
           }
         ],
         "meal": "Market meal ~SAR 45–80.",
@@ -2155,7 +2169,7 @@
       },
       {
         "label": "Advent Bazilika dates",
-        "url": "https://adventbazilika.hu/en/opening-hours",
+        "url": "https://adventbazilika.hu/en/contact",
         "status": "Organizer",
         "checked": "2026-11-23",
         "note": ""
@@ -2265,7 +2279,7 @@
     "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
     "transport": {
       "city": "Use the tram, metro and walking. Take 100E Airport Express or share an early taxi.",
-      "transfer": "100E stops at Deák Ferenc tér and is separately ticketed under standard fare arrangements; check passes and supplements.",
+      "transfer": "For the Opera stay, take 100E to Deák Ferenc tér and continue on foot or by metro. For the District XI example, connect at Kálvin tér to M4 toward Móricz Zsigmond körtér. Confirm the villa’s actual address first; 100E normally requires its own ticket.",
       "day": "Szentendre by H5 is the simplest day trip; check the exact operator fare including any suburban extension.",
       "rental": "City parking and collection time add friction. A car only makes sense if replacing the rail day with more than one rural stop.",
       "source": "https://bkk.hu/en/travel-information/airport-express/airport-shuttle.6421/"
@@ -2334,18 +2348,18 @@
         "url": "https://www.airbnb.com/rooms/1644751971236465063",
         "price": 4456,
         "bedrooms": 1,
-        "beds": "2 beds; sizes unverified",
-        "bathrooms": "Confirm with host",
+        "beds": "Double bed + sofa bed",
+        "bathrooms": 1,
         "rating": 4.67,
         "reviews": 6,
-        "area": "Vienna; central claim without confirmed closest station",
-        "notes": "Six reviews at check. Confirm bedroom and sofa-bed setup, station distance, late access and heating. The map is a central scenario benchmark, not a property pin.",
-        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Independent public recheck could not retrieve the listing.",
+        "area": "Rudolfsheim-Fünfhaus / Johnstraße U3",
+        "notes": "The listing describes Johnstraße U3 and tram 49 nearby, and requires online check-in. Confirm sleeping arrangements and exact location. Hauptbahnhof walks are a separate city example.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.",
         "loc": [
           48.2084,
           16.373
         ],
-        "anchor": "Stephansplatz (city benchmark only)",
+        "anchor": "No routed neighborhood anchor for this stay",
         "platform": "Airbnb",
         "checked": "2026-11-23",
         "access": [
@@ -2438,18 +2452,18 @@
         "url": "https://www.airbnb.com/rooms/47782977",
         "price": 5654,
         "bedrooms": 2,
-        "beds": "2 double beds",
-        "bathrooms": "Confirm with host",
+        "beds": "2 double beds + living-room sofa bed",
+        "bathrooms": 1.5,
         "rating": 4.85,
         "reviews": 39,
-        "area": "VIC / Kaisermühlen",
-        "notes": "Two bedrooms. Check U1 access from exact entrance, heating and check-in. Public station is a neighborhood benchmark.",
-        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Independent public recheck could not retrieve the listing.",
+        "area": "Donaustadt / near Hirschstettner Aupark per host",
+        "notes": "The listing names Hirschstettner Aupark nearby. Confirm the exact entrance, heating, check-in and actual station access. Kaisermühlen–VIC routes are wider-district examples.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.",
         "loc": [
           48.2331,
           16.4163
         ],
-        "anchor": "Kaisermühlen VIC U1",
+        "anchor": "Kaisermühlen–VIC U1 (district example)",
         "platform": "Airbnb",
         "checked": "2026-11-23",
         "access": [
@@ -2646,11 +2660,11 @@
           },
           {
             "time": "15:00",
-            "name": "Check in near your rail stop",
+            "name": "Transfer to your selected stay",
             "duration": "45–60 min",
-            "mode": "Rail / walk",
-            "travel": "25–50 min",
-            "note": ""
+            "mode": "Rail / airport bus / onward transit",
+            "travel": "Depends on the stay",
+            "note": "Wien Mitte uses a replacement bus during the works. Railjet still serves Hauptbahnhof. Airport bus line 3 serves VIC."
           },
           {
             "time": "17:30",
@@ -3006,6 +3020,13 @@
         "status": "Public listing details observed",
         "checked": "2026-11-23",
         "note": "Landstraße near Wien Mitte. Listing shows 4.95/5 from 189 reviews, two bedrooms, one king and two singles, 1.5 bathrooms, elevator, kitchen. Host states prior guest reviews required. Public listing observed 23 Nov 2026. Dec 5–12 dates and total unverified."
+      },
+      {
+        "label": "December 2026 airport transfer changes",
+        "url": "https://www.wien.info/en/travel-info/arrival-departure/airport-to-center/important-information-for-airport-travellers-2026-2027-1118558",
+        "status": "Official transport guidance",
+        "checked": "2026-11-23",
+        "note": "Temporary division of airport rail and airport bus services during S-Bahn works."
       }
     ],
     "checked": "2026-11-23",
@@ -3014,7 +3035,7 @@
     "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
     "transport": {
       "city": "Use U-Bahn, trams and walking. Plan airport rail around which apartment you choose.",
-      "transfer": "Railjet to Hauptbahnhof or airport rail to Wien Mitte, with onward U-Bahn or tram. Confirm city-zone coverage and intercity fare.",
+      "transfer": "Use Railjet or Intercity to Hauptbahnhof (about 15 minutes on the train). During the December 2026 rail works, Wien Mitte/Landstraße uses the CAT replacement bus (about 21 minutes on the bus). Airport bus line 3 serves the Vienna International Centre. For the Donaustadt apartment, confirm the exact address and onward connection before choosing this stop. Check the timetable for your date.",
       "day": "Bratislava by ÖBB regional train or museums by U-Bahn.",
       "rental": "Skip city rental. For a rural replacement day account for winter tyres, motorway vignette, parking, fuel and cover before booking.",
       "source": "https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/bratislava-ticket"
@@ -3100,7 +3121,7 @@
         "rating": 4.83,
         "reviews": 145,
         "area": "Žižkov / Vinohrady border",
-        "notes": "Host lists full kitchen, washer and dryer. Value pick if adult bedding works. Confirm closest transit and late check-in.",
+        "notes": "Host lists full kitchen, washer and dryer. Value pick if adult bedding works. Confirm closest transit and late check-in. The host lists a separate city tax of CZK 50 per person per night, plus a processing fee. Confirm late check-in terms if arriving after 23:00.",
         "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
         "loc": [
           50.0788,
@@ -3200,17 +3221,17 @@
         "price": 3614,
         "bedrooms": 2,
         "beds": "4 beds; sizes unverified",
-        "bathrooms": "Confirm with host",
+        "bathrooms": 1,
         "rating": 4.85,
         "reviews": 33,
-        "area": "Prague; exact transit anchor unverified",
-        "notes": "More sleeping options; request exact bedroom allocation, closest transit and stair access. Map is a city benchmark.",
-        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Independent public recheck could not retrieve the listing.",
+        "area": "Prague 5 / unnamed tram stop",
+        "notes": "The host describes a tram outside and under 15 minutes to Anděl. Confirm the stop name, exact address, beds and stairs. Old Town walks are a separate city example.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.",
         "loc": [
           50.0842,
           14.4243
         ],
-        "anchor": "Můstek (city benchmark only)",
+        "anchor": "No routed neighborhood anchor for this stay",
         "platform": "Airbnb",
         "checked": "2026-11-23",
         "access": [
@@ -3719,7 +3740,7 @@
     "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
     "transport": {
       "city": "Walk the core, take trams for Castle Hill and metro from Vinohrady or another outer neighborhood.",
-      "transfer": "Try airport trolleybus and metro or a group taxi if the arrival is late.",
+      "transfer": "For the confirmed Vinohrady area, take trolleybus 59 to Nádraží Veleslavín, then Metro A toward Jiřího z Poděbrad. For Cozy Home 2, confirm the address and best station first. Compare with a group taxi.",
       "day": "Kutná Hora by train and local connection. Car adds little for this route.",
       "rental": "Skip city rental and use rail. Consider car only for a specific multi-stop countryside day.",
       "source": "https://www.prg.aero/en/public-transport-buses"

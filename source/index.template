@@ -1,6 +1,58 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light"><meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src data:; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'none'; base-uri 'none'; object-src 'none'"><title>December, elsewhere | Trips from Medina</title><style>__STYLE__</style></head><body>
+<!doctype html>
+<html lang="en" data-type="travel-editorial">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Five December 2026 trips from Medina, with stays, walking routes, day plans and a practical budget for three.">
+<meta name="theme-color" content="#151e19">
+<meta name="color-scheme" content="light">
+<link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAB4UlEQVR42mMUkJVkoCVgYqAxGLVgBFjAgktiYVOss5k6pviv33/effp25c7zQ+furNt34cPn7/gtYMSVDzjZWQ01ZBszvDQVJRgYGCYuP7Dn5A0GBgYRAR4jDdlAJ30ZMYGfv/5MW3148oqDv37/wWUBMwc/L1aJP3//PX75/s/ff24WGgwMDMu2n9l/+taLN5/uPXlz9MK9RVtO/Wf4b2OgbKmnaKYjv/3ItV9//pITB9++/8Iq/uv3n55Fe5tn72BgYLDUU5xdF0WTSJ617uixi/cYGBhsDZUj3I2pb8H///8nrzgIYacGWtEkmR69cO/z1x8MDAzqCuJqcmLUt+Df//+Xbj+DsDUUxWmS0d58/AJhiAnx0sSC37+hCZSVmZkmFvByc0AYL959ookFStIiEMbNBy+pb4EwP7eSjDADA8OtR6+u3XtBfQtCXAyZmZgYGBimrDhE/XwgJsSbF2nPwMCw68SNdfsukGMBKys0YShICWEG/cqOJH4ezgNnbme2rSC5PmBhYZYU5gtzNYRwM0Jsfvz8feHW079//0mK8Nkbq/o76H778bt2+paFm07++/+f5Ppg17QcLSUJzMLny/dfr959vnTr6YGzt7ccvvLz1x8yK5zRSn/UgsFjAQDm0rUHaRJKXwAAAABJRU5ErkJggg==">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src __SELF__data:; font-src __SELF__data:; style-src 'unsafe-inline'; script-src __SELF__'unsafe-inline'; connect-src 'none'; base-uri 'none'; object-src 'none'">
+<title>December, Elsewhere | Five winter trips from Medina</title>
+<style>__STYLE__</style>
+</head>
+<body>
 <a href="#main" class="skip">Skip to guide</a>
-<header class="mast"><a class="word" href="#top">December, elsewhere</a><nav aria-label="Guide"><a href="#destinations">Cities</a><a href="#compare">Compare</a></nav></header>
-<main id="main"><section class="hero" id="top" aria-label="December, elsewhere"></section><section id="destinations" class="pick wrap" aria-label="Choose a city"></section><article id="city" aria-label="Destination guide"></article><section id="compare" class="wrap comparison"></section><section id="evidence" class="wrap evidence"></section></main>
-
+<header class="mast">
+  <a class="word" href="#top" aria-label="December, Elsewhere home">December<span>,</span> Elsewhere</a>
+  <nav aria-label="Guide"><a href="#destinations">Cities</a><a href="#compare">Compare</a></nav>
+</header>
+<main id="main">
+  <section class="hero" id="top" aria-labelledby="cover-title">
+    <img class="backdrop" src="__COVER__" alt="" width="1024" height="768" fetchpriority="high">
+    <div class="wrap hero-inner">
+      <p class="eyebrow">A winter travel journal</p>
+      <h1 id="cover-title">December,<br><em>elsewhere.</em></h1>
+      <p class="hero-blurb">Baku, Tbilisi, Budapest, Vienna and Prague.</p>
+      <a class="cover-action" href="#destinations">Explore the destinations <span aria-hidden="true">↘</span></a>
+      <p class="cover-facts">5–12 December 2026 <span aria-hidden="true">/</span> From Medina <span aria-hidden="true">/</span> Three travelers</p>
+    </div>
+    <a class="cover-credit" href="#photos-credit">Prague · Old Town Square</a>
+  </section>
+  <section id="destinations" class="pick" aria-labelledby="destinations-title">
+    <div class="wrap atlas-layout">
+      <div>
+        <p class="eyebrow">The atlas</p>
+        <h2 id="destinations-title">Where to?</h2>
+        <p class="section-lead">Five trips from Medina, with estimated costs per adult.</p>
+        <div id="city-index"></div>
+      </div>
+      <div class="atlas-panel">
+        <div class="atlas-bar"><label for="atlas-select">Preview on the atlas</label><select id="atlas-select"></select><button id="atlas-toggle" type="button" aria-pressed="false">View globe</button></div>
+        <div id="atlas-visual" class="atlas-visual"><div class="atlas-flat" id="atlas-flat"></div><div class="atlas-globe" id="atlas-globe"></div></div>
+        <div class="atlas-footer"><div><strong id="atlas-distance"></strong><span>From MED · Actual flight connections are in each chapter</span></div><button id="atlas-open" data-open-preview class="atlas-open" type="button"><span id="atlas-open-label">Read chapter</span> <span aria-hidden="true">↘</span></button></div>
+        <p class="atlas-feedback" role="status" id="atlas-feedback"></p>
+      </div>
+    </div>
+  </section>
+  <article id="city" aria-label="Destination guide"></article>
+  <section id="compare" class="wrap comparison"></section>
+  <section id="evidence" class="wrap evidence"></section>
+</main>
+<footer class="footer">
+  <div class="wrap"><a href="#top" class="word">December<span>,</span> Elsewhere</a><div class="footer-actions">__OFFLINE_LINK__<a href="#destinations">Back to the atlas ↑</a></div></div>
+</footer>
+<dialog id="photo-dialog" aria-label="Destination photograph"></dialog>
+<script type="text/plain" id="third-party-notices">__NOTICES__</script>
+<script type="text/plain" id="globe-code"__GLOBE_ATTR__>__GLOBE__</script>
 <script type="application/json" id="dataset">__DATA__</script><script>__SCRIPT__</script></body></html>

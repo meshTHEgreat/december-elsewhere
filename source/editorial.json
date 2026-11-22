@@ -1,0 +1,70 @@
+{
+  "origin": {
+    "label": "Medina (MED)",
+    "code": "MED",
+    "lat": 24.5534,
+    "lon": 39.7051
+  },
+  "cities": {
+    "baku": {
+      "tag": "On the Caspian",
+      "headline": "Stone lanes, an open sea",
+      "intro": "Start inside the walls of Icherisheher, then follow the boulevard out to the Caspian. Save a clear day for Gobustan and the fire peninsula.",
+      "cover": "baku.webp",
+      "position": "54% 55%",
+      "neighborhood": "baku-nizami.webp",
+      "extra": "baku-excursion.webp",
+      "finish": "The Caspian shoreline and a nonstop schedule are the draw. Leave room for wind, an evening arrival and a driver on the excursion day.",
+      "lat": 40.3715,
+      "lon": 49.8372
+    },
+    "tbilisi": {
+      "tag": "In the Kura valley",
+      "headline": "Warm water under a cold sky",
+      "intro": "Cross the river between old balconies and the domes of Abanotubani. Use the city as a base for Mtskheta and, if the weather holds, Kakheti.",
+      "cover": "tbilisi-winter.webp",
+      "position": "52% 45%",
+      "neighborhood": "tbilisi.webp",
+      "extra": "tbilisi-detail.webp",
+      "finish": "Choose the Old Town for time on foot or Station Square for a different starting point. Keep the countryside days flexible if the roads turn wintry.",
+      "lat": 41.6934,
+      "lon": 44.8015
+    },
+    "budapest": {
+      "tag": "On the Danube",
+      "headline": "Both sides of the river",
+      "intro": "Take the river in at dusk. Spend daylight in the market hall, under the steam at the baths, or across the bridge on the Buda hills.",
+      "cover": "budapest.webp",
+      "position": "50% 63%",
+      "neighborhood": "budapest-market.webp",
+      "extra": "budapest-detail.webp",
+      "finish": "Pest puts the Opera and central sights close together. The Buda stay offers space and parking, with more of the eastern city reached by transit.",
+      "lat": 47.5027,
+      "lon": 19.0585
+    },
+    "vienna": {
+      "tag": "On the winter market circuit",
+      "headline": "The city after the lights come on",
+      "intro": "Pair the museums and palaces with winter markets after dark. Plan by U-Bahn or tram and leave time to get warm between stops.",
+      "cover": "vienna.webp",
+      "position": "50% 39%",
+      "neighborhood": "vienna-market.webp",
+      "extra": "vienna-detail.webp",
+      "finish": "Pick Vienna for galleries, palaces and winter markets. Compare the rail and U-Bahn connections carefully and keep an eye on the higher lodging estimate.",
+      "lat": 48.2085,
+      "lon": 16.3732
+    },
+    "prague": {
+      "tag": "Along the Vltava",
+      "headline": "Five nights across the river",
+      "intro": "Start under the spires of the Old Town, cross the Vltava for castle views, then give one day to Kutná Hora by train.",
+      "cover": "prague-winter.webp",
+      "position": "52% 47%",
+      "neighborhood": "prague-vinohrady.webp",
+      "extra": "prague.webp",
+      "finish": "Prague is the shorter option. A confirmed metro connection makes the Žižkov and Vinohrady side of the city easier to plan from.",
+      "lat": 50.0875,
+      "lon": 14.4213
+    }
+  }
+}
