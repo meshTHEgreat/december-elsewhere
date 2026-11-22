@@ -1,0 +1,617 @@
+{
+  "browser": "Chrome 157.0.8103.79",
+  "summary": {
+    "live-normal": {
+      "fcp": 684,
+      "lcp": 2248,
+      "ready": 1840,
+      "wire": 123055,
+      "long": 33,
+      "select": 80,
+      "cls": 0.0036263520161041833,
+      "firstGlDraw": 2276
+    },
+    "live-reduced": {
+      "fcp": 580,
+      "lcp": 2136,
+      "ready": 1845,
+      "wire": 123055,
+      "long": 27,
+      "select": 97,
+      "cls": 0.0036277342505898974,
+      "firstGlDraw": 1588
+    },
+    "live-landscape": {
+      "fcp": 612,
+      "lcp": 2072,
+      "ready": 1775,
+      "wire": 123055,
+      "long": 27,
+      "select": 82,
+      "cls": 0.014006056732408085,
+      "firstGlDraw": 3610
+    }
+  },
+  "runs": {
+    "live-normal": [
+      {
+        "fcp": 684,
+        "lcp": 2248,
+        "ready": 1985,
+        "wire": 123055,
+        "responseEnd": 1885,
+        "dcl": 2213,
+        "cls": 0.0036263520161041833,
+        "long": 42,
+        "initialResources": [
+          [
+            "prague-detail.webp",
+            130130
+          ],
+          [
+            "manrope.woff2",
+            24836
+          ],
+          [
+            "bodoni.woff2",
+            25884
+          ],
+          [
+            "bodoni-italic.woff2",
+            30328
+          ]
+        ],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 2276,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 6,
+          "overflow": false
+        },
+        "routeGlDraws": 546,
+        "restoredFlat": true,
+        "select": 80,
+        "errors": [],
+        "http": 8,
+        "globeResource": [
+          [
+            132079,
+            2170
+          ]
+        ]
+      },
+      {
+        "fcp": 568,
+        "lcp": 2212,
+        "ready": 1840,
+        "wire": 123055,
+        "responseEnd": 1752,
+        "dcl": 2165,
+        "cls": 0.0036263520161041833,
+        "long": 31,
+        "initialResources": [
+          [
+            "prague-detail.webp",
+            130130
+          ],
+          [
+            "manrope.woff2",
+            24836
+          ],
+          [
+            "bodoni.woff2",
+            25884
+          ],
+          [
+            "bodoni-italic.woff2",
+            30328
+          ]
+        ],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 1600,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 6,
+          "overflow": false
+        },
+        "routeGlDraws": 546,
+        "restoredFlat": true,
+        "select": 62,
+        "errors": [],
+        "http": 8,
+        "globeResource": [
+          [
+            132079,
+            1484
+          ]
+        ]
+      },
+      {
+        "fcp": 708,
+        "lcp": 4420,
+        "ready": 1441,
+        "wire": 123055,
+        "responseEnd": 1349,
+        "dcl": 1664,
+        "cls": 0.003528873438578971,
+        "long": 33,
+        "initialResources": [
+          [
+            "prague-detail.webp",
+            130130
+          ],
+          [
+            "manrope.woff2",
+            24836
+          ],
+          [
+            "bodoni.woff2",
+            25884
+          ],
+          [
+            "bodoni-italic.woff2",
+            30328
+          ]
+        ],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 3689,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 6,
+          "overflow": false
+        },
+        "routeGlDraws": 444,
+        "restoredFlat": true,
+        "select": 118,
+        "errors": [],
+        "http": 8,
+        "globeResource": [
+          [
+            132079,
+            3517
+          ]
+        ]
+      }
+    ],
+    "live-reduced": [
+      {
+        "fcp": 580,
+        "lcp": 2136,
+        "ready": 1832,
+        "wire": 123055,
+        "responseEnd": 1748,
+        "dcl": 2106,
+        "cls": 0.0036277342505898974,
+        "long": 27,
+        "initialResources": [
+          [
+            "prague-detail.webp",
+            130130
+          ],
+          [
+            "manrope.woff2",
+            24836
+          ],
+          [
+            "bodoni.woff2",
+            25884
+          ],
+          [
+            "bodoni-italic.woff2",
+            30328
+          ]
+        ],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 1578,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 0,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 0,
+          "overflow": false
+        },
+        "routeGlDraws": 6,
+        "restoredFlat": true,
+        "select": 63,
+        "errors": [],
+        "http": 8,
+        "globeResource": [
+          [
+            132079,
+            1488
+          ]
+        ]
+      },
+      {
+        "fcp": 512,
+        "lcp": 2124,
+        "ready": 1845,
+        "wire": 123055,
+        "responseEnd": 1753,
+        "dcl": 2097,
+        "cls": 0.0024407979790867923,
+        "long": 35,
+        "initialResources": [
+          [
+            "prague-detail.webp",
+            130130
+          ],
+          [
+            "manrope.woff2",
+            24836
+          ],
+          [
+            "bodoni.woff2",
+            25884
+          ],
+          [
+            "bodoni-italic.woff2",
+            30328
+          ]
+        ],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 1588,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 0,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 0,
+          "overflow": false
+        },
+        "routeGlDraws": 6,
+        "restoredFlat": true,
+        "select": 97,
+        "errors": [],
+        "http": 8,
+        "globeResource": [
+          [
+            132079,
+            1490
+          ]
+        ]
+      },
+      {
+        "fcp": 928,
+        "lcp": 2384,
+        "ready": 2140,
+        "wire": 123055,
+        "responseEnd": 2056,
+        "dcl": 2355,
+        "cls": 0.0036277342505898974,
+        "long": 27,
+        "initialResources": [
+          [
+            "prague-detail.webp",
+            130130
+          ],
+          [
+            "manrope.woff2",
+            24836
+          ],
+          [
+            "bodoni.woff2",
+            25884
+          ],
+          [
+            "bodoni-italic.woff2",
+            30328
+          ]
+        ],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 3484,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 0,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 0,
+          "overflow": false
+        },
+        "routeGlDraws": 6,
+        "restoredFlat": true,
+        "select": 116,
+        "errors": [],
+        "http": 8,
+        "globeResource": [
+          [
+            132079,
+            3388
+          ]
+        ]
+      }
+    ],
+    "live-landscape": [
+      {
+        "fcp": 612,
+        "lcp": 2072,
+        "ready": 1775,
+        "wire": 123055,
+        "responseEnd": 1699,
+        "dcl": 1972,
+        "cls": 0.014006056732408085,
+        "long": 27,
+        "initialResources": [
+          [
+            "prague-detail.webp",
+            130130
+          ],
+          [
+            "manrope.woff2",
+            24836
+          ],
+          [
+            "bodoni.woff2",
+            25884
+          ],
+          [
+            "bodoni-italic.woff2",
+            30328
+          ]
+        ],
+        "globe": {
+          "visible": 0.5222407611203805,
+          "panel": [
+            130,
+            570
+          ],
+          "toggle": [
+            73,
+            117
+          ],
+          "draw": 18,
+          "first": 3610,
+          "ctx": 1,
+          "canvas": [
+            1017,
+            660
+          ],
+          "dpr": 1.5,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.017856508928254463,
+          "panel": [
+            352,
+            792
+          ],
+          "toggle": [
+            295,
+            339
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 6,
+          "overflow": false
+        },
+        "routeGlDraws": 528,
+        "restoredFlat": true,
+        "select": 82,
+        "errors": [],
+        "http": 8,
+        "globeResource": [
+          [
+            132079,
+            3470
+          ]
+        ]
+      }
+    ]
+  }
+}

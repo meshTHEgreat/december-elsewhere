@@ -4,6 +4,7 @@ Open [the online guide](https://meshthegreat.github.io/december-elsewhere/) or d
 
 ## Start here
 
+- The atlas previews direct distances from Medina airport to the five city centers. Choose a city in the atlas selector or opt into the interactive globe. Each chapter shows its published flight routing and layovers.
 - Pick a destination, then choose an apartment. The stay price updates in the budget and its public neighborhood anchor appears on the map when matched.
 - Choose any walk to highlight the pedestrian route. The starting point is a public landmark, square or station. Two properties could not be linked to a reliable public starting point.
 - Change meals, fares and other costs to compare the group's options. Open Car rental costs when needed. Driver, lodging and car inputs are shared. All remaining inputs are per adult. A rental should replace the driver line when the two cover the same outing.

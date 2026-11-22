@@ -141,6 +141,17 @@ def check_page(browser, url, width, height, mobile, reduced, output):
     expect(page.locator("#cost-food")).to_have_value(new_food)
     expect(page.locator("#left-city")).to_have_value("prague")
     page.locator("[data-reset]").click()
+    if not mobile:
+        page.evaluate("""() => {
+          window.printStates = [];
+          for (const type of ['beforeprint', 'afterprint']) {
+            window.addEventListener(type, () => window.printStates.push(
+              [type, document.querySelectorAll('.day[open]').length]));
+          }
+        }""")
+        document = page.pdf(format="A4")
+        assert document.startswith(b"%PDF-") and len(document) > 20000
+        assert page.evaluate("window.printStates") == [["beforeprint", 6], ["afterprint", 1]]
     if reduced:
         assert page.evaluate("document.getAnimations().length") == 0
 

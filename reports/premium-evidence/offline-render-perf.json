@@ -1,0 +1,763 @@
+{
+  "browser": "Chrome 157.0.8103.79",
+  "summary": {
+    "baseline-desktop": {
+      "fcp": 40,
+      "lcp": 172,
+      "ready": 84,
+      "wire": 4034341,
+      "long": 0,
+      "select": 14,
+      "cls": 0.13244444444444445
+    },
+    "frozen-desktop": {
+      "fcp": 92,
+      "lcp": 92,
+      "ready": 173,
+      "wire": 6615696,
+      "long": 0,
+      "select": 17,
+      "cls": 0.010957094478737996,
+      "firstGlDraw": 35
+    },
+    "baseline-mobile": {
+      "fcp": 128,
+      "lcp": 620,
+      "ready": 352,
+      "wire": 4034341,
+      "long": 94,
+      "select": 69,
+      "cls": 0
+    },
+    "frozen-mobile": {
+      "fcp": 324,
+      "lcp": 324,
+      "ready": 807,
+      "wire": 6615696,
+      "long": 178,
+      "select": 98,
+      "cls": 0,
+      "firstGlDraw": 123
+    },
+    "frozen-reduced": {
+      "fcp": 314.0,
+      "lcp": 314.0,
+      "ready": 855.0,
+      "wire": 6615696.0,
+      "long": 314.5,
+      "select": 77.0,
+      "cls": 0.0,
+      "firstGlDraw": 152.5
+    },
+    "frozen-narrow": {
+      "fcp": 320,
+      "lcp": 320,
+      "ready": 777,
+      "wire": 6615696,
+      "long": 150,
+      "select": 73,
+      "cls": 0,
+      "firstGlDraw": 127
+    },
+    "frozen-landscape": {
+      "fcp": 492,
+      "lcp": 492,
+      "ready": 960,
+      "wire": 6615696,
+      "long": 161,
+      "select": 101,
+      "cls": 0,
+      "firstGlDraw": 128
+    }
+  },
+  "runs": {
+    "baseline-desktop": [
+      {
+        "fcp": 232,
+        "lcp": 232,
+        "ready": 95,
+        "wire": 4034341,
+        "responseEnd": 14,
+        "dcl": 111,
+        "cls": 0,
+        "long": 3,
+        "initialResources": [],
+        "select": 13,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 40,
+        "lcp": 172,
+        "ready": 82,
+        "wire": 4034341,
+        "responseEnd": 16,
+        "dcl": 128,
+        "cls": 0.13244444444444445,
+        "long": 0,
+        "initialResources": [],
+        "select": 15,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 36,
+        "lcp": 172,
+        "ready": 84,
+        "wire": 4034341,
+        "responseEnd": 16,
+        "dcl": 133,
+        "cls": 0.13244444444444445,
+        "long": 0,
+        "initialResources": [],
+        "select": 14,
+        "errors": [],
+        "http": 0
+      }
+    ],
+    "frozen-desktop": [
+      {
+        "fcp": 96,
+        "lcp": 96,
+        "ready": 167,
+        "wire": 6615696,
+        "responseEnd": 90,
+        "dcl": 202,
+        "cls": 0.010957094478737996,
+        "long": 0,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            390,
+            825
+          ],
+          "toggle": [
+            333,
+            377
+          ],
+          "draw": 18,
+          "first": 37,
+          "ctx": 1,
+          "canvas": [
+            670,
+            435
+          ],
+          "dpr": 1,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.8710638756238556,
+          "panel": [
+            521,
+            956
+          ],
+          "toggle": [
+            464,
+            508
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 7,
+          "overflow": false
+        },
+        "routeGlDraws": 540,
+        "restoredFlat": true,
+        "select": 18,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 84,
+        "lcp": 84,
+        "ready": 176,
+        "wire": 6615696,
+        "responseEnd": 96,
+        "dcl": 213,
+        "cls": 0.010957094478737996,
+        "long": 0,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            390,
+            825
+          ],
+          "toggle": [
+            333,
+            377
+          ],
+          "draw": 18,
+          "first": 33,
+          "ctx": 1,
+          "canvas": [
+            670,
+            435
+          ],
+          "dpr": 1,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.8710638756238556,
+          "panel": [
+            521,
+            956
+          ],
+          "toggle": [
+            464,
+            508
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 7,
+          "overflow": false
+        },
+        "routeGlDraws": 546,
+        "restoredFlat": true,
+        "select": 17,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 92,
+        "lcp": 92,
+        "ready": 173,
+        "wire": 6615696,
+        "responseEnd": 97,
+        "dcl": 210,
+        "cls": 0.010957094478737996,
+        "long": 0,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            390,
+            825
+          ],
+          "toggle": [
+            333,
+            377
+          ],
+          "draw": 18,
+          "first": 35,
+          "ctx": 1,
+          "canvas": [
+            670,
+            435
+          ],
+          "dpr": 1,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.8710638756238556,
+          "panel": [
+            521,
+            956
+          ],
+          "toggle": [
+            464,
+            508
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 7,
+          "overflow": false
+        },
+        "routeGlDraws": 546,
+        "restoredFlat": true,
+        "select": 16,
+        "errors": [],
+        "http": 0
+      }
+    ],
+    "baseline-mobile": [
+      {
+        "fcp": 132,
+        "lcp": 676,
+        "ready": 371,
+        "wire": 4034341,
+        "responseEnd": 67,
+        "dcl": 638,
+        "cls": 0,
+        "long": 104,
+        "initialResources": [],
+        "select": 85,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 128,
+        "lcp": 620,
+        "ready": 352,
+        "wire": 4034341,
+        "responseEnd": 63,
+        "dcl": 579,
+        "cls": 0,
+        "long": 94,
+        "initialResources": [],
+        "select": 69,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 128,
+        "lcp": 604,
+        "ready": 338,
+        "wire": 4034341,
+        "responseEnd": 62,
+        "dcl": 566,
+        "cls": 0,
+        "long": 85,
+        "initialResources": [],
+        "select": 59,
+        "errors": [],
+        "http": 0
+      }
+    ],
+    "frozen-mobile": [
+      {
+        "fcp": 340,
+        "lcp": 340,
+        "ready": 890,
+        "wire": 6615696,
+        "responseEnd": 498,
+        "dcl": 891,
+        "cls": 0,
+        "long": 410,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 123,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 7,
+          "overflow": false
+        },
+        "routeGlDraws": 510,
+        "restoredFlat": true,
+        "select": 120,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 324,
+        "lcp": 324,
+        "ready": 807,
+        "wire": 6615696,
+        "responseEnd": 461,
+        "dcl": 1026,
+        "cls": 0,
+        "long": 178,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 127,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 7,
+          "overflow": false
+        },
+        "routeGlDraws": 534,
+        "restoredFlat": true,
+        "select": 98,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 296,
+        "lcp": 296,
+        "ready": 715,
+        "wire": 6615696,
+        "responseEnd": 402,
+        "dcl": 917,
+        "cls": 0,
+        "long": 154,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 116,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 7,
+          "overflow": false
+        },
+        "routeGlDraws": 540,
+        "restoredFlat": true,
+        "select": 86,
+        "errors": [],
+        "http": 0
+      }
+    ],
+    "frozen-reduced": [
+      {
+        "fcp": 320,
+        "lcp": 320,
+        "ready": 886,
+        "wire": 6615696,
+        "responseEnd": 485,
+        "dcl": 887,
+        "cls": 0,
+        "long": 444,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 170,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 0,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 0,
+          "overflow": false
+        },
+        "routeGlDraws": 6,
+        "restoredFlat": true,
+        "select": 80,
+        "errors": [],
+        "http": 0
+      },
+      {
+        "fcp": 308,
+        "lcp": 308,
+        "ready": 824,
+        "wire": 6615696,
+        "responseEnd": 471,
+        "dcl": 1026,
+        "cls": 0,
+        "long": 185,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            532,
+            764
+          ],
+          "toggle": [
+            475,
+            519
+          ],
+          "draw": 18,
+          "first": 135,
+          "ctx": 1,
+          "canvas": [
+            535,
+            348
+          ],
+          "dpr": 1.4985994397759104,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 0,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.03428532938165162,
+          "panel": [
+            836,
+            1068
+          ],
+          "toggle": [
+            779,
+            823
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 0,
+          "overflow": false
+        },
+        "routeGlDraws": 6,
+        "restoredFlat": true,
+        "select": 74,
+        "errors": [],
+        "http": 0
+      }
+    ],
+    "frozen-narrow": [
+      {
+        "fcp": 320,
+        "lcp": 320,
+        "ready": 777,
+        "wire": 6615696,
+        "responseEnd": 466,
+        "dcl": 984,
+        "cls": 0,
+        "long": 150,
+        "initialResources": [],
+        "globe": {
+          "visible": 1,
+          "panel": [
+            443,
+            630
+          ],
+          "toggle": [
+            386,
+            430
+          ],
+          "draw": 18,
+          "first": 127,
+          "ctx": 1,
+          "canvas": [
+            432,
+            280
+          ],
+          "dpr": 1.5,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.04177807486631016,
+          "panel": [
+            717,
+            904
+          ],
+          "toggle": [
+            660,
+            704
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 7,
+          "overflow": false
+        },
+        "routeGlDraws": 546,
+        "restoredFlat": true,
+        "select": 73,
+        "errors": [],
+        "http": 0
+      }
+    ],
+    "frozen-landscape": [
+      {
+        "fcp": 492,
+        "lcp": 492,
+        "ready": 960,
+        "wire": 6615696,
+        "responseEnd": 632,
+        "dcl": 1146,
+        "cls": 0,
+        "long": 161,
+        "initialResources": [],
+        "globe": {
+          "visible": 0.5222407611203805,
+          "panel": [
+            130,
+            570
+          ],
+          "toggle": [
+            73,
+            117
+          ],
+          "draw": 18,
+          "first": 128,
+          "ctx": 1,
+          "canvas": [
+            1017,
+            660
+          ],
+          "dpr": 1.5,
+          "active": "Baku",
+          "labelVisible": true,
+          "animations": 6,
+          "overflow": false
+        },
+        "preGlobe": {
+          "visible": 0.017856508928254463,
+          "panel": [
+            352,
+            792
+          ],
+          "toggle": [
+            295,
+            339
+          ],
+          "draw": 0,
+          "first": 0,
+          "ctx": 0,
+          "canvas": null,
+          "dpr": null,
+          "active": null,
+          "labelVisible": null,
+          "animations": 6,
+          "overflow": false
+        },
+        "routeGlDraws": 546,
+        "restoredFlat": true,
+        "select": 101,
+        "errors": [],
+        "http": 0
+      }
+    ]
+  }
+}

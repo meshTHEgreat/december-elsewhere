@@ -1,0 +1,394 @@
+{
+  "offline_sha": "e6df97ff7b1a1e404a9a44e6e5fb31015221968ec7185eac5e7f3b284555ae40",
+  "web_sha": "33b23d096227cb0d81d10faf76754a0d020488784b027069456d5ec4b6a61bba",
+  "flows": [
+    {
+      "width": 320,
+      "height": 725,
+      "offline": true,
+      "url": "file:///offline.html",
+      "timing_ms": {
+        "load": 199
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "browser_requests": [],
+      "browser_errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "offline": true,
+      "url": "file:///offline.html",
+      "timing_ms": {
+        "load": 194,
+        "first-paint": 100,
+        "first-contentful-paint": 100
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "browser_requests": [],
+      "browser_errors": []
+    },
+    {
+      "width": 740,
+      "height": 360,
+      "offline": true,
+      "url": "file:///offline.html",
+      "timing_ms": {
+        "load": 187,
+        "first-paint": 100,
+        "first-contentful-paint": 100
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "browser_requests": [],
+      "browser_errors": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "offline": true,
+      "url": "file:///offline.html",
+      "timing_ms": {
+        "load": 189,
+        "first-paint": 176,
+        "first-contentful-paint": 176
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "browser_requests": [],
+      "browser_errors": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "offline": true,
+      "url": "file:///offline.html",
+      "timing_ms": {
+        "load": 192
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "inventory": {
+        "baku": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 8,
+          "photos": 4,
+          "sources": 18,
+          "flightLegs": 2
+        },
+        "tbilisi": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 7,
+          "photos": 3,
+          "sources": 18,
+          "flightLegs": 2
+        },
+        "budapest": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 8,
+          "photos": 3,
+          "sources": 17,
+          "flightLegs": 2
+        },
+        "vienna": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 8,
+          "photos": 3,
+          "sources": 20,
+          "flightLegs": 2
+        },
+        "prague": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 6,
+          "photos": 4,
+          "sources": 19,
+          "flightLegs": 2
+        }
+      },
+      "print": {
+        "days_during_print": 6,
+        "pdf_bytes": 524767,
+        "state_restored": true
+      },
+      "browser_requests": [],
+      "browser_errors": []
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "offline": false,
+      "url": "https://meshthegreat.github.io/december-elsewhere/",
+      "timing_ms": {
+        "load": 445,
+        "first-paint": 316,
+        "first-contentful-paint": 316
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "download_sha": "e6df97ff7b1a1e404a9a44e6e5fb31015221968ec7185eac5e7f3b284555ae40",
+      "browser_requests": [
+        "https://meshthegreat.github.io/december-elsewhere/",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-excursion.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-nizami.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni-italic.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/manrope.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-vinohrady.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna.webp"
+      ],
+      "browser_errors": []
+    }
+  ],
+  "globe": [
+    {
+      "origin": "MED",
+      "direct_vienna_km": 3330,
+      "reduced": false,
+      "marker_motion": true
+    },
+    {
+      "origin": "MED",
+      "direct_vienna_km": 3330,
+      "reduced": true,
+      "marker_motion": false
+    }
+  ],
+  "browser": "Edge 158.0.4370.33",
+  "no_webgl_fallback": true,
+  "elapsed_s": 28.09
+}

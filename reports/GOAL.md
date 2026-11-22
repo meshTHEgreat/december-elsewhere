@@ -1,4 +1,7 @@
 # December, elsewhere | execution goal
+
+This is the original package goal. The [premium release goal and acceptance record](PREMIUM-EXPERIENCE.md) tracks the current edition.
+
 Deliver one portable, offline decision tool for three adults departing MED on 5 December 2026, covering Baku, Tbilisi, Budapest, Vienna and Prague, returning before 13 December. Budget target SAR 4,000–6,000 per person. Scope: research, visuals, stays, maps, realistic itineraries, local transport, cost comparison, audit and two independent fresh verification rounds. Egypt excluded.
 
 ## Acceptance

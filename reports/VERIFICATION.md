@@ -1,5 +1,7 @@
 # Verification record | 23 November 2026
 
+This file records the original travel guide. The [premium release record](PREMIUM-EXPERIENCE.md) contains the current builds and independent review evidence.
+
 ## GitHub Pages release candidate
 
 - SHA-256 `23a10ce194e12462028f238965327a4cfad439f37bed38caf25767cd55276450`. A fresh Windows build reproduced the ZIP's `index.html` byte for byte.
