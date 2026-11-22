@@ -1,0 +1,33 @@
+{
+  "status": "inconclusive",
+  "mode": "motion",
+  "stages": [
+    {
+      "key": "stage-1",
+      "label": "ss-fit wf-story",
+      "coverage": {
+        "status": "inconclusive",
+        "frames": 1685,
+        "durationMs": 11775.900000572205,
+        "medianMs": 6.90000057220459,
+        "maxGapMs": 81,
+        "skippedGaps": 4,
+        "cameraFrames": 0,
+        "reasons": [
+          "4 sampling gap(s) exceeded 11ms; motion during those gaps was not judged"
+        ],
+        "framingSamples": 6,
+        "layout": {
+          "controls": 0,
+          "paddedContainers": 0,
+          "compositionCrops": 0
+        }
+      },
+      "findings": [],
+      "manual": []
+    }
+  ],
+  "errors": [],
+  "manualReviewRequired": true,
+  "exitCode": 2
+}

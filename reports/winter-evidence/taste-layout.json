@@ -1,0 +1,530 @@
+[
+  {
+    "vw": 1440,
+    "vh": 900,
+    "L": 104,
+    "R": 1336,
+    "nav": 0,
+    "screen": 900,
+    "hero": {
+      "height": 840,
+      "h1": {
+        "size": 177.12,
+        "leading": 0.77,
+        "lines": 2,
+        "x": 104,
+        "y": 339,
+        "w": 1232,
+        "h": 273
+      },
+      "lead": null,
+      "buttons": null,
+      "visual": null
+    },
+    "sections": [
+      {
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "top": 60,
+        "height": 840,
+        "content": 840,
+        "frame": 0
+      },
+      {
+        "where": "#destinations section.pick \"The atlas Where to? Five trips f\"",
+        "top": 900,
+        "height": 881,
+        "content": 613,
+        "frame": 900
+      },
+      {
+        "where": "#compare section.wrap.comparison \"The shortlistCompare tripsAdjust\"",
+        "top": 11127,
+        "height": 1161,
+        "content": 1710,
+        "frame": 11127
+      },
+      {
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "top": 12288,
+        "height": 701,
+        "content": 1151,
+        "frame": 12288
+      }
+    ],
+    "findings": [
+      {
+        "rule": "edge-left",
+        "where": "#destinations div.atlas-panel \"Preview on the atlasBakuTbilisiB\"",
+        "detail": "starts at x 665.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.eyebrow \"Flights from Medina\"",
+        "detail": "starts at x 865.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.small \"Nonstop schedules and historical\"",
+        "detail": "starts at x 865.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-right",
+        "where": "#city figure.winter-figure \"↗A snowy Baku street in January \"",
+        "detail": "ends at x 691.2; the right line is 1336"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.eyebrow \"Caspian coast\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city h3 \"Baku\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.winter-status \"City plan\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p \"Azerbaijan’s Tourism Board descr\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city ul \"Walk the Old City and Nizami Str\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.winter-check \"Stay in the city if road, visibi\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.eyebrow \"Official links\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.small \"Sources checked 23 November 2026\"",
+        "detail": "starts at x 748.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city figure.journey-photo \"Gobustan’s boulder landscape · F\"",
+        "detail": "starts at x 832.8; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city figure.visual \"↗Baku’s walled Old City · MrArif\"",
+        "detail": "starts at x 517.3; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "footer.footer div.footer-actions \"Download offline guide ↓Back to \"",
+        "detail": "starts at x 1056.2; the lines are 104 and the column starts"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "840px tall; one screen under the nav is 900px"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#destinations section.pick \"The atlas Where to? Five trips f\"",
+        "detail": "881px tall; one screen under the nav is 900px"
+      },
+      {
+        "rule": "screen-height",
+        "where": "#destinations section.pick \"The atlas Where to? Five trips f\"",
+        "detail": "881px, 0.98 screens; a section is exactly one or two (--h)"
+      },
+      {
+        "rule": "screen-height",
+        "where": "#compare section.wrap.comparison \"The shortlistCompare tripsAdjust\"",
+        "detail": "1161px, 1.29 screens; a section is exactly one or two (--h)"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "701px tall; one screen under the nav is 900px"
+      },
+      {
+        "rule": "screen-height",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "701px, 0.78 screens; a section is exactly one or two (--h)"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 132px of #compare section.wrap.comparison \"The shortlistCompare tripsAdjust\" shows"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 92px of the footer shows"
+      },
+      {
+        "rule": "hero-fold",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "starts at y 60, not under the nav"
+      }
+    ],
+    "size": "1440x900",
+    "overflowX": false
+  },
+  {
+    "vw": 1024,
+    "vh": 768,
+    "L": 43,
+    "R": 981,
+    "nav": 0,
+    "screen": 768,
+    "hero": {
+      "height": 708,
+      "h1": {
+        "size": 125.952,
+        "leading": 0.77,
+        "lines": 2,
+        "x": 43,
+        "y": 314,
+        "w": 938,
+        "h": 194
+      },
+      "lead": null,
+      "buttons": null,
+      "visual": null
+    },
+    "sections": [
+      {
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "top": 60,
+        "height": 708,
+        "content": 708,
+        "frame": 0
+      },
+      {
+        "where": "#destinations section.pick \"The atlas Where to? Five trips f\"",
+        "top": 768,
+        "height": 760,
+        "content": 564,
+        "frame": 768
+      },
+      {
+        "where": "#compare section.wrap.comparison \"The shortlistCompare tripsAdjust\"",
+        "top": 10002,
+        "height": 1075,
+        "content": 1702,
+        "frame": 10002
+      },
+      {
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "top": 11077,
+        "height": 615,
+        "content": 1546,
+        "frame": 11077
+      }
+    ],
+    "findings": [
+      {
+        "rule": "edge-left",
+        "where": "#destinations div.atlas-panel \"Preview on the atlasBakuTbilisiB\"",
+        "detail": "starts at x 468.2; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.eyebrow \"Flights from Medina\"",
+        "detail": "starts at x 620.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.small \"Nonstop schedules and historical\"",
+        "detail": "starts at x 620.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-right",
+        "where": "#city figure.winter-figure \"↗A snowy Baku street in January \"",
+        "detail": "ends at x 491.5; the right line is 981"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.eyebrow \"Caspian coast\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city h3 \"Baku\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.winter-status \"City plan\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p \"Azerbaijan’s Tourism Board descr\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city ul \"Walk the Old City and Nizami Str\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.winter-check \"Stay in the city if road, visibi\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.eyebrow \"Official links\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.small \"Sources checked 23 November 2026\"",
+        "detail": "starts at x 532.5; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city figure.journey-photo \"Gobustan’s boulder landscape · F\"",
+        "detail": "starts at x 599.8; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city figure.visual \"↗Baku’s walled Old City · MrArif\"",
+        "detail": "starts at x 360.8; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "footer.footer div.footer-actions \"Download offline guide ↓Back to \"",
+        "detail": "starts at x 701.2; the lines are 43 and the column starts"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "708px tall; one screen under the nav is 768px"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#destinations section.pick \"The atlas Where to? Five trips f\"",
+        "detail": "760px tall; one screen under the nav is 768px"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "615px tall; one screen under the nav is 768px"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 158px of #compare section.wrap.comparison \"The shortlistCompare tripsAdjust\" shows"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 92px of the footer shows"
+      },
+      {
+        "rule": "hero-fold",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "starts at y 60, not under the nav"
+      }
+    ],
+    "size": "1024x768",
+    "overflowX": false
+  },
+  {
+    "vw": 768,
+    "vh": 1024,
+    "L": 32.3,
+    "R": 735.7,
+    "nav": 0,
+    "screen": 1024,
+    "hero": {
+      "height": 964,
+      "h1": {
+        "size": 94.464,
+        "leading": 0.77,
+        "lines": 2,
+        "x": 32,
+        "y": 602,
+        "w": 703,
+        "h": 145
+      },
+      "lead": null,
+      "buttons": null,
+      "visual": null
+    },
+    "sections": [
+      {
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "top": 60,
+        "height": 964,
+        "content": 964,
+        "frame": 0
+      },
+      {
+        "where": "#destinations section.pick \"The atlas Where to? Five trips f\"",
+        "top": 1024,
+        "height": 1267,
+        "content": 1117,
+        "frame": 1024
+      },
+      {
+        "where": "#compare section.wrap.comparison \"The shortlistCompare tripsAdjust\"",
+        "top": 11387,
+        "height": 1017,
+        "content": 1789,
+        "frame": 11387
+      },
+      {
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "top": 12403,
+        "height": 562,
+        "content": 1661,
+        "frame": 12403
+      }
+    ],
+    "findings": [
+      {
+        "rule": "edge-left",
+        "where": "#city p.eyebrow \"Flights from Medina\"",
+        "detail": "starts at x 465.4; the lines are 32.3 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city p.small \"Nonstop schedules and historical\"",
+        "detail": "starts at x 465.4; the lines are 32.3 and the column starts"
+      },
+      {
+        "rule": "edge-left",
+        "where": "#city figure.journey-photo \"Gobustan’s boulder landscape · F\"",
+        "detail": "starts at x 449.8; the lines are 32.3 and the column starts"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "964px tall; one screen under the nav is 1024px"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#compare section.wrap.comparison \"The shortlistCompare tripsAdjust\"",
+        "detail": "1017px tall; one screen under the nav is 1024px"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "562px tall; one screen under the nav is 1024px"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 211px of #compare section.wrap.comparison \"The shortlistCompare tripsAdjust\" shows"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 92px of the footer shows"
+      },
+      {
+        "rule": "hero-fold",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "starts at y 60, not under the nav"
+      }
+    ],
+    "size": "768x1024",
+    "overflowX": false
+  },
+  {
+    "vw": 390,
+    "vh": 844,
+    "L": 16.4,
+    "R": 373.6,
+    "nav": 0,
+    "screen": 844,
+    "hero": {
+      "height": 784,
+      "h1": {
+        "size": 60.8,
+        "leading": 0.77,
+        "lines": 2,
+        "x": 16,
+        "y": 507,
+        "w": 357,
+        "h": 94
+      },
+      "lead": null,
+      "buttons": null,
+      "visual": null
+    },
+    "sections": [
+      {
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "top": 60,
+        "height": 784,
+        "content": 784,
+        "frame": 0
+      },
+      {
+        "where": "#destinations section.pick \"The atlas Where to? Five trips f\"",
+        "top": 844,
+        "height": 1078,
+        "content": 951,
+        "frame": 844
+      },
+      {
+        "where": "#compare section.wrap.comparison \"The shortlistCompare tripsAdjust\"",
+        "top": 12850,
+        "height": 1046,
+        "content": 2333,
+        "frame": 12850
+      },
+      {
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "top": 13896,
+        "height": 573,
+        "content": 2788,
+        "frame": 13896
+      }
+    ],
+    "findings": [
+      {
+        "rule": "screen-short",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "784px tall; one screen under the nav is 844px"
+      },
+      {
+        "rule": "screen-short",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "573px tall; one screen under the nav is 844px"
+      },
+      {
+        "rule": "screen-height",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "573px, 0.68 screens; a section is exactly one or two (--h), or on a phone at least one that its content fills"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 211px of #compare section.wrap.comparison \"The shortlistCompare tripsAdjust\" shows"
+      },
+      {
+        "rule": "neighbour",
+        "where": "#evidence section.wrap.evidence \"SourcesStay prices were observed\"",
+        "detail": "framed, 144px of the footer shows"
+      },
+      {
+        "rule": "hero-fold",
+        "where": "#top section.hero \"A winter travel journal December\"",
+        "detail": "starts at y 60, not under the nav"
+      }
+    ],
+    "size": "390x844",
+    "overflowX": false
+  }
+]

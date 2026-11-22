@@ -1,0 +1,75 @@
+{
+  "url": "https://meshthegreat.github.io/december-elsewhere/",
+  "method": "Unthrottled one-run PerformanceObserver and Navigation/Resource Timing in fresh Chrome contexts. Transfer sizes can include browser HTTP caching effects.",
+  "results": [
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "initial": {
+        "lcpMs": 524,
+        "cls": 0,
+        "domContentLoadedMs": 504,
+        "initialTransferredBytes": 350600,
+        "stageOrGlobeEager": false
+      },
+      "optional": {
+        "walk-satellite-baku.webp": {
+          "bytes": 28262,
+          "ms": 177
+        },
+        "winter-stage.js": {
+          "bytes": 62357,
+          "ms": 249
+        }
+      }
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "initial": {
+        "lcpMs": 468,
+        "cls": 0.004212329707418879,
+        "domContentLoadedMs": 447,
+        "initialTransferredBytes": 350600,
+        "stageOrGlobeEager": false
+      },
+      "optional": {
+        "walk-satellite-baku.webp": {
+          "bytes": 28262,
+          "ms": 90
+        },
+        "winter-stage.js": {
+          "bytes": 62357,
+          "ms": 74
+        }
+      }
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "initial": {
+        "lcpMs": 436,
+        "cls": 0.01088394113967121,
+        "domContentLoadedMs": 414,
+        "initialTransferredBytes": 350600,
+        "stageOrGlobeEager": false
+      },
+      "optional": {
+        "walk-satellite-baku.webp": {
+          "bytes": 28262,
+          "ms": 70
+        },
+        "winter-stage.js": {
+          "bytes": 62357,
+          "ms": 84
+        }
+      }
+    }
+  ]
+}
