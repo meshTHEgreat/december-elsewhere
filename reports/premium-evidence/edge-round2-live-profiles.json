@@ -1,0 +1,340 @@
+{
+  "browser": "Edge 158.0.4370.33",
+  "elapsed_s": 15.06,
+  "flows": [
+    {
+      "width": 320,
+      "height": 725,
+      "offline": false,
+      "url": "https://meshthegreat.github.io/december-elsewhere/",
+      "timing_ms": {
+        "load": 581,
+        "first-paint": 500,
+        "first-contentful-paint": 500
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "browser_requests": [
+        "https://meshthegreat.github.io/december-elsewhere/",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-nizami.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni-italic.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/manrope.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-vinohrady.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna.webp"
+      ],
+      "browser_errors": []
+    },
+    {
+      "width": 740,
+      "height": 360,
+      "offline": false,
+      "url": "https://meshthegreat.github.io/december-elsewhere/",
+      "timing_ms": {
+        "load": 577,
+        "first-paint": 360,
+        "first-contentful-paint": 360
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "browser_requests": [
+        "https://meshthegreat.github.io/december-elsewhere/",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-excursion.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-nizami.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni-italic.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/manrope.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-vinohrady.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna.webp"
+      ],
+      "browser_errors": []
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "offline": false,
+      "url": "https://meshthegreat.github.io/december-elsewhere/",
+      "timing_ms": {
+        "load": 456,
+        "first-paint": 312,
+        "first-contentful-paint": 312
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "browser_requests": [
+        "https://meshthegreat.github.io/december-elsewhere/",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-excursion.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-nizami.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni-italic.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/manrope.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-vinohrady.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna.webp"
+      ],
+      "browser_errors": []
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "offline": false,
+      "url": "https://meshthegreat.github.io/december-elsewhere/",
+      "timing_ms": {
+        "load": 465,
+        "first-paint": 404,
+        "first-contentful-paint": 404
+      },
+      "cities": [
+        {
+          "name": "Baku",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Baku Museum of Modern Art"
+        },
+        {
+          "name": "Tbilisi",
+          "nights": "6 nights",
+          "days": 7,
+          "route": "Dezerter Bazaar area"
+        },
+        {
+          "name": "Budapest",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Allee shopping centre"
+        },
+        {
+          "name": "Vienna",
+          "nights": "7 nights",
+          "days": 8,
+          "route": "Donaupark entrance area"
+        },
+        {
+          "name": "Prague",
+          "nights": "5 nights",
+          "days": 6,
+          "route": "Charles Bridge east entrance"
+        }
+      ],
+      "budget": {
+        "per_adult_delta": 303,
+        "shared_delta": 250,
+        "persistence": true,
+        "reset": true
+      },
+      "inventory": {
+        "baku": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 8,
+          "photos": 4,
+          "sources": 18,
+          "flightLegs": 2
+        },
+        "tbilisi": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 7,
+          "photos": 3,
+          "sources": 18,
+          "flightLegs": 2
+        },
+        "budapest": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 8,
+          "photos": 3,
+          "sources": 17,
+          "flightLegs": 2
+        },
+        "vienna": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 8,
+          "photos": 3,
+          "sources": 20,
+          "flightLegs": 2
+        },
+        "prague": {
+          "anchors": 2,
+          "routes": 11,
+          "days": 6,
+          "photos": 4,
+          "sources": 19,
+          "flightLegs": 2
+        }
+      },
+      "print": {
+        "days_during_print": 6,
+        "pdf_bytes": 524767,
+        "state_restored": true
+      },
+      "browser_requests": [
+        "https://meshthegreat.github.io/december-elsewhere/",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-excursion.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku-nizami.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/baku.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni-italic.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/bodoni.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/budapest.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/manrope.woff2",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-vinohrady.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/prague.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi-winter.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/tbilisi.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-detail.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna-market.webp",
+        "https://meshthegreat.github.io/december-elsewhere/media/vienna.webp"
+      ],
+      "browser_errors": []
+    }
+  ]
+}
