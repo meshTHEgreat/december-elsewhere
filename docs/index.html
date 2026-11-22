@@ -1140,6 +1140,9 @@ function bootAtlas() {
     button.setAttribute('aria-pressed', 'true');
     button.textContent = 'View map';
     el('atlas-feedback').textContent = '';
+    if (panel.getBoundingClientRect().bottom > window.innerHeight) {
+      panel.closest('.atlas-panel').scrollIntoView({block: 'nearest'});
+    }
   });
   const observer = new IntersectionObserver(entries => {
     if (entries.some(entry => !entry.isIntersecting) && atlasGlobe) useMap();
