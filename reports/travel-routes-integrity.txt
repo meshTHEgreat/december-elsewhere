@@ -1,0 +1,4 @@
+Counter({('baku', 'routed'): 11, ('tbilisi', 'routed'): 11, ('budapest', 'routed'): 11, ('vienna', 'routed'): 11, ('prague', 'routed'): 11})
+Maximum endpoint snaps: [(72.56649191248643, 'baku', 'port-baku', 'Caspian promenade near Port Baku'), (44.93620664622526, 'vienna', 'hbf', 'Vienna State Opera'), (44.93620664622526, 'vienna', 'hbf', 'Upper Belvedere'), (44.93620664622526, 'vienna', 'hbf', 'Südtiroler Platz U1 entrance'), (44.93620664622526, 'vienna', 'hbf', 'Museum of Military History')]
+Maximum distance difference between geometry and provider: 4.33
+Issues: []

@@ -1,0 +1,3735 @@
+[
+  {
+    "id": "baku",
+    "city": "Baku",
+    "country": "Azerbaijan",
+    "nights": 7,
+    "dates": "5–12 Dec",
+    "priorTotal": "~SAR 12,000",
+    "tagline": "Caspian light, medieval lanes",
+    "intro": "The lowest-friction trip. Nonstop flights, two bedrooms near the centre and one driver day to take in the landscapes beyond the waterfront.",
+    "entry": "Azerbaijan announced a tourist visa waiver for ordinary Saudi passports from 15 Feb 2026 to 15 Feb 2027, up to 30 days per visit and up to three visits. The official notice also describes airport visa-on-arrival eligibility for holders of qualifying Saudi residence permits valid for at least six months. Check each passport and permit.",
+    "winter": "December historical average high/low 10°C / 4°C. Coastal wind can make the boulevard feel colder. Keep a museum in reserve. Mud-volcano access and mountain excursions depend on surface and weather conditions.",
+    "light": "07:47–07:54 sunrise · 17:14 sunset",
+    "lightUrl": "https://www.timeanddate.com/sun/azerbaijan/baku?month=12&year=2026",
+    "flights": {
+      "status": "Nonstop schedules and historical fare indications; current inventory unverified.",
+      "out": "5 Dec · AZAL J294 · MED 18:20 → GYD 23:40 · nonstop 4h 20m",
+      "back": "12 Dec · AZAL J293 · GYD 12:50 → MED 16:50 · nonstop 5h",
+      "bags": "Baggage depends on fare class; confirm cabin and checked allowances for every leg before paying.",
+      "note": "Alternative: flynas XY963, MED 22:45 → GYD 03:20 on 6 Dec. Prior examples SAR 879 flynas out and ~SAR 1,190 AZAL back, one-way snapshots only. Book accommodation from 5 Dec and confirm access after midnight.",
+      "links": [
+        {
+          "label": "AZAL",
+          "url": "https://www.azal.az/en/"
+        },
+        {
+          "label": "flynas dated offers",
+          "url": "https://www.flynas.com/en/flights-from-medina-to-baku"
+        },
+        {
+          "label": "AZAL return timetable",
+          "url": "https://www.flight.info/J293"
+        },
+        {
+          "label": "flynas outbound schedule",
+          "url": "https://www.flight.info/XY963"
+        }
+      ]
+    },
+    "budget": {
+      "flight": 2070,
+      "bags": 180,
+      "stay": 1418,
+      "food": 700,
+      "transit": 150,
+      "activities": 120,
+      "daytrip": 531,
+      "insurance": 0,
+      "contingency": 140
+    },
+    "stays": [
+      {
+        "name": "Apartment on Nizami. Free transfer",
+        "id": "24291154",
+        "url": "https://www.airbnb.com/rooms/24291154",
+        "price": 1418,
+        "bedrooms": 2,
+        "beds": "2 queen beds",
+        "bathrooms": 1,
+        "rating": 4.9,
+        "reviews": 221,
+        "area": "Sahil / Nizami Street",
+        "notes": "Host lists a full kitchen, a private balcony and Fountains Square about 5 min away on foot. Listing advertises airport transfer; confirm it covers your flight and check in after midnight if needed. Two beds means somebody shares.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
+        "loc": [
+          40.371,
+          49.8436
+        ],
+        "anchor": "Sahil metro",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Sahil metro",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Sahil%20metro%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Fountains Square",
+            "distance": 0.7,
+            "low": 8,
+            "high": 14,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Fountains%20Square%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Maiden Tower",
+            "distance": 1.0,
+            "low": 12,
+            "high": 19,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Maiden%20Tower%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Shirvanshahs’ Palace",
+            "distance": 1.3,
+            "low": 16,
+            "high": 24,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Shirvanshahs%E2%80%99%20Palace%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Caspian Boulevard",
+            "distance": 0.5,
+            "low": 6,
+            "high": 11,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Caspian%20Boulevard%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Passage 145",
+            "distance": 0.6,
+            "low": 7,
+            "high": 13,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Passage%20145%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Port Baku Mall",
+            "distance": 1.8,
+            "low": 22,
+            "high": 32,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Port%20Baku%20Mall%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "28 May station",
+            "distance": 1.3,
+            "low": 16,
+            "high": 24,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=28%20May%20station%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Heydar Aliyev Centre",
+            "distance": 4.4,
+            "low": 53,
+            "high": 74,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Heydar%20Aliyev%20Centre%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Highland Park",
+            "distance": 2.9,
+            "low": 35,
+            "high": 50,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Sahil%20metro%2C%20Baku&destination=Highland%20Park%2C%20Baku&travelmode=walking"
+          }
+        ]
+      },
+      {
+        "name": "Diamond Shoreline Seaview 2BR & 2Bath Nearby Metro",
+        "id": "1411583738365530757",
+        "url": "https://www.airbnb.com/rooms/1411583738365530757",
+        "price": 1343,
+        "bedrooms": 2,
+        "beds": "2 beds; sizes unverified",
+        "bathrooms": 2,
+        "rating": 4.95,
+        "reviews": 57,
+        "area": "Port Baku Mall / waterfront; closest station unconfirmed",
+        "notes": "Listing shows a full kitchen and 15th-floor apartment, and describes Port Baku Mall and Crescent Mall as walkable. Confirm exact building, bedding and late access.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
+        "loc": [
+          40.3746,
+          49.8595
+        ],
+        "anchor": "Port Baku Mall (neighborhood benchmark only)",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Sahil metro",
+            "distance": 1.8,
+            "low": 22,
+            "high": 32,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Sahil%20metro%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Fountains Square",
+            "distance": 2.5,
+            "low": 30,
+            "high": 44,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Fountains%20Square%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Maiden Tower",
+            "distance": 2.8,
+            "low": 34,
+            "high": 48,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Maiden%20Tower%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Shirvanshahs’ Palace",
+            "distance": 3.1,
+            "low": 37,
+            "high": 53,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Shirvanshahs%E2%80%99%20Palace%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Caspian Boulevard",
+            "distance": 1.6,
+            "low": 19,
+            "high": 29,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Caspian%20Boulevard%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Passage 145",
+            "distance": 2.4,
+            "low": 29,
+            "high": 42,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Passage%20145%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Port Baku Mall",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Port%20Baku%20Mall%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "28 May station",
+            "distance": 1.3,
+            "low": 16,
+            "high": 24,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=28%20May%20station%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Heydar Aliyev Centre",
+            "distance": 3.2,
+            "low": 38,
+            "high": 55,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Heydar%20Aliyev%20Centre%2C%20Baku&travelmode=walking"
+          },
+          {
+            "name": "Highland Park",
+            "distance": 4.5,
+            "low": 54,
+            "high": 76,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Port%20Baku%20Mall%20%28neighborhood%20benchmark%20only%29%2C%20Baku&destination=Highland%20Park%2C%20Baku&travelmode=walking"
+          }
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Sahil Apart",
+        "url": "https://www.booking.com/hotel/az/sahil-apart-baku.html",
+        "notes": "Central apartment alternative; check three-person comfort.",
+        "status": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "pois": [
+      {
+        "name": "Sahil metro",
+        "type": "Transit",
+        "lat": 40.371,
+        "lon": 49.8436,
+        "note": "Central metro access; BakuCard is used on metro.",
+        "url": "https://www.openstreetmap.org/?mlat=40.371&mlon=49.8436#map=17/40.371/49.8436"
+      },
+      {
+        "name": "Fountains Square",
+        "type": "Shopping",
+        "lat": 40.3719,
+        "lon": 49.8372,
+        "note": "Nizami shopping and restaurants extend from the square.",
+        "url": "https://www.openstreetmap.org/?mlat=40.3719&mlon=49.8372#map=17/40.3719/49.8372"
+      },
+      {
+        "name": "Maiden Tower",
+        "type": "Landmark",
+        "lat": 40.3661,
+        "lon": 49.8371,
+        "note": "Old City landmark. Indoor visit subject to hours.",
+        "url": "https://www.openstreetmap.org/?mlat=40.3661&mlon=49.8371#map=17/40.3661/49.8371"
+      },
+      {
+        "name": "Shirvanshahs’ Palace",
+        "type": "Culture",
+        "lat": 40.3662,
+        "lon": 49.8334,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=40.3662&mlon=49.8334#map=17/40.3662/49.8334"
+      },
+      {
+        "name": "Caspian Boulevard",
+        "type": "Evening",
+        "lat": 40.3689,
+        "lon": 49.8475,
+        "note": "Public waterfront; wind exposure.",
+        "url": "https://www.openstreetmap.org/?mlat=40.3689&mlon=49.8475#map=17/40.3689/49.8475"
+      },
+      {
+        "name": "Passage 145",
+        "type": "Food",
+        "lat": 40.3714,
+        "lon": 49.8382,
+        "note": "Example cafe around central Nizami; reconfirm hours.",
+        "url": "https://www.openstreetmap.org/?mlat=40.3714&mlon=49.8382#map=17/40.3714/49.8382"
+      },
+      {
+        "name": "Port Baku Mall",
+        "type": "Groceries & shopping",
+        "lat": 40.3746,
+        "lon": 49.8595,
+        "note": "Grocery and mall benchmark; check store hours.",
+        "url": "https://www.openstreetmap.org/?mlat=40.3746&mlon=49.8595#map=17/40.3746/49.8595"
+      },
+      {
+        "name": "28 May station",
+        "type": "Excursion transit",
+        "lat": 40.3793,
+        "lon": 49.8491,
+        "note": "Aeroexpress city terminus.",
+        "url": "https://www.openstreetmap.org/?mlat=40.3793&mlon=49.8491#map=17/40.3793/49.8491"
+      },
+      {
+        "name": "Heydar Aliyev Centre",
+        "type": "Culture",
+        "lat": 40.3959,
+        "lon": 49.8671,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=40.3959&mlon=49.8671#map=17/40.3959/49.8671"
+      },
+      {
+        "name": "Highland Park",
+        "type": "Viewpoint",
+        "lat": 40.3544,
+        "lon": 49.8285,
+        "note": "Stairs and exposed viewpoint.",
+        "url": "https://www.openstreetmap.org/?mlat=40.3544&mlon=49.8285#map=17/40.3544/49.8285"
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-12-05",
+        "title": "Arrival after dark",
+        "stops": [
+          {
+            "time": "23:40",
+            "name": "Arrive at GYD on AZAL",
+            "duration": "Allow 45–90 min for arrival formalities",
+            "mode": "Airport",
+            "travel": "",
+            "note": ""
+          },
+          {
+            "time": "00:45+",
+            "name": "Reach apartment and check in",
+            "duration": "30–50 min",
+            "mode": "Prebooked transfer",
+            "travel": "25–45 min",
+            "note": "Agree late access and meeting point in advance."
+          }
+        ],
+        "meal": "Eat before landing or carry a snack.",
+        "cost": 45,
+        "backup": "If flying flynas, arrival is 03:20 on the 6th; start the next day late.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-06",
+        "title": "Old City at walking pace",
+        "stops": [
+          {
+            "time": "11:00",
+            "name": "Fountains Square and Nizami",
+            "duration": "45 min",
+            "mode": "Walk",
+            "travel": "5–15 min / ~0.5–1 km",
+            "note": ""
+          },
+          {
+            "time": "12:30",
+            "name": "Maiden Tower lanes",
+            "duration": "60–90 min",
+            "mode": "Walk",
+            "travel": "10–15 min / ~0.8 km",
+            "note": ""
+          },
+          {
+            "time": "14:30",
+            "name": "Shirvanshahs’ Palace",
+            "duration": "60–75 min",
+            "mode": "Walk",
+            "travel": "8–15 min / ~0.6 km",
+            "note": ""
+          }
+        ],
+        "meal": "Qutab and soup or a shared local lunch, ~SAR 35–55.",
+        "cost": 100,
+        "backup": "Rest at a cafe and leave paid interiors to another day.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-07",
+        "title": "Boulevard and carpet craft",
+        "stops": [
+          {
+            "time": "10:30",
+            "name": "Caspian Boulevard",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "12:30",
+            "name": "Lunch near the waterfront",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "14:30",
+            "name": "Carpet Museum area",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": "Check Monday admission; use nearby waterfront cafe if closed."
+          }
+        ],
+        "meal": "Shared grill or fish lunch, ~SAR 45–70.",
+        "cost": 105,
+        "backup": "If windy, keep the walk short and do indoor shopping.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-08",
+        "title": "Gobustan and the fire peninsula",
+        "stops": [
+          {
+            "time": "09:00",
+            "name": "Driver pickup near your apartment",
+            "duration": "10 min",
+            "mode": "Driver",
+            "travel": "",
+            "note": ""
+          },
+          {
+            "time": "10:30",
+            "name": "Gobustan rock art and museum",
+            "duration": "75–90 min",
+            "mode": "Driver",
+            "travel": "65–90 min",
+            "note": ""
+          },
+          {
+            "time": "12:30",
+            "name": "Mud volcanoes, if roads permit",
+            "duration": "45–60 min",
+            "mode": "Local 4×4",
+            "travel": "25–50 min",
+            "note": ""
+          },
+          {
+            "time": "15:30",
+            "name": "Ateshgah and Yanar Dag",
+            "duration": "90 min total",
+            "mode": "Driver",
+            "travel": "60–90 min",
+            "note": "Sunset ~17:14; keep schedule flexible."
+          }
+        ],
+        "meal": "Lunch en route, ~SAR 35–55; pack water.",
+        "cost": 260,
+        "backup": "If 4×4 access is cancelled, keep the rock art and fire temple.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-09",
+        "title": "Modern Baku",
+        "stops": [
+          {
+            "time": "10:30",
+            "name": "Heydar Aliyev Centre",
+            "duration": "90–120 min",
+            "mode": "Taxi / metro plus walk",
+            "travel": "20–35 min",
+            "note": ""
+          },
+          {
+            "time": "13:00",
+            "name": "Lunch near the centre",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "10–15 min / ~0.7 km",
+            "note": ""
+          },
+          {
+            "time": "16:30",
+            "name": "Fountains Square after dark",
+            "duration": "45–60 min",
+            "mode": "Taxi / metro",
+            "travel": "20–35 min",
+            "note": ""
+          }
+        ],
+        "meal": "Cafe lunch ~SAR 45–65, local dinner later.",
+        "cost": 145,
+        "backup": "Choose a museum opening slot and reduce exterior time in wind.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-10",
+        "title": "Highland Park and the waterfront",
+        "stops": [
+          {
+            "time": "11:00",
+            "name": "Highland Park viewpoint",
+            "duration": "45–75 min",
+            "mode": "Taxi / walk",
+            "travel": "15–30 min",
+            "note": ""
+          },
+          {
+            "time": "12:30",
+            "name": "Lower boulevard",
+            "duration": "60 min",
+            "mode": "Walk downhill",
+            "travel": "20–30 min / ~1.4 km",
+            "note": ""
+          },
+          {
+            "time": "16:00",
+            "name": "Tea and evening lights",
+            "duration": "45 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          }
+        ],
+        "meal": "Tea and pastries ~SAR 15–25; dinner around Nizami.",
+        "cost": 110,
+        "backup": "Switch stairs to taxi if surfaces are wet.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-11",
+        "title": "A flexible final city day",
+        "stops": [
+          {
+            "time": "10:30",
+            "name": "Old City shops or a missed museum",
+            "duration": "90 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "14:00",
+            "name": "Nizami Street shopping and cafe",
+            "duration": "90 min",
+            "mode": "Walk",
+            "travel": "10–15 min / ~0.8 km",
+            "note": ""
+          }
+        ],
+        "meal": "Last Azerbaijani dinner ~SAR 55–85.",
+        "cost": 125,
+        "backup": "Only substitute Gabala if daylight, roads and departure next day make sense.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-12",
+        "title": "Nonstop home",
+        "stops": [
+          {
+            "time": "09:00",
+            "name": "Check out and depart for GYD",
+            "duration": "30–50 min",
+            "mode": "Taxi / transfer",
+            "travel": "25–45 min",
+            "note": ""
+          },
+          {
+            "time": "12:50",
+            "name": "AZAL J293 to Medina",
+            "duration": "5h",
+            "mode": "Flight",
+            "travel": "Nonstop",
+            "note": "Scheduled MED arrival 16:50."
+          }
+        ],
+        "meal": "Breakfast and airport snack ~SAR 35–55.",
+        "cost": 75,
+        "backup": "Keep the morning clear for luggage and airport queues.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Visa waiver notice",
+        "url": "https://migration.gov.az/en/news_detail/16753",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Gobustan and rock art",
+        "url": "https://azerbaijan.travel/discover-gobustans-ancient-rock-art",
+        "status": "Official tourism",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Private driver example",
+        "url": "https://azerbaijantransfer.com/day-trips/",
+        "status": "Provider rate",
+        "checked": "2026-11-23",
+        "note": "240 AZN per car for combined route, tickets extra."
+      },
+      {
+        "label": "Airport express",
+        "url": "https://airport.az/en/transport/aero-express/",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Outbound timetable",
+        "url": "https://www.flightsfrom.com/MED-GYD",
+        "status": "Schedule only",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Return timetable",
+        "url": "https://www.flight.info/J293",
+        "status": "Schedule only",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Apartment on Nizami. Free transfer",
+        "url": "https://www.airbnb.com/rooms/24291154",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Diamond Shoreline Seaview 2BR & 2Bath Nearby Metro",
+        "url": "https://www.airbnb.com/rooms/1411583738365530757",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Travel window daylight",
+        "url": "https://www.timeanddate.com/sun/azerbaijan/baku?month=12&year=2026",
+        "status": "Calculated astronomy",
+        "checked": "2026-11-23",
+        "note": "Dates are December 2026."
+      },
+      {
+        "label": "Initial planning snapshot",
+        "url": "https://www.airbnb.com",
+        "status": "Historical baseline",
+        "checked": "2026-11-23",
+        "note": "Earlier comparison was a planning estimate; prices reset after recheck."
+      },
+      {
+        "label": "December temperatures",
+        "url": "https://www.timeanddate.com/weather/azerbaijan/baku/climate",
+        "status": "Historical climate average",
+        "checked": "2026-11-23",
+        "note": "Rounded Celsius high and low; not a forecast."
+      },
+      {
+        "label": "Transport and rental comparison",
+        "url": "https://bakucars.com/baku-rent-a-car/",
+        "status": "Provider reference",
+        "checked": "2026-11-23",
+        "note": "Provider prices and timetables may change."
+      },
+      {
+        "label": "AZAL",
+        "url": "https://www.azal.az/en/",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Nonstop schedules and historical fare indications; current inventory unverified."
+      },
+      {
+        "label": "flynas dated offers",
+        "url": "https://www.flynas.com/en/flights-from-medina-to-baku",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Nonstop schedules and historical fare indications; current inventory unverified."
+      },
+      {
+        "label": "AZAL return timetable",
+        "url": "https://www.flight.info/J293",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Nonstop schedules and historical fare indications; current inventory unverified."
+      },
+      {
+        "label": "flynas outbound schedule",
+        "url": "https://www.flight.info/XY963",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Nonstop schedules and historical fare indications; current inventory unverified."
+      },
+      {
+        "label": "Sahil Apart",
+        "url": "https://www.booking.com/hotel/az/sahil-apart-baku.html",
+        "status": "Alternative accommodation",
+        "checked": "2026-11-23",
+        "note": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "checked": "2026-11-23",
+    "currency": "SAR",
+    "daylightStatus": "Astronomical daylight, local time, rounded to minutes; not a weather forecast.",
+    "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
+    "transport": {
+      "city": "Walk around the Old City and central Nizami, use the metro and taxis farther afield.",
+      "transfer": "Prearrange late taxis or ask Nizami host for included transfer. Airport Express is Plan B; check its last departure.",
+      "day": "Gobustan + mud volcanoes + Ateshgah/Yanar Dag: book a driver. Local off-road transfer and tickets may cost extra.",
+      "rental": "One economy car starts at 55 AZN/day in a provider guide. Allow SAR 240–400 per group for one day with fuel, parking and an allowance for cover; deposit and any 4×4 required for mud volcanoes excluded. This is a comparison allowance.",
+      "source": "https://bakucars.com/baku-rent-a-car/"
+    },
+    "budgetUnits": {
+      "stay": "Total SAR for 3 adults; changes with selected listing.",
+      "flight": "SAR per adult; allowance except Baku prior directional fare sum.",
+      "bags": "SAR per adult allowance; avoid double counting when included.",
+      "insurance": "SAR per adult; Georgia cover allowance. European entry costs omitted if traveler already holds Schengen access.",
+      "default": "SAR per adult estimated unless stated otherwise."
+    }
+  },
+  {
+    "id": "tbilisi",
+    "city": "Tbilisi",
+    "country": "Georgia",
+    "nights": 6,
+    "dates": "5–11 Dec",
+    "priorTotal": "SAR 12,900–13,800",
+    "tagline": "Sulfur baths and Caucasus foothills",
+    "intro": "Stay in one walkable neighborhood, then take a private driver or a short rental to Kakheti. Keep the mountain day flexible.",
+    "entry": "Ordinary Saudi passport holders appear on Georgia’s visa-exempt list. Verify the actual passport for each traveler. Georgia requires tourist health and accident insurance for the full trip, in English or Georgian, with cover of at least GEL 30,000.",
+    "winter": "December historical average high/low 8°C / 2°C. Start outings after first light; streets can be slick. Winter tyres are compulsory on designated roads from 1 Dec; conditions may close the Gudauri–Kobi section. Use a local driver for mountain routes.",
+    "light": "08:12–08:17 sunrise · 17:30 sunset",
+    "lightUrl": "https://www.timeanddate.com/sun/georgia/tbilisi?month=12&year=2026",
+    "flights": {
+      "status": "Published schedules; single-ticket price and three-seat availability unverified.",
+      "out": "5 Dec · Qatar QR1175 / QR255 · MED 04:50 → DOH 06:55 → TBS 13:20 · 7h 30m, layover 2h 05m",
+      "back": "11 Dec · QR254 / QR1174 · TBS 21:15 → DOH 23:30 → MED 03:20 on 12 Dec · 7h 05m, layover 1h 25m",
+      "bags": "Baggage depends on fare class; confirm cabin and checked allowances for every leg before paying.",
+      "note": "Buy as one protected booking if offered. Arrange bag storage after checkout on 11 Dec.",
+      "links": [
+        {
+          "label": "Qatar Airways",
+          "url": "https://www.qatarairways.com/"
+        },
+        {
+          "label": "Outbound leg",
+          "url": "https://www.flight.info/QR255"
+        },
+        {
+          "label": "Return leg",
+          "url": "https://www.flight.info/QR254"
+        },
+        {
+          "label": "Medina sector",
+          "url": "https://www.flight.info/QR1174"
+        }
+      ]
+    },
+    "budget": {
+      "flight": 2500,
+      "bags": 150,
+      "stay": 1917,
+      "food": 650,
+      "transit": 155,
+      "activities": 150,
+      "daytrip": 450,
+      "insurance": 70,
+      "contingency": 130
+    },
+    "stays": [
+      {
+        "name": "A 5-star stay in Old Tbilisi",
+        "id": "1129688233295307149",
+        "url": "https://www.airbnb.com/rooms/1129688233295307149",
+        "price": 1917,
+        "bedrooms": 2,
+        "beds": "Double + 2 singles, plus sofa",
+        "bathrooms": 1,
+        "rating": 4.92,
+        "reviews": 118,
+        "area": "Old Tbilisi / Pushkin Square",
+        "notes": "Host lists a full kitchen and Galleria Tbilisi about 5 min away. Three separate beds if singles remain separate. Confirm stairs, heating and luggage storage until evening flight.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
+        "loc": [
+          41.6934,
+          44.8015
+        ],
+        "anchor": "Freedom Square",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Station Square / Tbilisi Central",
+            "distance": 4.1,
+            "low": 49,
+            "high": 69,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Station%20Square%20/%20Tbilisi%20Central%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Freedom Square Metro",
+            "distance": 0.3,
+            "low": 4,
+            "high": 8,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Freedom%20Square%20Metro%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Galleria Tbilisi",
+            "distance": 0.2,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Galleria%20Tbilisi%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Gabriadze Clock Tower",
+            "distance": 0.6,
+            "low": 7,
+            "high": 13,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Gabriadze%20Clock%20Tower%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Bridge of Peace",
+            "distance": 0.7,
+            "low": 8,
+            "high": 14,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Bridge%20of%20Peace%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Abanotubani Baths",
+            "distance": 1.3,
+            "low": 16,
+            "high": 24,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Abanotubani%20Baths%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Meidan Bazaar",
+            "distance": 1.0,
+            "low": 12,
+            "high": 19,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Meidan%20Bazaar%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Shavi Lomi",
+            "distance": 2.4,
+            "low": 29,
+            "high": 42,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Shavi%20Lomi%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "National Gallery",
+            "distance": 0.7,
+            "low": 8,
+            "high": 14,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=National%20Gallery%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Samgori metro",
+            "distance": 5.1,
+            "low": 61,
+            "high": 86,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Samgori%20metro%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Mtatsminda Funicular lower station",
+            "distance": 1.1,
+            "low": 13,
+            "high": 21,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Freedom%20Square%2C%20Tbilisi&destination=Mtatsminda%20Funicular%20lower%20station%2C%20Tbilisi&travelmode=walking"
+          }
+        ]
+      },
+      {
+        "name": "New & Modern 2BR APT With Balcony in City Center",
+        "id": "1143563128668540800",
+        "url": "https://www.airbnb.com/rooms/1143563128668540800",
+        "price": 1314,
+        "bedrooms": 2,
+        "beds": "Double + 2 singles",
+        "bathrooms": 1,
+        "rating": 4.88,
+        "reviews": 156,
+        "area": "Central Station / Station Square",
+        "notes": "Host lists a kitchenette, washer and A/C in both bedrooms and says the station is under five minutes on foot. Confirm how straightforward the walk is with bags.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
+        "loc": [
+          41.7217,
+          44.7998
+        ],
+        "anchor": "Station Square (neighborhood benchmark only)",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Station Square / Tbilisi Central",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Station%20Square%20/%20Tbilisi%20Central%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Freedom Square Metro",
+            "distance": 3.9,
+            "low": 47,
+            "high": 66,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Freedom%20Square%20Metro%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Galleria Tbilisi",
+            "distance": 3.9,
+            "low": 47,
+            "high": 66,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Galleria%20Tbilisi%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Gabriadze Clock Tower",
+            "distance": 3.9,
+            "low": 47,
+            "high": 66,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Gabriadze%20Clock%20Tower%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Bridge of Peace",
+            "distance": 4.2,
+            "low": 50,
+            "high": 71,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Bridge%20of%20Peace%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Abanotubani Baths",
+            "distance": 5.0,
+            "low": 60,
+            "high": 84,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Abanotubani%20Baths%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Meidan Bazaar",
+            "distance": 4.8,
+            "low": 58,
+            "high": 81,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Meidan%20Bazaar%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Shavi Lomi",
+            "distance": 1.7,
+            "low": 20,
+            "high": 31,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Shavi%20Lomi%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "National Gallery",
+            "distance": 3.4,
+            "low": 41,
+            "high": 58,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=National%20Gallery%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Samgori metro",
+            "distance": 6.9,
+            "low": 83,
+            "high": 115,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Samgori%20metro%2C%20Tbilisi&travelmode=walking"
+          },
+          {
+            "name": "Mtatsminda Funicular lower station",
+            "distance": 4.0,
+            "low": 48,
+            "high": 68,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Station%20Square%20%28neighborhood%20benchmark%20only%29%2C%20Tbilisi&destination=Mtatsminda%20Funicular%20lower%20station%2C%20Tbilisi&travelmode=walking"
+          }
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Gratus Aparthotel Tbilisi",
+        "url": "https://gratus.ge/",
+        "notes": "Kitchen-equipped suites; compare final rate and location.",
+        "status": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "pois": [
+      {
+        "name": "Station Square / Tbilisi Central",
+        "type": "Transit",
+        "lat": 41.7217,
+        "lon": 44.7998,
+        "note": "Metro and intercity rail interchange; check station entrance.",
+        "url": "https://www.openstreetmap.org/?mlat=41.7217&mlon=44.7998#map=17/41.7217/44.7998"
+      },
+      {
+        "name": "Freedom Square Metro",
+        "type": "Transit",
+        "lat": 41.695,
+        "lon": 44.8,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=41.695&mlon=44.8#map=17/41.695/44.8"
+      },
+      {
+        "name": "Galleria Tbilisi",
+        "type": "Groceries & shopping",
+        "lat": 41.6944,
+        "lon": 44.8001,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=41.6944&mlon=44.8001#map=17/41.6944/44.8001"
+      },
+      {
+        "name": "Gabriadze Clock Tower",
+        "type": "Landmark",
+        "lat": 41.6954,
+        "lon": 44.8068,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=41.6954&mlon=44.8068#map=17/41.6954/44.8068"
+      },
+      {
+        "name": "Bridge of Peace",
+        "type": "Landmark",
+        "lat": 41.693,
+        "lon": 44.8081,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=41.693&mlon=44.8081#map=17/41.693/44.8081"
+      },
+      {
+        "name": "Abanotubani Baths",
+        "type": "Wellness",
+        "lat": 41.6881,
+        "lon": 44.8111,
+        "note": "Book a private room if desired.",
+        "url": "https://www.openstreetmap.org/?mlat=41.6881&mlon=44.8111#map=17/41.6881/44.8111"
+      },
+      {
+        "name": "Meidan Bazaar",
+        "type": "Shopping",
+        "lat": 41.6892,
+        "lon": 44.8092,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=41.6892&mlon=44.8092#map=17/41.6892/44.8092"
+      },
+      {
+        "name": "Shavi Lomi",
+        "type": "Food",
+        "lat": 41.7103,
+        "lon": 44.8006,
+        "note": "Restaurant example; verify date and hours.",
+        "url": "https://www.openstreetmap.org/?mlat=41.7103&mlon=44.8006#map=17/41.7103/44.8006"
+      },
+      {
+        "name": "National Gallery",
+        "type": "Culture",
+        "lat": 41.6981,
+        "lon": 44.799,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=41.6981&mlon=44.799#map=17/41.6981/44.799"
+      },
+      {
+        "name": "Samgori metro",
+        "type": "Excursion transit",
+        "lat": 41.6916,
+        "lon": 44.849,
+        "note": "Check exact minibus pickup if traveling independently.",
+        "url": "https://www.openstreetmap.org/?mlat=41.6916&mlon=44.849#map=17/41.6916/44.849"
+      },
+      {
+        "name": "Mtatsminda Funicular lower station",
+        "type": "Viewpoint",
+        "lat": 41.695,
+        "lon": 44.7918,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=41.695&mlon=44.7918#map=17/41.695/44.7918"
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-12-05",
+        "title": "Arrival and slow evening",
+        "stops": [
+          {
+            "time": "13:20",
+            "name": "Arrive at TBS",
+            "duration": "Allow 45–75 min after landing",
+            "mode": "Airport",
+            "travel": "",
+            "note": ""
+          },
+          {
+            "time": "15:00",
+            "name": "Freedom Square check-in",
+            "duration": "45–60 min",
+            "mode": "Taxi",
+            "travel": "30–50 min",
+            "note": ""
+          },
+          {
+            "time": "17:00",
+            "name": "Dinner and Old Town lanes",
+            "duration": "90 min",
+            "mode": "Walk",
+            "travel": "5–15 min / ~0.6 km",
+            "note": ""
+          }
+        ],
+        "meal": "Khinkali and soup ~SAR 35–55.",
+        "cost": 100,
+        "backup": "Dine close to the apartment if tired after the early flight.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-06",
+        "title": "Bridges and bathhouse",
+        "stops": [
+          {
+            "time": "10:30",
+            "name": "Gabriadze Clock Tower",
+            "duration": "30 min",
+            "mode": "Walk",
+            "travel": "10–15 min / ~0.7 km",
+            "note": ""
+          },
+          {
+            "time": "11:30",
+            "name": "Bridge of Peace and Rike Park",
+            "duration": "45 min",
+            "mode": "Walk",
+            "travel": "8–15 min / ~0.6 km",
+            "note": ""
+          },
+          {
+            "time": "14:30",
+            "name": "Abanotubani sulfur baths",
+            "duration": "60–90 min",
+            "mode": "Walk",
+            "travel": "12–20 min / ~0.9 km",
+            "note": "Reserve a session and verify room pricing."
+          }
+        ],
+        "meal": "Bakery lunch ~SAR 25–45; dinner ~SAR 40–70.",
+        "cost": 145,
+        "backup": "Take a taxi to the baths and skip park if streets are icy.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-07",
+        "title": "Mtskheta at a gentle pace",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Depart for Mtskheta",
+            "duration": "Pickup time flexible",
+            "mode": "Private driver",
+            "travel": "35–55 min",
+            "note": ""
+          },
+          {
+            "time": "11:00",
+            "name": "Svetitskhoveli Cathedral area",
+            "duration": "75 min",
+            "mode": "Walk",
+            "travel": "5–15 min / ~0.5 km",
+            "note": ""
+          },
+          {
+            "time": "13:30",
+            "name": "Jvari viewpoint if road is clear",
+            "duration": "45 min",
+            "mode": "Driver",
+            "travel": "15–25 min",
+            "note": ""
+          }
+        ],
+        "meal": "Lunch in town ~SAR 35–55.",
+        "cost": 155,
+        "backup": "Keep the cathedral visit and skip exposed Jvari in fog.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-08",
+        "title": "Kakheti and hilltop Sighnaghi",
+        "stops": [
+          {
+            "time": "09:30",
+            "name": "Leave Tbilisi",
+            "duration": "",
+            "mode": "Driver / optional rental",
+            "travel": "1h 45m–2h 20m",
+            "note": ""
+          },
+          {
+            "time": "11:30",
+            "name": "Bodbe and Sighnaghi",
+            "duration": "30–60 min each",
+            "mode": "Driver / walk",
+            "travel": "10–20 min",
+            "note": ""
+          },
+          {
+            "time": "14:00",
+            "name": "Lunch and wall views",
+            "duration": "90 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~0.8 km",
+            "note": ""
+          }
+        ],
+        "meal": "Local lunch ~SAR 45–70; confirm inclusions with driver.",
+        "cost": 230,
+        "backup": "Swap for National Gallery and food halls if roads look poor.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-09",
+        "title": "Tbilisi from above",
+        "stops": [
+          {
+            "time": "10:30",
+            "name": "National Gallery",
+            "duration": "60–90 min",
+            "mode": "Walk / metro",
+            "travel": "12–20 min / ~1 km",
+            "note": "Confirm ticket and day-specific hours."
+          },
+          {
+            "time": "13:30",
+            "name": "Mtatsminda funicular and viewpoint",
+            "duration": "75 min",
+            "mode": "Walk / funicular",
+            "travel": "20–35 min",
+            "note": ""
+          },
+          {
+            "time": "16:00",
+            "name": "Rustaveli coffee break",
+            "duration": "45 min",
+            "mode": "Funicular / walk",
+            "travel": "20–35 min",
+            "note": ""
+          }
+        ],
+        "meal": "Cafe lunch ~SAR 35–60; dinner ~SAR 45–70.",
+        "cost": 135,
+        "backup": "Stay with indoor art and a long lunch in low cloud.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-10",
+        "title": "Weather window or market day",
+        "stops": [
+          {
+            "time": "09:00",
+            "name": "Optional Gudauri with local driver",
+            "duration": "Only if road and weather permit",
+            "mode": "Private driver",
+            "travel": "2h–2h 45m each way",
+            "note": ""
+          },
+          {
+            "time": "11:30",
+            "name": "Viewpoint or city fallback",
+            "duration": "60–90 min",
+            "mode": "Walk",
+            "travel": "Flexible",
+            "note": "Mountain travel adds a surcharge; price separately."
+          }
+        ],
+        "meal": "Lunch ~SAR 35–65 on either plan.",
+        "cost": 115,
+        "backup": "City fallback: Dry Bridge market, city cafes and an extra bath.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-11",
+        "title": "City morning and evening departure",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Check out and store bags",
+            "duration": "30 min",
+            "mode": "Walk",
+            "travel": "",
+            "note": ""
+          },
+          {
+            "time": "11:30",
+            "name": "Meidan Bazaar and final lunch",
+            "duration": "2 h",
+            "mode": "Walk",
+            "travel": "15–25 min / ~1.4 km",
+            "note": ""
+          },
+          {
+            "time": "17:30",
+            "name": "Taxi to TBS",
+            "duration": "",
+            "mode": "Taxi",
+            "travel": "30–55 min",
+            "note": ""
+          },
+          {
+            "time": "21:15",
+            "name": "Qatar via Doha",
+            "duration": "7h 05m",
+            "mode": "Flight",
+            "travel": "Arrives MED 03:20 on 12 Dec",
+            "note": ""
+          }
+        ],
+        "meal": "Lunch ~SAR 40–65; add food if fare differs.",
+        "cost": 105,
+        "backup": "If luggage storage is unavailable, budget for a hotel or station option before leaving.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Georgia visa ordinance",
+        "url": "https://www.matsne.gov.ge/en/document/view/2867361",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Mandatory visitor insurance",
+        "url": "https://www.geoconsul.gov.ge/en/news/69",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Winter tyre rules",
+        "url": "https://mia.police.ge/en/pirveli-dekembridan-gzis-tsalkeul-monakvetebze-satransporto-sashualebis-zamtris-saburavebit-aghchurva-savaldebuloa/16467",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Road notices",
+        "url": "https://georoad.gov.ge/en/restrictions",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Kakheti itinerary",
+        "url": "https://georgia.travel/popular-trips/one-day-tour-in-kakheti",
+        "status": "Official tourism",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Driver estimate",
+        "url": "https://thefreedomatlas.com/gotrip-review/",
+        "status": "Observed price reference",
+        "checked": "2026-11-23",
+        "note": "202 GEL example, itinerary and terms may differ."
+      },
+      {
+        "label": "A 5-star stay in Old Tbilisi",
+        "url": "https://www.airbnb.com/rooms/1129688233295307149",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "New & Modern 2BR APT With Balcony in City Center",
+        "url": "https://www.airbnb.com/rooms/1143563128668540800",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Travel window daylight",
+        "url": "https://www.timeanddate.com/sun/georgia/tbilisi?month=12&year=2026",
+        "status": "Calculated astronomy",
+        "checked": "2026-11-23",
+        "note": "Dates are December 2026."
+      },
+      {
+        "label": "Initial planning snapshot",
+        "url": "https://www.airbnb.com",
+        "status": "Historical baseline",
+        "checked": "2026-11-23",
+        "note": "Earlier comparison was a planning estimate; prices reset after recheck."
+      },
+      {
+        "label": "December temperatures",
+        "url": "https://www.timeanddate.com/weather/georgia/tbilisi/climate",
+        "status": "Historical climate average",
+        "checked": "2026-11-23",
+        "note": "Rounded Celsius high and low; not a forecast."
+      },
+      {
+        "label": "Transport and rental comparison",
+        "url": "https://rentup.ge/faq/",
+        "status": "Provider reference",
+        "checked": "2026-11-23",
+        "note": "Provider prices and timetables may change."
+      },
+      {
+        "label": "Qatar Airways",
+        "url": "https://www.qatarairways.com/",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Outbound leg",
+        "url": "https://www.flight.info/QR255",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Return leg",
+        "url": "https://www.flight.info/QR254",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Medina sector",
+        "url": "https://www.flight.info/QR1174",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Gratus Aparthotel Tbilisi",
+        "url": "https://gratus.ge/",
+        "status": "Alternative accommodation",
+        "checked": "2026-11-23",
+        "note": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "checked": "2026-11-23",
+    "currency": "SAR",
+    "daylightStatus": "Astronomical daylight, local time, rounded to minutes; not a weather forecast.",
+    "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
+    "transport": {
+      "city": "Walk the Old Town and use metro or Bolt for hills, station and longer trips.",
+      "transfer": "Airport taxi can go door to door; check destination street and luggage.",
+      "day": "Take a driver for Kakheti if tasting wine, or for mountain trips (weather permitting). Mtskheta is a short private transfer.",
+      "rental": "Economy rental starts at GEL 75/day in a provider guide. Allow SAR 220–400 per group for one paved-road day including fuel, parking and cover allowance. Confirm winter tyres where required, deposit and excluded roads. Optional replacement for a driver, not a second charge.",
+      "source": "https://rentup.ge/faq/"
+    },
+    "budgetUnits": {
+      "stay": "Total SAR for 3 adults; changes with selected listing.",
+      "flight": "SAR per adult; allowance except Baku prior directional fare sum.",
+      "bags": "SAR per adult allowance; avoid double counting when included.",
+      "insurance": "SAR per adult; Georgia cover allowance. European entry costs omitted if traveler already holds Schengen access.",
+      "default": "SAR per adult estimated unless stated otherwise."
+    }
+  },
+  {
+    "id": "budapest",
+    "city": "Budapest",
+    "country": "Hungary",
+    "nights": 7,
+    "dates": "5–12 Dec",
+    "priorTotal": "SAR 15,000–17,400",
+    "tagline": "Danube evenings and Advent lights",
+    "intro": "The European full-week compromise. A base on the Pest side gives you easy walks to Advent markets, winter baths and access to the Danube through public transport.",
+    "entry": "Visa depends on each traveler’s passport, residence permit and any existing Schengen visa. For ordinary Saudi passports, confirm a valid Schengen visa. The standard application lead time is at least 15 days; on 23 November departure was 12 days away.",
+    "winter": "December historical average high/low 3°C / −2°C. Near-freezing city conditions are plausible; this is seasonal context, not a forecast. Schedule exposed viewpoints by 15:00 and use markets and baths after dark.",
+    "light": "07:15–07:22 sunrise · 15:52–15:53 sunset",
+    "lightUrl": "https://www.timeanddate.com/sun/hungary/budapest?month=12&year=2026",
+    "flights": {
+      "status": "Published schedules; single-ticket price and three-seat availability unverified.",
+      "out": "5 Dec · Turkish TK99 / TK1033 · MED 06:30 → IST 10:20 → BUD 13:00 · 8h 30m, layover 2h 40m",
+      "back": "12 Dec · TK1036 / TK118 · BUD 09:10 → IST 13:25 → MED 18:55 · 7h 45m, layover 2h 05m",
+      "bags": "Baggage depends on fare class; confirm cabin and checked allowances for every leg before paying.",
+      "note": "One ticket recommended. Take 100E to the centre; reserve early airport departure on 12 Dec. Reprice if flights exceed SAR 3,000 per person.",
+      "links": [
+        {
+          "label": "Turkish Airlines",
+          "url": "https://www.turkishairlines.com/"
+        },
+        {
+          "label": "Medina departure schedule",
+          "url": "https://www.flight.info/TK99"
+        },
+        {
+          "label": "Budapest route",
+          "url": "https://www.flightsfrom.com/IST-BUD"
+        },
+        {
+          "label": "Medina return timetable",
+          "url": "https://www.flight.info/TK118"
+        }
+      ]
+    },
+    "budget": {
+      "flight": 2350,
+      "bags": 150,
+      "stay": 2456,
+      "food": 1100,
+      "transit": 165,
+      "activities": 195,
+      "daytrip": 165,
+      "insurance": 0,
+      "contingency": 135
+    },
+    "stays": [
+      {
+        "name": "CHROMATIC Vibe – Sky Terrace with A/C & Sauna",
+        "id": "33505706",
+        "url": "https://www.airbnb.com/rooms/33505706",
+        "price": 2456,
+        "bedrooms": 1,
+        "beds": "King bed + couch; confirm as adult bed",
+        "bathrooms": "Confirm with host",
+        "rating": 4.56,
+        "reviews": 153,
+        "area": "Pest / Opera",
+        "notes": "Host says the Opera is about three minutes on foot. Ask for bed dimensions, lift and sauna conditions. Do not assume two bedrooms.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
+        "loc": [
+          47.5028,
+          19.058
+        ],
+        "anchor": "Hungarian State Opera",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Hungarian State Opera",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=Hungarian%20State%20Opera%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Deák Ferenc tér",
+            "distance": 0.8,
+            "low": 10,
+            "high": 16,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=De%C3%A1k%20Ferenc%20t%C3%A9r%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "St Stephen’s Basilica",
+            "distance": 0.5,
+            "low": 6,
+            "high": 11,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=St%20Stephen%E2%80%99s%20Basilica%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Vörösmarty Square",
+            "distance": 1.1,
+            "low": 13,
+            "high": 21,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=V%C3%B6r%C3%B6smarty%20Square%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Great Market Hall",
+            "distance": 2.3,
+            "low": 28,
+            "high": 40,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=Great%20Market%20Hall%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Bors Gastro Bar",
+            "distance": 1.0,
+            "low": 12,
+            "high": 19,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=Bors%20Gastro%20Bar%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Fisherman’s Bastion",
+            "distance": 2.3,
+            "low": 28,
+            "high": 40,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=Fisherman%E2%80%99s%20Bastion%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Batthyány tér",
+            "distance": 1.9,
+            "low": 23,
+            "high": 34,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=Batthy%C3%A1ny%20t%C3%A9r%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Széchenyi Thermal Bath",
+            "distance": 3.2,
+            "low": 38,
+            "high": 55,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=Sz%C3%A9chenyi%20Thermal%20Bath%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Móricz Zsigmond körtér",
+            "distance": 4.0,
+            "low": 48,
+            "high": 68,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Hungarian%20State%20Opera%2C%20Budapest&destination=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%2C%20Budapest&travelmode=walking"
+          }
+        ]
+      },
+      {
+        "name": "Exclusive Villa Resident in Buda – Free Parking!",
+        "id": "888747837006251329",
+        "url": "https://www.airbnb.com/rooms/888747837006251329",
+        "price": 4834,
+        "bedrooms": 2,
+        "beds": "Super king + convertible sofa in second bedroom",
+        "bathrooms": 2,
+        "rating": 4.98,
+        "reviews": 42,
+        "area": "District XI; street and nearest transit unverified",
+        "notes": "Host lists washer, heating and free street parking, and describes a short walk to a bus with around 15 minutes to the center. Confirm exact stop and late check-in; map is a district benchmark and can materially understate transfers.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
+        "loc": [
+          47.476,
+          19.0471
+        ],
+        "anchor": "Móricz Zsigmond körtér (District XI benchmark only)",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Hungarian State Opera",
+            "distance": 4.0,
+            "low": 48,
+            "high": 68,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=Hungarian%20State%20Opera%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Deák Ferenc tér",
+            "distance": 3.2,
+            "low": 38,
+            "high": 55,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=De%C3%A1k%20Ferenc%20t%C3%A9r%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "St Stephen’s Basilica",
+            "distance": 3.6,
+            "low": 43,
+            "high": 61,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=St%20Stephen%E2%80%99s%20Basilica%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Vörösmarty Square",
+            "distance": 3.0,
+            "low": 36,
+            "high": 52,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=V%C3%B6r%C3%B6smarty%20Square%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Great Market Hall",
+            "distance": 2.0,
+            "low": 24,
+            "high": 35,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=Great%20Market%20Hall%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Bors Gastro Bar",
+            "distance": 3.4,
+            "low": 41,
+            "high": 58,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=Bors%20Gastro%20Bar%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Fisherman’s Bastion",
+            "distance": 4.0,
+            "low": 48,
+            "high": 68,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=Fisherman%E2%80%99s%20Bastion%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Batthyány tér",
+            "distance": 4.4,
+            "low": 53,
+            "high": 74,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=Batthy%C3%A1ny%20t%C3%A9r%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Széchenyi Thermal Bath",
+            "distance": 7.0,
+            "low": 84,
+            "high": 117,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=Sz%C3%A9chenyi%20Thermal%20Bath%2C%20Budapest&travelmode=walking"
+          },
+          {
+            "name": "Móricz Zsigmond körtér",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%20%28District%20XI%20benchmark%20only%29%2C%20Budapest&destination=M%C3%B3ricz%20Zsigmond%20k%C3%B6rt%C3%A9r%2C%20Budapest&travelmode=walking"
+          }
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Florin Apart Hotel",
+        "url": "https://www.florinaparthotel.hu/",
+        "notes": "Central aparthotel with a two-bedroom category. Compare dated all-in rate and bed layout.",
+        "status": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "pois": [
+      {
+        "name": "Hungarian State Opera",
+        "type": "Culture",
+        "lat": 47.5028,
+        "lon": 19.058,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=47.5028&mlon=19.058#map=17/47.5028/19.058"
+      },
+      {
+        "name": "Deák Ferenc tér",
+        "type": "Transit",
+        "lat": 47.4978,
+        "lon": 19.0545,
+        "note": "Metro interchange and 100E stop.",
+        "url": "https://www.openstreetmap.org/?mlat=47.4978&mlon=19.0545#map=17/47.4978/19.0545"
+      },
+      {
+        "name": "St Stephen’s Basilica",
+        "type": "Evening",
+        "lat": 47.5007,
+        "lon": 19.0538,
+        "note": "Advent Bazilika, 13 Nov–1 Jan.",
+        "url": "https://adventbazilika.hu/en/opening-hours"
+      },
+      {
+        "name": "Vörösmarty Square",
+        "type": "Shopping",
+        "lat": 47.4968,
+        "lon": 19.0507,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=47.4968&mlon=19.0507#map=17/47.4968/19.0507"
+      },
+      {
+        "name": "Great Market Hall",
+        "type": "Groceries & shopping",
+        "lat": 47.4872,
+        "lon": 19.0586,
+        "note": "Check day-specific opening; use other grocery outlets on Sunday.",
+        "url": "https://www.openstreetmap.org/?mlat=47.4872&mlon=19.0586#map=17/47.4872/19.0586"
+      },
+      {
+        "name": "Bors Gastro Bar",
+        "type": "Food",
+        "lat": 47.4968,
+        "lon": 19.063,
+        "note": "Casual lunch example; check hours and menu.",
+        "url": "https://www.openstreetmap.org/?mlat=47.4968&mlon=19.063#map=17/47.4968/19.063"
+      },
+      {
+        "name": "Fisherman’s Bastion",
+        "type": "Viewpoint",
+        "lat": 47.502,
+        "lon": 19.0345,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=47.502&mlon=19.0345#map=17/47.502/19.0345"
+      },
+      {
+        "name": "Batthyány tér",
+        "type": "Excursion transit",
+        "lat": 47.5062,
+        "lon": 19.0396,
+        "note": "H5 suburban train to Szentendre.",
+        "url": "https://www.openstreetmap.org/?mlat=47.5062&mlon=19.0396#map=17/47.5062/19.0396"
+      },
+      {
+        "name": "Széchenyi Thermal Bath",
+        "type": "Wellness",
+        "lat": 47.5187,
+        "lon": 19.0815,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=47.5187&mlon=19.0815#map=17/47.5187/19.0815"
+      },
+      {
+        "name": "Móricz Zsigmond körtér",
+        "type": "Transit",
+        "lat": 47.476,
+        "lon": 19.0471,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=47.476&mlon=19.0471#map=17/47.476/19.0471"
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-12-05",
+        "title": "Arrive in Pest",
+        "stops": [
+          {
+            "time": "13:00",
+            "name": "Arrive BUD",
+            "duration": "Allow 45–75 min",
+            "mode": "Airport",
+            "travel": "",
+            "note": ""
+          },
+          {
+            "time": "14:30",
+            "name": "Deák Ferenc tér and check-in",
+            "duration": "45–60 min",
+            "mode": "100E / walk",
+            "travel": "35–60 min",
+            "note": ""
+          },
+          {
+            "time": "17:00",
+            "name": "Basilica Advent market",
+            "duration": "60–90 min",
+            "mode": "Walk",
+            "travel": "8–18 min / ~0.8 km",
+            "note": ""
+          }
+        ],
+        "meal": "Market meal ~SAR 45–80.",
+        "cost": 145,
+        "backup": "If arrival slips, eat near the stay.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-06",
+        "title": "Buda views and Danube",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Castle District / Fisherman’s Bastion",
+            "duration": "90–120 min",
+            "mode": "Metro / bus / walk",
+            "travel": "25–40 min",
+            "note": ""
+          },
+          {
+            "time": "13:00",
+            "name": "Lunch in Buda",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "5–15 min / ~0.6 km",
+            "note": ""
+          },
+          {
+            "time": "15:00",
+            "name": "Chain Bridge and river views",
+            "duration": "45–60 min",
+            "mode": "Walk / bus",
+            "travel": "20–35 min / ~1.6 km",
+            "note": ""
+          }
+        ],
+        "meal": "Soup or lunch menu ~SAR 40–65.",
+        "cost": 145,
+        "backup": "Order the viewpoint earlier if clouds roll in; use a museum in freezing rain.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-07",
+        "title": "Pest architecture and markets",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Parliament exterior or timed tour",
+            "duration": "60–90 min",
+            "mode": "Tram / walk",
+            "travel": "15–25 min",
+            "note": ""
+          },
+          {
+            "time": "12:00",
+            "name": "Danube promenade",
+            "duration": "45 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "16:30",
+            "name": "Vörösmarty Christmas market",
+            "duration": "75 min",
+            "mode": "Tram / walk",
+            "travel": "15–25 min",
+            "note": ""
+          }
+        ],
+        "meal": "Sit-down dinner ~SAR 75–115.",
+        "cost": 175,
+        "backup": "Confirm Parliament entry and language before prepaying.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-08",
+        "title": "Market hall and a thermal afternoon",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Great Market Hall",
+            "duration": "60 min",
+            "mode": "Tram / walk",
+            "travel": "15–25 min",
+            "note": ""
+          },
+          {
+            "time": "13:30",
+            "name": "Széchenyi thermal baths",
+            "duration": "2–3 h",
+            "mode": "Metro / walk",
+            "travel": "30–45 min",
+            "note": "Verify admission and bring swimwear and flip-flops."
+          }
+        ],
+        "meal": "Market lunch ~SAR 40–70.",
+        "cost": 210,
+        "backup": "Choose a cafe and indoor exhibition if the group does not want a bath day.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-09",
+        "title": "Szentendre by suburban rail",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "H5 train from Batthyány tér",
+            "duration": "",
+            "mode": "Train",
+            "travel": "40–60 min including local access",
+            "note": ""
+          },
+          {
+            "time": "11:30",
+            "name": "Szentendre riverside and historic centre",
+            "duration": "2–3 h",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km from station",
+            "note": ""
+          }
+        ],
+        "meal": "Lunch in Szentendre ~SAR 45–75.",
+        "cost": 150,
+        "backup": "Museum hours narrow in winter; spend the day in Budapest if service changes.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-10",
+        "title": "Opera and cafés",
+        "stops": [
+          {
+            "time": "10:30",
+            "name": "Opera district and Andrássy Avenue",
+            "duration": "60–90 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "13:30",
+            "name": "Cafe and indoor museum or opera tour",
+            "duration": "90 min",
+            "mode": "Metro / walk",
+            "travel": "15–25 min",
+            "note": ""
+          }
+        ],
+        "meal": "Pastry and coffee ~SAR 25–50.",
+        "cost": 150,
+        "backup": "Prebook a tour or leave the afternoon open.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-11",
+        "title": "Final city evening",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Museum or favorite neighborhood",
+            "duration": "2 h",
+            "mode": "Metro / tram",
+            "travel": "15–30 min",
+            "note": ""
+          },
+          {
+            "time": "16:30",
+            "name": "Repeat a market or dinner early",
+            "duration": "90 min",
+            "mode": "Walk / metro",
+            "travel": "10–25 min",
+            "note": ""
+          }
+        ],
+        "meal": "Dinner ~SAR 80–120.",
+        "cost": 160,
+        "backup": "Pack before dinner to simplify the morning.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-12",
+        "title": "Early airport departure",
+        "stops": [
+          {
+            "time": "05:45",
+            "name": "Leave for BUD",
+            "duration": "",
+            "mode": "100E / taxi",
+            "travel": "35–60 min",
+            "note": ""
+          },
+          {
+            "time": "09:10",
+            "name": "Turkish Airlines via IST",
+            "duration": "7h 45m",
+            "mode": "Flight",
+            "travel": "18:55 MED arrival",
+            "note": ""
+          }
+        ],
+        "meal": "Airport breakfast ~SAR 35–65.",
+        "cost": 85,
+        "backup": "Allow extra time if taking 100E or traveling with checked baggage.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Schengen application timeline",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-visas/applying-schengen-visa_en",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Hungarian Embassy, Saudi Arabia",
+        "url": "https://riyadh.mfa.gov.hu/en/consular-information",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Advent Bazilika dates",
+        "url": "https://adventbazilika.hu/en/opening-hours",
+        "status": "Organizer",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "100E Airport Express",
+        "url": "https://bkk.hu/en/travel-information/airport-express/airport-shuttle.6421/",
+        "status": "Operator",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Szentendre H5",
+        "url": "https://www.mavcsoport.hu/mav-szemelyszallitas/belfoldi-utazas/hev-menetrendek",
+        "status": "Operator",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Return flight schedule",
+        "url": "https://www.flight.info/TK118",
+        "status": "Schedule only",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "CHROMATIC Vibe – Sky Terrace with A/C & Sauna",
+        "url": "https://www.airbnb.com/rooms/33505706",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Exclusive Villa Resident in Buda – Free Parking!",
+        "url": "https://www.airbnb.com/rooms/888747837006251329",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Travel window daylight",
+        "url": "https://www.timeanddate.com/sun/hungary/budapest?month=12&year=2026",
+        "status": "Calculated astronomy",
+        "checked": "2026-11-23",
+        "note": "Dates are December 2026."
+      },
+      {
+        "label": "Initial planning snapshot",
+        "url": "https://www.airbnb.com",
+        "status": "Historical baseline",
+        "checked": "2026-11-23",
+        "note": "Earlier comparison was a planning estimate; prices reset after recheck."
+      },
+      {
+        "label": "December temperatures",
+        "url": "https://www.timeanddate.com/weather/hungary/budapest/climate",
+        "status": "Historical climate average",
+        "checked": "2026-11-23",
+        "note": "Rounded Celsius high and low; not a forecast."
+      },
+      {
+        "label": "Transport and rental comparison",
+        "url": "https://bkk.hu/en/travel-information/airport-express/airport-shuttle.6421/",
+        "status": "Provider reference",
+        "checked": "2026-11-23",
+        "note": "Provider prices and timetables may change."
+      },
+      {
+        "label": "Turkish Airlines",
+        "url": "https://www.turkishairlines.com/",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Medina departure schedule",
+        "url": "https://www.flight.info/TK99",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Budapest route",
+        "url": "https://www.flightsfrom.com/IST-BUD",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Medina return timetable",
+        "url": "https://www.flight.info/TK118",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Florin Apart Hotel",
+        "url": "https://www.florinaparthotel.hu/",
+        "status": "Alternative accommodation",
+        "checked": "2026-11-23",
+        "note": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "checked": "2026-11-23",
+    "currency": "SAR",
+    "daylightStatus": "Astronomical daylight, local time, rounded to minutes; not a weather forecast.",
+    "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
+    "transport": {
+      "city": "Use the tram, metro and walking. Take 100E Airport Express or share an early taxi.",
+      "transfer": "100E stops at Deák Ferenc tér and is separately ticketed under standard fare arrangements; check passes and supplements.",
+      "day": "Szentendre by H5 is the simplest day trip; check the exact operator fare including any suburban extension.",
+      "rental": "City parking and collection time add friction. A car only makes sense if replacing the rail day with more than one rural stop.",
+      "source": "https://bkk.hu/en/travel-information/airport-express/airport-shuttle.6421/"
+    },
+    "budgetUnits": {
+      "stay": "Total SAR for 3 adults; changes with selected listing.",
+      "flight": "SAR per adult; allowance except Baku prior directional fare sum.",
+      "bags": "SAR per adult allowance; avoid double counting when included.",
+      "insurance": "SAR per adult; Georgia cover allowance. European entry costs omitted if traveler already holds Schengen access.",
+      "default": "SAR per adult estimated unless stated otherwise."
+    }
+  },
+  {
+    "id": "vienna",
+    "city": "Vienna",
+    "country": "Austria",
+    "nights": 7,
+    "dates": "5–12 Dec",
+    "priorTotal": "SAR 18,000–19,500",
+    "tagline": "Palaces, cafés and the blue hour",
+    "intro": "The most expensive route in the shortlist, with the strongest classical-city feel. Save on logistics with a rail-connected stay and no city rental.",
+    "entry": "Visa depends on each traveler’s passport, residence permit and any existing Schengen visa. For ordinary Saudi passports, confirm a valid Schengen visa. The standard application lead time is at least 15 days; on 23 November departure was 12 days away.",
+    "winter": "December historical average high/low 4°C / −1°C. Cold and occasionally wet or icy underfoot. Adults can fill after-dark time with markets and concerts. Austria requires winter tyres in wintry conditions during the applicable season.",
+    "light": "07:28–07:35 sunrise · 16:00–16:01 sunset",
+    "lightUrl": "https://www.timeanddate.com/sun/austria/vienna?month=12&year=2026",
+    "flights": {
+      "status": "Published schedules; single-ticket price and three-seat availability unverified.",
+      "out": "5 Dec · Turkish TK99 / TK1885 · MED 06:30 → IST 10:20 → VIE 13:05 · 8h 35m, layover 2h 25m",
+      "back": "12 Dec · TK1884 / TK118 · VIE 09:40 → IST 14:05 → MED 18:55 · 7h 15m, layover 1h 25m",
+      "bags": "Baggage depends on fare class; confirm cabin and checked allowances for every leg before paying.",
+      "note": "Short return connection: buy on one ticket if the airline sells it. Take Railjet to Hauptbahnhof if convenient, or plan by station.",
+      "links": [
+        {
+          "label": "Turkish Airlines",
+          "url": "https://www.turkishairlines.com/"
+        },
+        {
+          "label": "Medina outbound",
+          "url": "https://www.flight.info/TK99"
+        },
+        {
+          "label": "Vienna schedule",
+          "url": "https://www.flightsfrom.com/IST-VIE"
+        },
+        {
+          "label": "Medina return",
+          "url": "https://www.flight.info/TK118"
+        }
+      ]
+    },
+    "budget": {
+      "flight": 2500,
+      "bags": 150,
+      "stay": 4456,
+      "food": 1250,
+      "transit": 200,
+      "activities": 235,
+      "daytrip": 210,
+      "insurance": 0,
+      "contingency": 145
+    },
+    "stays": [
+      {
+        "name": "Renovated Apartment near Center",
+        "id": "1644751971236465063",
+        "url": "https://www.airbnb.com/rooms/1644751971236465063",
+        "price": 4456,
+        "bedrooms": 1,
+        "beds": "2 beds; sizes unverified",
+        "bathrooms": "Confirm with host",
+        "rating": 4.67,
+        "reviews": 6,
+        "area": "Vienna; central claim without confirmed closest station",
+        "notes": "Six reviews at check. Confirm bedroom and sofa-bed setup, station distance, late access and heating. The map is a central scenario benchmark, not a property pin.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Independent public recheck could not retrieve the listing.",
+        "loc": [
+          48.2084,
+          16.373
+        ],
+        "anchor": "Stephansplatz (city benchmark only)",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Stephansplatz",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Stephansplatz%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Kaisermühlen VIC U1",
+            "distance": 5.5,
+            "low": 66,
+            "high": 92,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Vienna Hauptbahnhof",
+            "distance": 3.3,
+            "low": 40,
+            "high": 57,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Vienna%20Hauptbahnhof%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Rathausplatz Christmas Market",
+            "distance": 1.6,
+            "low": 19,
+            "high": 29,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Rathausplatz%20Christmas%20Market%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Upper Belvedere",
+            "distance": 2.6,
+            "low": 31,
+            "high": 45,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Upper%20Belvedere%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Schönbrunn Palace",
+            "distance": 6.8,
+            "low": 82,
+            "high": 113,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Sch%C3%B6nbrunn%20Palace%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Café Central",
+            "distance": 0.8,
+            "low": 10,
+            "high": 16,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Caf%C3%A9%20Central%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Wien Mitte The Mall",
+            "distance": 1.3,
+            "low": 16,
+            "high": 24,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Wien%20Mitte%20The%20Mall%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Danube Canal at Schwedenplatz",
+            "distance": 0.7,
+            "low": 8,
+            "high": 14,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Stephansplatz%20%28city%20benchmark%20only%29%2C%20Vienna&destination=Danube%20Canal%20at%20Schwedenplatz%2C%20Vienna&travelmode=walking"
+          }
+        ]
+      },
+      {
+        "name": "Modern new city apartment near VIC with air conditioning",
+        "id": "47782977",
+        "url": "https://www.airbnb.com/rooms/47782977",
+        "price": 5654,
+        "bedrooms": 2,
+        "beds": "2 double beds",
+        "bathrooms": "Confirm with host",
+        "rating": 4.85,
+        "reviews": 39,
+        "area": "VIC / Kaisermühlen",
+        "notes": "Two bedrooms. Check U1 access from exact entrance, heating and check-in. Public station is a neighborhood benchmark.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Independent public recheck could not retrieve the listing.",
+        "loc": [
+          48.2331,
+          16.4163
+        ],
+        "anchor": "Kaisermühlen VIC U1",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Stephansplatz",
+            "distance": 5.5,
+            "low": 66,
+            "high": 92,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Stephansplatz%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Kaisermühlen VIC U1",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Vienna Hauptbahnhof",
+            "distance": 7.9,
+            "low": 95,
+            "high": 131,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Vienna%20Hauptbahnhof%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Rathausplatz Christmas Market",
+            "distance": 6.6,
+            "low": 79,
+            "high": 110,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Rathausplatz%20Christmas%20Market%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Upper Belvedere",
+            "distance": 6.9,
+            "low": 83,
+            "high": 115,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Upper%20Belvedere%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Schönbrunn Palace",
+            "distance": 12.2,
+            "low": 146,
+            "high": 201,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Sch%C3%B6nbrunn%20Palace%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Café Central",
+            "distance": 5.9,
+            "low": 71,
+            "high": 99,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Caf%C3%A9%20Central%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Wien Mitte The Mall",
+            "distance": 4.9,
+            "low": 59,
+            "high": 82,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Wien%20Mitte%20The%20Mall%2C%20Vienna&travelmode=walking"
+          },
+          {
+            "name": "Danube Canal at Schwedenplatz",
+            "distance": 4.8,
+            "low": 58,
+            "high": 81,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Kaiserm%C3%BChlen%20VIC%20U1%2C%20Vienna&destination=Danube%20Canal%20at%20Schwedenplatz%2C%20Vienna&travelmode=walking"
+          }
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Adina Apartment Hotel Vienna Belvedere",
+        "url": "https://adinahotels.com/en/apartments/vienna-belvedere/",
+        "notes": "Kitchen and washer/dryer options near Hauptbahnhof. Check dated price and triple occupancy.",
+        "status": "Alternative to check; no dated offer verified."
+      },
+      {
+        "name": "Belvedere Central Station Apartment",
+        "url": "https://www.booking.com/hotel/at/2-br-belvedere-central-station-apartment.html",
+        "notes": "Two bedrooms near Belvedere.",
+        "status": "Booking.com showed no availability for these dates during the initial check."
+      },
+      {
+        "name": "Sunny and spacious 2-bedroom flat (2BR+AC)",
+        "url": "https://www.airbnb.com/rooms/13454321",
+        "notes": "Landstraße near Wien Mitte. Listing shows 4.95/5 from 189 reviews, two bedrooms, one king and two singles, 1.5 bathrooms, elevator, kitchen. Host states prior guest reviews required.",
+        "status": "Public listing observed 23 Nov 2026. Dec 5–12 dates and total unverified."
+      }
+    ],
+    "pois": [
+      {
+        "name": "Stephansplatz",
+        "type": "Transit",
+        "lat": 48.2084,
+        "lon": 16.373,
+        "note": "U1 and U3 interchange.",
+        "url": "https://www.openstreetmap.org/?mlat=48.2084&mlon=16.373#map=17/48.2084/16.373"
+      },
+      {
+        "name": "Kaisermühlen VIC U1",
+        "type": "Transit",
+        "lat": 48.2331,
+        "lon": 16.4163,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=48.2331&mlon=16.4163#map=17/48.2331/16.4163"
+      },
+      {
+        "name": "Vienna Hauptbahnhof",
+        "type": "Excursion transit",
+        "lat": 48.1856,
+        "lon": 16.3766,
+        "note": "Railjet and other services; check platform and date.",
+        "url": "https://www.openstreetmap.org/?mlat=48.1856&mlon=16.3766#map=17/48.1856/16.3766"
+      },
+      {
+        "name": "Rathausplatz Christmas Market",
+        "type": "Evening",
+        "lat": 48.2105,
+        "lon": 16.3571,
+        "note": "13 Nov–26 Dec 2026.",
+        "url": "https://www.christkindlmarkt.at/en/your-visit/"
+      },
+      {
+        "name": "Upper Belvedere",
+        "type": "Culture",
+        "lat": 48.1914,
+        "lon": 16.3807,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=48.1914&mlon=16.3807#map=17/48.1914/16.3807"
+      },
+      {
+        "name": "Schönbrunn Palace",
+        "type": "Landmark",
+        "lat": 48.1848,
+        "lon": 16.3122,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=48.1848&mlon=16.3122#map=17/48.1848/16.3122"
+      },
+      {
+        "name": "Café Central",
+        "type": "Food",
+        "lat": 48.2101,
+        "lon": 16.3655,
+        "note": "Queues common; choose a nearby alternate.",
+        "url": "https://www.openstreetmap.org/?mlat=48.2101&mlon=16.3655#map=17/48.2101/16.3655"
+      },
+      {
+        "name": "Wien Mitte The Mall",
+        "type": "Groceries & shopping",
+        "lat": 48.206,
+        "lon": 16.3857,
+        "note": "Station and shops; verify Sunday store hours.",
+        "url": "https://www.openstreetmap.org/?mlat=48.206&mlon=16.3857#map=17/48.206/16.3857"
+      },
+      {
+        "name": "Danube Canal at Schwedenplatz",
+        "type": "Viewpoint",
+        "lat": 48.2125,
+        "lon": 16.3777,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=48.2125&mlon=16.3777#map=17/48.2125/16.3777"
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-12-05",
+        "title": "Vienna after dark",
+        "stops": [
+          {
+            "time": "13:05",
+            "name": "Arrive VIE",
+            "duration": "Allow 45–75 min",
+            "mode": "Airport",
+            "travel": "",
+            "note": ""
+          },
+          {
+            "time": "15:00",
+            "name": "Check in near your rail stop",
+            "duration": "45–60 min",
+            "mode": "Rail / walk",
+            "travel": "25–50 min",
+            "note": ""
+          },
+          {
+            "time": "17:30",
+            "name": "Rathausplatz Advent",
+            "duration": "60–90 min",
+            "mode": "Transit / walk",
+            "travel": "20–40 min",
+            "note": ""
+          }
+        ],
+        "meal": "Market supper ~SAR 55–90.",
+        "cost": 160,
+        "backup": "Choose the nearest market if arrival slips.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-06",
+        "title": "The Inner City",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "St Stephen’s Cathedral area",
+            "duration": "60 min",
+            "mode": "U-Bahn / walk",
+            "travel": "10–30 min",
+            "note": ""
+          },
+          {
+            "time": "12:30",
+            "name": "Hofburg arcades and coffee",
+            "duration": "90 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~0.9 km",
+            "note": ""
+          },
+          {
+            "time": "15:30",
+            "name": "Rathausplatz lights",
+            "duration": "60 min",
+            "mode": "Walk / tram",
+            "travel": "15–25 min",
+            "note": ""
+          }
+        ],
+        "meal": "Cafe lunch ~SAR 55–80.",
+        "cost": 180,
+        "backup": "Substitute a museum for long passages in wet weather.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-07",
+        "title": "Belvedere and the southern core",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Upper Belvedere",
+            "duration": "2 h",
+            "mode": "Tram / rail / walk",
+            "travel": "20–40 min",
+            "note": "Reserve a timed ticket if available."
+          },
+          {
+            "time": "13:15",
+            "name": "Lunch near Hauptbahnhof",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "15:00",
+            "name": "Karlskirche and Karlsplatz",
+            "duration": "45–60 min",
+            "mode": "Tram / walk",
+            "travel": "15–25 min",
+            "note": ""
+          }
+        ],
+        "meal": "Cafe lunch and dinner allowance ~SAR 145.",
+        "cost": 225,
+        "backup": "Use the indoor collections as the main plan if cold.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-08",
+        "title": "Schönbrunn at winter pace",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Schönbrunn Palace",
+            "duration": "2–3 h",
+            "mode": "U4 / walk",
+            "travel": "30–50 min",
+            "note": "Confirm chosen tour, market hours, and seasonal garden access."
+          },
+          {
+            "time": "14:00",
+            "name": "Late lunch and inner-city return",
+            "duration": "75 min",
+            "mode": "Walk / U4",
+            "travel": "25–45 min",
+            "note": ""
+          }
+        ],
+        "meal": "Lunch ~SAR 55–85.",
+        "cost": 225,
+        "backup": "If the gardens feel exposed, limit the trip to the palace and cafe.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-09",
+        "title": "A rail day or museum day",
+        "stops": [
+          {
+            "time": "09:00",
+            "name": "Optional Bratislava rail day",
+            "duration": "Half-day or full day",
+            "mode": "Train",
+            "travel": "~1h on rail, allow local transfers",
+            "note": "Confirm travel documents, operating route and local return times."
+          },
+          {
+            "time": "11:00",
+            "name": "Old Town or Vienna museum fallback",
+            "duration": "2–3 h",
+            "mode": "Walk",
+            "travel": "20–35 min / ~1.5 km from transit",
+            "note": ""
+          }
+        ],
+        "meal": "Lunch ~SAR 45–80.",
+        "cost": 175,
+        "backup": "Stay in Vienna for the Kunsthistorisches Museum if rail or documents are uncertain.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-10",
+        "title": "Art and winter cafés",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "MuseumsQuartier / chosen collection",
+            "duration": "2 h",
+            "mode": "Transit / walk",
+            "travel": "20–35 min",
+            "note": ""
+          },
+          {
+            "time": "13:15",
+            "name": "Coffee house lunch",
+            "duration": "75 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "16:30",
+            "name": "Evening market or concert",
+            "duration": "90–120 min",
+            "mode": "Transit / walk",
+            "travel": "15–30 min",
+            "note": "Concert is optional, price separately."
+          }
+        ],
+        "meal": "Lunch ~SAR 55–85; dinner later.",
+        "cost": 210,
+        "backup": "Book a museum slot before committing to a late concert.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-11",
+        "title": "A last unhurried day",
+        "stops": [
+          {
+            "time": "10:30",
+            "name": "Naschmarkt area or shopping",
+            "duration": "90 min",
+            "mode": "Metro / walk",
+            "travel": "20–35 min",
+            "note": ""
+          },
+          {
+            "time": "15:30",
+            "name": "Repeat a favorite Advent market",
+            "duration": "75 min",
+            "mode": "Transit / walk",
+            "travel": "15–30 min",
+            "note": ""
+          }
+        ],
+        "meal": "Dinner ~SAR 80–120.",
+        "cost": 180,
+        "backup": "Pack before dinner and check airport train maintenance.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-12",
+        "title": "Morning train to airport",
+        "stops": [
+          {
+            "time": "06:15",
+            "name": "Leave for VIE",
+            "duration": "",
+            "mode": "Rail / taxi",
+            "travel": "25–55 min",
+            "note": ""
+          },
+          {
+            "time": "09:40",
+            "name": "Turkish Airlines via Istanbul",
+            "duration": "7h 15m",
+            "mode": "Flight",
+            "travel": "18:55 MED arrival",
+            "note": ""
+          }
+        ],
+        "meal": "Airport breakfast ~SAR 40–70.",
+        "cost": 95,
+        "backup": "Prebook taxi only if rail alternatives are poor.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Schengen application timeline",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-visas/applying-schengen-visa_en",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Austrian Embassy, Saudi Arabia",
+        "url": "https://www.bmeia.gv.at/en/austrian-embassy-riyadh/travelling-to-austria/entrance-and-residence/how-to-apply/",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Rathausplatz market",
+        "url": "https://www.christkindlmarkt.at/en/your-visit/",
+        "status": "Organizer",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Vienna transit",
+        "url": "https://www.wienerlinien.at/web/wl-en/tickets/7-days-vienna",
+        "status": "Operator",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Winter tyre law",
+        "url": "https://www.oesterreich.gv.at/en/themen/mobilitaet/kfz/10/2/Seite.063100",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Vienna rail side trip",
+        "url": "https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/bratislava-ticket",
+        "status": "Operator",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Renovated Apartment near Center",
+        "url": "https://www.airbnb.com/rooms/1644751971236465063",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Modern new city apartment near VIC with air conditioning",
+        "url": "https://www.airbnb.com/rooms/47782977",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Travel window daylight",
+        "url": "https://www.timeanddate.com/sun/austria/vienna?month=12&year=2026",
+        "status": "Calculated astronomy",
+        "checked": "2026-11-23",
+        "note": "Dates are December 2026."
+      },
+      {
+        "label": "Initial planning snapshot",
+        "url": "https://www.airbnb.com",
+        "status": "Historical baseline",
+        "checked": "2026-11-23",
+        "note": "Earlier comparison was a planning estimate; prices reset after recheck."
+      },
+      {
+        "label": "December temperatures",
+        "url": "https://www.timeanddate.com/weather/austria/vienna/climate",
+        "status": "Historical climate average",
+        "checked": "2026-11-23",
+        "note": "Rounded Celsius high and low; not a forecast."
+      },
+      {
+        "label": "Transport and rental comparison",
+        "url": "https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/bratislava-ticket",
+        "status": "Provider reference",
+        "checked": "2026-11-23",
+        "note": "Provider prices and timetables may change."
+      },
+      {
+        "label": "Turkish Airlines",
+        "url": "https://www.turkishairlines.com/",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Medina outbound",
+        "url": "https://www.flight.info/TK99",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Vienna schedule",
+        "url": "https://www.flightsfrom.com/IST-VIE",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Medina return",
+        "url": "https://www.flight.info/TK118",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published schedules; single-ticket price and three-seat availability unverified."
+      },
+      {
+        "label": "Adina Apartment Hotel Vienna Belvedere",
+        "url": "https://adinahotels.com/en/apartments/vienna-belvedere/",
+        "status": "Alternative accommodation",
+        "checked": "2026-11-23",
+        "note": "Alternative to check; no dated offer verified."
+      },
+      {
+        "label": "Belvedere Central Station Apartment",
+        "url": "https://www.booking.com/hotel/at/2-br-belvedere-central-station-apartment.html",
+        "status": "Alternative accommodation",
+        "checked": "2026-11-23",
+        "note": "Booking.com showed no availability for these dates during the initial check."
+      },
+      {
+        "label": "Sunny and spacious 2-bedroom flat (2BR+AC)",
+        "url": "https://www.airbnb.com/rooms/13454321",
+        "status": "Public listing details observed",
+        "checked": "2026-11-23",
+        "note": "Landstraße near Wien Mitte. Listing shows 4.95/5 from 189 reviews, two bedrooms, one king and two singles, 1.5 bathrooms, elevator, kitchen. Host states prior guest reviews required. Public listing observed 23 Nov 2026. Dec 5–12 dates and total unverified."
+      }
+    ],
+    "checked": "2026-11-23",
+    "currency": "SAR",
+    "daylightStatus": "Astronomical daylight, local time, rounded to minutes; not a weather forecast.",
+    "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
+    "transport": {
+      "city": "Use U-Bahn, trams and walking. Plan airport rail around which apartment you choose.",
+      "transfer": "Railjet to Hauptbahnhof or airport rail to Wien Mitte, with onward U-Bahn or tram. Confirm city-zone coverage and intercity fare.",
+      "day": "Bratislava by ÖBB regional train or museums by U-Bahn.",
+      "rental": "Skip city rental. For a rural replacement day account for winter tyres, motorway vignette, parking, fuel and cover before booking.",
+      "source": "https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/bratislava-ticket"
+    },
+    "budgetUnits": {
+      "stay": "Total SAR for 3 adults; changes with selected listing.",
+      "flight": "SAR per adult; allowance except Baku prior directional fare sum.",
+      "bags": "SAR per adult allowance; avoid double counting when included.",
+      "insurance": "SAR per adult; Georgia cover allowance. European entry costs omitted if traveler already holds Schengen access.",
+      "default": "SAR per adult estimated unless stated otherwise."
+    }
+  },
+  {
+    "id": "prague",
+    "city": "Prague",
+    "country": "Czech Republic",
+    "nights": 5,
+    "dates": "5–10 Dec",
+    "priorTotal": "SAR 12,600–13,500",
+    "tagline": "Gothic rooftops and winter markets",
+    "intro": "The shortest city break, with holiday atmosphere and easy rail options. A Saturday morning arrival makes the five nights go further, and both published return options land in Medina early on 11 December.",
+    "entry": "Visa depends on each traveler’s passport, residence permit and any existing Schengen visa. For ordinary Saudi passports, confirm a valid Schengen visa. The standard application lead time is at least 15 days; on 23 November departure was 12 days away.",
+    "winter": "December historical average high/low 3°C / −2°C. Short daylight and damp cobblestones favor early castle views and market evenings. Seasonal context only; recheck actual conditions close to travel.",
+    "light": "07:44–07:49 sunrise · 16:00–16:01 sunset",
+    "lightUrl": "https://www.timeanddate.com/sun/czech-republic/prague?month=12&year=2026",
+    "flights": {
+      "status": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified.",
+      "out": "5 Dec · Pegasus PC687 / PC303 · MED 03:15 → SAW 06:55 → PRG 09:35 · 8h 20m, layover 1h 55m",
+      "back": "10 Dec · Pegasus PC302 / PC686 · PRG 14:25 → SAW 19:05 → MED 01:35 on 11 Dec · 9h 10m, layover 3h 10m",
+      "bags": "Baggage depends on fare class; confirm cabin and checked allowances for every leg before paying.",
+      "note": "Prior Skyscanner snapshot SAR 1,647 for 5–10 Dec used Pegasus outbound and AJet inbound. Published AJet return VF336/VF205 leaves 13:05 and lands in MED 01:55 on 11 Dec, 10h 50m total with 4h 25m layover. Compare offers sold as one ticket each way and check luggage. If leaving at 03:15, arrange the outbound airport transfer for late Friday night.",
+      "links": [
+        {
+          "label": "Skyscanner dated prior route",
+          "url": "https://www.skyscanner.com.sa/sa/en-gb/sar/routes/med/prg/madinah-to-prague.html"
+        },
+        {
+          "label": "Pegasus",
+          "url": "https://www.flypgs.com/en"
+        },
+        {
+          "label": "AJet",
+          "url": "https://ajet.com/en"
+        },
+        {
+          "label": "Medina outbound schedule",
+          "url": "https://zbordirect.com/en/tools/schedule/MED/SAW"
+        },
+        {
+          "label": "Prague outbound connection schedule",
+          "url": "https://www.flightsfrom.com/SAW-PRG"
+        },
+        {
+          "label": "Prague return schedule",
+          "url": "https://zbordirect.com/en/tools/schedule/PRG/SAW"
+        },
+        {
+          "label": "Medina inbound schedule",
+          "url": "https://zbordirect.com/en/tools/schedule/SAW/MED"
+        }
+      ]
+    },
+    "budget": {
+      "flight": 1800,
+      "bags": 150,
+      "stay": 3052,
+      "food": 775,
+      "transit": 130,
+      "activities": 135,
+      "daytrip": 180,
+      "insurance": 0,
+      "contingency": 150
+    },
+    "stays": [
+      {
+        "name": "Designer Digest; Live like a local",
+        "id": "41492147",
+        "url": "https://www.airbnb.com/rooms/41492147",
+        "price": 3052,
+        "bedrooms": 1,
+        "beds": "Queen + double convertible",
+        "bathrooms": 1.5,
+        "rating": 4.83,
+        "reviews": 145,
+        "area": "Žižkov / Vinohrady border",
+        "notes": "Host lists full kitchen, washer and dryer. Value pick if adult bedding works. Confirm closest transit and late check-in.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.",
+        "loc": [
+          50.0788,
+          14.4506
+        ],
+        "anchor": "Jiřího z Poděbrad (neighborhood benchmark only)",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Jiřího z Poděbrad",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Můstek metro",
+            "distance": 2.6,
+            "low": 31,
+            "high": 45,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=M%C5%AFstek%20metro%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Old Town Square Christmas Market",
+            "distance": 3.0,
+            "low": 36,
+            "high": 52,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Old%20Town%20Square%20Christmas%20Market%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Charles Bridge",
+            "distance": 3.8,
+            "low": 46,
+            "high": 65,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Charles%20Bridge%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Prague Castle",
+            "distance": 5.0,
+            "low": 60,
+            "high": 84,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Prague%20Castle%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Palladium",
+            "distance": 2.5,
+            "low": 30,
+            "high": 44,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Palladium%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Café Louvre",
+            "distance": 3.0,
+            "low": 36,
+            "high": 52,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Caf%C3%A9%20Louvre%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Praha hlavní nádraží",
+            "distance": 1.5,
+            "low": 18,
+            "high": 27,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Praha%20hlavn%C3%AD%20n%C3%A1dra%C5%BE%C3%AD%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Letná viewpoint",
+            "distance": 4.0,
+            "low": 48,
+            "high": 68,
+            "mode": "Metro / tram or taxi suggested",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%20%28neighborhood%20benchmark%20only%29%2C%20Prague&destination=Letn%C3%A1%20viewpoint%2C%20Prague&travelmode=walking"
+          }
+        ]
+      },
+      {
+        "name": "Cozy Home 2",
+        "id": "1566707663347121616",
+        "url": "https://www.airbnb.com/rooms/1566707663347121616",
+        "price": 3614,
+        "bedrooms": 2,
+        "beds": "4 beds; sizes unverified",
+        "bathrooms": "Confirm with host",
+        "rating": 4.85,
+        "reviews": 33,
+        "area": "Prague; exact transit anchor unverified",
+        "notes": "More sleeping options; request exact bedroom allocation, closest transit and stair access. Map is a city benchmark.",
+        "status": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Independent public recheck could not retrieve the listing.",
+        "loc": [
+          50.0842,
+          14.4243
+        ],
+        "anchor": "Můstek (city benchmark only)",
+        "platform": "Airbnb",
+        "checked": "2026-11-23",
+        "access": [
+          {
+            "name": "Jiřího z Poděbrad",
+            "distance": 2.6,
+            "low": 31,
+            "high": 45,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Ji%C5%99%C3%ADho%20z%20Pod%C4%9Bbrad%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Můstek metro",
+            "distance": 0.1,
+            "low": 3,
+            "high": 6,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=M%C5%AFstek%20metro%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Old Town Square Christmas Market",
+            "distance": 0.5,
+            "low": 6,
+            "high": 11,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Old%20Town%20Square%20Christmas%20Market%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Charles Bridge",
+            "distance": 1.2,
+            "low": 14,
+            "high": 22,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Charles%20Bridge%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Prague Castle",
+            "distance": 2.5,
+            "low": 30,
+            "high": 44,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Prague%20Castle%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Palladium",
+            "distance": 0.9,
+            "low": 11,
+            "high": 18,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Palladium%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Café Louvre",
+            "distance": 0.6,
+            "low": 7,
+            "high": 13,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Caf%C3%A9%20Louvre%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Praha hlavní nádraží",
+            "distance": 1.0,
+            "low": 12,
+            "high": 19,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Praha%20hlavn%C3%AD%20n%C3%A1dra%C5%BE%C3%AD%2C%20Prague&travelmode=walking"
+          },
+          {
+            "name": "Letná viewpoint",
+            "distance": 1.8,
+            "low": 22,
+            "high": 32,
+            "mode": "Walk estimate",
+            "status": "From public anchor; not calculated by a router.",
+            "url": "https://www.google.com/maps/dir/?api=1&origin=M%C5%AFstek%20%28city%20benchmark%20only%29%2C%20Prague&destination=Letn%C3%A1%20viewpoint%2C%20Prague&travelmode=walking"
+          }
+        ]
+      }
+    ],
+    "alternatives": [
+      {
+        "name": "Aparthotel Angel",
+        "url": "https://www.booking.com/hotel/cz/apart-angel.en-gb.html",
+        "notes": "Anděl; one-bedroom apartment category for three with two singles and sofa bed.",
+        "status": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "pois": [
+      {
+        "name": "Jiřího z Poděbrad",
+        "type": "Transit",
+        "lat": 50.0788,
+        "lon": 14.4506,
+        "note": "Metro line A neighborhood benchmark; verify closest station from the apartment.",
+        "url": "https://www.openstreetmap.org/?mlat=50.0788&mlon=14.4506#map=17/50.0788/14.4506"
+      },
+      {
+        "name": "Můstek metro",
+        "type": "Transit",
+        "lat": 50.0842,
+        "lon": 14.4243,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=50.0842&mlon=14.4243#map=17/50.0842/14.4243"
+      },
+      {
+        "name": "Old Town Square Christmas Market",
+        "type": "Evening",
+        "lat": 50.087,
+        "lon": 14.4208,
+        "note": "28 Nov–6 Jan.",
+        "url": "https://prague.eu/en/christmas-markets"
+      },
+      {
+        "name": "Charles Bridge",
+        "type": "Landmark",
+        "lat": 50.0865,
+        "lon": 14.4114,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=50.0865&mlon=14.4114#map=17/50.0865/14.4114"
+      },
+      {
+        "name": "Prague Castle",
+        "type": "Culture",
+        "lat": 50.0911,
+        "lon": 14.4,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=50.0911&mlon=14.4#map=17/50.0911/14.4"
+      },
+      {
+        "name": "Palladium",
+        "type": "Groceries & shopping",
+        "lat": 50.0891,
+        "lon": 14.4295,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=50.0891&mlon=14.4295#map=17/50.0891/14.4295"
+      },
+      {
+        "name": "Café Louvre",
+        "type": "Food",
+        "lat": 50.0819,
+        "lon": 14.4184,
+        "note": "Long-running cafe; check seating and opening.",
+        "url": "https://www.openstreetmap.org/?mlat=50.0819&mlon=14.4184#map=17/50.0819/14.4184"
+      },
+      {
+        "name": "Praha hlavní nádraží",
+        "type": "Excursion transit",
+        "lat": 50.0831,
+        "lon": 14.4354,
+        "note": "Rail for Kutná Hora; check branch station.",
+        "url": "https://www.openstreetmap.org/?mlat=50.0831&mlon=14.4354#map=17/50.0831/14.4354"
+      },
+      {
+        "name": "Letná viewpoint",
+        "type": "Viewpoint",
+        "lat": 50.096,
+        "lon": 14.4174,
+        "note": "",
+        "url": "https://www.openstreetmap.org/?mlat=50.096&mlon=14.4174#map=17/50.096/14.4174"
+      }
+    ],
+    "days": [
+      {
+        "date": "2026-12-05",
+        "title": "Arrival, cafés and market lights",
+        "stops": [
+          {
+            "time": "09:35",
+            "name": "Scheduled arrival at PRG",
+            "duration": "Allow 45–75 min",
+            "mode": "Airport",
+            "travel": "",
+            "note": "Confirm luggage storage ahead of standard apartment check-in."
+          },
+          {
+            "time": "12:00",
+            "name": "Bag drop and cafe lunch",
+            "duration": "60–90 min",
+            "mode": "Transit / taxi",
+            "travel": "35–65 min",
+            "note": ""
+          },
+          {
+            "time": "16:00",
+            "name": "Old Town Square market or nearby dinner",
+            "duration": "45–90 min",
+            "mode": "Tram / walk",
+            "travel": "10–30 min",
+            "note": ""
+          }
+        ],
+        "meal": "Dinner ~SAR 55–90.",
+        "cost": 135,
+        "backup": "Allow a quiet evening if the connection runs late.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-06",
+        "title": "Cross the Vltava",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Prague Castle area",
+            "duration": "2–3 h",
+            "mode": "Tram / walk",
+            "travel": "25–45 min",
+            "note": "Check entry times and winter hours."
+          },
+          {
+            "time": "13:30",
+            "name": "Lunch in Lesser Town",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "15–25 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "15:00",
+            "name": "Charles Bridge",
+            "duration": "45 min",
+            "mode": "Walk",
+            "travel": "10–18 min / ~0.7 km",
+            "note": ""
+          }
+        ],
+        "meal": "Restaurant lunch ~SAR 45–75.",
+        "cost": 190,
+        "backup": "Take a tram downhill in icy conditions.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-07",
+        "title": "Old and New Town contrasts",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Old Town Square and Astronomical Clock",
+            "duration": "75 min",
+            "mode": "Walk / tram",
+            "travel": "10–25 min",
+            "note": ""
+          },
+          {
+            "time": "12:00",
+            "name": "Café Louvre area",
+            "duration": "60–90 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          },
+          {
+            "time": "15:30",
+            "name": "Wenceslas Square winter lights",
+            "duration": "60 min",
+            "mode": "Walk",
+            "travel": "10–20 min / ~1 km",
+            "note": ""
+          }
+        ],
+        "meal": "Cafe lunch ~SAR 45–75 plus market snacks.",
+        "cost": 145,
+        "backup": "Swap outdoor time for a museum or extended cafe break.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-08",
+        "title": "Kutná Hora by train",
+        "stops": [
+          {
+            "time": "09:00",
+            "name": "Praha hlavní nádraží",
+            "duration": "",
+            "mode": "Metro / tram",
+            "travel": "15–30 min",
+            "note": ""
+          },
+          {
+            "time": "10:00",
+            "name": "Kutná Hora main station and local transfer",
+            "duration": "",
+            "mode": "Train",
+            "travel": "~1h + local connection",
+            "note": ""
+          },
+          {
+            "time": "11:30",
+            "name": "Sedlec and historic centre",
+            "duration": "3–4 h",
+            "mode": "Local rail / walk",
+            "travel": "15–35 min between areas",
+            "note": ""
+          }
+        ],
+        "meal": "Lunch ~SAR 45–70.",
+        "cost": 175,
+        "backup": "Use Prague museums if rail timing or hours do not fit.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-09",
+        "title": "River views and a last market",
+        "stops": [
+          {
+            "time": "10:00",
+            "name": "Letná or a museum",
+            "duration": "60–120 min",
+            "mode": "Tram / walk",
+            "travel": "20–40 min",
+            "note": ""
+          },
+          {
+            "time": "13:15",
+            "name": "Lunch and shops",
+            "duration": "90 min",
+            "mode": "Tram / walk",
+            "travel": "15–25 min",
+            "note": ""
+          },
+          {
+            "time": "16:30",
+            "name": "Last Old Town market visit",
+            "duration": "75 min",
+            "mode": "Walk / transit",
+            "travel": "15–30 min",
+            "note": ""
+          }
+        ],
+        "meal": "Dinner ~SAR 65–105.",
+        "cost": 155,
+        "backup": "Check tomorrow’s flight before booking any late show.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      },
+      {
+        "date": "2026-12-10",
+        "title": "Check out and fly home",
+        "stops": [
+          {
+            "time": "10:15",
+            "name": "Check out and head to PRG",
+            "duration": "",
+            "mode": "Transit / taxi",
+            "travel": "35–65 min",
+            "note": "Leave around 09:00 if choosing the 13:05 AJet alternative."
+          },
+          {
+            "time": "14:25",
+            "name": "Pegasus via SAW",
+            "duration": "9h 10m",
+            "mode": "Flight",
+            "travel": "Scheduled MED arrival 01:35 on 11 Dec",
+            "note": ""
+          }
+        ],
+        "meal": "Airport meal ~SAR 40–70.",
+        "cost": 95,
+        "backup": "Only add a local stop if flight times leave room.",
+        "costBasis": "SAR per adult, includes ordinary meals, selected admission and local transport; excludes flights and stay. Group costs split by three."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Schengen application timeline",
+        "url": "https://home-affairs.ec.europa.eu/policies/schengen/schengen-visas/applying-schengen-visa_en",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Czech Embassy applications",
+        "url": "https://mzv.gov.cz/riyadh/en/visas_and_consular_information/visas/appointments_1/appointments.html",
+        "status": "Official",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Prague market calendar",
+        "url": "https://prague.eu/en/christmas-markets",
+        "status": "Official tourism",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Kutná Hora trip",
+        "url": "https://www.visitczechia.com/en-us/news/2023/08/n-one-day-trips-from-prague",
+        "status": "Official tourism",
+        "checked": "2026-11-23",
+        "note": ""
+      },
+      {
+        "label": "Prior fare listing",
+        "url": "https://www.skyscanner.com.sa/sa/en-gb/sar/routes/med/prg/madinah-to-prague.html",
+        "status": "Historical snapshot",
+        "checked": "2026-11-23",
+        "note": "SAR 1,647 for 5–10 Dec; exact journey and inventory unverified."
+      },
+      {
+        "label": "Designer Digest; Live like a local",
+        "url": "https://www.airbnb.com/rooms/41492147",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Cozy Home 2",
+        "url": "https://www.airbnb.com/rooms/1566707663347121616",
+        "status": "Observed search listing",
+        "checked": "2026-11-23",
+        "note": "Airbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability."
+      },
+      {
+        "label": "Travel window daylight",
+        "url": "https://www.timeanddate.com/sun/czech-republic/prague?month=12&year=2026",
+        "status": "Calculated astronomy",
+        "checked": "2026-11-23",
+        "note": "Dates are December 2026."
+      },
+      {
+        "label": "Initial planning snapshot",
+        "url": "https://www.airbnb.com",
+        "status": "Historical baseline",
+        "checked": "2026-11-23",
+        "note": "Earlier comparison was a planning estimate; prices reset after recheck."
+      },
+      {
+        "label": "December temperatures",
+        "url": "https://www.timeanddate.com/weather/czech-republic/prague/climate",
+        "status": "Historical climate average",
+        "checked": "2026-11-23",
+        "note": "Rounded Celsius high and low; not a forecast."
+      },
+      {
+        "label": "Transport and rental comparison",
+        "url": "https://www.prg.aero/en/public-transport-buses",
+        "status": "Provider reference",
+        "checked": "2026-11-23",
+        "note": "Provider prices and timetables may change."
+      },
+      {
+        "label": "Skyscanner dated prior route",
+        "url": "https://www.skyscanner.com.sa/sa/en-gb/sar/routes/med/prg/madinah-to-prague.html",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified."
+      },
+      {
+        "label": "Pegasus",
+        "url": "https://www.flypgs.com/en",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified."
+      },
+      {
+        "label": "AJet",
+        "url": "https://ajet.com/en",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified."
+      },
+      {
+        "label": "Medina outbound schedule",
+        "url": "https://zbordirect.com/en/tools/schedule/MED/SAW",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified."
+      },
+      {
+        "label": "Prague outbound connection schedule",
+        "url": "https://www.flightsfrom.com/SAW-PRG",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified."
+      },
+      {
+        "label": "Prague return schedule",
+        "url": "https://zbordirect.com/en/tools/schedule/PRG/SAW",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified."
+      },
+      {
+        "label": "Medina inbound schedule",
+        "url": "https://zbordirect.com/en/tools/schedule/SAW/MED",
+        "status": "Flight reference",
+        "checked": "2026-11-23",
+        "note": "Published same-airport leg schedules and prior fare snapshot. Combined flights, protected ticket and inventory unverified."
+      },
+      {
+        "label": "Aparthotel Angel",
+        "url": "https://www.booking.com/hotel/cz/apart-angel.en-gb.html",
+        "status": "Alternative accommodation",
+        "checked": "2026-11-23",
+        "note": "Alternative to check; no dated offer verified."
+      }
+    ],
+    "checked": "2026-11-23",
+    "currency": "SAR",
+    "daylightStatus": "Astronomical daylight, local time, rounded to minutes; not a weather forecast.",
+    "routeMethod": "OpenStreetMap/Valhalla pedestrian routes begin at public anchors. Times are modeled and exclude stops, crossings and winter delays. Exact apartment entrances are unverified.",
+    "transport": {
+      "city": "Walk the core, take trams for Castle Hill and metro from Vinohrady or another outer neighborhood.",
+      "transfer": "Try airport trolleybus and metro or a group taxi if the arrival is late.",
+      "day": "Kutná Hora by train and local connection. Car adds little for this route.",
+      "rental": "Skip city rental and use rail. Consider car only for a specific multi-stop countryside day.",
+      "source": "https://www.prg.aero/en/public-transport-buses"
+    },
+    "budgetUnits": {
+      "stay": "Total SAR for 3 adults; changes with selected listing.",
+      "flight": "SAR per adult; allowance except Baku prior directional fare sum.",
+      "bags": "SAR per adult allowance; avoid double counting when included.",
+      "insurance": "SAR per adult; Georgia cover allowance. European entry costs omitted if traveler already holds Schengen access.",
+      "default": "SAR per adult estimated unless stated otherwise."
+    }
+  }
+]
