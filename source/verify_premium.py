@@ -189,7 +189,7 @@ def check_fallback(browser, url):
     page = context.new_page()
     page.goto(url)
     page.locator("#atlas-toggle").click()
-    expect(page.locator("#atlas-feedback")).to_contain_text("static atlas")
+    expect(page.locator("#atlas-feedback")).to_have_text("Globe unavailable. Use the map.")
     expect(page.locator("#atlas-flat svg")).to_be_visible()
     expect(page.locator("#atlas-globe canvas")).to_have_count(0)
     page.locator("#atlas-select").select_option("vienna")
