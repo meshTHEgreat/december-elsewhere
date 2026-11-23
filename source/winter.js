@@ -95,7 +95,10 @@ async function openPresentation(mode, trigger) {
    panel.scrollIntoView({block:'start'});
   }
  } catch {
-  if (request === presentationRequest) status.textContent = 'Preview unavailable. Read the winter plans above.';
+  if (request === presentationRequest) {
+   closePresentation();
+   status.textContent = 'Preview unavailable. Read the winter plans above.';
+  }
  } finally {
   trigger.removeAttribute('aria-busy');
  }

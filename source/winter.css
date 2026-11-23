@@ -85,4 +85,9 @@
  #route-note { grid-column: 1; grid-row: 2; margin-bottom: 0; }
  .walk-reference, .walk-list-disclosure { grid-column: 1 / -1; }
 }
+@media (min-width: 40rem) and (orientation: landscape) and (max-height: 28rem) {
+ .winter-film { display: grid; grid-template-columns: minmax(0,1fr) auto; gap: .65rem; align-items: start; }
+ #winter-film-stage { min-width: 0; grid-area: 1 / 1; }
+ .winter-close { grid-area: 1 / 2; margin: 0; }
+}
 @media print { #winter,.compare-budget-visual,.outdoor-guide { display: none !important; } }
