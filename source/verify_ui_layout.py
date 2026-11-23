@@ -43,6 +43,9 @@ def check(browser, url):
         page.keyboard.press("Escape")
         assert photo.evaluate("button=>button === document.activeElement")
         assert page.evaluate("document.documentElement.scrollWidth <= innerWidth"), width
+        if width <= 390:
+            amounts = [page.locator(selector).bounding_box()["y"] for selector in ("#total-person", "#total-group")]
+            assert abs(amounts[0] - amounts[1]) <= 1, (width, "budget amount baselines", amounts)
         detail = page.locator("#evidence details").first
         detail.locator("summary").press("Enter")
         assert detail.locator("a.source-action").count() >= 17
