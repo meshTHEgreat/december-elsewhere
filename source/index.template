@@ -24,7 +24,7 @@
       <p class="eyebrow">A winter travel journal</p>
       <h1 id="cover-title">December,<br><em>elsewhere.</em></h1>
       <p class="hero-blurb">Baku, Tbilisi, Budapest, Vienna and Prague.</p>
-      <a class="cover-action" href="#destinations">Explore the destinations <span aria-hidden="true">↘</span></a>
+      <a class="cover-action" href="#destinations">Explore cities <span aria-hidden="true">↘</span></a>
       <p class="cover-facts">5–12 December 2026 <span aria-hidden="true">/</span> From Medina <span aria-hidden="true">/</span> Three travelers</p>
     </div>
     <a class="cover-credit" href="#photos-credit">Prague · Old Town Square</a>
@@ -33,14 +33,17 @@
     <div class="wrap atlas-layout">
       <div>
         <p class="eyebrow">The atlas</p>
-        <h2 id="destinations-title">Where to?</h2>
-        <p class="section-lead">Five trips from Medina, with estimated costs per adult.</p>
+        <div class="atlas-heading">
+          <h2 id="destinations-title">Where to?</h2>
+          <a class="atlas-jump" href="#atlas-panel">Map &amp; globe</a>
+        </div>
+        <p class="section-lead">Five trips from Medina. Estimates are per adult.</p>
         <div id="city-index"></div>
       </div>
-      <div class="atlas-panel">
-        <div class="atlas-bar"><label for="atlas-select">Preview on the atlas</label><select id="atlas-select"></select><button id="atlas-toggle" type="button" aria-pressed="false">View globe</button></div>
+      <div class="atlas-panel" id="atlas-panel" tabindex="-1" role="region" aria-label="Map and globe">
+        <div class="atlas-bar"><label for="atlas-select">City on map</label><select id="atlas-select"></select><button id="atlas-toggle" type="button" aria-pressed="false">View globe</button></div>
         <div id="atlas-visual" class="atlas-visual"><div class="atlas-flat" id="atlas-flat"></div><div class="atlas-globe" id="atlas-globe"></div></div>
-        <div class="atlas-footer"><div><strong id="atlas-distance"></strong><span>From MED · Actual flight connections are in each chapter</span></div><button id="atlas-open" data-open-preview class="atlas-open" type="button"><span id="atlas-open-label">Read chapter</span> <span aria-hidden="true">↘</span></button></div>
+        <div class="atlas-footer"><div><strong id="atlas-distance"></strong><span>From Medina. See Arrival for flights.</span></div><button id="atlas-open" data-open-preview class="atlas-open" type="button"><span id="atlas-open-label">Read chapter</span> <span aria-hidden="true">↘</span></button></div>
         <p class="atlas-feedback" role="status" id="atlas-feedback"></p>
       </div>
     </div>
@@ -50,7 +53,7 @@
   <section id="evidence" class="wrap evidence"></section>
 </main>
 <footer class="footer">
-  <div class="wrap"><a href="#top" class="word">December<span>,</span> Elsewhere</a><div class="footer-actions">__OFFLINE_LINK__<a href="#destinations">Back to the atlas ↑</a></div></div>
+  <div class="wrap"><a href="#top" class="word">December<span>,</span> Elsewhere</a><div class="footer-actions">__OFFLINE_LINK__<a href="#destinations">All cities ↑</a></div></div>
 </footer>
 <dialog id="photo-dialog" aria-label="Destination photograph"></dialog>
 <script type="text/plain" id="third-party-notices">__NOTICES__</script>

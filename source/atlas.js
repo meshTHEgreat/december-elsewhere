@@ -2,6 +2,7 @@ const atlasPlaces = cities.map(city => ({ id: city.id, label: city.city, ...book
 const atlasOrigin = book.editorial.origin;
 let previewId = current.id;
 let atlasGlobe = null;
+let atlasLoad = 0;
 
 function distanceTo(place) {
   const rad = Math.PI / 180;
@@ -75,62 +76,78 @@ function loadGuideModule(id, name) {
 }
 
 function useMap(message = '') {
+  atlasLoad++;
   atlasGlobe?.dispose();
   atlasGlobe = null;
   el('atlas-visual').classList.remove('has-globe');
   const button = el('atlas-toggle');
+  button.removeAttribute('aria-disabled');
   button.setAttribute('aria-pressed', 'false');
   button.textContent = 'View globe';
   el('atlas-feedback').textContent = message;
 }
 function bootAtlas() {
   paintAtlas();
-  el('atlas-select').innerHTML = atlasPlaces.map(place => '<option value="' + place.id + '">' + h(place.label) + '</option>').join('');
+  const select = el('atlas-select');
+  select.innerHTML = atlasPlaces.map(place => '<option value="' + place.id + '">' + h(place.label) + '</option>').join('');
   previewDestination(previewId, true);
-  el('atlas-select').addEventListener('change', event => previewDestination(event.target.value));
+  select.addEventListener('change', event => previewDestination(event.target.value));
+
   const button = el('atlas-toggle');
-  const panel = el('atlas-visual');
+  const region = el('atlas-panel');
+  const visual = el('atlas-visual');
+  const status = el('atlas-feedback');
+  const loading = () => button.getAttribute('aria-disabled') === 'true';
+  const unavailable = 'Globe unavailable. Use the map.';
+
   button.addEventListener('click', async () => {
-    if (button.getAttribute('aria-disabled') === 'true') return;
+    if (loading()) return;
     if (atlasGlobe) {
       useMap();
       return;
     }
+    const request = ++atlasLoad;
     button.setAttribute('aria-disabled', 'true');
     button.textContent = 'Loading globe';
+    status.textContent = 'Loading globe';
     try {
       const module = await loadGuideModule('globe-code', 'DecemberGlobe');
-      const bounds = panel.getBoundingClientRect();
+      if (request !== atlasLoad) return;
+      const bounds = region.getBoundingClientRect();
       if (bounds.bottom < -200 || bounds.top > innerHeight + 200) {
         useMap();
         return;
       }
       atlasGlobe = module?.mount(el('atlas-globe'), {
         land: book.land, origin: atlasOrigin, places: atlasPlaces, initialId: previewId,
-        onLoss: () => useMap('The globe was interrupted. The map is still available.')
+        onLoss: () => useMap('Globe stopped. You can still use the map.')
       });
     } catch {
-      useMap('This browser is using the static atlas.');
+      if (request === atlasLoad) useMap(unavailable);
       return;
-    } finally {
-      button.removeAttribute('aria-disabled');
     }
     if (!atlasGlobe) {
-      useMap('This browser is using the static atlas.');
+      useMap(unavailable);
       return;
     }
-    panel.classList.add('has-globe');
+    visual.classList.add('has-globe');
+    button.removeAttribute('aria-disabled');
     button.setAttribute('aria-pressed', 'true');
     button.textContent = 'View map';
-    el('atlas-feedback').textContent = '';
-    if (panel.getBoundingClientRect().bottom > window.innerHeight) {
-      panel.closest('.atlas-panel').scrollIntoView({block: 'nearest'});
-    }
+    status.textContent = '';
+    if (visual.getBoundingClientRect().bottom > innerHeight) region.scrollIntoView({block: 'nearest'});
+  });
+
+  document.addEventListener('focusin', event => {
+    if (loading() && !region.contains(event.target)) useMap();
+  });
+  window.addEventListener('hashchange', () => {
+    if (loading() && location.hash !== '#atlas-panel') useMap();
   });
   const observer = new IntersectionObserver(entries => {
-    if (entries.some(entry => !entry.isIntersecting) && atlasGlobe) useMap();
+    if (entries.some(entry => !entry.isIntersecting) && (atlasGlobe || loading())) useMap();
   }, { rootMargin: '200px' });
-  observer.observe(panel);
+  observer.observe(region);
   window.addEventListener('pagehide', () => useMap());
 }
 
