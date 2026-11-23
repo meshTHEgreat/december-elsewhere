@@ -152,7 +152,7 @@ def compare_and_sources(page, url, layouts):
     for idx, city in enumerate(DATA):
         disclosure = page.locator("#evidence details").nth(idx)
         disclosure.locator("summary").press("Enter")
-        urls = disclosure.locator("a.source-action").evaluate_all("links => links.map(link => link.href)")
+        urls = disclosure.locator("a.source-action").evaluate_all("links => links.map(link => link.getAttribute('href'))")
         expected_urls = [source["url"] for source in city["sources"] if source["url"].startswith("https://")]
         assert len(urls) == len(expected_urls)
         assert set(urls) == set(expected_urls)
