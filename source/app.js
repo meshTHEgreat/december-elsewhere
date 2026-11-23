@@ -36,7 +36,10 @@ function imageMarkup(photo, cls = '', alt = photo.title, lazy = true) {
 function photoCredit(photo, downloadable = false) {
  return h(photo.caption) + ' · ' + h(photo.author) + ' · ' + external(photo.url, 'Photo source')
   + ' · ' + external(photo.licenseUrl, photo.license) + (photo.modifications ? ' · ' + h(photo.modifications) : '')
-  + (downloadable ? '<a class="photo-download" href="'+h(photo.data)+'" download="'+h(photo.file)+'">Download photo ↓</a>' : '');
+  + (downloadable ? downloadPhoto(photo) : '');
+}
+function downloadPhoto(photo) {
+ return '<a class="photo-download" href="'+h(photo.data)+'" download="'+h(photo.file)+'">Download photo ↓</a>';
 }
 function clock(city) { return string(city.dates); }
 function paintPick() {
@@ -80,9 +83,9 @@ function stayCard(stay, i) {
 function section(id, title, body) {
  return '<section id="'+id+'" class="section wrap" data-chapter-section><h2 tabindex="-1">'+h(title)+'</h2>'+body+'</section>';
 }
-function galleryControls(images) {
+function galleryControls(images, extra = '') {
  return '<div class="gallery-tools"><button class="action" data-gallery="-1" aria-label="Previous photo"><span aria-hidden="true">←</span></button><span class="small">'
-  +(slide+1)+' / '+images.length+'</span><button class="action" data-gallery="1" aria-label="Next photo"><span aria-hidden="true">→</span></button></div>';
+  +(slide+1)+' / '+images.length+'</span><button class="action" data-gallery="1" aria-label="Next photo"><span aria-hidden="true">→</span></button>'+extra+'</div>';
 }
 function paintGallery() {
  const images = book.photos[current.id];
@@ -96,8 +99,8 @@ function paintPhotoDialog() {
  const images = book.photos[current.id];
  const photo = images[slide];
  el('photo-dialog').innerHTML = '<div class="lightbox-bar"><p>'+h(current.city)+' photos</p><button type="button" class="action" data-photo-close autofocus>Close <span aria-hidden="true">×</span></button></div>'
-  +'<figure class="lightbox-figure">'+imageMarkup(photo, '', photo.title, false)+'<figcaption class="small">'+photoCredit(photo, true)+'</figcaption></figure>'
-  +galleryControls(images);
+  +'<figure class="lightbox-figure">'+imageMarkup(photo, '', photo.title, false)+'<figcaption class="small">'+photoCredit(photo)+'</figcaption></figure>'
+  +galleryControls(images, downloadPhoto(photo));
 }
 const chapterLinks = [['intro','Arrival'],['stays','Stays'],['walk','Walks'],['winter','Winter'],['itinerary','Itinerary'],['budget','Budget'],['photos','Photos']];
 function chapterNav(city) {

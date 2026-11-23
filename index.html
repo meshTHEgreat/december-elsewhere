@@ -303,13 +303,17 @@ dialog {
   width: min(100%, 71rem); max-width: 100%; max-height: 100%; margin: auto; border: 0; background: var(--dark);
   color: var(--white); padding: .75rem clamp(.75rem,3vw,1.7rem);
 }
+dialog[open] { display: flex; flex-direction: column; overflow: hidden; }
 dialog::backdrop { background: #08120ff2; }
-.lightbox-bar { display: flex; align-items: center; justify-content: space-between; gap: .4rem; margin-bottom: .6rem; }
+.lightbox-bar { display: flex; flex: none; align-items: center; justify-content: space-between; gap: .4rem; margin-bottom: .6rem; }
 .lightbox-bar p { font-weight: 800; }
+.lightbox-figure { min-block-size: 0; overflow-y: auto; overscroll-behavior: contain; }
 .lightbox-figure img { width: auto; height: auto; max-inline-size: 100%; max-block-size: min(67svh, 840px); margin-inline: auto; object-fit: contain; }
 dialog .action, dialog .small { color: var(--white); }
 dialog .action:hover { color: var(--ink); }
 .lightbox-figure figcaption { max-inline-size: var(--reading-measure); margin: .5rem auto 0; text-align: center; }
+dialog .gallery-tools { flex: none; flex-wrap: wrap; gap: .35rem .65rem; }
+dialog .gallery-tools .photo-download { margin-inline-start: 0; font-size: .8rem; }
 .chapter-end { background: var(--forest); color: var(--white); padding-block: clamp(3.7rem, 8vw, 7.4rem); }
 .chapter-end h2 { margin-top: .6rem; }
 .chapter-end .action { color: var(--white); }
@@ -400,7 +404,7 @@ tbody tr:first-child td { font-weight: 800; }
   .cover-facts { margin-top: .45rem; }
   .chapter h2 { font-size: min(12.5vw, 7.4rem); }
   .map-stage, .journey-photo { position: static; }
-  .lightbox-figure img { max-block-size: min(49svh, calc(100svh - 10rem)); }
+  .lightbox-figure img { max-block-size: min(46svh, calc(100svh - 10rem)); }
   .lightbox-bar { margin-bottom: .3rem; }
   .lightbox-figure figcaption { margin-top: .25rem; }
   dialog .gallery-tools { margin-top: .35rem; }
@@ -887,7 +891,10 @@ function imageMarkup(photo, cls = '', alt = photo.title, lazy = true) {
 function photoCredit(photo, downloadable = false) {
  return h(photo.caption) + ' · ' + h(photo.author) + ' · ' + external(photo.url, 'Photo source')
   + ' · ' + external(photo.licenseUrl, photo.license) + (photo.modifications ? ' · ' + h(photo.modifications) : '')
-  + (downloadable ? '<a class="photo-download" href="'+h(photo.data)+'" download="'+h(photo.file)+'">Download photo ↓</a>' : '');
+  + (downloadable ? downloadPhoto(photo) : '');
+}
+function downloadPhoto(photo) {
+ return '<a class="photo-download" href="'+h(photo.data)+'" download="'+h(photo.file)+'">Download photo ↓</a>';
 }
 function clock(city) { return string(city.dates); }
 function paintPick() {
@@ -931,9 +938,9 @@ function stayCard(stay, i) {
 function section(id, title, body) {
  return '<section id="'+id+'" class="section wrap" data-chapter-section><h2 tabindex="-1">'+h(title)+'</h2>'+body+'</section>';
 }
-function galleryControls(images) {
+function galleryControls(images, extra = '') {
  return '<div class="gallery-tools"><button class="action" data-gallery="-1" aria-label="Previous photo"><span aria-hidden="true">←</span></button><span class="small">'
-  +(slide+1)+' / '+images.length+'</span><button class="action" data-gallery="1" aria-label="Next photo"><span aria-hidden="true">→</span></button></div>';
+  +(slide+1)+' / '+images.length+'</span><button class="action" data-gallery="1" aria-label="Next photo"><span aria-hidden="true">→</span></button>'+extra+'</div>';
 }
 function paintGallery() {
  const images = book.photos[current.id];
@@ -947,8 +954,8 @@ function paintPhotoDialog() {
  const images = book.photos[current.id];
  const photo = images[slide];
  el('photo-dialog').innerHTML = '<div class="lightbox-bar"><p>'+h(current.city)+' photos</p><button type="button" class="action" data-photo-close autofocus>Close <span aria-hidden="true">×</span></button></div>'
-  +'<figure class="lightbox-figure">'+imageMarkup(photo, '', photo.title, false)+'<figcaption class="small">'+photoCredit(photo, true)+'</figcaption></figure>'
-  +galleryControls(images);
+  +'<figure class="lightbox-figure">'+imageMarkup(photo, '', photo.title, false)+'<figcaption class="small">'+photoCredit(photo)+'</figcaption></figure>'
+  +galleryControls(images, downloadPhoto(photo));
 }
 const chapterLinks = [['intro','Arrival'],['stays','Stays'],['walk','Walks'],['winter','Winter'],['itinerary','Itinerary'],['budget','Budget'],['photos','Photos']];
 function chapterNav(city) {
