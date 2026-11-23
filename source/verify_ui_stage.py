@@ -55,6 +55,30 @@ def check_landscape(browser):
     page.close()
 
 
+def check_landscape_scene_spacing(browser):
+    page = browser.new_page(
+        viewport={"width": 667, "height": 375}, offline=True, reduced_motion="reduce"
+    )
+    page.goto(GUIDE)
+    for mode, scenes in BRIEFINGS.items():
+        _, panel = open_preview(page, mode)
+        page.evaluate("document.fonts.ready")
+        for title in scenes:
+            panel.get_by_role("button", name=title, exact=True).press("Enter")
+            expect(current_scene(panel)).to_have_text(title)
+            assert current_scene(panel).evaluate(
+                """heading => {
+                  const beat = heading.closest('.wf-story-beat');
+                  const detail = beat.querySelector('.wf-story-detail').getBoundingClientRect();
+                  const track = beat.closest('.wf-story-editorial').querySelector('.wf-story-track').getBoundingClientRect();
+                  const stage = heading.closest('.ss-stage').getBoundingClientRect();
+                  return detail.bottom < track.top && track.bottom <= stage.bottom;
+                }"""
+            ), f"{title} must fit above the progress track"
+        panel.get_by_role("button", name="Close preview").press("Enter")
+    page.close()
+
+
 def check_reduced_motion(browser):
     page = browser.new_page(
         viewport={"width": 390, "height": 844}, has_touch=True, offline=True, reduced_motion="reduce"
@@ -107,7 +131,7 @@ def main():
     failures = []
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(channel="chrome")
-        for check in (check_landscape, check_reduced_motion, check_manual_playback):
+        for check in (check_landscape, check_landscape_scene_spacing, check_reduced_motion, check_manual_playback):
             try:
                 check(browser)
             except (AssertionError, TimeoutError) as error:
