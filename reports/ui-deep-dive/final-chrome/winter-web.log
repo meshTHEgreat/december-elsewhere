@@ -1,0 +1,51 @@
+{
+  "browser": "157.0.8103.79",
+  "offline": false,
+  "standalone_sha256": "97fb156c67024730f0894985a7a27dcf2351d46245720b4e84fec26c4539fe2b",
+  "results": [
+    {
+      "viewport": [
+        320,
+        725
+      ],
+      "reduced_motion": true,
+      "winter_briefings": 2,
+      "satellite_cities": 5,
+      "requests": 28,
+      "errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "reduced_motion": false,
+      "winter_briefings": 2,
+      "satellite_cities": 5,
+      "requests": 28,
+      "errors": []
+    },
+    {
+      "viewport": [
+        667,
+        375
+      ],
+      "reduced_motion": true,
+      "winter_briefings": 2,
+      "satellite_cities": 5,
+      "requests": 28,
+      "errors": []
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "reduced_motion": false,
+      "winter_briefings": 2,
+      "satellite_cities": 5,
+      "requests": 28,
+      "errors": []
+    }
+  ]
+}

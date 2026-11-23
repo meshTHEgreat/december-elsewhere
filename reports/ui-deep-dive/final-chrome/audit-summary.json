@@ -1,0 +1,88 @@
+{
+  "web": {
+    "browser": "157.0.8103.79",
+    "url": "http://127.0.0.1:18771/december-elsewhere/",
+    "viewports": [
+      [
+        320,
+        725
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        667,
+        375
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        1440,
+        900
+      ],
+      [
+        2560,
+        1440
+      ]
+    ],
+    "states": 663,
+    "guide_states": 90,
+    "document_overflows": 0,
+    "alignment_spreads_over_one_px": 0,
+    "minimum_guide_target_css_px": [
+      119.61,
+      44
+    ],
+    "audit_notes": 750,
+    "untouched_targets_by_selector": [
+      "a"
+    ],
+    "raw_audit_sha256": "0359bf8e525fe465846701bb98e93526ecf852e343d772e260924684476b8db3"
+  },
+  "offline": {
+    "browser": "157.0.8103.79",
+    "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/december-guided/index.html",
+    "viewports": [
+      [
+        320,
+        725
+      ],
+      [
+        390,
+        844
+      ],
+      [
+        667,
+        375
+      ],
+      [
+        768,
+        1024
+      ],
+      [
+        1440,
+        900
+      ],
+      [
+        2560,
+        1440
+      ]
+    ],
+    "states": 663,
+    "guide_states": 90,
+    "document_overflows": 0,
+    "alignment_spreads_over_one_px": 0,
+    "minimum_guide_target_css_px": [
+      119.61,
+      44
+    ],
+    "audit_notes": 750,
+    "untouched_targets_by_selector": [
+      "a"
+    ],
+    "raw_audit_sha256": "1d0fdbd47b7d5c7a6b5bdf14cfdab9bba0b81559653dbdb9c42248eeb8bf7519"
+  }
+}

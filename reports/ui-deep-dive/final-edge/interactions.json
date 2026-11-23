@@ -1,0 +1,1548 @@
+{
+  "browser": "158.0.4370.33",
+  "sha256": {
+    "web": "cc8cdb7db4b3e055b16aff121cc69b09838be0ae8b57cb4d25fa40c5e131177c",
+    "offline": "97fb156c67024730f0894985a7a27dcf2351d46245720b4e84fec26c4539fe2b"
+  },
+  "shared_baku_product": "https://www.getyourguide.com/baku-l1408/baku-gobustan-mud-volcano-fire-mount-temple-lunch-entry-t517765/",
+  "web": {
+    "guided": [
+      {
+        "viewport": [
+          320,
+          725
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 17,
+        "errors": []
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 19,
+        "errors": []
+      },
+      {
+        "viewport": [
+          667,
+          375
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 17,
+        "errors": []
+      },
+      {
+        "viewport": [
+          768,
+          1024
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 17,
+        "errors": []
+      },
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 18,
+        "errors": []
+      },
+      {
+        "viewport": [
+          2560,
+          1440
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 18,
+        "errors": []
+      }
+    ],
+    "landscape_stage_reduced": {
+      "baku": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            150.64,
+            321.41,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Shahdag": [
+            1450,
+            967
+          ],
+          "Tufandag": [
+            1340,
+            892
+          ]
+        }
+      },
+      "overview": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            82.41,
+            321.41,
+            58.47,
+            44
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Tbilisi": [
+            1480,
+            1110
+          ],
+          "Budapest": [
+            1450,
+            967
+          ],
+          "Vienna": [
+            1500,
+            999
+          ],
+          "Prague": [
+            1024,
+            768
+          ]
+        }
+      },
+      "http_requests": 16,
+      "errors": []
+    },
+    "landscape_stage_normal": {
+      "baku": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            150.64,
+            322.01,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        }
+      },
+      "overview": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            82.41,
+            322.13,
+            58.47,
+            44
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        }
+      },
+      "http_requests": 16,
+      "errors": []
+    },
+    "stage_failed_mount": {
+      "http_requests": 8,
+      "errors": []
+    },
+    "landscape_photos": {
+      "photos": 24,
+      "http_requests": 28,
+      "errors": []
+    },
+    "recommendations": {
+      "cities": {
+        "baku": "Keep Gobustan as a day trip from Baku. If the mountains are a priority, spend a night or two near Shahdag instead of doing a second long out-and-back.",
+        "tbilisi": "If the Georgian Military Highway is open, one night in Stepantsminda gives the mountains more time. Keep the city or Kakheti plan if the road or forecast is poor.",
+        "budapest": "Keep the Budapest stay and take the H5 to Szentendre for the day. Spend a night there if you want evening time by the river and a second museum visit.",
+        "vienna": "Take a Bratislava day trip for an easy return. Consider one night if you want the markets after dark and a guided walk or castle visit the next morning.",
+        "prague": "With five Prague nights, a day in Kutn\u00e1 Hora is the simplest choice. Stay one night if you want separate visits to the historic centre and Sedlec."
+      },
+      "http_requests": 9,
+      "errors": []
+    }
+  },
+  "offline": {
+    "guided": [
+      {
+        "viewport": [
+          320,
+          725
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          667,
+          375
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          768,
+          1024
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          2560,
+          1440
+        ],
+        "cities": {
+          "baku": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Sleep near Shahdag",
+                "stops": 4,
+                "source_links": 5
+              },
+              "day": {
+                "title": "Gobustan and the fire peninsula",
+                "stops": 4,
+                "source_links": 1
+              }
+            }
+          },
+          "tbilisi": {
+            "itinerary_days": 7,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "day": {
+                "title": "Kazbegi with one return transfer",
+                "stops": 5,
+                "source_links": 2
+              },
+              "night": {
+                "title": "Meet a guide in Stepantsminda",
+                "stops": 4,
+                "source_links": 4
+              }
+            }
+          },
+          "budapest": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Stay by Szentendre\u2019s old town",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Walk with a guide, then take the H5",
+                "stops": 3,
+                "source_links": 3
+              }
+            }
+          },
+          "vienna": {
+            "itinerary_days": 8,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "A Bratislava evening and a slow morning",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Two capitals by rail",
+                "stops": 3,
+                "source_links": 4
+              }
+            }
+          },
+          "prague": {
+            "itinerary_days": 6,
+            "budget_and_comparison_preserved": true,
+            "options": {
+              "night": {
+                "title": "Two visits from one Kutn\u00e1 Hora base",
+                "stops": 4,
+                "source_links": 3
+              },
+              "day": {
+                "title": "Kutn\u00e1 Hora with time for the old town",
+                "stops": 4,
+                "source_links": 3
+              }
+            }
+          }
+        },
+        "http_requests": 0,
+        "errors": []
+      }
+    ],
+    "landscape_stage_reduced": {
+      "baku": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            150.64,
+            321.41,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Shahdag": [
+            1450,
+            967
+          ],
+          "Tufandag": [
+            1340,
+            892
+          ]
+        }
+      },
+      "overview": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            82.41,
+            321.41,
+            58.47,
+            44
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Tbilisi": [
+            1480,
+            1110
+          ],
+          "Budapest": [
+            1450,
+            967
+          ],
+          "Vienna": [
+            1500,
+            999
+          ],
+          "Prague": [
+            1024,
+            768
+          ]
+        }
+      },
+      "http_requests": 0,
+      "errors": []
+    },
+    "landscape_stage_normal": {
+      "baku": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            150.64,
+            322.13,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        }
+      },
+      "overview": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            82.41,
+            322.13,
+            58.47,
+            44.0
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        }
+      },
+      "http_requests": 0,
+      "errors": []
+    },
+    "stage_failed_mount": {
+      "http_requests": 0,
+      "errors": []
+    },
+    "landscape_photos": {
+      "photos": 24,
+      "http_requests": 0,
+      "errors": []
+    },
+    "recommendations": {
+      "cities": {
+        "baku": "Keep Gobustan as a day trip from Baku. If the mountains are a priority, spend a night or two near Shahdag instead of doing a second long out-and-back.",
+        "tbilisi": "If the Georgian Military Highway is open, one night in Stepantsminda gives the mountains more time. Keep the city or Kakheti plan if the road or forecast is poor.",
+        "budapest": "Keep the Budapest stay and take the H5 to Szentendre for the day. Spend a night there if you want evening time by the river and a second museum visit.",
+        "vienna": "Take a Bratislava day trip for an easy return. Consider one night if you want the markets after dark and a guided walk or castle visit the next morning.",
+        "prague": "With five Prague nights, a day in Kutn\u00e1 Hora is the simplest choice. Stay one night if you want separate visits to the historic centre and Sedlec."
+      },
+      "http_requests": 0,
+      "errors": []
+    }
+  }
+}

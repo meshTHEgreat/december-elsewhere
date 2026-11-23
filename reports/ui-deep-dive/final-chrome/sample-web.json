@@ -1,0 +1,255 @@
+{
+  "browser": "157.0.8103.79",
+  "url": "http://127.0.0.1:18771/december-elsewhere/",
+  "sha256": "cc8cdb7db4b3e055b16aff121cc69b09838be0ae8b57cb4d25fa40c5e131177c",
+  "guide_sample": {
+    "canonical_baku_url": "https://www.getyourguide.com/baku-l1408/baku-gobustan-mud-volcano-fire-mount-temple-lunch-entry-t517765/",
+    "cities": [
+      {
+        "city": "baku",
+        "days": 8,
+        "day": "Gobustan and the fire peninsula",
+        "night": "Sleep near Shahdag",
+        "budget_per_adult": "SAR 4,010",
+        "budget_total": "SAR 12,029"
+      },
+      {
+        "city": "tbilisi",
+        "days": 7,
+        "day": "Kazbegi with one return transfer",
+        "night": "Meet a guide in Stepantsminda",
+        "budget_per_adult": "SAR 4,594",
+        "budget_total": "SAR 13,782"
+      },
+      {
+        "city": "budapest",
+        "days": 8,
+        "day": "Walk with a guide, then take the H5",
+        "night": "Stay by Szentendre\u2019s old town",
+        "budget_per_adult": "SAR 4,969",
+        "budget_total": "SAR 14,906"
+      },
+      {
+        "city": "vienna",
+        "days": 8,
+        "day": "Two capitals by rail",
+        "night": "A Bratislava evening and a slow morning",
+        "budget_per_adult": "SAR 6,035",
+        "budget_total": "SAR 18,106"
+      },
+      {
+        "city": "prague",
+        "days": 6,
+        "day": "Kutn\u00e1 Hora with time for the old town",
+        "night": "Two visits from one Kutn\u00e1 Hora base",
+        "budget_per_adult": "SAR 4,217",
+        "budget_total": "SAR 12,652"
+      }
+    ],
+    "http_requests": 25,
+    "errors": []
+  },
+  "landscape_preview": {
+    "modes": [
+      {
+        "mode": "baku",
+        "scene_titles": [
+          "Baku",
+          "Shahdag",
+          "Tufandag"
+        ],
+        "nav_bottom": 103.59375,
+        "close": {
+          "top": 122.015625,
+          "right": 638.984375,
+          "bottom": 166.015625,
+          "left": 522.4375,
+          "width": 116.546875,
+          "height": 44,
+          "hit": true
+        },
+        "stage": {
+          "top": 122.015625,
+          "right": 500.03125,
+          "bottom": 312.015625,
+          "left": 40.03125,
+          "width": 460,
+          "height": 190,
+          "hit": true
+        },
+        "scene_controls": [
+          {
+            "top": 321.40625,
+            "right": 209.109375,
+            "bottom": 365.40625,
+            "left": 150.640625,
+            "width": 58.46875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 297.640625,
+            "bottom": 366.40625,
+            "left": 213.90625,
+            "width": 83.734375,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 389.421875,
+            "bottom": 366.40625,
+            "left": 302.4375,
+            "width": 86.984375,
+            "height": 44,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "mode": "overview",
+        "scene_titles": [
+          "Baku",
+          "Tbilisi",
+          "Budapest",
+          "Vienna",
+          "Prague"
+        ],
+        "nav_bottom": 103.59375,
+        "close": {
+          "top": 122.015625,
+          "right": 638.984375,
+          "bottom": 166.015625,
+          "left": 522.4375,
+          "width": 116.546875,
+          "height": 44,
+          "hit": true
+        },
+        "stage": {
+          "top": 122.015625,
+          "right": 500.03125,
+          "bottom": 312.015625,
+          "left": 40.03125,
+          "width": 460,
+          "height": 190,
+          "hit": true
+        },
+        "scene_controls": [
+          {
+            "top": 321.40625,
+            "right": 140.875,
+            "bottom": 365.40625,
+            "left": 82.40625,
+            "width": 58.46875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 211.359375,
+            "bottom": 366.40625,
+            "left": 145.671875,
+            "width": 65.6875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 304.375,
+            "bottom": 366.40625,
+            "left": 216.15625,
+            "width": 88.21875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 380.203125,
+            "bottom": 366.40625,
+            "left": 309.171875,
+            "width": 71.03125,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 457.65625,
+            "bottom": 366.40625,
+            "left": 385,
+            "width": 72.65625,
+            "height": 44,
+            "hit": true
+          }
+        ]
+      }
+    ],
+    "http_requests": 16,
+    "errors": []
+  },
+  "stage_runtime_failure": {
+    "message": "Preview unavailable. Read the winter plans above.",
+    "http_requests": 8,
+    "errors": []
+  },
+  "landscape_photos": {
+    "downloads_matched_packaged_bytes": {
+      "baku": [
+        "baku.webp",
+        "baku-detail.webp",
+        "baku-excursion.webp",
+        "baku-nizami.webp",
+        "baku-sabir.webp",
+        "baku-snow.webp",
+        "baku-shahdag.webp",
+        "baku-shahdag-view.webp",
+        "baku-tufandag.webp"
+      ],
+      "tbilisi": [
+        "tbilisi.webp",
+        "tbilisi-detail.webp",
+        "tbilisi-winter.webp",
+        "tbilisi-gudauri.webp"
+      ],
+      "budapest": [
+        "budapest.webp",
+        "budapest-detail.webp",
+        "budapest-market.webp",
+        "budapest-szechenyi.webp"
+      ],
+      "vienna": [
+        "vienna.webp",
+        "vienna-detail.webp",
+        "vienna-market.webp"
+      ],
+      "prague": [
+        "prague.webp",
+        "prague-detail.webp",
+        "prague-vinohrady.webp",
+        "prague-winter.webp"
+      ]
+    },
+    "http_requests": 28,
+    "errors": []
+  },
+  "atlas": {
+    "fallback": false,
+    "city": "Vienna",
+    "http_requests": 8,
+    "errors": []
+  },
+  "atlas_fallback": {
+    "fallback": true,
+    "city": "Vienna",
+    "http_requests": 8,
+    "errors": []
+  },
+  "budget_compare_and_print": {
+    "budget_per_adult": "SAR 4,354",
+    "printed_days": 8,
+    "open_after_print": 1,
+    "pdf_bytes": 652098,
+    "http_requests": 10,
+    "errors": []
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "browser": "158.0.4370.33",
+  "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/december-guided/index.html",
+  "fallback": "passed",
+  "offline_sha256": "97fb156c67024730f0894985a7a27dcf2351d46245720b4e84fec26c4539fe2b",
+  "results": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "emulated_touch": false,
+      "reduced_motion": false,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "emulated_touch": true,
+      "reduced_motion": true,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        740,
+        360
+      ],
+      "emulated_touch": true,
+      "reduced_motion": false,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    }
+  ]
+}

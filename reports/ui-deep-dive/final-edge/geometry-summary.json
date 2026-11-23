@@ -1,0 +1,80 @@
+[
+  {
+    "viewport": [
+      320,
+      725
+    ],
+    "states": 113,
+    "guided_states": 15,
+    "max_document_overflow_px": 0,
+    "max_alignment_spread_px": 0,
+    "max_regional_horizontal_overflow_px": 0,
+    "guided_min_control_dimension_px": 44,
+    "guided_max_body_full_line_chars": 49
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "states": 113,
+    "guided_states": 15,
+    "max_document_overflow_px": 0,
+    "max_alignment_spread_px": 0,
+    "max_regional_horizontal_overflow_px": 0,
+    "guided_min_control_dimension_px": 44,
+    "guided_max_body_full_line_chars": 59
+  },
+  {
+    "viewport": [
+      667,
+      375
+    ],
+    "states": 113,
+    "guided_states": 15,
+    "max_document_overflow_px": 0,
+    "max_alignment_spread_px": 0,
+    "max_regional_horizontal_overflow_px": 0,
+    "guided_min_control_dimension_px": 44,
+    "guided_max_body_full_line_chars": 73
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "states": 108,
+    "guided_states": 15,
+    "max_document_overflow_px": 0,
+    "max_alignment_spread_px": 0,
+    "max_regional_horizontal_overflow_px": 0,
+    "guided_min_control_dimension_px": 44,
+    "guided_max_body_full_line_chars": 73
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "states": 108,
+    "guided_states": 15,
+    "max_document_overflow_px": 0,
+    "max_alignment_spread_px": 0,
+    "max_regional_horizontal_overflow_px": 0,
+    "guided_min_control_dimension_px": 44,
+    "guided_max_body_full_line_chars": 73
+  },
+  {
+    "viewport": [
+      2560,
+      1440
+    ],
+    "states": 108,
+    "guided_states": 15,
+    "max_document_overflow_px": 0,
+    "max_alignment_spread_px": 0,
+    "max_regional_horizontal_overflow_px": 0,
+    "guided_min_control_dimension_px": 44,
+    "guided_max_body_full_line_chars": 73
+  }
+]

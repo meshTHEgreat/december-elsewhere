@@ -1,0 +1,7 @@
+offline guide_sample: passed
+offline landscape_preview: passed
+offline stage_runtime_failure: passed
+offline landscape_photos: passed
+offline atlas: passed
+offline atlas_fallback: passed
+offline budget_compare_and_print: passed

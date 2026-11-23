@@ -15,7 +15,7 @@ The first combined render caught a 26.39 px spread between the 320 px budget amo
 
 The first independent attempt exposed a landscape photo viewer issue. Previous and Next were partly clipped in 19 of 24 photos. Commit `8d34b38` added the failing 24-photo check, and `d18ccbe` aligned the focus assertion with the native close event. Commit `f4aff5e` puts Download beside the arrows and lets longer captions scroll independently of Close and the gallery controls. All 24 photos then passed the control sweep in both delivery forms. The release count restarted at zero. [Failed round and reproduction](round-1/REPORT.md)
 
-After the photo correction passed an independent Chrome review, Edge found that Shift+Tab from a named Stageshow scene could leave 24.58 px of the focused Close button under the sticky chapter navigation. Commit `ac7537a` reproduced both the keyboard obstruction and an empty panel after a forced runtime error. Commit `d48cd6e` moved Close beside the stage at short landscape sizes and closed the panel after a failed mount. At 667 × 375, the full Close button now starts at y122.02, above the obstruction from the previous attempt, and the last scene controls end at y366.41. Both rehearsals preserve focus, the full 460 × 190 artboard and the original scene order. [Edge finding](round-3/REPORT.md) · [Final geometry](measure/landscape-preview-final.json) · [Visible keyboard focus](measure/shots/667-winter-keyboard.jpg)
+After the photo correction passed an independent Chrome review, Edge found that Shift+Tab from a named Stageshow scene could leave 24.58 px of the focused Close button under the sticky chapter navigation. Commit `ac7537a` reproduced both the keyboard obstruction and an empty panel after a forced runtime error. Commit `d48cd6e` moved Close beside the stage at short landscape sizes and closed the panel after a failed mount. At 667 × 375, Close starts at y122.02, about 18.42 px below the sticky navigation, and the last scene controls end at y366.41. Both rehearsals preserve focus, the full 460 × 190 artboard and the original scene order. [Edge finding](round-3/REPORT.md) · [Final geometry](measure/landscape-preview-final.json) · [Visible keyboard focus](measure/shots/667-winter-keyboard.jpg)
 
 ## Before and after
 
@@ -43,7 +43,7 @@ The installed Taste browser inspector confirmed the cover action fits at all six
 
 ## Payloads
 
-No numeric budget was tracked in the baseline. Both optional scripts remain on demand. The globe bytes match the baseline. This table uses the same local gzip level for both revisions.
+No numeric budget was tracked in the baseline. Both optional scripts remain on demand. The globe bytes match the baseline. This table uses the same local gzip level for the baseline and the UI candidate. The later local guides brought hosted HTML to 497,665 bytes raw and 143,036 bytes gzip, and the standalone to 8,353,213 bytes raw.
 
 | Asset | Before raw / gzip bytes | After raw / gzip bytes |
 | --- | ---: | ---: |
