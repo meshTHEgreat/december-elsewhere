@@ -52,19 +52,19 @@
 .winter-briefings h3 { margin-block: .35rem; }
 .winter-film-buttons { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
 .winter-film-message:empty { display: none; }
-.winter-film { text-align: center; }
-.winter-close { margin: .6rem auto 0; }
+.winter-film { text-align: center; scroll-margin-block-start: calc(var(--chapter-nav) + .5rem); }
+.winter-close { margin: 0 auto .5rem; }
 .outdoor-guide { display: grid; gap: .8rem; padding: .95rem 1.05rem; margin-top: 1.35rem; background: #e5eadd; border-inline-start: 2px solid #63836b; }
 .outdoor-guide .eyebrow { color: #345443; margin-bottom: .25rem; }
 .outdoor-extra .small { margin-block: .25rem .4rem; }
 .outdoor-space { width: 100%; margin-top: .68rem; padding-top: .55rem; border-top: 1px solid var(--line); font-size: .84rem; }
 .outdoor-space strong { display: block; }
 .outdoor-space[data-access="private"] strong { color: #354f37; }
-.compare-budget-visual { padding: .9rem 1rem; margin-block: 1rem 1.3rem; background: #e7eadd; border: 1px solid #bcc6b6; }
+.compare-budget-visual { padding-block: .65rem; margin-block: .7rem 1rem; border-block: 1px solid var(--line); }
 .compare-budget-row { margin-top: .72rem; }
 .compare-budget-row > div:first-child { display: flex; justify-content: space-between; gap: .5rem; font-size: .85rem; }
 .compare-budget-track { position: relative; height: 14px; margin-top: .22rem; background: #d3dacd; }
-.compare-target { position: absolute; top: 0; bottom: 0; left: var(--target-start); width: calc(var(--target-end) - var(--target-start)); background: #acbea9; }
+.compare-target { position: absolute; top: 0; bottom: 0; left: var(--target-start); width: calc(var(--target-end) - var(--target-start)); background: #acbea9; box-shadow: inset 0 0 0 2px var(--muted); }
 .compare-marker { position: absolute; inset-block: 0; left: clamp(0px, calc(var(--marker) - 2px), calc(100% - 4px)); width: 4px; background: #372d1d; }
 .compare-budget-visual > .small { margin-top: .7rem; }
 @media(min-width: 49rem) {
@@ -74,5 +74,15 @@
  .winter-film, .winter-film-message { grid-column: 1/-1; }
  .winter-film-buttons { justify-content: flex-end; }
  .outdoor-guide:has(.outdoor-extra) { grid-template-columns: repeat(2,minmax(0,1fr)); }
+}
+@media (min-width: 36rem) and (max-width: 52rem) and (orientation: landscape) and (max-height: 31rem) {
+ .route-layout { grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); }
+ .walk-picker-rail { grid-column: 1; grid-row: 1; }
+ .walk-picker-rail .anchor-picker { margin-block: 0 .55rem; }
+ .walk-picker-rail .quick-walk { display: grid; margin-bottom: 0; }
+ .map-stage { display: contents; }
+ .walk-visual-group { grid-column: 2; grid-row: 1 / span 2; }
+ #route-note { grid-column: 1; grid-row: 2; margin-bottom: 0; }
+ .walk-reference, .walk-list-disclosure { grid-column: 1 / -1; }
 }
 @media print { #winter,.compare-budget-visual,.outdoor-guide { display: none !important; } }
