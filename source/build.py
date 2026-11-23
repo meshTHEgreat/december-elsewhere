@@ -15,12 +15,13 @@ manifest = load("source/photography.json")
 editorial = load("source/editorial.json")
 land = load("source/vendor/land.json")
 winter = load("source/winter-data.json")
+guided = load("source/guided-data.json")
 outdoor = load("source/outdoor-stays.json")
 basemaps = load("source/walk-basemaps.json")
 template = (SOURCE / "index.template").read_text(encoding="utf-8")
 sheet = "\n".join(path.read_text(encoding="utf-8") for path in
-                  (SOURCE / "styles.css", SOURCE / "winter.css", VENDOR / "winter-stage.css"))
-script = "\n".join((SOURCE / name).read_text(encoding="utf-8") for name in ("app.js", "winter.js", "atlas.js"))
+                  (SOURCE / "styles.css", SOURCE / "winter.css", SOURCE / "guided.css", VENDOR / "winter-stage.css"))
+script = "\n".join((SOURCE / name).read_text(encoding="utf-8") for name in ("app.js", "winter.js", "guided.js", "atlas.js"))
 fonts = ("bodoni", "bodoni-italic", "manrope")
 licenses = ("THREE-LICENSE.txt", "BODONI-LICENSE.txt", "MANROPE-LICENSE.txt",
             "STAGESHOW-LICENSE.txt", "REACT-LICENSE.txt")
@@ -46,7 +47,7 @@ def render(online):
     }
     raw = json.dumps({"cities": cities, "maps": maps, "editorial": editorial, "land": land,
                       "photos": photos, "previews": previews, "winter": winter, "outdoor": outdoor,
-                      "basemaps": maps_with_images},
+                      "basemaps": maps_with_images, "guided": guided},
                      ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     styles = sheet
     for font in fonts:

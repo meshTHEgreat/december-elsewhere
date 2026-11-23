@@ -148,7 +148,7 @@ function paintCity() {
     .filter(([,v])=>v).map(([k,v])=>'<div><dt>'+h(k)+'</dt><dd>'+h(v)+'</dd></div>').join('')+'</dl></div>':''))
   +section('winter','Winter plans',winterMarkup())
   +section('itinerary','Itinerary','<p class="section-lead">Open a day for the stops, transit, meals and a fallback. Times and daily costs are estimates.</p>'
-   +'<div class="itinerary-layout"><div class="daylist">'+city.days.map(dayMarkup).join('')+'</div>'
+   +guidedMarkup(city)+'<div class="itinerary-layout"><div class="daylist">'+city.days.map(dayMarkup).join('')+'</div>'
    +'<figure class="journey-photo" data-scroll-picture>'+imageMarkup(extra)+'<figcaption class="small">'+photoCredit(extra)+'</figcaption></figure></div>')
   +section('budget','Budget','<p class="section-lead">Costs for the full trip, in SAR.</p><div class="budget-layout"><aside class="budget-total" id="total" aria-live="polite"></aside><div><p class="small budget-help">Totals include contingency.</p><div class="budget-fields">'
    +budgetKeys.filter(key=>!carFields.has(key)).map(key=>budgetField(city,key)).join('')+'</div><details class="car-costs" '
@@ -389,8 +389,10 @@ function setChapterSection(sectionId) {
 }
 function jumpTo(sectionId) {
  const section = el(sectionId);
- if (window.history) setChapterSection(sectionId);
- section.querySelector('h2')?.focus({preventScroll:true});
+ const guides = sectionId === 'guides';
+ if (guides) section.open = true;
+ if (window.history) setChapterSection(guides ? 'itinerary' : sectionId);
+ section.querySelector(guides ? 'summary' : 'h2')?.focus({preventScroll:true});
  section.scrollIntoView({block:'start'});
 }
 function visitCity(id, section = 'chapter', record = true) {

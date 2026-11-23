@@ -1,0 +1,105 @@
+{
+  "checked": "23 November 2026",
+  "cities": {
+    "baku": {
+      "pick": "Keep Gobustan as a day trip from Baku. If the mountains are a priority, spend a night or two near Shahdag instead of doing a second long out-and-back.",
+      "preferred": "day",
+      "day": {
+        "title": "Gobustan and the fire peninsula",
+        "time": "7½–9 h listed",
+        "journey": ["Baku", "Gobustan", "Absheron", "Baku"],
+        "guide": "Baku Heritage Tours/Travel pairs rock carvings and mud volcanoes with sites on the Absheron peninsula, including Ateshgah and Yanar Dag. Ask the guide how the rock art and fire sites are connected to local life.",
+        "check": "This is the activity you shared. Yanar Dag is a natural gas fire near Baku. For a group of three, confirm the pickup point, guide language, meals, entrances and any off-road charge for your chosen option.",
+        "links": [["Open your Baku tour on GetYourGuide", "https://www.getyourguide.com/baku-l1408/baku-gobustan-mud-volcano-fire-mount-temple-lunch-entry-t517765/"]]
+      },
+      "night": {
+        "title": "Sleep near Shahdag",
+        "time": "1–2 nights",
+        "journey": ["Baku", "Qusar or Shahdag", "Laza if open", "Baku"],
+        "guide": "Shahdag is 212 km from Baku by the resort’s directions. Base in Qusar or at the resort. Ask for a short Laza outing with someone based nearby. The resort advertises a vehicle trip. Confirm whether the person accompanying you is a guide or a driver. A Quba Red Village museum tour is another option if roads and opening hours allow.",
+        "check": "Consider 9–10 December or 9–11 December and return to Baku before your 12 December flight. Check road and lift status, outdoor access at the stay and cancellation terms. Ski opening for your dates is unconfirmed.",
+        "links": [["Compare a northern day tour on GetYourGuide", "https://www.getyourguide.com/baku-l1408/baku-guba-sahdag-tour-lunch-included-and-laza-waterfall-t899705/"], ["Shahdag transfers", "https://shahdag.az/en/how-to-get-here"], ["Resort Laza outings", "https://shahdag.az/en/activity/cip-turlari"], ["Shahdag live conditions", "https://shahdag.az/en/live-info"], ["Quba Red Village museum", "https://azerbaijan.travel/a-testament-to-tolerance-by-red-villages-mountain-jews"]]
+      }
+    },
+    "tbilisi": {
+      "pick": "If the Georgian Military Highway is open, one night in Stepantsminda gives the mountains more time. Keep the city or Kakheti plan if the road or forecast is poor.",
+      "preferred": "night",
+      "day": {
+        "title": "Kazbegi with one return transfer",
+        "time": "10½ h listed",
+        "journey": ["Tbilisi", "Ananuri", "Gudauri", "Stepantsminda", "Tbilisi"],
+        "guide": "TRIPSTER GE lists a live guide for the stops along the Georgian Military Highway. Ask about the route and local history. The Gergeti access vehicle and lunch are separate options.",
+        "check": "Confirm the meeting point, winter substitutions and return time. Gudauri’s announced ski opening is 20 December, after this trip.",
+        "links": [["Kazbegi day tour on GetYourGuide", "https://www.getyourguide.com/tbilisi-l1379/from-tbilisi-to-kazbegi-ananuri-gudauri-gergeti-t573712/"], ["Gudauri opening notice", "https://mta.ski/en/news/skiseason2027"]]
+      },
+      "night": {
+        "title": "Meet a guide in Stepantsminda",
+        "time": "1 night · 2 if time and roads allow",
+        "journey": ["Tbilisi", "Stepantsminda", "Gergeti if open", "Tbilisi"],
+        "guide": "Rauls Company lists a guided outward trip with a later return transfer. Arrange your own stay. Ask the Kazbegi visitor centre about an open route and a certified local guide before planning a winter walk. Rooms Kazbegi lists a terrace. Confirm winter access and beds for three if you shortlist it.",
+        "check": "Use 9–10 December for one night. Two nights would replace part of the Kakheti plan. Agree the return transfer in advance and get back to Tbilisi by 10 December for the next day’s flight.",
+        "links": [["Flexible-return tour on GetYourGuide", "https://www.getyourguide.com/stepantsminda-l2762/from-tbilisi-kazbegi-gudauri-tour-with-flexible-return-t1431482/"], ["Kazbegi visitor centre", "https://www.apa.gov.ge/En/ProtectedAreas/ProtectedAreaDetails?areaId=67"], ["Official winter walking guidance", "https://georgia.travel/winter-hiking-and-snowshoeing-in-kazbegi"], ["Rooms Kazbegi terrace and rooms", "https://roomshotel.com/locations/kazbegi"]]
+      }
+    },
+    "budapest": {
+      "pick": "Keep the Budapest stay and take the H5 to Szentendre for the day. Spend a night there if you want evening time by the river and a second museum visit.",
+      "preferred": "day",
+      "day": {
+        "title": "Walk with a guide, then take the H5",
+        "time": "Day trip",
+        "journey": ["Budapest", "Szentendre", "Budapest"],
+        "guide": "On a separate Budapest morning, Lokafy lists a private walk of two to six hours. Ask about markets and the Buda or Pest neighborhood you will spend most time in. On your Szentendre day, ride the H5 from Batthyány tér and ask Tourinform about a town guide who can explain the old lanes and galleries.",
+        "check": "Check the return train and which museums open on 9 December. Confirm the guide language, route and whether a museum visit needs a separate ticket.",
+        "links": [["Budapest private walk on GetYourGuide", "https://www.getyourguide.com/en-gb/budapest-l29/budapest-private-walking-tour-with-a-local-t101174/"], ["MÁV H5 timetables", "https://www.mavcsoport.hu/mav-szemelyszallitas/belfoldi-utazas/hev-menetrendek"], ["Szentendre Tourinform contacts", "https://iranyszentendre.hu/en/iranytu/useful-contacts/"]]
+      },
+      "night": {
+        "title": "Stay by Szentendre’s old town",
+        "time": "1 night",
+        "journey": ["Budapest", "Szentendre Old Town", "Visegrád if open", "Budapest"],
+        "guide": "Stay near the river and old town. Ask the local tourist office for a walk for three. Keep the next morning for a gallery, or arrange a short Visegrád Castle outing with a guide if the winter opening hours and road access suit.",
+        "check": "Consider 9–10 December and return to Budapest in time for the final city day. Check the room’s outdoor access and the opening times before switching a night.",
+        "links": [["Ask Szentendre Tourinform for a guide", "https://iranyszentendre.hu/en/iranytu/useful-contacts/"], ["Visegrád castle and winter hours", "https://iranyvisegrad.hu/en/latnivalo/visegradi-fellegvar-magyarorszag-egyik-legszebb-panoramaja/"], ["MÁV return train timetables", "https://www.mavcsoport.hu/mav-szemelyszallitas/belfoldi-utazas/hev-menetrendek"]]
+      }
+    },
+    "vienna": {
+      "pick": "Take a Bratislava day trip for an easy return. Consider one night if you want the markets after dark and a guided walk or castle visit the next morning.",
+      "preferred": "day",
+      "day": {
+        "title": "Two capitals by rail",
+        "time": "About 1 h each way by train",
+        "journey": ["Vienna", "Bratislava", "Vienna"],
+        "guide": "ÖBB lists regional trains taking about an hour. Book a city walk with a Bratislava guide at the destination. For a separate Vienna morning, Maria Tours Live lists a small-group walk through the imperial centre.",
+        "check": "For the 9 December rail day, choose a return train first and check travel documents for all three before crossing into Slovakia.",
+        "links": [["Vienna small-group walk on GetYourGuide", "https://www.getyourguide.com/vienna-l7/vienna-small-group-guided-walking-tour-of-city-highlights-t409177/"], ["Official ÖBB train information", "https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/bratislava-ticket"], ["Visit Bratislava guided walks", "https://www.visitbratislava.com/services/regular-tours/"], ["Official EU travel document guidance", "https://europa.eu/youreurope/citizens/travel/entry-exit/non-eu-nationals/index_en.htm"]]
+      },
+      "night": {
+        "title": "A Bratislava evening and a slow morning",
+        "time": "1 night",
+        "journey": ["Vienna", "Bratislava Old Town", "Castle hill", "Vienna"],
+        "guide": "Take the train and stay near the Old Town. The December 2026 markets run across multiple squares. Ask a locally based licensed guide for a walk on the old town or castle hill. The city also lists a guided seasonal food walk.",
+        "check": "Consider 9–10 December, then return for the final Vienna day. Confirm what a tour includes and ask about suitable food and non-alcoholic options if needed.",
+        "links": [["Official Bratislava market dates", "https://www.visitbratislava.com/events/christmas-markets-bratislava/"], ["City food walks with a local guide", "https://www.visitbratislava.com/tours/go-bratislava-food-tours/"], ["Official ÖBB train information", "https://www.oebb.at/en/regionale-angebote/ueberregionale-angebote/bratislava-ticket"]]
+      }
+    },
+    "prague": {
+      "pick": "With five Prague nights, a day in Kutná Hora is the simplest choice. Stay one night if you want separate visits to the historic centre and Sedlec.",
+      "preferred": "day",
+      "day": {
+        "title": "Kutná Hora with time for the old town",
+        "time": "Day trip",
+        "journey": ["Prague", "Sedlec", "Kutná Hora Old Town", "Prague"],
+        "guide": "Martin Tour Prague lists a coach excursion with a guide and admissions to the Sedlec Ossuary, St Barbara’s and the Italian Court. For more time at each stop, use the train and book a local guide at the Italian Court instead.",
+        "check": "The coach meets near Old Town Square. For the 8 December rail plan, check the last connection back and transport from Kutná Hora’s main station to the old town or Sedlec.",
+        "links": [["Kutná Hora coach tour on GetYourGuide", "https://www.getyourguide.com/en-gb/prague-l10/kutna-hora-from-prague-the-bone-church-st-barbara-s-t76420/"], ["Kutná Hora train timetables", "https://vhd.kutnahora.cz/en/timetables/"], ["Guide Services Kutná Hora", "https://pskh.cz/en/italian-court/"]]
+      },
+      "night": {
+        "title": "Two visits from one Kutná Hora base",
+        "time": "1 night",
+        "journey": ["Prague", "Kutná Hora Old Town", "Sedlec", "Prague"],
+        "guide": "Book a guide for the old town on arrival. The next morning, take local transport to Sedlec and book a guided visit directly with the parish if you want more context on the cathedral and ossuary.",
+        "check": "Consider 8–9 December and return to Prague on the 9th ahead of the 10 December flight. Confirm timed entrances and guide hours before changing lodging.",
+        "links": [["Italian Court and old town guiding", "https://pskh.cz/en/italian-court/"], ["Sedlec guided visits", "https://www.sedlec.info/en/tours/day/"], ["Local travel between the old town and Sedlec", "https://vhd.kutnahora.cz/getting-around-kutna-hora/"]]
+      }
+    }
+  }
+}
