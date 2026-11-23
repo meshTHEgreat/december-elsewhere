@@ -41,6 +41,9 @@ with sync_playwright() as runner:
             assert page.locator('.day').nth(1).get_attribute('open') is not None
             assert page.locator('.mapbox polyline').count()>0
             if page.locator('[data-route]').count()>1:
+                disclosure = page.locator('.walk-list-disclosure summary')
+                if disclosure.is_visible():
+                    disclosure.click()
                 page.locator('[data-route="1"]').click()
                 assert page.locator('[data-route="1"]').get_attribute('aria-pressed')=='true'
             if page.locator('#anchor-select option').count()>1:

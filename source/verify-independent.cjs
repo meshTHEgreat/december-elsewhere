@@ -108,7 +108,7 @@ for (const city of book.cities) {
   s.click({ stay: '1' });
   const afterStay = s.eval('budget(current).stay');
   assert.equal(s.eval('total(current)'), total + 428 + afterStay - perStay);
-  assert.match(s.get('total'), /Group total/);
+  assert.match(s.get('total'), /Total for three/);
   assert.match(s.get('compare'), /Per adult/);
   assert.equal([...s.get('city').matchAll(/class="day"/g)].length, city.days.length);
   proofs[id] = { anchors: anchors.length, photos: photos.length, paths, estimates, unavailable, days: city.days.length, stays: city.stays.length };
