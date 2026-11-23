@@ -138,7 +138,7 @@ small, .small { font-size: .8125rem; line-height: 1.55; color: var(--muted); }
 .atlas-footer div > span { margin-top: .35rem; font-size: .68rem; line-height: 1.35; }
 .atlas-open span { display: inline; }
 .atlas-feedback { padding: 0 1rem .7rem; font-size: .78rem; }
-.atlas-feedback:empty { display: none; }
+.atlas-feedback:empty { padding: 0; }
 
 .chapter {
   min-height: clamp(34rem, 82svh, 52rem); scroll-margin-top: calc(-1 * .75rem);
