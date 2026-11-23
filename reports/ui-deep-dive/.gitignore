@@ -2,3 +2,5 @@
 **/__pycache__/
 /measure/baseline-*.json
 /measure/baseline-*-findings.txt
+/measure/integrated-all.json
+/measure/runtime-*

@@ -18,6 +18,10 @@ def img(path, alt):
 spec = json.loads((REPORT / "proposals.json").read_text(encoding="utf-8"))
 copy = json.loads((REPORT / "copy" / "03-copy.json").read_text(encoding="utf-8"))
 wording = {item["proposalId"]: item for item in copy["entries"] if item.get("proposalId")}
+verified = dict(zip(
+    (f"UI-{number:02d}" for number in range(1, 9)),
+    ("320-budget", "390-nav", "667-walk", "390-photo", "667-atlas", "667-winter", "390-stays", "390-compare"),
+))
 items = []
 for change in spec["proposals"]:
     ident = change["id"]
@@ -27,6 +31,10 @@ for change in spec["proposals"]:
         after = index == 1 and change["decision"] == "yes"
         label = "Proposed layout study" if after else "Measured baseline"
         views.append(f'<figure>{img(REPORT / name, label + " for " + title)}<figcaption>{label}</figcaption></figure>')
+    shipped = REPORT / "measure" / "shots" / (verified.get(ident, "") + ".jpg")
+    if shipped.exists():
+        label = "Rendered implementation"
+        views.append(f'<figure>{img(shipped, label + " for " + title)}<figcaption>{label}</figcaption></figure>')
     copy_rows = []
     for key in change.get("copy", []):
         row = wording[key]

@@ -1,0 +1,183 @@
+{
+  "url": "http://127.0.0.1:18768/",
+  "browser": "157.0.8103.79",
+  "viewports": {
+    "320": {
+      "focused_budget_clearance": 83,
+      "budget_total_height": 92.36,
+      "mast_min_width": 44,
+      "mobile_current": "Sections \u00b7 Budget",
+      "first_stay_action_top": 677.16,
+      "walk_map_visible_pct": 100.0,
+      "photo_box": {
+        "x": 12,
+        "y": 207.03,
+        "width": 295.98,
+        "height": 196.09
+      },
+      "winter_stage": {
+        "x": 16,
+        "y": 184.27,
+        "width": 288,
+        "height": 298.64
+      },
+      "winter_detail_rendered_px": 11.5,
+      "city_name_spread": 0,
+      "globe_visual": {
+        "x": 16,
+        "y": 433.19,
+        "width": 288,
+        "height": 187
+      },
+      "table_overflow_px": 0,
+      "document_overflow_px": 0
+    },
+    "390": {
+      "focused_budget_clearance": 80,
+      "budget_total_height": 95.2,
+      "mast_min_width": 44,
+      "mobile_current": "Sections \u00b7 Budget",
+      "first_stay_action_top": 622.42,
+      "walk_map_visible_pct": 100.0,
+      "photo_box": {
+        "x": 12,
+        "y": 253.42,
+        "width": 365.98,
+        "height": 242.47
+      },
+      "winter_stage": {
+        "x": 18.88,
+        "y": 183.83,
+        "width": 352,
+        "height": 365
+      },
+      "winter_detail_rendered_px": 14,
+      "city_name_spread": 0,
+      "globe_visual": {
+        "x": 16.38,
+        "y": 542.66,
+        "width": 357.23,
+        "height": 231.97
+      },
+      "table_overflow_px": 0,
+      "document_overflow_px": 0
+    },
+    "667": {
+      "focused_budget_clearance": 67,
+      "budget_total_height": 112.41,
+      "mast_min_width": 44,
+      "mobile_current": "Sections \u00b7 Budget",
+      "first_stay_action_top": 544.11,
+      "walk_map_visible_pct": 100.0,
+      "photo_box": {
+        "x": 194.83,
+        "y": 60.8,
+        "width": 277.34,
+        "height": 183.75
+      },
+      "winter_stage": {
+        "x": 103.5,
+        "y": 174.02,
+        "width": 460,
+        "height": 190
+      },
+      "winter_detail_rendered_px": 14,
+      "city_name_spread": 0,
+      "globe_visual": {
+        "x": 272.39,
+        "y": 157.59,
+        "width": 366.59,
+        "height": 216.08
+      },
+      "table_overflow_px": 0,
+      "document_overflow_px": 0
+    },
+    "768": {
+      "focused_budget_clearance": 67,
+      "budget_total_height": 149.59,
+      "mast_min_width": 44,
+      "first_stay_action_top": 673.48,
+      "walk_map_visible_pct": 100.0,
+      "photo_box": {
+        "x": 23.03,
+        "y": 225.52,
+        "width": 721.92,
+        "height": 478.28
+      },
+      "winter_stage": {
+        "x": 32.25,
+        "y": 184.42,
+        "width": 703,
+        "height": 322.85
+      },
+      "winter_detail_rendered_px": 14.3,
+      "city_name_spread": 0,
+      "globe_visual": {
+        "x": 32.25,
+        "y": 498.48,
+        "width": 703.48,
+        "height": 456.8
+      },
+      "table_overflow_px": 0,
+      "document_overflow_px": 0
+    },
+    "1440": {
+      "focused_budget_clearance": 17,
+      "budget_total_height": 183,
+      "mast_min_width": 44,
+      "first_stay_action_top": 725.02,
+      "walk_map_visible_pct": 82.8,
+      "photo_box": {
+        "x": 264.91,
+        "y": 101.16,
+        "width": 910.19,
+        "height": 603
+      },
+      "winter_stage": {
+        "x": 352,
+        "y": 183.7,
+        "width": 736,
+        "height": 338
+      },
+      "winter_detail_rendered_px": 15,
+      "city_name_spread": 0,
+      "globe_visual": {
+        "x": 665.81,
+        "y": 279.94,
+        "width": 670.19,
+        "height": 435.17
+      },
+      "table_overflow_px": 0,
+      "document_overflow_px": 0
+    },
+    "2560": {
+      "focused_budget_clearance": 67,
+      "budget_total_height": 207.16,
+      "mast_min_width": 44,
+      "first_stay_action_top": 741,
+      "walk_map_visible_pct": 100.0,
+      "photo_box": {
+        "x": 739.2,
+        "y": 314.38,
+        "width": 1081.59,
+        "height": 716.56
+      },
+      "winter_stage": {
+        "x": 912,
+        "y": 184.28,
+        "width": 736,
+        "height": 338
+      },
+      "winter_detail_rendered_px": 15,
+      "city_name_spread": 0,
+      "globe_visual": {
+        "x": 1231.44,
+        "y": 285.36,
+        "width": 664.56,
+        "height": 431.53
+      },
+      "table_overflow_px": 0,
+      "document_overflow_px": 0
+    }
+  }
+}
