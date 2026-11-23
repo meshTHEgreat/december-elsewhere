@@ -79,6 +79,42 @@ def check_landscape_scene_spacing(browser):
     page.close()
 
 
+def check_landscape_return_focus(browser):
+    page = browser.new_page(
+        viewport={"width": 667, "height": 375}, has_touch=True, is_mobile=True, offline=True, reduced_motion="reduce"
+    )
+    page.goto(GUIDE)
+    for mode in BRIEFINGS:
+        trigger, panel = open_preview(page, mode)
+        first = panel.locator("[data-winter-scene]").first
+        first.tap()
+        first.press("Shift+Tab")
+        close = panel.get_by_role("button", name="Close preview")
+        expect(close).to_be_focused()
+        nav_bottom = page.locator(".city-subnav").bounding_box()
+        bounds = close.bounding_box()
+        assert bounds["y"] >= nav_bottom["y"] + nav_bottom["height"], (mode, bounds, nav_bottom)
+        assert close.evaluate("""node => {
+          const b = node.getBoundingClientRect();
+          return node.contains(document.elementFromPoint(b.x + b.width / 2, b.y + b.height / 2));
+        }""")
+        close.press("Enter")
+        expect(trigger).to_be_focused()
+    page.close()
+
+
+def check_runtime_error(browser):
+    page = browser.new_page(viewport={"width": 390, "height": 844}, offline=True, reduced_motion="reduce")
+    page.goto(GUIDE)
+    page.evaluate("window.DecemberWinterStage = { mount() { throw Error('Injected preview error'); } }")
+    trigger = page.locator("[data-winter-film=baku]")
+    trigger.press("Enter")
+    expect(page.locator("#winter-film-message")).to_have_text("Preview unavailable. Read the winter plans above.")
+    expect(page.locator("#winter-film")).to_be_hidden()
+    expect(trigger).to_be_focused()
+    page.close()
+
+
 def check_reduced_motion(browser):
     page = browser.new_page(
         viewport={"width": 390, "height": 844}, has_touch=True, offline=True, reduced_motion="reduce"
@@ -131,7 +167,8 @@ def main():
     failures = []
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(channel="chrome")
-        for check in (check_landscape, check_landscape_scene_spacing, check_reduced_motion, check_manual_playback):
+        for check in (check_landscape, check_landscape_scene_spacing, check_landscape_return_focus,
+                      check_runtime_error, check_reduced_motion, check_manual_playback):
             try:
                 check(browser)
             except (AssertionError, TimeoutError) as error:
