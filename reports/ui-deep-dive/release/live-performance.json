@@ -1,0 +1,34 @@
+{
+  "url": "https://meshthegreat.github.io/december-elsewhere/",
+  "viewport": [
+    390,
+    844
+  ],
+  "cpuThrottle": 4,
+  "latencyMs": 150,
+  "downstreamMbps": 1.6,
+  "browser": "Chrome with Playwright, fresh context per observation",
+  "observations": [
+    {
+      "lcp": 2316,
+      "cls": 0.003528873438578971,
+      "documentReadyMs": 2319,
+      "transferredBytes": 357819,
+      "lazyLibraries": true
+    },
+    {
+      "lcp": 2260,
+      "cls": 0.003528873438578971,
+      "documentReadyMs": 2253,
+      "transferredBytes": 357819,
+      "lazyLibraries": true
+    },
+    {
+      "lcp": 2248,
+      "cls": 0.003528873438578971,
+      "documentReadyMs": 2241,
+      "transferredBytes": 357819,
+      "lazyLibraries": true
+    }
+  ]
+}

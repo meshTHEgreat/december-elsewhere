@@ -23,3 +23,9 @@ The owner asked us to proceed with the recommendations and to prioritize phone l
 - Remaining observations include short inline attribution links, deferred wide-layout and flat-map label changes, and gaps in the Stageshow tool's automated motion sampling. The [rehearsal](motion/REHEARSAL.md) includes sampled frames and real playback. Physical phones, Safari, assistive technology and booking checkout were outside the review.
 
 All ten repository checks ran in sequence with no competing audit browsers. The suite covered core offline behavior, the package, isolated runtime, premium and winter flows, app geometry, the globe, both Stageshow previews, and Local guides. [Sequential suite](measure/full-suite.ps1) · [Test outputs](release/)
+
+## Live verification
+
+GitHub Pages deployed `b7d0759`. The published homepage, explicit `index.html`, offline download, and owner review byte hashes matched the reviewed files. Chrome and Edge passed the public URL checks for all five guide choices at three phone sizes, all 24 landscape photo controls, both winter briefings, all 55 routes, the full itinerary and stay lists, and the Globe fallback. [Pages deployment](https://github.com/meshTHEgreat/december-elsewhere/actions/runs/45094296176) · [Hash check](release/live-parity.json) · [Guide results](release/live-guides.log) · [Layout results](release/live-layout.log) · [Winter results](release/live-winter.log) · [Core journey results](release/live-premium.log)
+
+Three fresh Chrome runs at 390 × 844 used fourfold CPU throttling, 1.6 Mbps downstream and 150 ms latency. Median largest contentful paint was 2.26 s. Layout shift stayed at 0.004, rounded to three decimal places. The initial transfer was 358 kB and left the Globe and Stageshow scripts unloaded. [Performance observations](release/live-performance.json)
