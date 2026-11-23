@@ -4,6 +4,7 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from threading import Thread
+import sys
 import unittest
 
 from playwright.sync_api import expect, sync_playwright
@@ -16,9 +17,15 @@ class QuietHandler(SimpleHTTPRequestHandler):
         pass
 
 
+class QuietServer(ThreadingHTTPServer):
+    def handle_error(self, request, client_address):
+        if not isinstance(sys.exception(), ConnectionError):
+            super().handle_error(request, client_address)
+
+
 @contextmanager
 def local_site():
-    with ThreadingHTTPServer(("127.0.0.1", 0), partial(QuietHandler, directory=ROOT / "docs")) as server:
+    with QuietServer(("127.0.0.1", 0), partial(QuietHandler, directory=ROOT / "docs")) as server:
         worker = Thread(target=server.serve_forever, daemon=True)
         worker.start()
         try:
@@ -108,7 +115,8 @@ class AtlasUiTest(unittest.TestCase):
             position = page.evaluate("scrollY")
         finally:
             pending[0].continue_()
-        page.wait_for_function("() => Boolean(window.DecemberGlobe)")
+        page.locator('script[src="media/globe.js"]').wait_for(state="detached")
+        self.assertTrue(page.evaluate("() => typeof window.DecemberGlobe?.mount === 'function'"))
         expect(compare).to_be_focused()
         expect(page.locator("#atlas-globe canvas")).to_have_count(0)
         self.assertEqual(page.evaluate("scrollY"), position)
