@@ -7,7 +7,7 @@ New-Item -ItemType Directory -Path $OutputDir -Force | Out-Null
 function Invoke-Check([string]$Name, [string]$Program, [string[]]$Arguments) {
     Write-Output "Running $Name"
     $log = Join-Path $OutputDir "$Name.log"
-    & $Program @Arguments | Out-File -FilePath $log -Encoding utf8
+    & $Program @Arguments 2>&1 | Out-File -FilePath $log -Encoding utf8
     if ($LASTEXITCODE) { throw "$Name failed. See $log." }
 }
 

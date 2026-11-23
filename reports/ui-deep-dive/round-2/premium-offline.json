@@ -1,0 +1,116 @@
+{
+  "browser": "157.0.8103.79",
+  "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/create-a-repo-and-push-to/index.html",
+  "sha256": "93e786ba4833e97cdd9e461fe8afd485617e4d7d0f2cbcbb9c2f00651bc92340",
+  "results": [
+    {
+      "viewport": [
+        320,
+        725
+      ],
+      "emulated_touch": true,
+      "reduced_motion": true,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "emulated_touch": true,
+      "reduced_motion": false,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        667,
+        375
+      ],
+      "emulated_touch": true,
+      "reduced_motion": true,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        768,
+        1024
+      ],
+      "emulated_touch": false,
+      "reduced_motion": true,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "emulated_touch": false,
+      "reduced_motion": false,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "emulated_touch": false,
+      "reduced_motion": false,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    }
+  ],
+  "fallback": "passed"
+}

@@ -1,0 +1,768 @@
+{
+  "online": [
+    {
+      "size": [
+        320,
+        725
+      ],
+      "controls": [
+        {
+          "name": "cost-flight",
+          "top": 618.3125,
+          "bottom": 662.3125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-bags",
+          "top": 677.21875,
+          "bottom": 721.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-stay",
+          "top": 454.125,
+          "bottom": 498.125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-food",
+          "top": 513.03125,
+          "bottom": 557.03125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-transit",
+          "top": 571.9375,
+          "bottom": 615.9375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-activities",
+          "top": 630.84375,
+          "bottom": 674.84375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-daytrip",
+          "top": 680.78125,
+          "bottom": 724.78125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-insurance",
+          "top": 454.734375,
+          "bottom": 498.734375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-contingency",
+          "top": 513.640625,
+          "bottom": 557.640625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Car rental costs",
+          "top": 573.359375,
+          "bottom": 620.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-car",
+          "top": 620.21875,
+          "bottom": 664.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-fuel",
+          "top": 679.125,
+          "bottom": 723.125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-parking",
+          "top": 454.03125,
+          "bottom": 498.03125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-cover",
+          "top": 512.9375,
+          "bottom": 556.9375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-tolls",
+          "top": 571.84375,
+          "bottom": 615.84375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Reset city budget",
+          "top": 641.953125,
+          "bottom": 685.953125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Print itinerary",
+          "top": 641.953125,
+          "bottom": 685.953125,
+          "budget": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "controls": [
+        {
+          "name": "cost-flight",
+          "top": 680.96875,
+          "bottom": 724.96875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-bags",
+          "top": 739.875,
+          "bottom": 783.875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-stay",
+          "top": 798.78125,
+          "bottom": 842.78125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-food",
+          "top": 513.6875,
+          "bottom": 557.6875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-transit",
+          "top": 572.59375,
+          "bottom": 616.59375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-activities",
+          "top": 631.5,
+          "bottom": 675.5,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-daytrip",
+          "top": 690.40625,
+          "bottom": 734.40625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-insurance",
+          "top": 749.3125,
+          "bottom": 793.3125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-contingency",
+          "top": 800.21875,
+          "bottom": 844.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Car rental costs",
+          "top": 512.9375,
+          "bottom": 559.796875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-car",
+          "top": 559.796875,
+          "bottom": 603.796875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-fuel",
+          "top": 618.703125,
+          "bottom": 662.703125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-parking",
+          "top": 677.609375,
+          "bottom": 721.609375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-cover",
+          "top": 736.515625,
+          "bottom": 780.515625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-tolls",
+          "top": 795.421875,
+          "bottom": 839.421875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Reset city budget",
+          "top": 435.53125,
+          "bottom": 479.53125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Print itinerary",
+          "top": 435.53125,
+          "bottom": 479.53125,
+          "budget": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "size": [
+        667,
+        375
+      ],
+      "controls": [
+        {
+          "name": "cost-flight",
+          "top": 196.515625,
+          "bottom": 240.515625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-bags",
+          "top": 255.421875,
+          "bottom": 299.421875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-stay",
+          "top": 314.328125,
+          "bottom": 358.328125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-food",
+          "top": 331.234375,
+          "bottom": 375.234375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-transit",
+          "top": 196.140625,
+          "bottom": 240.140625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-activities",
+          "top": 255.046875,
+          "bottom": 299.046875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-daytrip",
+          "top": 313.953125,
+          "bottom": 357.953125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-insurance",
+          "top": 330.859375,
+          "bottom": 374.859375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-contingency",
+          "top": 196.765625,
+          "bottom": 240.765625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Car rental costs",
+          "top": 256.484375,
+          "bottom": 303.34375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-car",
+          "top": 303.34375,
+          "bottom": 347.34375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-fuel",
+          "top": 331.25,
+          "bottom": 375.25,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-parking",
+          "top": 196.15625,
+          "bottom": 240.15625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-cover",
+          "top": 255.0625,
+          "bottom": 299.0625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-tolls",
+          "top": 313.96875,
+          "bottom": 357.96875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Reset city budget",
+          "top": 196.078125,
+          "bottom": 240.078125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Print itinerary",
+          "top": 196.078125,
+          "bottom": 240.078125,
+          "budget": true,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "offline": [
+    {
+      "size": [
+        320,
+        725
+      ],
+      "controls": [
+        {
+          "name": "cost-flight",
+          "top": 618.3125,
+          "bottom": 662.3125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-bags",
+          "top": 677.21875,
+          "bottom": 721.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-stay",
+          "top": 454.125,
+          "bottom": 498.125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-food",
+          "top": 513.03125,
+          "bottom": 557.03125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-transit",
+          "top": 571.9375,
+          "bottom": 615.9375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-activities",
+          "top": 630.84375,
+          "bottom": 674.84375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-daytrip",
+          "top": 680.78125,
+          "bottom": 724.78125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-insurance",
+          "top": 454.734375,
+          "bottom": 498.734375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-contingency",
+          "top": 513.640625,
+          "bottom": 557.640625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Car rental costs",
+          "top": 573.359375,
+          "bottom": 620.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-car",
+          "top": 620.21875,
+          "bottom": 664.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-fuel",
+          "top": 679.125,
+          "bottom": 723.125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-parking",
+          "top": 454.03125,
+          "bottom": 498.03125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-cover",
+          "top": 512.9375,
+          "bottom": 556.9375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-tolls",
+          "top": 571.84375,
+          "bottom": 615.84375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Reset city budget",
+          "top": 641.953125,
+          "bottom": 685.953125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Print itinerary",
+          "top": 641.953125,
+          "bottom": 685.953125,
+          "budget": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "controls": [
+        {
+          "name": "cost-flight",
+          "top": 680.96875,
+          "bottom": 724.96875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-bags",
+          "top": 739.875,
+          "bottom": 783.875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-stay",
+          "top": 798.78125,
+          "bottom": 842.78125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-food",
+          "top": 513.6875,
+          "bottom": 557.6875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-transit",
+          "top": 572.59375,
+          "bottom": 616.59375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-activities",
+          "top": 631.5,
+          "bottom": 675.5,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-daytrip",
+          "top": 690.40625,
+          "bottom": 734.40625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-insurance",
+          "top": 749.3125,
+          "bottom": 793.3125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-contingency",
+          "top": 800.21875,
+          "bottom": 844.21875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Car rental costs",
+          "top": 512.9375,
+          "bottom": 559.796875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-car",
+          "top": 559.796875,
+          "bottom": 603.796875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-fuel",
+          "top": 618.703125,
+          "bottom": 662.703125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-parking",
+          "top": 677.609375,
+          "bottom": 721.609375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-cover",
+          "top": 736.515625,
+          "bottom": 780.515625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-tolls",
+          "top": 795.421875,
+          "bottom": 839.421875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Reset city budget",
+          "top": 435.53125,
+          "bottom": 479.53125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Print itinerary",
+          "top": 435.53125,
+          "bottom": 479.53125,
+          "budget": true,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "size": [
+        667,
+        375
+      ],
+      "controls": [
+        {
+          "name": "cost-flight",
+          "top": 196.515625,
+          "bottom": 240.515625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-bags",
+          "top": 255.421875,
+          "bottom": 299.421875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-stay",
+          "top": 314.328125,
+          "bottom": 358.328125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-food",
+          "top": 331.234375,
+          "bottom": 375.234375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-transit",
+          "top": 196.140625,
+          "bottom": 240.140625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-activities",
+          "top": 255.046875,
+          "bottom": 299.046875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-daytrip",
+          "top": 313.953125,
+          "bottom": 357.953125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-insurance",
+          "top": 330.859375,
+          "bottom": 374.859375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-contingency",
+          "top": 196.765625,
+          "bottom": 240.765625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Car rental costs",
+          "top": 256.484375,
+          "bottom": 303.34375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-car",
+          "top": 303.34375,
+          "bottom": 347.34375,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-fuel",
+          "top": 331.25,
+          "bottom": 375.25,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-parking",
+          "top": 196.15625,
+          "bottom": 240.15625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-cover",
+          "top": 255.0625,
+          "bottom": 299.0625,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "cost-tolls",
+          "top": 313.96875,
+          "bottom": 357.96875,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Reset city budget",
+          "top": 196.078125,
+          "bottom": 240.078125,
+          "budget": true,
+          "visible": true
+        },
+        {
+          "name": "Print itinerary",
+          "top": 196.078125,
+          "bottom": 240.078125,
+          "budget": true,
+          "visible": true
+        }
+      ]
+    }
+  ]
+}
