@@ -1,0 +1,19 @@
+# Mobile app lane
+
+This lane owns the common chapter, walk, budget, compare, and source markup in source/app.js. It implements the relevant parts of the five approved decisions. The shared style lane supplies final layout measurements and target sizes. The travel, maps, photo, and winter datasets are unchanged.
+
+| Proposal | Result | Copy and owner requirements |
+| --- | --- | --- |
+| UI-01 | Built separate per-adult and three-person amount cells. The budget group name is independent of the amount text. Focused budget controls clear the sticky rails by 8 px when they would overlap. The contingency note moved beside the fields. | Per adult, For three, Total for three, Above the target, Below the target, Within the target. Keeps the approved sticky total, original arithmetic, editable fields, and reset. |
+| UI-02 | Built one active section updater for mobile and desktop. Direct section jumps, history and observer updates use it. | Sections · current label with the city in the accessible name. Stays, Itinerary and Photos match their corresponding navigation labels. All approved destination and Winter links remain. |
+| UI-03 | Built the chooser rail, selected summary, visual and credits groups, and the All walk times disclosure. It stays open through route and origin changes and restores the selected row focus. The landscape picker aligns the map layout to the viewport. | Estimated walk. No verified walks for this city. The longest native choices read Széchenyi Square promenade and Danube Island at Reichsbrücke. The map and route list retain the full names. Both basemaps, pins, names, coordinates, public starting point warnings, and external providers remain. |
+| UI-07 | Moved priced stays before the optional outdoor shortlist. The date, price basis, beds and outdoor status remain visible before the actions. Concise material booking caveats remain visible. Listing notes retains the original details and outdoor note. The selected action updates in place, preserving focus and open notes. | Check price, Listing & photos, Stay selected, Use this stay and the approved stay lead. Keeps the user's outdoor preference, the exact listing links, and the original budget and route-anchor updates. |
+| UI-08 | Shortened comparison row wording and outdoor states. Kept the semantic table and original live budget IDs. Split the method into walks, atlas and currency. Grouped city citations and photo source and license links into separate source actions. | Choose two cities. Edit budgets to update the estimates. The rooftop status still says confirm access. The park status still distinguishes public and unverified private space. Keeps all citations, source URLs, attribution, historic quotes, and methodology numbers. |
+
+## Commits and checks
+
+- fda2d75 added the failing checks before the product change. The first baseline run failed at the missing compact budget cells.
+- dd11983 corrected the source-URL assertion to compare the authored URL attribute. The browser URL property normalizes a bare hostname with a trailing slash. This was an assertion correction, separate from product changes.
+- 82c880b implemented the approved product markup.
+
+Built the standalone guide locally for testing. Ran the new browser checks in fresh Chrome contexts with reduced motion and emulated touch. They passed at 320 × 725, 390 × 844, and 667 × 375. Coverage includes the legal budget maximum, seven direct section links and Back, ten stay listings and budget updates, all 55 routes and Google provider coordinates, the comparison table, all city citation URLs, and the photo source and license actions. The Node VM independent runtime also passed. The integration command is python -X utf8 source/verify_ui_app.py --layouts. Hosted, combined visual, and physical device testing are outside this source lane.
