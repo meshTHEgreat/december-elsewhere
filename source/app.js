@@ -14,6 +14,9 @@ const pageLocation = () => (window.location?.hash || '').slice(1).split('/');
 let current = byId[pageLocation()[0]] || byId[state.city] || cities[0];
 let routeIndex = 0, anchorId = '', slide = 0;
 let chapterObserver;
+let walkListExpanded = false;
+const compactWalks = window.matchMedia?.('(max-width: 42rem)');
+const shortLandscapeWalks = window.matchMedia?.('(max-width: 54rem) and (orientation: landscape) and (max-height: 31rem)');
 let lastPhotoTrigger;
 const fieldLabels={flight:'Base airfare',bags:'Baggage & seat fees',stay:'Accommodation with fees',food:'Meals & drinks',transit:'Airport & local transport',activities:'Admissions & activities',daytrip:'Driver, tours or rail excursions',insurance:'Entry fees & insurance',car:'Rental base',fuel:'Fuel',parking:'Parking',cover:'Rental insurance',tolls:'Road tolls',contingency:'Contingency'};
 const groupFields = new Set(['stay','daytrip','car','fuel','parking','cover','tolls']);
@@ -43,19 +46,36 @@ function paintPick() {
   +h(money(total(city)/3))+'</span><span class="city-arrow" aria-hidden="true">↗</span></button>').join('') + '</div>';
 }
 const hBed = value => typeof value === 'number' ? value + ' beds' : string(value);
+const stayDecisionNotes = {
+ '24291154': 'Two beds for three adults. Confirm the airport transfer and late check-in.',
+ '1411583738365530757': 'Confirm bedding and late access. Check wind on the 15th-floor balcony.',
+ '1129688233295307149': 'Three separate beds if the singles stay separate. Check stairs and heating.',
+ '1143563128668540800': 'Check private balcony access and the station walk with bags.',
+ '33505706': 'Studio or one bedroom unconfirmed. Check the third bed and winter terrace access.',
+ '888747837006251329': 'Allow for longer transfers. The map shows a wider district.',
+ '1644751971236465063': 'Confirm beds and location. Online check-in is required.',
+ '47782977': 'The park is public. Check station access. Walks start at a district hub.',
+ '41492147': 'Confirm late check-in. City tax is CZK 50 per person per night, plus a processing fee.',
+ '1566707663347121616': 'Confirm the stop, beds and stairs. Old Town walks are a city example.'
+};
 function stayCard(stay, i) {
  const selected = (state.stays?.[current.id] ?? 0) === i;
  const outdoor = stayOutdoor(stay);
  const specs = [stay.bedrooms != null ? stay.bedrooms + ' bedrooms' : null, stay.beds ? hBed(stay.beds) : null,
   typeof stay.bathrooms === 'number' ? stay.bathrooms + ' bath' : stay.bathrooms || 'Bathrooms: check listing',
   stay.rating ? stay.rating + '/5' + (stay.reviews ? ' · ' + stay.reviews + ' reviews' : '') : null];
+ const caveat = stayDecisionNotes[stay.id] || 'Check the bed layout and arrival arrangements.';
+ const priceNote = stay.price && stay.checked === '2026-11-23'
+  ? 'For three adults · seen 23 Nov 2026 (Medina time). Check fees, cancellation and availability.'
+  : stay.status || 'Check today’s price for three adults.';
  return '<section class="stay"><span class="meta">'+h(stay.platform||'Airbnb')+'</span><h3>'+h(stay.name)+'</h3><p class="price">'
-  +(stay.price ? money(stay.price) : 'Price to check')+'</p><p class="small">'+h(stay.status||'Earlier Airbnb observation · 23 Nov 2026')
+  +(stay.price ? money(stay.price) : 'Check price')+'</p><p class="small stay-price-note">'+h(priceNote)
   +'</p><div class="stay-spec">'+specs.filter(Boolean).map(spec => '<span class="pill">'+h(spec)+'</span>').join('')
-  +'</div><p><strong>'+h(stay.area||'Location from listing')+'</strong> · '+h(stay.notes||'Check sleeping layout and arrival arrangements with the listing host.')
-  +'</p><div class="outdoor-space" data-access="'+h(outdoor.kind)+'"><strong>'+h(outdoor.label)+'</strong><p class="small">'+h(outdoor.note)
+  +'</div><div class="outdoor-space" data-access="'+h(outdoor.kind)+'"><strong>'+h(outdoor.label)+'</strong><p class="small">'+h(caveat)
   +'</p></div><div class="stay-cta">'+external(stay.url,'Listing & photos','action')+'<button class="action" data-stay="'+i
-  +'" aria-pressed="'+selected+'">'+(selected ? 'In your budget' : 'Use in budget')+'</button></div></section>';
+  +'" aria-pressed="'+selected+'">'+(selected ? 'Stay selected' : 'Use this stay')+'</button></div>'
+  +'<details class="stay-notes"><summary>Listing notes</summary><p><strong>'+h(stay.area||'Location from listing')+'</strong> · '+h(stay.notes)
+  +'</p><p>'+h(outdoor.note)+'</p><p class="small">'+h(stay.status||'Earlier Airbnb observation · 23 Nov 2026')+'</p></details></section>';
 }
 function section(id, title, body) {
  return '<section id="'+id+'" class="section wrap" data-chapter-section><h2 tabindex="-1">'+h(title)+'</h2>'+body+'</section>';
@@ -84,11 +104,12 @@ function chapterNav(city) {
  const links = chapterLinks.map(([id, title]) => '<a data-jump="'+id+'" href="#'+id+'">'+title+'</a>').join('');
  return '<nav class="city-subnav" aria-label="Destination sections"><div class="wrap chapter-nav-inner">'
   +'<a class="chapter-index-link" href="#destinations"><span aria-hidden="true">↑</span> All cities</a>'
-  +'<div class="chapter-jumps">'+links+'</div><details class="chapter-menu"><summary>In '+h(city.city)+'</summary><div>'+links+'</div></details>'
+  +'<div class="chapter-jumps">'+links+'</div><details class="chapter-menu"><summary aria-label="Sections in '+h(city.city)
+  +'"><span class="chapter-menu-current">Sections</span></summary><div>'+links+'</div></details>'
   +'</div><span class="chapter-progress" aria-hidden="true"></span></nav>';
 }
 function budgetField(city,key){
- return '<label for="cost-'+key+'"><span>'+h(fieldLabels[key])+' <small class="muted">· '+(groupFields.has(key)?'group':'each')+'</small></span><input id="cost-'+key+'" type="number" min="0" max="150000" step="1" inputmode="numeric" data-cost="'+key+'" value="'+budget(city)[key]+'"></label>';
+ return '<label for="cost-'+key+'"><span>'+h(fieldLabels[key])+' <small class="muted">· '+(groupFields.has(key)?'For three':'Per adult')+'</small></span><input id="cost-'+key+'" type="number" min="0" max="150000" step="1" inputmode="numeric" data-cost="'+key+'" value="'+budget(city)[key]+'"></label>';
 }
 function paintCity() {
  closePresentation();
@@ -112,9 +133,9 @@ function paintCity() {
   +'</p><details class="flight-details"><summary>Entry, weather and booking</summary><p>'+h(city.entry)+'</p><p>'+h(city.winter)+' '+h(city.light)
   +'</p><p>'+h(f.bags||'Baggage depends on fare family; price at checkout.')+'</p><p>'+h(f.note)+'</p><p class="small">'
   +(f.links||[]).map(l=>external(l.url,l.label)).join(' · ')+'</p></details></div></section>'
-  +section('stays','Where to stay','<p class="section-lead">Two priced options for three adults. Open each listing for its room gallery and check winter access to outdoor spaces.</p>'
-   +outdoorShortlist(city)
+  +section('stays','Stays','<p class="section-lead">Two stays for three adults. Check room photos and winter outdoor access in each listing.</p>'
    +'<div class="stays">'+city.stays.map(stayCard).join('')+'</div>'
+   +outdoorShortlist(city)
    +(city.alternatives?.length?'<details class="rule"><summary>Other stays</summary><p>'+city.alternatives.map(a=>external(a.url,a.name||a.label)
     +' · '+h([a.notes||a.note,a.status].filter(Boolean).join(' · ')||'Check dates, beds and total')).join('<br>')+'</p></details>':'')
    +'<a href="#walk" data-jump="walk" class="text-link" id="walk-jump"></a>')
@@ -123,15 +144,15 @@ function paintCity() {
    +[['In the city',transport.city],['Airport transfer',transport.transfer],['Day trips',transport.day],['Short car hire',transport.rental]]
     .filter(([,v])=>v).map(([k,v])=>'<div><dt>'+h(k)+'</dt><dd>'+h(v)+'</dd></div>').join('')+'</dl></div>':''))
   +section('winter','Winter plans',winterMarkup())
-  +section('itinerary','Day by day','<p class="section-lead">Open a day for the stops, transit, meals and a fallback. Times and daily costs are estimates.</p>'
+  +section('itinerary','Itinerary','<p class="section-lead">Open a day for the stops, transit, meals and a fallback. Times and daily costs are estimates.</p>'
    +'<div class="itinerary-layout"><div class="daylist">'+city.days.map(dayMarkup).join('')+'</div>'
    +'<figure class="journey-photo" data-scroll-picture>'+imageMarkup(extra)+'<figcaption class="small">'+photoCredit(extra)+'</figcaption></figure></div>')
-  +section('budget','Budget','<p class="section-lead">Costs for the full trip, in SAR.</p><div class="budget-layout"><aside class="budget-total" id="total" aria-live="polite"></aside><div><div class="budget-fields">'
+  +section('budget','Budget','<p class="section-lead">Costs for the full trip, in SAR.</p><div class="budget-layout"><aside class="budget-total" id="total" aria-live="polite"></aside><div><p class="small budget-help">Totals include contingency.</p><div class="budget-fields">'
    +budgetKeys.filter(key=>!carFields.has(key)).map(key=>budgetField(city,key)).join('')+'</div><details class="car-costs" '
    +(budgetKeys.some(key=>carFields.has(key)&&budget(city)[key])?'open':'')+'><summary>Car rental costs</summary><div class="budget-fields">'
    +budgetKeys.filter(key=>carFields.has(key)).map(key=>budgetField(city,key)).join('')+'</div></details></div></div>'
    +'<div class="budget-actions"><button class="action" data-reset>Reset city budget</button> <button class="action" data-print>Print itinerary</button></div>')
-  +section('photos','The photo journal','<div id="gallery"></div>')
+  +section('photos','Photos','<div id="gallery"></div>')
   +'<section class="chapter-end"><div class="wrap"><p class="eyebrow">The decision · '+h(city.city)
   +'</p><h2>What to weigh</h2><p class="lede">'+h(editorial.finish)+'</p><div class="end-actions">'
   +'<a class="cover-action" href="#compare">Compare trips <span aria-hidden="true">↘</span></a><button class="action" data-next-city="'
@@ -216,9 +237,19 @@ function walkLeaders(anchor, route, xy, scale) {
   return '<path class="walk-leader" d="M'+x+','+y+'L'+nx+','+ny+'"/>';
  }).join('');
 }
+const shortWalkNames = {
+ 'Danube promenade at Széchenyi Square': 'Széchenyi Square promenade',
+ 'Danube Island path access near Reichsbrücke': 'Danube Island at Reichsbrücke'
+};
+function syncWalkList() {
+ const list = el('map').querySelector('.walk-list-disclosure');
+ if (list) list.open = !compactWalks?.matches || walkListExpanded;
+}
 function paintMap(){
  const map=book.maps[current.id], node=el('map');
- if(!map?.anchors?.length){node.textContent='Offline routing could not be verified for this destination.';return;}
+ if(!map?.anchors?.length){node.textContent='No verified walks for this city.';return;}
+ const previousList = compactWalks?.matches && node.querySelector('.walk-list-disclosure');
+ if (previousList) walkListExpanded = previousList.open;
  const selected=current.stays[state.stays?.[current.id]??0];
  const matched=map.anchors.find(a=>a.stays?.includes(String(selected?.id)));
  const anchor=map.anchors.find(a=>a.id===anchorId)||matched||map.anchors.find(a=>!a.stays.length)||map.anchors[0];
@@ -240,30 +271,67 @@ function paintMap(){
  const caveat=anchor===matched?(districtExample?'District hub example. Travel from the apartment to this hub is unverified.':'Public starting point for the selected stay.'):matched?
   'City reference walk from a different starting point.':'No starting point was confirmed for the selected stay. These are city reference walks.';
  el('walk-jump').innerHTML=(matched&&!districtExample?'See walks from the public starting point':'See city reference walks')+' <span aria-hidden="true">↓</span>';
- const anchorPicker='<div class="anchor-picker"><label for="anchor-select">Walking from</label><select id="anchor-select">'+map.anchors.map(a=>'<option value="'+h(a.id)+'" '+(a===anchor?'selected':'')+'>'+h(a.name)+'</option>').join('')+'</select><p class="small" aria-live="polite"><b>'+h(caveat)+'</b> '+h(anchor.note||'')+'</p></div>';
+ const anchorPicker='<div class="anchor-picker"><label for="anchor-select">Walking from</label><select id="anchor-select" aria-describedby="walk-anchor-note">'+map.anchors.map(a=>'<option value="'+h(a.id)+'" '+(a===anchor?'selected':'')+'>'+h(a.name)+'</option>').join('')+'</select></div>';
  const routeDetails='<div id="route-note" aria-live="polite">'+(route?
   '<div class="walk-route-summary"><div><span class="eyebrow">Selected walk</span><strong>'+h(route.name)
    +'</strong></div><div class="route-time">'+(route.min==null?'Time unavailable':(route.estimated?'≈ ':'')+h(route.min)+' min · '+h(route.km)+' km')
-   +'<small>Offline estimate</small></div></div><p class="small walk-from">A · '+h(anchor.name)+' <span>→ B · '+h(route.name)+'</span></p>':'No route calculated')+'</div>';
+   +'<small>Estimated walk</small></div></div><p class="small walk-from">A · '+h(anchor.name)+' <span>→ B · '+h(route.name)+'</span></p>':'No route calculated')+'</div>';
  const diagram='<div class="mapbox" data-walk-map="'+mapMode+'">'+walkBackdrop(scene,xy)+'<svg viewBox="0 0 600 350" role="img" aria-label="'+h('Walk from '+anchor.name+(route?' to '+route.name:''))+'"><defs><pattern id="grid" width="27" height="27" patternUnits="userSpaceOnUse"><path d="M27 0H0V27" stroke="#c8cfb7" fill="none" opacity=".55"/></pattern></defs><rect class="walk-grid" width="600" height="350" fill="url(#grid)"/><text x="546" y="32" class="map-label">N ↑</text>'+walkScale(scale)+leaders+(route?(poly(route)||connector(route)):'')+pin(anchor.start,'A',-1,'#194637')+(route?pin(route.point,'B',1,'#a45226'):'')+'</svg></div>';
  const quickWalk='<label class="quick-walk" for="route-select">Choose a walk <select id="route-select">'+routes.map((r,i)=>
-  '<option value="'+i+'"'+(r===route?' selected':'')+'>'+h(r.name)+(r.min==null?'':' · '+h(r.min)+' min')+'</option>').join('')+'</select></label>';
- node.innerHTML=anchorPicker+quickWalk+'<div class="route-layout"><div class="map-stage">'+routeDetails+(scene?walkModes(mapMode):'')+diagram
+  '<option value="'+i+'"'+(r===route?' selected':'')+'>'+h(Object.hasOwn(shortWalkNames,r.name)?shortWalkNames[r.name]:r.name)+'</option>').join('')+'</select></label>';
+ node.innerHTML='<div class="route-layout"><div class="walk-picker-rail">'+anchorPicker+quickWalk+'</div>'
+  +'<div class="map-stage">'+routeDetails+'<div class="walk-visual-group">'+(scene?walkModes(mapMode):'')+diagram+'</div>'
+  +'<div class="walk-reference"><p class="small walk-anchor-note" id="walk-anchor-note" aria-live="polite"><b>'+h(caveat)+'</b> '+h(anchor.note||'')+'</p>'
   +(leaders?'<p class="small walk-connection">Dotted lines connect public pins to the routed path.</p>':'')
   +(route?providerDirections(anchor,route):'')
   +'<p class="small walk-provider-note">'+h(map.attribution||'© OpenStreetMap contributors')+' · Google and Apple may choose a different path.'
-  +(scene?' <span class="walk-scene-credit">Contains modified Copernicus Sentinel data '+h(scene.date.slice(0,4))+' · '+external(scene.source,'Scene '+scene.date)+'.</span>':'')+'</p></div>'
-  +'<div class="walking-list">'+routes.map((r,i)=>'<button class="route-toggle" data-route="'+i+'" aria-pressed="'+(r===route)+'"><strong>'+h(r.name)+'</strong><small>'+(r.min==null?'Walk time unavailable':(r.estimated?'~':'')+h(r.min)+' min · '+(r.estimated?'~':'')+h(r.km)+' km'+(r.estimated?' · estimate':''))+'</small></button>').join('')+'</div></div>';
+  +(scene?' <span class="walk-scene-credit">Contains modified Copernicus Sentinel data '+h(scene.date.slice(0,4))+' · '+external(scene.source,'Scene '+scene.date)+'.</span>':'')+'</p></div></div>'
+  +'<details class="walk-list-disclosure"'+(!compactWalks?.matches||walkListExpanded?' open':'')+'><summary>All walk times</summary>'
+  +'<div class="walking-list">'+routes.map((r,i)=>'<button class="route-toggle" data-route="'+i+'" aria-pressed="'+(r===route)+'"><strong>'+h(r.name)+'</strong><small>'+(r.min==null?'Walk time unavailable':(r.estimated?'~':'')+h(r.min)+' min · '+(r.estimated?'~':'')+h(r.km)+' km'+(r.estimated?' · estimate':''))+'</small></button>').join('')+'</div></details></div>';
 }
-function paintTotal(){const sum=total(current);el('total').innerHTML='<span class="meta">Group total</span><strong id="total-group">'+money(sum)+'</strong><span id="total-person">'+money(sum/3)+' per adult</span><p class="small">'+(sum/3>6000?'Above the preferred budget.':sum/3<4000?'Below the target range.':'Within the preferred range.')+' Includes contingency.</p>';el('chapter-per-adult').textContent=money(sum/3)+' per adult';el('chapter-group').textContent=money(sum)+' for three';}
+function paintTotal() {
+ const sum = total(current);
+ const person = money(sum / 3);
+ const group = money(sum);
+ const status = sum / 3 > 6000 ? 'Above the target' : sum / 3 < 4000 ? 'Below the target' : 'Within the target';
+ el('total').innerHTML = '<div class="budget-total-amounts">'
+  +'<div class="budget-total-amount"><span class="meta">Per adult</span><strong id="total-person">'+person+'</strong></div>'
+  +'<div class="budget-total-amount"><span class="meta">Total for three</span><strong id="total-group">'+group+'</strong></div>'
+  +'</div><p class="small budget-total-status">'+status+'</p>';
+ el('chapter-per-adult').textContent = person+' per adult';
+ el('chapter-group').textContent = group+' for three';
+}
+function revealBudgetFocus(control) {
+ requestAnimationFrame(() => {
+  if (document.activeElement !== control) return;
+  const bounds = control.getBoundingClientRect();
+  const blockers = [document.querySelector('.mast'), document.querySelector('.city-subnav'), el('total')];
+  const visibleTop = blockers.reduce((edge, blocker) => {
+   const rect = blocker.getBoundingClientRect();
+   const style = getComputedStyle(blocker);
+   const overlaps = rect.left < bounds.right && rect.right > bounds.left;
+   const pinned = style.position === 'sticky' && rect.top <= parseFloat(style.top) + 1;
+   return overlaps && pinned ? Math.max(edge,rect.bottom) : edge;
+  }, 0) + 8;
+  if (bounds.top < visibleTop) window.scrollBy({top:bounds.top-visibleTop,behavior:'instant'});
+ });
+}
+function compactOutdoor(stay) {
+ const outdoor = stayOutdoor(stay);
+ if (outdoor.kind === 'private' && /balcony/i.test(outdoor.label)) return 'Private balcony';
+ if (outdoor.kind === 'nearby') return 'Park nearby · private unverified';
+ if (outdoor.kind === 'unknown') return 'Outdoor unverified';
+ if (outdoor.kind === 'listed' && /rooftop/i.test(outdoor.label)) return 'Roof terrace · confirm access';
+ return outdoor.label;
+}
 function compareOptions(selected){return cities.map(c=>'<option value="'+c.id+'" '+(c.id===selected?'selected':'')+'>'+h(c.city)+'</option>').join('');}
 const comparePrices = {
  person: ['Per adult',c=>money(total(c)/3)],
  group: ['For three',c=>money(total(c))],
  stay: ['Stay',c=>money(budget(c).stay)],
- food: ['Meals per adult',c=>money(budget(c).food)],
- transit: ['Local transport per adult',c=>money(budget(c).transit)],
- outdoor: ['Outdoor space',c=>stayOutdoor(c.stays[state.stays?.[c.id]??0]).label]
+ food: ['Meals each',c=>money(budget(c).food)],
+ transit: ['Local travel each',c=>money(budget(c).transit)],
+ outdoor: ['Outdoor space',c=>compactOutdoor(c.stays[state.stays?.[c.id]??0])]
 };
 function refreshPrices(){
  el('pick-price-'+current.id).textContent=money(total(current)/3);
@@ -281,11 +349,44 @@ function paintCompare(){
  const rows=list=>list.map(([label,get,key])=>'<tr><th scope="row">'+h(label)+'</th>'+[A,B].map((city,i)=>'<td'+(key?' id="compare-'+i+'-'+key+'"':'')+'>'+h(get(city))+'</td>').join('')+'</tr>').join('');
  const head='<thead><tr><th scope="col">Trip detail</th><th scope="col">'+h(A.city)+'</th><th scope="col">'+h(B.city)+'</th></tr></thead>';
  const container=el('compare'), expanded=container.querySelector('.compare-details')?.open;
- container.innerHTML='<p class="eyebrow">The shortlist</p><h2>Compare trips</h2><p class="section-lead">Adjust a city’s budget and see the difference side by side.</p><div class="compare-controls"><label for="left-city">First city<select id="left-city">'+compareOptions(A.id)+'</select></label><label for="right-city">Second city<select id="right-city">'+compareOptions(B.id)+'</select></label></div>'+compareBudgetBars(A,B)+'<div class="compare-scroll"><table>'+head+'<tbody>'+rows(items)+'</tbody></table></div><details class="compare-details" '+(expanded?'open':'')+'><summary>Flights, entry and winter weather</summary><div class="compare-depth">'+details.map(([label,get])=>'<section><h3>'+h(label)+'</h3><dl>'+[A,B].map(city=>'<div><dt>'+h(city.city)+'</dt><dd>'+h(get(city))+'</dd></div>').join('')+'</dl></section>').join('')+'</div></details>';
+ container.innerHTML='<p class="eyebrow">The shortlist</p><h2>Compare trips</h2><p class="section-lead">Choose two cities. Edit budgets to update the estimates.</p><div class="compare-controls"><label for="left-city">First city<select id="left-city">'+compareOptions(A.id)+'</select></label><label for="right-city">Second city<select id="right-city">'+compareOptions(B.id)+'</select></label></div>'+compareBudgetBars(A,B)+'<div class="compare-scroll"><table>'+head+'<tbody>'+rows(items)+'</tbody></table></div><details class="compare-details" '+(expanded?'open':'')+'><summary>Flights, entry and winter weather</summary><div class="compare-depth">'+details.map(([label,get])=>'<section><h3>'+h(label)+'</h3><dl>'+[A,B].map(city=>'<div><dt>'+h(city.city)+'</dt><dd>'+h(get(city))+'</dd></div>').join('')+'</dl></section>').join('')+'</div></details>';
 }
-function paintEvidence(){el('evidence').innerHTML='<h2>Sources</h2><p class="section-lead">Stay prices were observed on 23 November 2026. Flight times follow published schedules. Confirm both before booking.</p>'+cities.map(c=>'<details><summary>'+h(c.city)+' sources</summary><p class="small">Earlier estimate for three: '+h(c.priorTotal)+'.</p><ul>'+(c.sources||[]).map(s=>'<li>'+external(s.url,s.label||s.name||s.url)+' <span class="small">'+h([s.status,s.checked,s.note].filter(Boolean).join(' · '))+'</span></li>').join('')+'</ul></details>').join('')+'<details id="photos-credit"><summary>Photography credits</summary><ul>'+cities.flatMap(city=>book.photos[city.id].map(photo=>'<li>'+photoCredit(photo)+'</li>')).join('')+'</ul></details><details><summary>Routes, atlas and currency</summary><p class="small">Retrieved pedestrian paths and separately labeled walking estimates are packaged offline. Estimated directions use straight-line distance × 1.37 and an assumed 3.6 km/h. Actual crossings, grades and weather may change the time. '+external('https://www.openstreetmap.org/copyright','OpenStreetMap attribution')+' · '+external('https://valhalla.github.io/valhalla/','Valhalla routing')+'. The atlas connects Medina airport to approximate city centers. Globe arcs and distances use a spherical great circle. The map shows straight bearings on its projection. For actual connections, see the chapter’s outbound and return legs. '+external('https://www.naturalearthdata.com/about/terms-of-use/','Natural Earth')+' · '+external('https://ourairports.com/airports/OEMA/','OurAirports (MED)')+'. The calculator sums SAR inputs directly; prior examples were rounded during the 23 November 2026 research. '+external('https://www.sama.gov.sa/en-us/currency/finexc/pages/currency.aspx','Saudi Central Bank FX reference')+' provides the exchange-rate archive. No live FX conversion.</p></details>';}
+function evidenceActions(...links) {
+ return '<div class="source-actions">'+links.map(([url,label])=>external(url,label,'source-action')).join('')+'</div>';
+}
+function paintEvidence() {
+ const citySources = cities.map(c=>'<details><summary>'+h(c.city)+' sources</summary><p class="small">Earlier estimate for three: '
+  +h(c.priorTotal)+'.</p><ul class="source-list">'+(c.sources||[]).map(s=>'<li>'+evidenceActions([s.url,s.label||s.name||s.url])
+   +'<p class="small">'+h([s.status,s.checked,s.note].filter(Boolean).join(' · '))+'</p></li>').join('')+'</ul></details>').join('');
+ const photos = cities.flatMap(city=>book.photos[city.id].map(photo=>'<li><p>'+h(photo.caption)+' · '+h(photo.author)
+  +(photo.modifications?' · '+h(photo.modifications):'')+'</p>'+evidenceActions([photo.url,'Photo source'],[photo.licenseUrl,photo.license])+'</li>')).join('');
+ const methods = [
+  ['Walks','The offline guide includes routed paths and clearly labeled estimates. Estimated times use straight-line distance × 1.37 and an assumed 3.6 km/h. Crossings, grades and weather may change the time.',
+   ['https://www.openstreetmap.org/copyright','OpenStreetMap attribution'],['https://valhalla.github.io/valhalla/','Valhalla routing']],
+  ['Atlas','The atlas connects Medina airport to approximate city centers. Globe arcs and distances use a spherical great circle. The map shows straight bearings on its projection. See Arrival for each flight.',
+   ['https://www.naturalearthdata.com/about/terms-of-use/','Natural Earth'],['https://ourairports.com/airports/OEMA/','OurAirports (MED)']],
+  ['Currency','The calculator sums SAR inputs. Earlier examples were rounded during the 23 November 2026 research. The Saudi Central Bank keeps an exchange-rate archive. The guide uses no live currency conversion.',
+   ['https://www.sama.gov.sa/en-us/currency/finexc/pages/currency.aspx','Saudi Central Bank FX reference']]
+ ];
+ el('evidence').innerHTML = '<h2>Sources</h2><p class="section-lead">Stay prices were observed on 23 November 2026. Flight times follow published schedules. Confirm both before booking.</p>'
+  +citySources+'<details id="photos-credit"><summary>Photography credits</summary><ul class="source-list">'+photos+'</ul></details>'
+  +'<details><summary>Routes, atlas and currency</summary><div class="source-methods">'+methods.map(([title,copy,...links])=>'<section><h3>'+h(title)
+   +'</h3><p class="small">'+h(copy)+'</p>'+evidenceActions(...links)+'</section>').join('')+'</div></details>';
+}
+function setChapterSection(sectionId) {
+ const label = chapterLinks.find(([id])=>id===sectionId)?.[1];
+ const summary = document.querySelector('.chapter-menu summary');
+ const visible = label ? 'Sections · '+label : 'Sections';
+ summary.querySelector('.chapter-menu-current').textContent = visible;
+ summary.setAttribute('aria-label',visible+' in '+current.city);
+ for (const link of document.querySelectorAll('.city-subnav [data-jump]')) {
+  if (link.dataset.jump === sectionId) link.setAttribute('aria-current','location');
+  else link.removeAttribute('aria-current');
+ }
+}
 function jumpTo(sectionId) {
  const section = el(sectionId);
+ if (window.history) setChapterSection(sectionId);
  section.querySelector('h2')?.focus({preventScroll:true});
  section.scrollIntoView({block:'start'});
 }
@@ -295,6 +396,7 @@ function visitCity(id, section = 'chapter', record = true) {
  state.city = id;
  anchorId = '';
  routeIndex = 0;
+ walkListExpanded = false;
  slide = 0;
  winterChoice = 0;
  persist();
@@ -314,14 +416,15 @@ function writeChapterHash(section) {
 function observeChapter() {
  chapterObserver?.disconnect();
  const sections = [...document.querySelectorAll('[data-chapter-section]')];
- chapterObserver = new IntersectionObserver(entries => {
-  const active = entries.filter(entry => entry.isIntersecting).at(-1);
-  if (!active) return;
-  for (const link of document.querySelectorAll('.city-subnav [data-jump]')) {
-   if (link.dataset.jump === active.target.id) link.setAttribute('aria-current', 'location');
-   else link.removeAttribute('aria-current');
-  }
- }, {rootMargin: '-23% 0px -55% 0px'});
+ const bars = document.querySelector('.mast').offsetHeight + document.querySelector('.city-subnav').offsetHeight;
+ const cue = Math.min(window.innerHeight-2,Math.max(bars+18,Math.round(window.innerHeight*.3)));
+ chapterObserver = new IntersectionObserver(() => {
+  const active = sections.find(section => {
+   const rect = section.getBoundingClientRect();
+   return rect.top <= cue+1 && rect.bottom > cue;
+  });
+  if (active || sections[0].getBoundingClientRect().top > cue) setChapterSection(active?.id);
+ }, {rootMargin:'-'+cue+'px 0px -'+(window.innerHeight-cue-2)+'px 0px'});
  sections.forEach(section => chapterObserver.observe(section));
 }
 function restoreChapterLocation() {
@@ -358,12 +461,7 @@ document.addEventListener('click',e=>{
  if(b.dataset.route!==undefined) {
   routeIndex=Number(b.dataset.route);
   paintMap();
-  const selected=el('map').querySelector('[data-route][aria-pressed=true]');
-  if (e.detail > 0 && window.matchMedia('(max-width: 42rem)').matches) {
-   const preview=el('route-select');
-   preview.focus({preventScroll:true});
-   el('route-note').scrollIntoView({block:'center'});
-  } else selected?.focus({preventScroll:true});
+  el('map').querySelector('[data-route][aria-pressed=true]')?.focus({preventScroll:true});
  }
  if(b.dataset.gallery){const length=book.photos[current.id].length;slide=(slide+Number(b.dataset.gallery)+length)%length;paintGallery();el(el('photo-dialog').open?'photo-dialog':'gallery').querySelector('[data-gallery="'+b.dataset.gallery+'"]')?.focus({preventScroll:true});}
  if(b.hasAttribute('data-photo-open') || b.dataset.winterPhoto) {
@@ -376,22 +474,42 @@ document.addEventListener('click',e=>{
   el('photo-dialog').showModal();
  }
  if(b.hasAttribute('data-photo-close')) el('photo-dialog').close();
- if(b.dataset.stay!==undefined){const i=Number(b.dataset.stay), stay=current.stays[i];state.stays={...state.stays,[current.id]:i};state.budgets={...state.budgets,[current.id]:{...state.budgets?.[current.id],stay:stay.price||budget(current).stay}};persist();el('stays').querySelector('.stays').innerHTML=current.stays.map(stayCard).join('');el('stays').querySelector('[data-stay="'+i+'"]')?.focus({preventScroll:true});el('cost-stay').value=budget(current).stay;anchorId='';routeIndex=0;paintMap();paintTotal();refreshPrices();}
+ if(b.dataset.stay!==undefined){
+  const i=Number(b.dataset.stay), stay=current.stays[i];
+  state.stays={...state.stays,[current.id]:i};
+  state.budgets={...state.budgets,[current.id]:{...state.budgets?.[current.id],stay:stay.price||budget(current).stay}};
+  persist();
+  if (window.history) {
+   for (const button of el('stays').querySelectorAll('[data-stay]')) {
+    const selected = button === b;
+    button.setAttribute('aria-pressed',String(selected));
+    button.textContent = selected?'Stay selected':'Use this stay';
+   }
+   b.focus({preventScroll:true});
+  } else el('stays').querySelector('.stays').innerHTML=current.stays.map(stayCard).join('');
+  el('cost-stay').value=budget(current).stay;
+  anchorId='';routeIndex=0;paintMap();paintTotal();refreshPrices();
+ }
  if(b.hasAttribute('data-reset')){if(state.budgets)delete state.budgets[current.id];if(state.stays)delete state.stays[current.id];anchorId='';routeIndex=0;persist();paintCity();el('budget').querySelector('[data-reset]').focus({preventScroll:true});refreshPrices();}
  if(b.hasAttribute('data-print'))window.print();
 });
 document.addEventListener('input',e=>{const key=e.target.dataset.cost;if(!key)return;state.budgets={...state.budgets,[current.id]:{...state.budgets?.[current.id],[key]:n(e.target.value)}};persist();paintTotal();refreshPrices();});
+function updateWalkPicker(controlId) {
+ paintMap();
+ const control = el(controlId);
+ control.focus({preventScroll:true});
+ if (shortLandscapeWalks?.matches) control.closest('.route-layout').scrollIntoView({block:'start',behavior:'instant'});
+ else if (compactWalks?.matches && controlId === 'route-select' && el('map').querySelector('.mapbox').getBoundingClientRect().bottom > window.innerHeight) {
+  control.closest('.quick-walk').scrollIntoView({block:'start',behavior:'instant'});
+ }
+}
+document.addEventListener('focusin',e=>{
+ if (window.history && e.target.matches('#budget input, #budget summary, #budget button')) revealBudgetFocus(e.target);
+});
 document.addEventListener('change',e=>{
  if(e.target.dataset?.cost)e.target.value=budget(current)[e.target.dataset.cost];
- if(e.target.id==='anchor-select'){anchorId=e.target.value;routeIndex=0;paintMap();el('anchor-select').focus({preventScroll:true});}
- if(e.target.id==='route-select') {
-  routeIndex=Number(e.target.value);
-  paintMap();
-  const control=el('route-select');
-  control.focus({preventScroll:true});
-  const map=document.querySelector('.mapbox');
-  if (map.getBoundingClientRect().bottom > window.innerHeight) control.closest('.quick-walk').scrollIntoView({block:'start'});
- }
+ if(e.target.id==='anchor-select'){anchorId=e.target.value;routeIndex=0;updateWalkPicker('anchor-select');}
+ if(e.target.id==='route-select'){routeIndex=Number(e.target.value);updateWalkPicker('route-select');}
  if(e.target.id==='left-city'||e.target.id==='right-city'){state[e.target.id.split('-')[0]]=e.target.value;persist();paintCompare();el(e.target.id)?.focus({preventScroll:true});}
 });
 let printedDays=[];
@@ -426,5 +544,10 @@ function bootGuide() {
   }
  });
  window.addEventListener('hashchange', restoreChapterLocation);
+ if (window.IntersectionObserver) window.addEventListener('resize', observeChapter);
+ compactWalks?.addEventListener('change',syncWalkList);
+ el('city').addEventListener('toggle',event=>{
+  if (compactWalks?.matches && event.target.matches('.walk-list-disclosure')) walkListExpanded=event.target.open;
+ },true);
  if (byId[pageLocation()[0]]) requestAnimationFrame(restoreChapterLocation);
 }
