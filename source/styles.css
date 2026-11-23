@@ -358,6 +358,7 @@ tbody tr:first-child td { font-weight: 800; }
   .stays > .stay { grid-row: span 8; grid-template-rows: subgrid; row-gap: .12rem; }
   .route-layout { grid-template-columns: minmax(0,1.08fr) minmax(0,.92fr); }
   .walk-picker-rail { grid-column: 1 / -1; }
+  .walk-list-disclosure > summary { display: none; }
   .map-stage, .journey-photo { position: sticky; top: var(--chapter-jump); }
   .itinerary-layout { grid-template-columns: minmax(0,1.15fr) minmax(0,.85fr); gap: clamp(1.5rem,4vw,3rem); }
   .journey-photo img { aspect-ratio: .93; }

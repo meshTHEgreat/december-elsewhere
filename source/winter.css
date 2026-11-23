@@ -51,7 +51,7 @@
 .winter-briefings { border-block: 1px solid var(--line); padding: 1.2rem 0; margin-top: 2rem; display: grid; gap: .8rem; }
 .winter-briefings h3 { margin-block: .35rem; }
 .winter-film-buttons { display: flex; flex-wrap: wrap; align-items: center; gap: .55rem; }
-.winter-film-message:empty { display: none; }
+.winter-film-message:empty { position: absolute; inline-size: 1px; block-size: 1px; overflow: hidden; clip-path: inset(50%); }
 .winter-film { text-align: center; scroll-margin-block-start: calc(var(--chapter-nav) + .5rem); }
 .winter-close { margin: 0 auto .5rem; }
 .outdoor-guide { display: grid; gap: .8rem; padding: .95rem 1.05rem; margin-top: 1.35rem; background: #e5eadd; border-inline-start: 2px solid #63836b; }
