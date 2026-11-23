@@ -28,3 +28,6 @@ Use Stageshow for the existing optional visual briefings and compare storyboard 
 | Pass | Work | Evidence |
 | --- | --- | --- |
 | Baseline | Live and standalone outputs unchanged. Started read-only inventory, layout walkthroughs, and owner requirement traceability. | Baseline commit above. |
+| Owner review | Published nine measured proposals and recorded eight approvals to proceed. Deferred the ultrawide and flat-map label study. | [Review page](https://meshthegreat.github.io/december-elsewhere/ui-review/) · [Decisions](review/decisions.json) |
+| Build | Implemented the mobile improvements in isolated source lanes. Wrote and ran failing checks before source changes. | [Build record](IMPLEMENTATION.md) · [UI change log](UI-CHANGELOG.md) |
+| Re-check | Corrected the two 320 px budget baselines and Stage note spacing. The first dry attempt then found 19 landscape photo states with clipped arrow controls. The corrected viewer passed its all-photo checks. Restarted the two-round count. | [First attempt and measurements](round-1/REPORT.md) |

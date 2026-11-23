@@ -13,6 +13,8 @@ The [owner review](https://meshthegreat.github.io/december-elsewhere/ui-review/)
 
 The first combined render caught a 26.39 px spread between the 320 px budget amounts. The labels now fit one line and the amounts align. A separate landscape scene check caught longer notes touching the Stage progress marks. The final scene CSS leaves space above progress at the same 14 px detail size. Both fixes were tested before their source changes. The [UI change log](UI-CHANGELOG.md) tracks each approved decision. UI-09 was deferred.
 
+The first independent attempt exposed a landscape photo viewer issue. Previous and Next were partly clipped in 19 of 24 photos. Commit `8d34b38` added the failing 24-photo check, and `d18ccbe` aligned the focus assertion with the native close event. Commit `f4aff5e` puts Download beside the arrows and lets longer captions scroll independently of Close and the gallery controls. All 24 photos then passed the control sweep in both delivery forms. The release count restarted at zero. [Failed round and reproduction](round-1/REPORT.md)
+
 ## Before and after
 
 | Check | Baseline | Frozen build |
@@ -22,6 +24,7 @@ The first combined render caught a 26.39 px spread between the 320 px budget amo
 | Selected city name edge spread | 7.19 px | 0 px |
 | Baku stay action top at 390 px | 1216 px | 622.42 px |
 | Baku photo frame height at 390 px | 565 px for 242 px of photo | 242.47 px |
+| Photo states with clipped arrows at 667 × 375 | 19 of 24 (first candidate) | 0 of 24 |
 | Landscape map after native selection | 0 of 55 complete traces in view | 55 of 55 complete traces in view |
 | Globe cut off at 667 × 375 | 178.8 px of the visual | 0 px of the visual |
 | 667 × 375 preview displayed | 271 of 365 px | Full 460 × 190 px scene and focused Close |
@@ -42,11 +45,11 @@ No numeric budget was tracked in the baseline. Both optional scripts remain on d
 
 | Asset | Before raw / gzip bytes | After raw / gzip bytes |
 | --- | ---: | ---: |
-| Hosted HTML | 472,669 / 136,028 | 483,704 / 138,649 |
-| Inline CSS | 53,263 / 12,627 | 57,457 / 13,427 |
-| Inline JS | 47,908 / 15,422 | 54,605 / 17,453 |
+| Hosted HTML | 472,669 / 136,028 | 484,138 / 138,774 |
+| Inline CSS | 53,263 / 12,627 | 57,790 / 13,503 |
+| Inline JS | 47,908 / 15,422 | 54,706 / 17,481 |
 | Optional Stageshow JS | 183,235 / 61,787 | 184,042 / 62,084 |
 | Optional Three.js globe | 515,077 / 130,312 | 515,077 / 130,312 |
-| Standalone file | 8,327,380 / 5,742,564 | 8,339,252 / 5,746,089 |
+| Standalone file | 8,327,380 / 5,742,564 | 8,339,686 / 5,746,216 |
 
 The build kept the travel, pedestrian path, satellite, photo, outdoor and winter data files byte-identical to the baseline.

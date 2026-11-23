@@ -3,7 +3,7 @@ import argparse
 import json
 from pathlib import Path
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import expect, sync_playwright
 
 HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
@@ -77,6 +77,7 @@ def audit(browser, url, widths, offline):
             page.locator("#gallery [data-photo-open]").press("Enter")
             take("#photo-dialog", city + " photo open")
             page.keyboard.press("Escape")
+            expect(page.locator("#gallery [data-photo-open]")).to_be_focused()
         for name in ("baku", "overview"):
             page.locator(f"[data-winter-film='{name}']").press("Enter")
             page.locator(".ss-stage").wait_for()

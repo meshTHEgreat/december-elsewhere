@@ -1,0 +1,45 @@
+{
+  "browser": "157.0.8103.79",
+  "results": [
+    {
+      "edition": "online",
+      "sha256": "6531786a1a2e8c365cbfd3ff055f440cd3bfc04c9191b94ebbfe4cc40d85d48b",
+      "viewport": [
+        667,
+        375
+      ],
+      "dialogScrollTop": 0,
+      "dialogScrollHeight": 415,
+      "dialogClientHeight": 375,
+      "nextTop": 358.5625,
+      "nextBottom": 402.5625,
+      "nextCenter": [
+        379.8125,
+        380.5625
+      ],
+      "nextVisibleHeight": 16.4375,
+      "hitTestNextCenter": false,
+      "keyboardAndScrolledTouchWork": true
+    },
+    {
+      "edition": "offline",
+      "sha256": "50ad87e74d97e873a66148c251cbcc2ce58ea7d0ee289d9328425efcb5411ff8",
+      "viewport": [
+        667,
+        375
+      ],
+      "dialogScrollTop": 0,
+      "dialogScrollHeight": 415,
+      "dialogClientHeight": 375,
+      "nextTop": 358.5625,
+      "nextBottom": 402.5625,
+      "nextCenter": [
+        379.8125,
+        380.5625
+      ],
+      "nextVisibleHeight": 16.4375,
+      "hitTestNextCenter": false,
+      "keyboardAndScrolledTouchWork": true
+    }
+  ]
+}
