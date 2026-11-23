@@ -16,13 +16,12 @@ function winterMarkup() {
  return '<div class="winter-heading"><p class="eyebrow">'+h(current.city)+' · Winter field guide</p><p class="lede">'
    +h(winter.title)+'</p><p class="section-lead">'+h(winter.summary)+'</p></div>'
    + tabs + '<div id="winter-choice">'+winterOptionMarkup(options[winterChoice])+'</div>'
-   + '<div class="winter-briefings" id="winter-briefings"><div><p class="eyebrow">Visual briefings</p><h3>See the plan in motion</h3>'
-   + '<p class="small">Short visual guides. The trip facts and links are available above.</p></div><div class="winter-film-buttons">'
+   + '<div class="winter-briefings" id="winter-briefings"><h3>Winter previews</h3><div class="winter-film-buttons">'
    + '<button class="action" data-winter-film="baku">Caspian to Caucasus <span aria-hidden="true">▷</span></button>'
    + '<button class="action" data-winter-film="overview">Winter across the five <span aria-hidden="true">▷</span></button></div>'
    + '<div class="winter-film-message" role="status" id="winter-film-message"></div>'
-   + '<div id="winter-film" class="winter-film" hidden><div id="winter-film-stage"></div>'
-   + '<button class="action winter-close" data-winter-close type="button">Close preview</button></div></div>';
+   + '<div id="winter-film" class="winter-film" hidden><button class="action winter-close" data-winter-close type="button">Close preview</button>'
+   + '<div id="winter-film-stage"></div></div></div>';
 }
 function winterOptionMarkup(option) {
  const photo = photograph(current, option.photo);
@@ -71,14 +70,18 @@ function closePresentation() {
 }
 function dismissPresentation() {
  closePresentation();
- presentationTrigger?.focus({preventScroll:true});
+ if (presentationTrigger?.isConnected) {
+  presentationTrigger.focus({preventScroll:true});
+  presentationTrigger.scrollIntoView({block:'center'});
+ }
 }
 async function openPresentation(mode, trigger) {
  closePresentation();
  presentationTrigger = trigger;
  const request = presentationRequest;
+ const startingFocus = document.activeElement;
  const status = el('winter-film-message');
- status.textContent = 'Loading visual briefing';
+ status.textContent = 'Loading preview';
  trigger.setAttribute('aria-busy', 'true');
  try {
   const runtime = await loadGuideModule('winter-stage-code','DecemberWinterStage');
@@ -87,9 +90,12 @@ async function openPresentation(mode, trigger) {
   panel.hidden = false;
   presentationUnmount = runtime.mount(el('winter-film-stage'), presentationStory(mode));
   status.textContent = '';
-  panel.scrollIntoView({block:'nearest'});
+  if (document.activeElement === startingFocus || document.activeElement === trigger) {
+   panel.querySelector('[data-winter-close]').focus({preventScroll:true});
+   panel.scrollIntoView({block:'start'});
+  }
  } catch {
-  if (request === presentationRequest) status.textContent = 'The visual briefing could not load. The guide above is ready.';
+  if (request === presentationRequest) status.textContent = 'Preview unavailable. Read the winter plans above.';
  } finally {
   trigger.removeAttribute('aria-busy');
  }
