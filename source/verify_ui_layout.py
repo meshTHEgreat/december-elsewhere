@@ -1,5 +1,7 @@
 """Measured mobile-first CSS contracts for the offline file or a hosted guide."""
 import argparse
+from collections import Counter
+import json
 from pathlib import Path
 import re
 
@@ -63,14 +65,39 @@ def check(browser, url):
         context.close()
 
 
+def check_landscape_photo_controls(browser, url):
+    counts = Counter(photo["city"] for photo in json.loads((ROOT / "source/photography.json").read_text(encoding="utf-8")))
+    context = browser.new_context(viewport={"width": 667, "height": 375}, has_touch=True, is_mobile=True,
+                                  reduced_motion="reduce", offline=url.startswith("file:"))
+    page = context.new_page()
+    page.goto(url, wait_until="domcontentloaded")
+    page.evaluate("document.fonts.ready")
+    for city, count in counts.items():
+        page.locator(f".city-tab[data-city='{city}']").tap()
+        page.locator("#gallery [data-photo-open]").tap()
+        viewer = page.locator("#photo-dialog")
+        for index in range(count):
+            viewer.locator("img").evaluate("img=>img.decode()")
+            for selector in ("[data-photo-close]", "[data-gallery='-1']", "[data-gallery='1']", ".photo-download"):
+                rect = viewer.locator(selector).bounding_box()
+                assert rect and rect["height"] >= 44 and rect["y"] >= 0 and rect["y"] + rect["height"] <= 375.5, (city, index, selector, rect)
+            viewer.locator("[data-gallery='1']").press("Enter")
+        page.keyboard.press("Escape")
+        assert page.locator("#gallery [data-photo-open]").evaluate("control=>control === document.activeElement")
+    context.close()
+
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("url", nargs="?", default=(ROOT / "index.html").as_uri())
     parser.add_argument("--browser", choices=("chrome", "msedge"), default="chrome")
+    parser.add_argument("--photos-only", action="store_true")
     args = parser.parse_args()
     rules()
     with sync_playwright() as driver:
         browser = driver.chromium.launch(channel=args.browser)
-        check(browser, args.url)
-        print(f"Layout passed in {browser.version} at all six viewport sizes")
+        if not args.photos_only:
+            check(browser, args.url)
+        check_landscape_photo_controls(browser, args.url)
+        print(f"Layout and landscape photo controls passed in {browser.version}")
         browser.close()
