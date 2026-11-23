@@ -36,6 +36,7 @@
 }
 .wf-story--shallow .wf-story-image { inset-inline-start: 50%; }
 .wf-story--shallow .wf-story-editorial { width: 55%; padding: 12px 16px; }
+.wf-story--shallow :is(.wf-story-label, .wf-story-area, .wf-story-detail) { margin: 0; }
 .wf-story--shallow .wf-story-label { font-size: 10px; }
 .wf-story--shallow .wf-story-words { margin-top: 11px; height: 118px; }
 .wf-story--shallow .wf-story-beat h3 { font-size: 37px; margin: 5px 0 7px; }
