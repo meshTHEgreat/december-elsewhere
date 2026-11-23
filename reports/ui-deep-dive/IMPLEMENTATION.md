@@ -15,6 +15,8 @@ The first combined render caught a 26.39 px spread between the 320 px budget amo
 
 The first independent attempt exposed a landscape photo viewer issue. Previous and Next were partly clipped in 19 of 24 photos. Commit `8d34b38` added the failing 24-photo check, and `d18ccbe` aligned the focus assertion with the native close event. Commit `f4aff5e` puts Download beside the arrows and lets longer captions scroll independently of Close and the gallery controls. All 24 photos then passed the control sweep in both delivery forms. The release count restarted at zero. [Failed round and reproduction](round-1/REPORT.md)
 
+After the photo correction passed an independent Chrome review, Edge found that Shift+Tab from a named Stageshow scene could leave 24.58 px of the focused Close button under the sticky chapter navigation. Commit `ac7537a` reproduced both the keyboard obstruction and an empty panel after a forced runtime error. Commit `d48cd6e` moved Close beside the stage at short landscape sizes and closed the panel after a failed mount. At 667 × 375, the full Close button now starts at y122.02, above the obstruction from the previous attempt, and the last scene controls end at y366.41. Both rehearsals preserve focus, the full 460 × 190 artboard and the original scene order. [Edge finding](round-3/REPORT.md) · [Final geometry](measure/landscape-preview-final.json) · [Visible keyboard focus](measure/shots/667-winter-keyboard.jpg)
+
 ## Before and after
 
 | Check | Baseline | Frozen build |
@@ -45,11 +47,11 @@ No numeric budget was tracked in the baseline. Both optional scripts remain on d
 
 | Asset | Before raw / gzip bytes | After raw / gzip bytes |
 | --- | ---: | ---: |
-| Hosted HTML | 472,669 / 136,028 | 484,138 / 138,774 |
-| Inline CSS | 53,263 / 12,627 | 57,790 / 13,503 |
-| Inline JS | 47,908 / 15,422 | 54,706 / 17,481 |
+| Hosted HTML | 472,669 / 136,028 | 484,467 / 138,842 |
+| Inline CSS | 53,263 / 12,627 | 58,086 / 13,548 |
+| Inline JS | 47,908 / 15,422 | 54,739 / 17,486 |
 | Optional Stageshow JS | 183,235 / 61,787 | 184,042 / 62,084 |
 | Optional Three.js globe | 515,077 / 130,312 | 515,077 / 130,312 |
-| Standalone file | 8,327,380 / 5,742,564 | 8,339,686 / 5,746,216 |
+| Standalone file | 8,327,380 / 5,742,564 | 8,340,015 / 5,746,280 |
 
 The build kept the travel, pedestrian path, satellite, photo, outdoor and winter data files byte-identical to the baseline.

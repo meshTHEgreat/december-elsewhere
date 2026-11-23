@@ -9,6 +9,7 @@ Open [the online guide](https://meshthegreat.github.io/december-elsewhere/) or d
 - Choose any walk to highlight the pedestrian route. The starting point is a public landmark, square or station. Two properties could not be linked to a reliable public starting point.
 - The walk map offers a real Sentinel-2 satellite view and a diagram. Google Maps and Apple Maps open walking directions using the same two public points.
 - Winter covers the trip dates, outdoor activities, direct operator links, and two optional Stageshow presentations. Stay cards distinguish private outdoor space, nearby public space, listed amenities with unclear access, and unverified claims.
+- Open **Local guides** in each Itinerary to compare a guided day trip with an overnight base. It includes the [shared Baku tour](https://meshthegreat.github.io/december-elsewhere/#baku/guides) and links to guides and transport near each excursion.
 - Change meals, fares and other costs to compare the group's options. Open Car rental costs when needed. Driver, lodging and car inputs are shared. All remaining inputs are per adult. A rental should replace the driver line when the two cover the same outing.
 - Open the original accommodation page for the actual room photos and to confirm availability, fees, bedding and arrival arrangements. All 24 licensed place photographs can be viewed and downloaded from the guide.
 - Print from a destination's budget area to expand the full itinerary for printing.
@@ -23,6 +24,7 @@ Open [the online guide](https://meshthegreat.github.io/december-elsewhere/) or d
 | `source/travel-data.json` | Dated research, prior estimates, operating assumptions and alternatives |
 | `source/travel-maps.json` | 55 pedestrian routes from 10 public anchors, including modeling caveats |
 | `source/photography.json`, `assets/PHOTOGRAPHY.md` | Photograph sources, licenses and modifications |
+| `source/guided-data.json` | Date-aware day and overnight comparisons, operators and booking links |
 | `reports/` | Goal, improvement log, independent findings, route audit and verification status |
 
 Run `python3 source/build.py` to regenerate both formats. Python’s standard library is sufficient. Serve `docs/` for the online build. The atlas uses [public-domain Natural Earth land geometry](https://www.naturalearthdata.com/about/terms-of-use/). Walking map data © OpenStreetMap contributors, [ODbL 1.0](https://www.openstreetmap.org/copyright). Routes were calculated using the [Valhalla service](https://valhalla1.openstreetmap.de/). Photographs carry their individually indicated licenses. Three.js and the locally packaged fonts carry their MIT and SIL Open Font License notices in `source/vendor/` and inside the offline edition.
@@ -32,3 +34,5 @@ Run `python source/verify_premium.py` with Python Playwright and Chrome or Edge 
 Two independent package/runtime checks are reproducible with `node source/verify-independent.cjs reports/independent-package-audit.json` and `node reports/independent-runtime.cjs . > reports/independent-runtime.json`. The browser regression script is `python3 source/verify.py browser-results.json` with Playwright and its Chromium installed. See the verification report for checks actually executed.
 
 Run `python source/verify_winter.py` for the winter guide, Stageshow and satellite regressions. See [the winter release record](reports/WINTER-FIELD-GUIDE.md) for operator sources and rehearsal evidence. The standard-library Python build uses locally vendored Stageshow and React assets. `source/prepare-winter-stage.mjs` can regenerate the vendored scene from the installed skill. `source/fetch-walk-basemaps.py` refreshes the open Sentinel-2 imagery when needed.
+
+The [mobile UI review](https://meshthegreat.github.io/december-elsewhere/ui-review/) includes the decisions, screenshots and measured changes. Run `python source/verify_guided.py` for the five local guide comparisons. [Research and source notes](reports/ui-deep-dive/guided-research/RESEARCH.md)

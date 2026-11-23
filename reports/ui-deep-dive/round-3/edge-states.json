@@ -1,0 +1,232 @@
+{
+  "browser": "158.0.4370.33",
+  "preview_return_focus_online": {
+    "baku": [
+      {
+        "label": "Touch open",
+        "focus": "Close preview",
+        "focus_visible": false,
+        "close_top": 122.015625,
+        "close_bottom": 166.015625,
+        "close_center_hit": true,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 374.40625,
+        "scene_controls_bottom": 418.40625,
+        "scroll_y": 6911
+      },
+      {
+        "label": "Tab to first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Enter selects first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Shift+Tab returns to Close preview",
+        "focus": "Close preview",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      }
+    ],
+    "overview": [
+      {
+        "label": "Touch open",
+        "focus": "Close preview",
+        "focus_visible": false,
+        "close_top": 122.015625,
+        "close_bottom": 166.015625,
+        "close_center_hit": true,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 374.40625,
+        "scene_controls_bottom": 418.40625,
+        "scroll_y": 6911
+      },
+      {
+        "label": "Tab to first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Enter selects first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Shift+Tab returns to Close preview",
+        "focus": "Close preview",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      }
+    ]
+  },
+  "preview_return_focus_offline": {
+    "baku": [
+      {
+        "label": "Touch open",
+        "focus": "Close preview",
+        "focus_visible": false,
+        "close_top": 122.015625,
+        "close_bottom": 166.015625,
+        "close_center_hit": true,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 374.40625,
+        "scene_controls_bottom": 418.40625,
+        "scroll_y": 6911
+      },
+      {
+        "label": "Tab to first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Enter selects first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Shift+Tab returns to Close preview",
+        "focus": "Close preview",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      }
+    ],
+    "overview": [
+      {
+        "label": "Touch open",
+        "focus": "Close preview",
+        "focus_visible": false,
+        "close_top": 122.015625,
+        "close_bottom": 166.015625,
+        "close_center_hit": true,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 374.40625,
+        "scene_controls_bottom": 418.40625,
+        "scroll_y": 6911
+      },
+      {
+        "label": "Tab to first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Enter selects first scene",
+        "focus": "Baku",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      },
+      {
+        "label": "Shift+Tab returns to Close preview",
+        "focus": "Close preview",
+        "focus_visible": true,
+        "close_top": 79.015625,
+        "close_bottom": 123.015625,
+        "close_center_hit": false,
+        "nav_bottom": 103.59375,
+        "scene_controls_top": 331.40625,
+        "scene_controls_bottom": 375.40625,
+        "scroll_y": 6954
+      }
+    ]
+  },
+  "preview_runtime_failures": {
+    "online-blocked": {
+      "status": "Preview unavailable. Read the winter plans above.",
+      "empty_panel_visible": false,
+      "stage_count": 0,
+      "focus_stays_on_trigger": true,
+      "winter_plans_visible": true
+    },
+    "online-invalid": {
+      "status": "Preview unavailable. Read the winter plans above.",
+      "empty_panel_visible": true,
+      "stage_count": 0,
+      "focus_stays_on_trigger": true,
+      "winter_plans_visible": true,
+      "empty_panel_closes": true
+    },
+    "offline": {
+      "status": "Preview unavailable. Read the winter plans above.",
+      "empty_panel_visible": true,
+      "stage_count": 0,
+      "focus_stays_on_trigger": true,
+      "winter_plans_visible": true,
+      "empty_panel_closes": true
+    }
+  }
+}

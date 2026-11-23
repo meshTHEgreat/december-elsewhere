@@ -1,0 +1,68 @@
+{
+  "320": {
+    "states": 98,
+    "max_document_overflow_px": 0,
+    "max_group_alignment_spread_px": 0,
+    "max_region_overflow_px": 0,
+    "only_sub_44px_target_types": [
+      "a"
+    ],
+    "max_open_evidence_full_line_chars": 49,
+    "max_full_line_chars": 51
+  },
+  "390": {
+    "states": 98,
+    "max_document_overflow_px": 0,
+    "max_group_alignment_spread_px": 0,
+    "max_region_overflow_px": 0,
+    "only_sub_44px_target_types": [
+      "a"
+    ],
+    "max_open_evidence_full_line_chars": 60,
+    "max_full_line_chars": 60
+  },
+  "667": {
+    "states": 98,
+    "max_document_overflow_px": 0,
+    "max_group_alignment_spread_px": 0,
+    "max_region_overflow_px": 0,
+    "only_sub_44px_target_types": [
+      "a"
+    ],
+    "max_open_evidence_full_line_chars": 72,
+    "max_full_line_chars": 105
+  },
+  "768": {
+    "states": 93,
+    "max_document_overflow_px": 0,
+    "max_group_alignment_spread_px": 0,
+    "max_region_overflow_px": 0,
+    "only_sub_44px_target_types": [
+      "a"
+    ],
+    "max_open_evidence_full_line_chars": 72,
+    "max_full_line_chars": 110
+  },
+  "1440": {
+    "states": 93,
+    "max_document_overflow_px": 0,
+    "max_group_alignment_spread_px": 0,
+    "max_region_overflow_px": 0,
+    "only_sub_44px_target_types": [
+      "a"
+    ],
+    "max_open_evidence_full_line_chars": 72,
+    "max_full_line_chars": 159
+  },
+  "2560": {
+    "states": 93,
+    "max_document_overflow_px": 0,
+    "max_group_alignment_spread_px": 0,
+    "max_region_overflow_px": 0,
+    "only_sub_44px_target_types": [
+      "a"
+    ],
+    "max_open_evidence_full_line_chars": 72,
+    "max_full_line_chars": 159
+  }
+}

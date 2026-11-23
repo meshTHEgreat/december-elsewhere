@@ -6,7 +6,7 @@ The guide retains the installed Stageshow Stage and Act runtime. The editor fram
 
 - **Caspian to Caucasus.** Baku, Shahdag, Tufandag. Film at 390 px and actual host recording at 390 × 844. [Baseline frames](baseline-baku-390.jpg) · [Final frames](final-baku-390.jpg) · [Guide recording](ui-preview-baku-390.webm)
 - **Winter across the five.** Baku, Tbilisi, Budapest, Vienna, Prague. Film at 1024 px and actual landscape host recording at 667 × 375. [Baseline frames](baseline-overview-667.jpg) · [Final frames](final-overview-1024.jpg) · [Guide recording](ui-preview-overview-667.webm)
-- Inspected opening, handoff and settled frames. The photo begins its crossfade before the note settles. Focusing Close leaves the scene visible in landscape. The scene buttons stay in document order after the image.
+- Inspected opening, handoff and settled frames. The photo begins its crossfade before the note settles. In short landscape, Close sits beside the artboard. Tab advances from Close to named scenes, and Shift+Tab returns to a fully visible Close. [Keyboard-focused screenshot](../measure/shots/667-winter-keyboard.jpg)
 
 ## Findings and limits
 

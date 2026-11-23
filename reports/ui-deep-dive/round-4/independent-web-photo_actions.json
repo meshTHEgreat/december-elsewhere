@@ -1,0 +1,46 @@
+{
+  "browser": "157.0.8103.79",
+  "edition": "web",
+  "url": "http://127.0.0.1:18770/december-elsewhere/",
+  "sha256": "7f11a5268987a9e14ad12336378be0e0f160b8ca111b90b58af1978001d51715",
+  "photo_actions": {
+    "downloads_matched_packaged_bytes": {
+      "baku": [
+        "baku.webp",
+        "baku-detail.webp",
+        "baku-excursion.webp",
+        "baku-nizami.webp",
+        "baku-sabir.webp",
+        "baku-snow.webp",
+        "baku-shahdag.webp",
+        "baku-shahdag-view.webp",
+        "baku-tufandag.webp"
+      ],
+      "tbilisi": [
+        "tbilisi.webp",
+        "tbilisi-detail.webp",
+        "tbilisi-winter.webp",
+        "tbilisi-gudauri.webp"
+      ],
+      "budapest": [
+        "budapest.webp",
+        "budapest-detail.webp",
+        "budapest-market.webp",
+        "budapest-szechenyi.webp"
+      ],
+      "vienna": [
+        "vienna.webp",
+        "vienna-detail.webp",
+        "vienna-market.webp"
+      ],
+      "prague": [
+        "prague.webp",
+        "prague-detail.webp",
+        "prague-vinohrady.webp",
+        "prague-winter.webp"
+      ]
+    },
+    "http_requests": 28,
+    "errors": []
+  }
+}

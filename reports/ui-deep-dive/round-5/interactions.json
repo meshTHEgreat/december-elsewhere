@@ -1,0 +1,639 @@
+{
+  "browser": "158.0.4370.33",
+  "sha256": {
+    "web": "7f11a5268987a9e14ad12336378be0e0f160b8ca111b90b58af1978001d51715",
+    "offline": "810972ed812b0dbd348b99f06c95d9f77c356a5af2d48a5397a44a232aa976e4"
+  },
+  "web": {
+    "landscape_stage": {
+      "baku": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            150.64,
+            321.41,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Shahdag": [
+            1450,
+            967
+          ],
+          "Tufandag": [
+            1340,
+            892
+          ]
+        }
+      },
+      "overview": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            82.41,
+            321.41,
+            58.47,
+            44
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Tbilisi": [
+            1480,
+            1110
+          ],
+          "Budapest": [
+            1450,
+            967
+          ],
+          "Vienna": [
+            1500,
+            999
+          ],
+          "Prague": [
+            1024,
+            768
+          ]
+        }
+      },
+      "http_requests": 16,
+      "errors": []
+    },
+    "landscape_normal": {
+      "baku": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            150.64,
+            322.13,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        }
+      },
+      "overview": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            82.41,
+            322.27,
+            58.47,
+            44
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        }
+      },
+      "http_requests": 16,
+      "errors": []
+    },
+    "failed_mount": {
+      "http_requests": 8,
+      "errors": []
+    },
+    "flows": [
+      {
+        "viewport": [
+          320,
+          725
+        ],
+        "touch": true,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 9,
+        "errors": []
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "touch": true,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 9,
+        "errors": []
+      },
+      {
+        "viewport": [
+          667,
+          375
+        ],
+        "touch": true,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 9,
+        "errors": []
+      },
+      {
+        "viewport": [
+          768,
+          1024
+        ],
+        "touch": false,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 9,
+        "errors": []
+      },
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "touch": false,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 10,
+        "errors": []
+      },
+      {
+        "viewport": [
+          2560,
+          1440
+        ],
+        "touch": false,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 10,
+        "errors": []
+      }
+    ],
+    "normal_and_manual_stage": {
+      "http_requests": 15,
+      "errors": []
+    },
+    "globe": {
+      "http_requests": 8,
+      "errors": []
+    },
+    "flat_fallback": {
+      "http_requests": 8,
+      "errors": []
+    }
+  },
+  "offline": {
+    "landscape_stage": {
+      "baku": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            150.64,
+            321.41,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Shahdag": [
+            1450,
+            967
+          ],
+          "Tufandag": [
+            1340,
+            892
+          ]
+        }
+      },
+      "overview": {
+        "boxes": {
+          "close": [
+            522.44,
+            122.02,
+            116.55,
+            44
+          ],
+          "stage": [
+            40.03,
+            122.02,
+            460,
+            190
+          ],
+          "Baku": [
+            82.41,
+            321.41,
+            58.47,
+            44
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        },
+        "nav_bottom": 103.59,
+        "decoded_photos": {
+          "Baku": [
+            1230,
+            748
+          ],
+          "Tbilisi": [
+            1480,
+            1110
+          ],
+          "Budapest": [
+            1450,
+            967
+          ],
+          "Vienna": [
+            1500,
+            999
+          ],
+          "Prague": [
+            1024,
+            768
+          ]
+        }
+      },
+      "http_requests": 0,
+      "errors": []
+    },
+    "landscape_normal": {
+      "baku": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            150.64,
+            322.14,
+            58.47,
+            44
+          ],
+          "Shahdag": [
+            213.91,
+            322.41,
+            83.73,
+            44
+          ],
+          "Tufandag": [
+            302.44,
+            322.41,
+            86.98,
+            44
+          ]
+        }
+      },
+      "overview": {
+        "close": [
+          522.44,
+          122.02,
+          116.55,
+          44
+        ],
+        "stage": [
+          40.03,
+          122.02,
+          460,
+          190
+        ],
+        "named_controls": {
+          "Baku": [
+            82.41,
+            322.14,
+            58.47,
+            44
+          ],
+          "Tbilisi": [
+            145.67,
+            322.41,
+            65.69,
+            44
+          ],
+          "Budapest": [
+            216.16,
+            322.41,
+            88.22,
+            44
+          ],
+          "Vienna": [
+            309.17,
+            322.41,
+            71.03,
+            44
+          ],
+          "Prague": [
+            385,
+            322.41,
+            72.66,
+            44
+          ]
+        }
+      },
+      "http_requests": 0,
+      "errors": []
+    },
+    "failed_mount": {
+      "http_requests": 0,
+      "errors": []
+    },
+    "flows": [
+      {
+        "viewport": [
+          320,
+          725
+        ],
+        "touch": true,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          390,
+          844
+        ],
+        "touch": true,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          667,
+          375
+        ],
+        "touch": true,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          768,
+          1024
+        ],
+        "touch": false,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          1440,
+          900
+        ],
+        "touch": false,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 0,
+        "errors": []
+      },
+      {
+        "viewport": [
+          2560,
+          1440
+        ],
+        "touch": false,
+        "language": "en",
+        "direction": "ltr",
+        "photo_native": [
+          1680,
+          1113
+        ],
+        "http_requests": 0,
+        "errors": []
+      }
+    ],
+    "normal_and_manual_stage": {
+      "http_requests": 0,
+      "errors": []
+    },
+    "globe": {
+      "http_requests": 0,
+      "errors": []
+    },
+    "flat_fallback": {
+      "http_requests": 0,
+      "errors": []
+    }
+  }
+}

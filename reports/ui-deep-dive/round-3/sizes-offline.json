@@ -1,0 +1,306 @@
+{
+  "browser": "158.0.4370.33",
+  "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/create-a-repo-and-push-to/index.html",
+  "sha256": "93e786ba4833e97cdd9e461fe8afd485617e4d7d0f2cbcbb9c2f00651bc92340",
+  "results": {
+    "320": {
+      "viewport": [
+        320,
+        725
+      ],
+      "budget_amount_tops": [
+        312.171875,
+        312.171875
+      ],
+      "budget_focus": {
+        "id": "cost-stay",
+        "y": 286.984375,
+        "bottom": 330.984375,
+        "hit": true
+      },
+      "menu_min_edge": 33,
+      "stay_actions_before_notes": true,
+      "baku_stage": {
+        "x": 16,
+        "y": 184.4375,
+        "width": 288,
+        "height": 298.6363525390625
+      },
+      "overview_stage": {
+        "x": 16,
+        "y": 184.4375,
+        "width": 288,
+        "height": 298.6363525390625
+      },
+      "city_rail_spread": [
+        0,
+        0.0
+      ],
+      "globe_visual": {
+        "x": 16,
+        "y": 175.1875,
+        "width": 288,
+        "height": 187
+      },
+      "comparison_scroll_px": 0,
+      "document_overflow_px": 0,
+      "traffic": {
+        "requests": 0,
+        "failures": [],
+        "warnings": []
+      }
+    },
+    "390": {
+      "viewport": [
+        390,
+        844
+      ],
+      "budget_amount_tops": [
+        312.125,
+        312.125
+      ],
+      "budget_focus": {
+        "id": "cost-stay",
+        "y": 286.78125,
+        "bottom": 330.78125,
+        "hit": true
+      },
+      "menu_min_edge": 33.390625,
+      "stay_actions_before_notes": true,
+      "baku_stage": {
+        "x": 18.875,
+        "y": 184.109375,
+        "width": 352,
+        "height": 365
+      },
+      "overview_stage": {
+        "x": 18.875,
+        "y": 184.109375,
+        "width": 352,
+        "height": 365
+      },
+      "city_rail_spread": [
+        0.0,
+        0.0
+      ],
+      "globe_visual": {
+        "x": 16.375,
+        "y": 175.65625,
+        "width": 357.234375,
+        "height": 231.96875
+      },
+      "comparison_scroll_px": 0,
+      "document_overflow_px": 0,
+      "traffic": {
+        "requests": 0,
+        "failures": [],
+        "warnings": []
+      }
+    },
+    "667": {
+      "viewport": [
+        667,
+        375
+      ],
+      "budget_amount_tops": [
+        302.46875,
+        302.46875
+      ],
+      "budget_focus": {
+        "id": "cost-stay",
+        "y": 120.328125,
+        "bottom": 164.328125,
+        "hit": true
+      },
+      "menu_min_edge": 45.015625,
+      "stay_actions_before_notes": true,
+      "landscape_walk_box": {
+        "x": 314.828125,
+        "y": 175.09375,
+        "width": 324.15625,
+        "height": 189.921875
+      },
+      "baku_stage": {
+        "x": 103.5,
+        "y": 173.1875,
+        "width": 460,
+        "height": 190
+      },
+      "overview_stage": {
+        "x": 103.5,
+        "y": 173.1875,
+        "width": 460,
+        "height": 190
+      },
+      "city_rail_spread": [
+        0.0,
+        0.0
+      ],
+      "globe_visual": {
+        "x": 272.390625,
+        "y": 69.59375,
+        "width": 366.59375,
+        "height": 216.078125
+      },
+      "comparison_scroll_px": 0,
+      "document_overflow_px": 0,
+      "traffic": {
+        "requests": 0,
+        "failures": [],
+        "warnings": []
+      }
+    },
+    "768": {
+      "viewport": [
+        768,
+        1024
+      ],
+      "budget_amount_tops": [
+        324.09375,
+        377.625
+      ],
+      "budget_focus": {
+        "id": "cost-stay",
+        "y": 130.546875,
+        "bottom": 174.546875,
+        "hit": true
+      },
+      "stay_actions_before_notes": true,
+      "baku_stage": {
+        "x": 32.25,
+        "y": 183.703125,
+        "width": 703,
+        "height": 322.8451232910156
+      },
+      "overview_stage": {
+        "x": 32.25,
+        "y": 183.703125,
+        "width": 703,
+        "height": 322.8451232910156
+      },
+      "city_rail_spread": [
+        0.0,
+        0.0
+      ],
+      "globe_visual": {
+        "x": 32.25,
+        "y": 498.484375,
+        "width": 703.484375,
+        "height": 456.796875
+      },
+      "comparison_scroll_px": 0,
+      "document_overflow_px": 0,
+      "traffic": {
+        "requests": 0,
+        "failures": [],
+        "warnings": []
+      }
+    },
+    "1440": {
+      "viewport": [
+        1440,
+        900
+      ],
+      "budget_amount_tops": [
+        416.078125,
+        486.3125
+      ],
+      "budget_focus": {
+        "id": "cost-stay",
+        "y": 130.53125,
+        "bottom": 174.53125,
+        "hit": true
+      },
+      "stay_actions_before_notes": true,
+      "print": {
+        "bytes": 672685,
+        "day_states": [
+          [
+            "beforeprint",
+            8
+          ],
+          [
+            "afterprint",
+            2
+          ]
+        ]
+      },
+      "baku_stage": {
+        "x": 352,
+        "y": 183.703125,
+        "width": 736,
+        "height": 338
+      },
+      "overview_stage": {
+        "x": 352,
+        "y": 183.703125,
+        "width": 736,
+        "height": 338
+      },
+      "city_rail_spread": [
+        0,
+        0.0
+      ],
+      "globe_visual": {
+        "x": 665.8125,
+        "y": 279.9375,
+        "width": 670.1875,
+        "height": 435.171875
+      },
+      "comparison_scroll_px": 0,
+      "document_overflow_px": 0,
+      "traffic": {
+        "requests": 0,
+        "failures": [],
+        "warnings": []
+      }
+    },
+    "2560": {
+      "viewport": [
+        2560,
+        1440
+      ],
+      "budget_amount_tops": [
+        431.25,
+        513.5625
+      ],
+      "budget_focus": {
+        "id": "cost-stay",
+        "y": 130.703125,
+        "bottom": 174.703125,
+        "hit": true
+      },
+      "stay_actions_before_notes": true,
+      "baku_stage": {
+        "x": 912,
+        "y": 184.28125,
+        "width": 736,
+        "height": 338
+      },
+      "overview_stage": {
+        "x": 912,
+        "y": 184.28125,
+        "width": 736,
+        "height": 338
+      },
+      "city_rail_spread": [
+        0,
+        0.0
+      ],
+      "globe_visual": {
+        "x": 1231.4375,
+        "y": 285.359375,
+        "width": 664.5625,
+        "height": 431.53125
+      },
+      "comparison_scroll_px": 0,
+      "document_overflow_px": 0,
+      "traffic": {
+        "requests": 0,
+        "failures": [],
+        "warnings": []
+      }
+    }
+  },
+  "failures": {}
+}

@@ -63,7 +63,7 @@
       "document_overflow_px": 0
     },
     "667": {
-      "focused_budget_clearance": 67,
+      "focused_budget_clearance": 17,
       "budget_total_height": 112.41,
       "mast_min_width": 44,
       "mobile_current": "Sections \u00b7 Budget",
@@ -76,8 +76,8 @@
         "height": 172.5
       },
       "winter_stage": {
-        "x": 103.5,
-        "y": 174.02,
+        "x": 40.03,
+        "y": 122.02,
         "width": 460,
         "height": 190
       },
@@ -151,7 +151,7 @@
       "document_overflow_px": 0
     },
     "2560": {
-      "focused_budget_clearance": 67,
+      "focused_budget_clearance": 17,
       "budget_total_height": 207.16,
       "mast_min_width": 44,
       "first_stay_action_top": 741,

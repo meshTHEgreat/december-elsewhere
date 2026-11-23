@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "C:\Users\mesh\Documents\Codex\2026-11-23\create-a-repo-and-push-to\reports\ui-deep-dive\round-3\inspect_candidate.py", line 379, in <module>
+    main()
+  File "C:\Users\mesh\Documents\Codex\2026-11-23\create-a-repo-and-push-to\reports\ui-deep-dive\round-3\inspect_candidate.py", line 371, in main
+    results["results"] = failure_states(browser, url)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\mesh\Documents\Codex\2026-11-23\create-a-repo-and-push-to\reports\ui-deep-dive\round-3\inspect_candidate.py", line 334, in failure_states
+    expect(page.locator("#winter-film")).to_be_hidden()
+  File "C:\Users\mesh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\playwright\sync_api\_generated.py", line 20344, in to_be_hidden
+    self._sync(self._impl_obj.to_be_hidden(timeout=timeout))
+  File "C:\Users\mesh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\mesh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\playwright\_impl\_assertions.py", line 739, in to_be_hidden
+    await self._expect_impl(
+  File "C:\Users\mesh\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\playwright\_impl\_assertions.py", line 83, in _expect_impl
+    raise AssertionError(
+AssertionError: Locator expected to be hidden
+Actual value: visible
+Call log:
+  - Expect "to_be_hidden" with timeout 5000ms
+  - waiting for locator("#winter-film")
+    9 × locator resolved to <div id="winter-film" class="winter-film">…</div>
+      - unexpected value "visible"

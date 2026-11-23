@@ -1,0 +1,62 @@
+{
+  "browser": "158.0.4370.33",
+  "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/create-a-repo-and-push-to/index.html",
+  "fallback": "passed",
+  "offline_sha256": "810972ed812b0dbd348b99f06c95d9f77c356a5af2d48a5397a44a232aa976e4",
+  "results": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "emulated_touch": false,
+      "reduced_motion": false,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "emulated_touch": true,
+      "reduced_motion": true,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        740,
+        360
+      ],
+      "emulated_touch": true,
+      "reduced_motion": false,
+      "offline": true,
+      "requests": 0,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    }
+  ]
+}

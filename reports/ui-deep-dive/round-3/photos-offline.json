@@ -1,0 +1,1040 @@
+{
+  "browser": "158.0.4370.33",
+  "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/create-a-repo-and-push-to/index.html",
+  "sha256": "93e786ba4833e97cdd9e461fe8afd485617e4d7d0f2cbcbb9c2f00651bc92340",
+  "results": [
+    {
+      "city": "baku",
+      "index": 1,
+      "file": "baku.webp",
+      "native": [
+        1680,
+        1113
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "baku",
+      "index": 2,
+      "file": "baku-detail.webp",
+      "native": [
+        658,
+        1170
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "baku",
+      "index": 3,
+      "file": "baku-excursion.webp",
+      "native": [
+        1680,
+        1115
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "baku",
+      "index": 4,
+      "file": "baku-nizami.webp",
+      "native": [
+        1480,
+        987
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "baku",
+      "index": 5,
+      "file": "baku-sabir.webp",
+      "native": [
+        1230,
+        748
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "baku",
+      "index": 6,
+      "file": "baku-snow.webp",
+      "native": [
+        1450,
+        1088
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "baku",
+      "index": 7,
+      "file": "baku-shahdag.webp",
+      "native": [
+        1450,
+        967
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "baku",
+      "index": 8,
+      "file": "baku-shahdag-view.webp",
+      "native": [
+        1450,
+        967
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "baku",
+      "index": 9,
+      "file": "baku-tufandag.webp",
+      "native": [
+        1340,
+        892
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "tbilisi",
+      "index": 1,
+      "file": "tbilisi.webp",
+      "native": [
+        1680,
+        1116
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "tbilisi",
+      "index": 2,
+      "file": "tbilisi-detail.webp",
+      "native": [
+        1280,
+        960
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "tbilisi",
+      "index": 3,
+      "file": "tbilisi-winter.webp",
+      "native": [
+        1480,
+        1110
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "tbilisi",
+      "index": 4,
+      "file": "tbilisi-gudauri.webp",
+      "native": [
+        662,
+        900
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "budapest",
+      "index": 1,
+      "file": "budapest.webp",
+      "native": [
+        1600,
+        901
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "budapest",
+      "index": 2,
+      "file": "budapest-detail.webp",
+      "native": [
+        1680,
+        1120
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "budapest",
+      "index": 3,
+      "file": "budapest-market.webp",
+      "native": [
+        1480,
+        833
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "budapest",
+      "index": 4,
+      "file": "budapest-szechenyi.webp",
+      "native": [
+        1450,
+        967
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "vienna",
+      "index": 1,
+      "file": "vienna.webp",
+      "native": [
+        1500,
+        999
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "vienna",
+      "index": 2,
+      "file": "vienna-detail.webp",
+      "native": [
+        1680,
+        1120
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "vienna",
+      "index": 3,
+      "file": "vienna-market.webp",
+      "native": [
+        727,
+        1160
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "prague",
+      "index": 1,
+      "file": "prague.webp",
+      "native": [
+        1680,
+        725
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "prague",
+      "index": 2,
+      "file": "prague-detail.webp",
+      "native": [
+        1024,
+        768
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 19.84375,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 237,
+        "scroll": 237
+      }
+    },
+    {
+      "city": "prague",
+      "index": 3,
+      "file": "prague-vinohrady.webp",
+      "native": [
+        1480,
+        987
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    },
+    {
+      "city": "prague",
+      "index": 4,
+      "file": "prague-winter.webp",
+      "native": [
+        1181,
+        879
+      ],
+      "controls": [
+        {
+          "name": "Close ×",
+          "width": 79.109375,
+          "height": 44,
+          "clearance": 20,
+          "hits": true
+        },
+        {
+          "name": "Previous photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Next photo",
+          "width": 44,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        },
+        {
+          "name": "Download photo ↓",
+          "width": 117.421875,
+          "height": 44,
+          "clearance": 29.921875,
+          "hits": true
+        }
+      ],
+      "figure": {
+        "height": 217,
+        "scroll": 217
+      }
+    }
+  ],
+  "failures": {}
+}

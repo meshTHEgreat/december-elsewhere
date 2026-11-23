@@ -1,0 +1,367 @@
+{
+  "browser": "157.0.8103.79",
+  "edition": "offline",
+  "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/create-a-repo-and-push-to/index.html",
+  "sha256": "810972ed812b0dbd348b99f06c95d9f77c356a5af2d48a5397a44a232aa976e4",
+  "landscape": {
+    "modes": [
+      {
+        "mode": "baku",
+        "scene_titles": [
+          "Baku",
+          "Shahdag",
+          "Tufandag"
+        ],
+        "nav_bottom": 103.59375,
+        "close": {
+          "top": 122.015625,
+          "right": 638.984375,
+          "bottom": 166.015625,
+          "left": 522.4375,
+          "width": 116.546875,
+          "height": 44,
+          "hit": true
+        },
+        "stage": {
+          "top": 122.015625,
+          "right": 500.03125,
+          "bottom": 312.015625,
+          "left": 40.03125,
+          "width": 460,
+          "height": 190,
+          "hit": true
+        },
+        "scene_controls": [
+          {
+            "top": 321.40625,
+            "right": 209.109375,
+            "bottom": 365.40625,
+            "left": 150.640625,
+            "width": 58.46875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 297.640625,
+            "bottom": 366.40625,
+            "left": 213.90625,
+            "width": 83.734375,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 389.421875,
+            "bottom": 366.40625,
+            "left": 302.4375,
+            "width": 86.984375,
+            "height": 44,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "mode": "overview",
+        "scene_titles": [
+          "Baku",
+          "Tbilisi",
+          "Budapest",
+          "Vienna",
+          "Prague"
+        ],
+        "nav_bottom": 103.59375,
+        "close": {
+          "top": 122.015625,
+          "right": 638.984375,
+          "bottom": 166.015625,
+          "left": 522.4375,
+          "width": 116.546875,
+          "height": 44,
+          "hit": true
+        },
+        "stage": {
+          "top": 122.015625,
+          "right": 500.03125,
+          "bottom": 312.015625,
+          "left": 40.03125,
+          "width": 460,
+          "height": 190,
+          "hit": true
+        },
+        "scene_controls": [
+          {
+            "top": 321.40625,
+            "right": 140.875,
+            "bottom": 365.40625,
+            "left": 82.40625,
+            "width": 58.46875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 211.359375,
+            "bottom": 366.40625,
+            "left": 145.671875,
+            "width": 65.6875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 304.375,
+            "bottom": 366.40625,
+            "left": 216.15625,
+            "width": 88.21875,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 380.203125,
+            "bottom": 366.40625,
+            "left": 309.171875,
+            "width": 71.03125,
+            "height": 44,
+            "hit": true
+          },
+          {
+            "top": 322.40625,
+            "right": 457.65625,
+            "bottom": 366.40625,
+            "left": 385,
+            "width": 72.65625,
+            "height": 44,
+            "hit": true
+          }
+        ]
+      }
+    ],
+    "http_requests": 0,
+    "errors": []
+  },
+  "alignment": [
+    {
+      "size": [
+        320,
+        725
+      ],
+      "names": [
+        20,
+        20,
+        20,
+        20,
+        20
+      ],
+      "atlas": [
+        16,
+        304
+      ],
+      "budgetY": [
+        10760.171875,
+        10760.171875
+      ],
+      "minimumLink": 44,
+      "screen": [
+        320,
+        725,
+        320
+      ],
+      "coverFactsBottom": 657.8125,
+      "http_requests": 0,
+      "errors": []
+    },
+    {
+      "size": [
+        390,
+        844
+      ],
+      "names": [
+        20.375,
+        20.375,
+        20.375,
+        20.375,
+        20.375
+      ],
+      "atlas": [
+        16.375,
+        373.609375
+      ],
+      "budgetY": [
+        10401.125,
+        10401.125
+      ],
+      "minimumLink": 44,
+      "screen": [
+        390,
+        844,
+        390
+      ],
+      "coverFactsBottom": 776.8125,
+      "http_requests": 0,
+      "errors": []
+    },
+    {
+      "size": [
+        667,
+        375
+      ],
+      "names": [
+        32.015625,
+        32.015625,
+        32.015625,
+        32.015625,
+        32.015625
+      ],
+      "atlas": [
+        28.015625,
+        638.984375
+      ],
+      "budgetY": [
+        8750.46875,
+        8750.46875
+      ],
+      "minimumLink": 44,
+      "screen": [
+        667,
+        375,
+        667
+      ],
+      "coverFactsBottom": 342.390625,
+      "http_requests": 0,
+      "errors": []
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "names": [
+        36.25,
+        36.25,
+        36.25,
+        36.25,
+        36.25
+      ],
+      "atlas": [
+        32.25,
+        735.734375
+      ],
+      "budgetY": [
+        9499.09375,
+        9552.625
+      ],
+      "minimumLink": 44,
+      "screen": [
+        768,
+        1024,
+        768
+      ],
+      "coverFactsBottom": 931.84375,
+      "http_requests": 0,
+      "errors": []
+    },
+    {
+      "size": [
+        1440,
+        900
+      ],
+      "names": [
+        108,
+        108,
+        108,
+        108,
+        108
+      ],
+      "atlas": [
+        104,
+        1336
+      ],
+      "budgetY": [
+        9000.078125,
+        9070.3125
+      ],
+      "minimumLink": 44,
+      "screen": [
+        1440,
+        900,
+        1440
+      ],
+      "coverFactsBottom": 819,
+      "http_requests": 0,
+      "errors": []
+    },
+    {
+      "size": [
+        2560,
+        1440
+      ],
+      "names": [
+        668,
+        668,
+        668,
+        668,
+        668
+      ],
+      "atlas": [
+        664,
+        1896
+      ],
+      "budgetY": [
+        9795.25,
+        9877.5625
+      ],
+      "minimumLink": 44,
+      "screen": [
+        2560,
+        1440,
+        2560
+      ],
+      "coverFactsBottom": 1328,
+      "http_requests": 0,
+      "errors": []
+    }
+  ],
+  "playback": {
+    "modes": [
+      {
+        "mode": "baku",
+        "advanced": "Shahdag",
+        "manual_held": "Baku"
+      },
+      {
+        "mode": "overview",
+        "advanced": "Tbilisi",
+        "manual_held": "Baku"
+      }
+    ],
+    "http_requests": 0,
+    "errors": []
+  },
+  "runtime_error": {
+    "message": "Preview unavailable. Read the winter plans above.",
+    "http_requests": 0,
+    "errors": []
+  },
+  "atlas": {
+    "fallback": false,
+    "city": "Vienna",
+    "http_requests": 0,
+    "errors": []
+  },
+  "map_fallback": {
+    "fallback": true,
+    "city": "Vienna",
+    "http_requests": 0,
+    "errors": []
+  },
+  "planning": {
+    "budget_per_adult": "SAR 4,354",
+    "printed_days": 8,
+    "open_after_print": 1,
+    "pdf_bytes": 652098,
+    "http_requests": 0,
+    "errors": []
+  }
+}

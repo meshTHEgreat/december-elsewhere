@@ -1,0 +1,62 @@
+{
+  "browser": "157.0.8103.79",
+  "url": "http://127.0.0.1:18768/",
+  "fallback": "passed",
+  "offline_sha256": "810972ed812b0dbd348b99f06c95d9f77c356a5af2d48a5397a44a232aa976e4",
+  "results": [
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "emulated_touch": false,
+      "reduced_motion": false,
+      "offline": false,
+      "requests": 44,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "emulated_touch": true,
+      "reduced_motion": true,
+      "offline": false,
+      "requests": 44,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    },
+    {
+      "viewport": [
+        740,
+        360
+      ],
+      "emulated_touch": true,
+      "reduced_motion": false,
+      "offline": false,
+      "requests": 44,
+      "checks": {
+        "cities": 5,
+        "stays": 10,
+        "days": 37,
+        "photos": 24,
+        "routes": 55
+      },
+      "errors": []
+    }
+  ]
+}

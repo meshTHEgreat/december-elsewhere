@@ -1,0 +1,46 @@
+{
+  "browser": "157.0.8103.79",
+  "edition": "offline",
+  "url": "file:///C:/Users/mesh/Documents/Codex/2026-11-23/create-a-repo-and-push-to/index.html",
+  "sha256": "810972ed812b0dbd348b99f06c95d9f77c356a5af2d48a5397a44a232aa976e4",
+  "photo_actions": {
+    "downloads_matched_packaged_bytes": {
+      "baku": [
+        "baku.webp",
+        "baku-detail.webp",
+        "baku-excursion.webp",
+        "baku-nizami.webp",
+        "baku-sabir.webp",
+        "baku-snow.webp",
+        "baku-shahdag.webp",
+        "baku-shahdag-view.webp",
+        "baku-tufandag.webp"
+      ],
+      "tbilisi": [
+        "tbilisi.webp",
+        "tbilisi-detail.webp",
+        "tbilisi-winter.webp",
+        "tbilisi-gudauri.webp"
+      ],
+      "budapest": [
+        "budapest.webp",
+        "budapest-detail.webp",
+        "budapest-market.webp",
+        "budapest-szechenyi.webp"
+      ],
+      "vienna": [
+        "vienna.webp",
+        "vienna-detail.webp",
+        "vienna-market.webp"
+      ],
+      "prague": [
+        "prague.webp",
+        "prague-detail.webp",
+        "prague-vinohrady.webp",
+        "prague-winter.webp"
+      ]
+    },
+    "http_requests": 0,
+    "errors": []
+  }
+}

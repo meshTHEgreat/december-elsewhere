@@ -20,6 +20,7 @@ Invoke-Check 'app' 'python' @('-X', 'utf8', 'source/verify_ui_app.py', '--layout
 Invoke-Check 'layout' 'python' @('-X', 'utf8', 'source/verify_ui_layout.py')
 Invoke-Check 'atlas' 'python' @('-X', 'utf8', 'source/verify_ui_atlas.py')
 Invoke-Check 'stageshow' 'python' @('-X', 'utf8', 'source/verify_ui_stage.py')
+Invoke-Check 'local-guides' 'python' @('-X', 'utf8', 'source/verify_guided.py')
 Get-FileHash -Algorithm SHA256 index.html,docs/index.html,docs/offline.html |
     Select-Object Hash, Path | ConvertTo-Json | Out-File (Join-Path $OutputDir 'hashes.json') -Encoding utf8
-Write-Output 'Finished nine checks in sequence.'
+Write-Output 'Finished ten checks in sequence.'

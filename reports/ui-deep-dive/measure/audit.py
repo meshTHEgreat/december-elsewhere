@@ -70,6 +70,16 @@ def audit(browser, url, widths, offline):
                 take("#winter", city + " winter " + option.inner_text().splitlines()[0])
             page.locator(".day summary").last.press("Enter")
             take("#itinerary", city + " last day open")
+            if page.locator("#guides").count():
+                guide = page.locator("#guides")
+                take("#guides", city + " local guides collapsed")
+                guide.locator(":scope > summary").press("Enter")
+                for mode in ("day", "night"):
+                    option = guide.locator(f"[data-guide-plan='{mode}']")
+                    if option.get_attribute("open") is None:
+                        option.locator("summary").press("Enter")
+                    take("#guides", city + " local guides " + mode)
+                guide.locator(":scope > summary").press("Enter")
             if not page.locator(".car-costs").get_attribute("open"):
                 page.locator(".car-costs summary").press("Enter")
             page.locator("#cost-car").fill("1240")

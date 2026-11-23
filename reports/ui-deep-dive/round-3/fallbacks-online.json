@@ -1,0 +1,10 @@
+{
+  "browser": "158.0.4370.33",
+  "url": "http://127.0.0.1:18768/",
+  "sha256": "d09a0652e7e4c6c3e990420a1f8c675f32c19f29a29b0dabebdad7227f766b71",
+  "results": {
+    "webgl_denied": "flat map and chapter navigation",
+    "stage_unavailable": "status and winter plans"
+  },
+  "failures": {}
+}

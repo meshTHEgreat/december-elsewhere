@@ -8,6 +8,7 @@ Use the travel journal to choose a destination and make a trip plan on a phone o
 - Test English, left-to-right, at 320 × 725, 390 × 844, 667 × 375, 768 × 1024, 1440 × 900, and 2560 × 1440. Record browser, state, and capture in each review.
 - The design system is `source/styles.css` with trip-specific rules in `source/winter.css` and the existing Stageshow typography and scene CSS. Reuse the palette, type, spacing, rules, and photographic assets.
 - Preserve five cities, 37 itinerary days, 55 sourced pedestrian routes, 10 budget-linked stays, direct map and booking links, 24 downloadable credited photographs, and documented outdoor-access and winter caveats. Cite the owner's earlier requirements when a change conflicts with one. [Prior acceptance criteria](../PREMIUM-EXPERIENCE.md) · [Winter and satellite decisions](../WINTER-FIELD-GUIDE.md)
+- Compare one-day outings and overnight bases for all five cities. Resolve the Baku tour the owner shared and give each chapter direct marketplace or locally based guide links. Label unconfirmed dates and quote details, and keep budget changes in the visitor's hands. [Guide research](guided-research/RESEARCH.md)
 
 ## Creative direction
 
@@ -31,3 +32,4 @@ Use Stageshow for the existing optional visual briefings and compare storyboard 
 | Owner review | Published nine measured proposals and recorded eight approvals to proceed. Deferred the ultrawide and flat-map label study. | [Review page](https://meshthegreat.github.io/december-elsewhere/ui-review/) · [Decisions](review/decisions.json) |
 | Build | Implemented the mobile improvements in isolated source lanes. Wrote and ran failing checks before source changes. | [Build record](IMPLEMENTATION.md) · [UI change log](UI-CHANGELOG.md) |
 | Re-check | Corrected the two 320 px budget baselines and Stage note spacing. The first dry attempt then found 19 landscape photo states with clipped arrow controls. The corrected viewer passed its all-photo checks. Restarted the two-round count. | [First attempt and measurements](round-1/REPORT.md) |
+| Re-check | Chrome cleared the photo fix. Edge found obscured keyboard focus after changing a landscape preview scene. Added failing checks, then placed Close beside the landscape stage and closed the panel on a mount failure. Restarted the two-round count on the new frozen candidate. | [Chrome result](round-2/REPORT.md) · [Edge finding](round-3/REPORT.md) · [Corrected landscape measurement](measure/landscape-preview-final.json) |

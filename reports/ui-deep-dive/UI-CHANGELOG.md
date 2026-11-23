@@ -9,7 +9,8 @@ The owner approved the recommendations in the [decision record](review/decisions
 | UI-03 | The phone chooser shows place names, the selected walk fits alongside it in short landscape, and All walk times opens the full list with focus preserved. |
 | UI-04 | The photo viewer fits the actual image and lets long captions scroll while Previous, Next, Download and Close stay visible. |
 | UI-05 | Map & globe jumps to the atlas beside the city list, the landscape globe fits below the mast, and loading no longer shifts the toggle or pulls the visitor back after leaving. |
-| UI-06 | Both Stageshow previews fit on short landscape phones. Close receives focus, visitors can select any scene, and reduced-motion users can read the same frames without playback. |
+| UI-06 | Both Stageshow previews keep the complete scene, scene controls and Close visible together at 667 × 375. Keyboard focus returns cleanly and a failed runtime leaves the plain winter guide ready. |
 | UI-07 | Dated prices, sleeping facts, outdoor access and booking actions come before supplementary listing notes and unpriced alternatives. |
 | UI-08 | Shorter compare labels, a clearer budget range and larger source links make differences and evidence easier to find. |
 | UI-09 | A separate ultrawide media rail and larger flat-map lettering were deferred. |
+| Owner follow-up | Itinerary opens a comparison of locally guided day trips and overnight bases for each city. The guide includes the exact Baku activity link and local options near each excursion. |
