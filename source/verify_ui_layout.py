@@ -5,7 +5,7 @@ import json
 from pathlib import Path
 import re
 
-from playwright.sync_api import sync_playwright
+from playwright.sync_api import expect, sync_playwright
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -83,7 +83,7 @@ def check_landscape_photo_controls(browser, url):
                 assert rect and rect["height"] >= 44 and rect["y"] >= 0 and rect["y"] + rect["height"] <= 375.5, (city, index, selector, rect)
             viewer.locator("[data-gallery='1']").press("Enter")
         page.keyboard.press("Escape")
-        assert page.locator("#gallery [data-photo-open]").evaluate("control=>control === document.activeElement")
+        expect(page.locator("#gallery [data-photo-open]")).to_be_focused()
     context.close()
 
 
