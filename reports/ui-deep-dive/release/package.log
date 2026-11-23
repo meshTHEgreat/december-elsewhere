@@ -1,0 +1,72 @@
+{
+  "artifact": "index.html",
+  "sha256": "97fb156c67024730f0894985a7a27dcf2351d46245720b4e84fec26c4539fe2b",
+  "bytes": 8353213,
+  "status": "Browserless checks passed. This report does not qualify as a full browser dry round.",
+  "runtime": "v24.18.0",
+  "network": "No APIs or browser fetches in clean isolated Node contexts. Generated markup verified as self-contained with connect-src none.",
+  "coverage": {
+    "baku": {
+      "anchors": 2,
+      "photos": 9,
+      "paths": 11,
+      "estimates": 0,
+      "unavailable": 0,
+      "days": 8,
+      "stays": 2
+    },
+    "tbilisi": {
+      "anchors": 2,
+      "photos": 4,
+      "paths": 11,
+      "estimates": 0,
+      "unavailable": 0,
+      "days": 7,
+      "stays": 2
+    },
+    "budapest": {
+      "anchors": 2,
+      "photos": 4,
+      "paths": 11,
+      "estimates": 0,
+      "unavailable": 0,
+      "days": 8,
+      "stays": 2
+    },
+    "vienna": {
+      "anchors": 2,
+      "photos": 3,
+      "paths": 11,
+      "estimates": 0,
+      "unavailable": 0,
+      "days": 8,
+      "stays": 2
+    },
+    "prague": {
+      "anchors": 2,
+      "photos": 4,
+      "paths": 11,
+      "estimates": 0,
+      "unavailable": 0,
+      "days": 6,
+      "stays": 2
+    }
+  },
+  "checks": [
+    "fresh isolated JS runtime",
+    "all city/galleries",
+    "all path geometry and route actions",
+    "shared/per-adult pricing",
+    "stay selections",
+    "comparison update and persistence",
+    "itinerary day markup",
+    "reset",
+    "photo container format and attribution",
+    "embedded assets/CSP"
+  ],
+  "excluded": [
+    "browser layout and touch/keyboard events",
+    "actual decoded rendering and assistive technology",
+    "live external link and inventory verification"
+  ]
+}

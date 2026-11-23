@@ -1,0 +1,108 @@
+{
+  "1440": {
+    "cities": [
+      {
+        "city": "Baku",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Tbilisi",
+        "stays": 2,
+        "days": 7
+      },
+      {
+        "city": "Budapest",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Vienna",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Prague",
+        "stays": 2,
+        "days": 6
+      }
+    ],
+    "network_requests": 0,
+    "console_errors": 0,
+    "fresh_context": true,
+    "persistence": true,
+    "offline": true,
+    "budget_and_map_interactions": true
+  },
+  "390": {
+    "cities": [
+      {
+        "city": "Baku",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Tbilisi",
+        "stays": 2,
+        "days": 7
+      },
+      {
+        "city": "Budapest",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Vienna",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Prague",
+        "stays": 2,
+        "days": 6
+      }
+    ],
+    "network_requests": 0,
+    "console_errors": 0,
+    "fresh_context": true,
+    "persistence": true,
+    "offline": true,
+    "budget_and_map_interactions": true
+  },
+  "768": {
+    "cities": [
+      {
+        "city": "Baku",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Tbilisi",
+        "stays": 2,
+        "days": 7
+      },
+      {
+        "city": "Budapest",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Vienna",
+        "stays": 2,
+        "days": 8
+      },
+      {
+        "city": "Prague",
+        "stays": 2,
+        "days": 6
+      }
+    ],
+    "network_requests": 0,
+    "console_errors": 0,
+    "fresh_context": true,
+    "persistence": true,
+    "offline": true,
+    "budget_and_map_interactions": true
+  },
+  "browser": "139.0.7258.5"
+}

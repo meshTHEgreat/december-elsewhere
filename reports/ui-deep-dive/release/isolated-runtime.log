@@ -1,0 +1,67 @@
+{
+  "mode": "Node VM with simulated document and localStorage, using final embedded scripts and data.",
+  "networkAccess": "Absent by construction. Connect-src none present.",
+  "metrics": [
+    {
+      "city": "baku",
+      "nights": 7,
+      "days": 8,
+      "stays": 2,
+      "photos": 9,
+      "anchors": 2,
+      "routes": 11,
+      "tracedPaths": 11,
+      "timedRoutes": 11
+    },
+    {
+      "city": "tbilisi",
+      "nights": 6,
+      "days": 7,
+      "stays": 2,
+      "photos": 4,
+      "anchors": 2,
+      "routes": 11,
+      "tracedPaths": 11,
+      "timedRoutes": 11
+    },
+    {
+      "city": "budapest",
+      "nights": 7,
+      "days": 8,
+      "stays": 2,
+      "photos": 4,
+      "anchors": 2,
+      "routes": 11,
+      "tracedPaths": 11,
+      "timedRoutes": 11
+    },
+    {
+      "city": "vienna",
+      "nights": 7,
+      "days": 8,
+      "stays": 2,
+      "photos": 3,
+      "anchors": 2,
+      "routes": 11,
+      "tracedPaths": 11,
+      "timedRoutes": 11
+    },
+    {
+      "city": "prague",
+      "nights": 5,
+      "days": 6,
+      "stays": 2,
+      "photos": 4,
+      "anchors": 2,
+      "routes": 11,
+      "tracedPaths": 11,
+      "timedRoutes": 11
+    }
+  ],
+  "largestEndpointSnapMeters": 73,
+  "localState": true,
+  "storageDeniedFallback": true,
+  "comparison": true,
+  "sourceSha256": "97fb156c67024730f0894985a7a27dcf2351d46245720b4e84fec26c4539fe2b",
+  "sizeBytes": 8353213
+}
