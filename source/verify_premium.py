@@ -95,7 +95,8 @@ def check_page(browser, url, width, height, mobile, reduced, output):
                 else:
                     route.press("Enter")
                 expect(route).to_have_attribute("aria-pressed", "true")
-                expect(page.locator("#route-note strong")).to_have_text(route.locator("strong").inner_text())
+                expected_route = maps[city]["anchors"][anchor]["routes"][index]
+                expect(page.locator("#route-note strong")).to_have_text(expected_route["name"])
                 active = page.locator(".active-route")
                 expect(active).to_have_count(1)
                 assert active.evaluate("""path => {
