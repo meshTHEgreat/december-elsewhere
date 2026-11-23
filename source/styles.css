@@ -275,7 +275,7 @@ dd { margin: .25rem 0 0; }
 .budget-total-status { margin-top: .35rem; }
 .budget-help { max-inline-size: var(--reading-measure); margin-bottom: .45rem; }
 .budget-total .small { color: #e9e7d9; }
-.budget-total .meta { color: var(--warm); }
+.budget-total .meta { display: block; color: var(--warm); font: 750 .78rem/1.45 var(--body); text-transform: none; }
 .budget-fields { display: grid; gap: .45rem; }
 .budget-fields label { display: grid; grid-template-columns: minmax(0,1fr) minmax(4.3rem,6.4rem); gap: .5rem; align-items: center; padding-bottom: .42rem; border-bottom: 1px solid var(--line); font-size: .87rem; font-weight: 700; }
 .budget-fields input { width: 100%; text-align: end; font-variant-numeric: tabular-nums; }
