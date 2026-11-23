@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>December, Elsewhere | UI layout studies</title>
+<style>
+@font-face { font-family: Bodoni; src: url("/docs/media/bodoni.woff2"); }
+@font-face { font-family: Manrope; src: url("/docs/media/manrope.woff2"); font-weight: 200 800; }
+:root { --paper:#f6f3eb; --paper-dark:#eee9dc; --ink:#18221c; --muted:#4c584e; --forest:#172722; --dark:#101d19; --warm:#f4d59d; --brass:#785425; --line:#b9beb0; --white:#fffaf0; --gutter:clamp(1rem,4.2vw,4rem); --body:Manrope,system-ui,sans-serif; --display:Bodoni,Georgia,serif; --tap:44px; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper-dark); color:var(--ink); font:500 14px/1.55 var(--body); }
+h1,h2,h3,p { margin:0; }
+h1,h2,h3 { font:500 clamp(2.1rem,8vw,3.15rem)/1 var(--display); }
+p { max-width:52ch; }
+.wrap { width:calc(100% - var(--gutter) * 2); margin-inline:auto; }
+.frame { position:relative; margin:0 auto 2rem; max-width:720px; overflow:hidden; background:var(--paper); }
+.cap { padding:.65rem var(--gutter); background:var(--dark); color:var(--white); min-height:48px; display:flex; align-items:center; justify-content:space-between; gap:.5rem; }
+.cap strong { font:600 1.05rem/1 var(--display); }
+.cap span { font-size:.72rem; }
+.in { display:grid; gap:12px; padding-block:1.1rem; }
+.cluster { display:flex; gap:6px; flex-wrap:wrap; align-items:center; }
+.pair { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:12px; }
+.pair > * { min-width:0; }
+.caption, small { font-size:.78rem; }
+.amount { font:550 clamp(1.35rem,6vw,2.15rem)/1.18 var(--display); white-space:nowrap; font-variant-numeric:tabular-nums; }
+.money-row { display:flex; flex-wrap:wrap; align-items:center; justify-content:space-between; gap:.4rem; padding:.625rem 0; border-bottom:1px solid var(--line); }
+.total { background:var(--forest); color:var(--white); padding:.75rem; }
+.total small { color:var(--warm); }
+.total .pair { margin-bottom:.3rem; }
+button, select, input { color:var(--ink); background:var(--white); border:1px solid #839287; font:750 .8rem/1.2 var(--body); min-height:var(--tap); min-width:var(--tap); padding:.5rem .65rem; }
+button.primary { color:var(--white); background:var(--forest); }
+input { max-width:92px; text-align:end; }
+img { display:block; width:100%; height:auto; object-fit:contain; }
+.map { border:1px solid #839287; background:#e6eadc; }
+.dark { background:var(--dark); color:var(--white); }
+.photo figcaption { padding-block:.45rem; font-size:.75rem; }
+.atlas-layout .picture, .map-layout .picture { align-self:start; }
+.atlas-layout img { max-height:200px; object-fit:contain; }
+.atlas-layout .pair { align-items:center; }
+.lightbox img { max-block-size:42svh; }
+.current { border-bottom:2px solid #c69d51; }
+.city-title { color:var(--forest); margin-bottom:.2rem; }
+.city-row { display:flex; justify-content:space-between; gap:.6rem; border-block-start:1px solid var(--line); padding:.5rem 0; }
+.city-row b { font:600 1.6rem/1.1 var(--display); }
+.chart { height:12px; position:relative; background:#d3dacd; margin-block:.3rem; }
+.chart::before { content:""; position:absolute; inset:0 10% 0 58%; border:2px solid #37584a; background:#acbea9; }
+.chart::after { content:""; position:absolute; top:-3px; bottom:-3px; width:4px; left:66%; background:var(--ink); }
+.spec { position:absolute; inset:0; pointer-events:none; }
+.guide { position:absolute; border:1px dashed #cb5b2b; color:#fffaf0; }
+.guide span, .guide-label { position:absolute; padding:1px 4px; background:#8d3518; font:600 10px/1.5 var(--body); white-space:nowrap; }
+.guide span { right:0; top:-15px; }
+.vline { position:absolute; inset-block:0; width:0; border-inline-start:1px dashed #a65721; opacity:.75; }
+.guide-label { inset-block-start:48px; }
+@media (max-width: 520px) { .map-layout, .atlas-layout { grid-template-columns:minmax(0,1fr); } }
+</style>
+</head>
+<body>
+<section class="frame" id="UI-01">
+  <header class="cap"><strong>December, Elsewhere</strong><span>Cities · Winter · Compare</span></header>
+  <div class="wrap in" data-rail><h2>Budget</h2>
+    <div class="total" data-box="Sticky total">
+      <div class="pair"><div><small>Per adult</small><div class="amount">SAR 4,010</div></div><div><small>For three</small><div class="amount">SAR 12,029</div></div></div>
+      <small>Within the target</small>
+    </div>
+    <div class="money-row" data-box="Cost field"><label>Flights<br><small>Per adult</small></label><input aria-label="Flights" value="1910"></div>
+    <div class="money-row"><label>Bags and seats<br><small>Per adult</small></label><input aria-label="Bags and seats" value="300"></div>
+    <p class="caption">Total includes extra expenses.</p>
+  </div>
+</section>
+<section class="frame" id="UI-02">
+  <header class="cap"><strong>December, Elsewhere</strong><span>Cities · Winter · Compare</span></header>
+  <div class="wrap in" data-rail><div class="money-row"><button>↑ All cities</button><button data-box="Current section">Budget · Sections ▾</button></div>
+    <h2>Where to?</h2>
+    <div class="city-row current" data-box="Fixed city row"><b>Baku</b><strong>SAR 4,010 ↗</strong></div>
+    <div class="city-row"><b>Tbilisi</b><strong>SAR 4,594 ↗</strong></div>
+    <div class="city-row"><b>Budapest</b><strong>SAR 4,969 ↗</strong></div>
+  </div>
+</section>
+<section class="frame" id="UI-03">
+  <header class="cap"><strong>December, Elsewhere</strong><span>Walks · Sections</span></header>
+  <div class="wrap in pair map-layout" data-rail>
+    <div class="in"><h2>Selected walk</h2><label for="mock-walk">Choose a walk</label>
+      <select id="mock-walk" data-box="Walk chooser"><option>Fountains Square</option></select>
+      <p><b>8 min · 0.70 km</b><br>Estimated walk from Sahil metro</p>
+      <div class="cluster"><button class="primary">Satellite</button><button>Diagram</button></div>
+    </div>
+    <div class="picture in"><img class="map" src="shots/mock-map.jpg" alt="Baku walk over the satellite map" data-box="Satellite map">
+      <div class="cluster"><button class="primary">Google Maps</button><button>Apple Maps</button></div>
+    </div>
+  </div>
+</section>
+<section class="frame dark" id="UI-04">
+  <header class="cap"><strong>Baku photos</strong><button>Close ×</button></header>
+  <div class="wrap in lightbox" data-rail><div class="photo"><img src="/docs/media/baku-sabir.webp" alt="Sabir Garden in Baku" data-box="Natural image height">
+    <p class="caption">Sabir Garden, February 2013</p></div>
+    <div class="cluster"><button>←</button><span>1 / 9</span><button>→</button><button>Download photo</button></div>
+  </div>
+</section>
+<section class="frame dark" id="UI-05">
+  <header class="cap"><strong>December, Elsewhere</strong><span>Map &amp; globe</span></header>
+  <div class="wrap in pair atlas-layout" data-rail>
+    <div class="in"><h2>Cities</h2><div class="cluster"><select aria-label="City on map"><option>Baku</option></select><button data-box="Globe toggle">View map</button></div>
+      <p>2,110 km direct from Medina</p><div><button>Read Baku</button></div></div>
+    <div class="picture"><img src="shots/mock-globe.jpg" alt="Baku and Medina on the guide's globe" data-box="Short landscape map"></div>
+  </div>
+</section>
+<section class="frame" id="UI-06">
+  <header class="cap"><strong>December, Elsewhere</strong><span>Winter · Sections</span></header>
+  <div class="wrap in" data-rail>
+    <div class="cluster"><button class="primary" data-box="Focusable close">Close preview</button></div>
+    <img src="shots/mock-stage.jpg" alt="Baku winter preview shown in a Stageshow frame" style="width:min(100%,430px);margin-inline:auto" data-box="Wide Stageshow frame">
+    <div class="cluster"><button>Baku</button><button>Shahdag</button><button>Tufandag</button></div>
+  </div>
+</section>
+<section class="frame" id="UI-07">
+  <header class="cap"><strong>December, Elsewhere</strong><span>Stays · Sections</span></header>
+  <div class="wrap in" data-rail><h2>Stays</h2><p>Two options for three adults. Check the total before booking.</p>
+    <div class="money-row"><h3>Apartment on Nizami</h3><strong class="amount">SAR 1,418</strong></div>
+    <p>Earlier listing price · 2 bedrooms · 3 beds</p><p><strong>Private balcony</strong></p>
+    <div class="cluster" data-box="Primary actions"><button>Listing &amp; photos</button><button class="primary">Use this stay</button></div>
+    <details><summary>Listing notes</summary><p>Check the exact price and winter access.</p></details>
+  </div>
+</section>
+<section class="frame" id="UI-08">
+  <header class="cap"><strong>December, Elsewhere</strong><span>Compare</span></header>
+  <div class="wrap in" data-rail><h2>Compare trips</h2>
+    <div class="pair" data-box="Aligned city pickers"><select aria-label="First city"><option>Baku</option></select><select aria-label="Second city"><option>Budapest</option></select></div>
+    <div class="money-row"><strong>Per adult</strong><span>SAR 4,010 · SAR 4,969</span></div>
+    <div class="chart" data-box="Outlined range"></div><p class="caption">Outlined range is SAR 4,000–6,000 per adult.</p>
+    <div class="money-row"><strong>Outdoor space</strong><span>Private balcony · Rooftop listed</span></div>
+    <button>Flight and entry details</button>
+  </div>
+</section>
+<script>
+  if (location.hash) {
+    const frame = document.querySelector(location.hash);
+    if (frame) for (const other of document.querySelectorAll('.frame')) if (other !== frame) other.hidden = true;
+  }
+  if (location.search.includes('spec')) requestAnimationFrame(() => {
+    for (const frame of document.querySelectorAll('.frame:not([hidden])')) {
+      const bounds = frame.getBoundingClientRect();
+      const rail = frame.querySelector('[data-rail]').getBoundingClientRect();
+      const spec = document.createElement('div');
+      spec.className = 'spec';
+      spec.setAttribute('aria-hidden','true');
+      for (const offset of [rail.left - bounds.left, bounds.width / 2, rail.right - bounds.left]) {
+        const line = document.createElement('i');
+        line.className = 'vline';
+        line.style.left = offset + 'px';
+        spec.append(line);
+      }
+      const label = document.createElement('span');
+      label.className = 'guide-label';
+      label.textContent = Math.round(rail.left - bounds.left) + ' px gutter · ' + Math.round(rail.width) + ' px rail';
+      label.style.left = (rail.left - bounds.left) + 'px';
+      spec.append(label);
+      for (const node of frame.querySelectorAll('[data-box]')) {
+        const rect = node.getBoundingClientRect();
+        const guide = document.createElement('div');
+        guide.className = 'guide';
+        Object.assign(guide.style,{top:(rect.top-bounds.top)+'px',left:(rect.left-bounds.left)+'px',width:rect.width+'px',height:rect.height+'px'});
+        const text = document.createElement('span');
+        text.textContent = Math.round(rect.width) + ' × ' + Math.round(rect.height) + ' px';
+        guide.append(text);
+        spec.append(guide);
+      }
+      frame.append(spec);
+    }
+  });
+</script>
+</body>
+</html>

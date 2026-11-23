@@ -1,0 +1,266 @@
+[
+  {
+    "viewport": [
+      320,
+      725
+    ],
+    "open": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 373,
+      "h": 299,
+      "visible": 299,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 264
+    },
+    "afterTab": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 373,
+      "h": 299,
+      "visible": 299,
+      "active": "Winter across the five\n▷",
+      "activeVisible": 44,
+      "activeY": 316
+    },
+    "frame": "0",
+    "escaped": true,
+    "loading": {
+      "body": "Loading visual briefing",
+      "y": 486,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 377
+    },
+    "error": {
+      "body": "The visual briefing could not load. The guide above is ready.",
+      "y": 486,
+      "h": 53,
+      "visible": 53,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 377
+    }
+  },
+  {
+    "viewport": [
+      390,
+      844
+    ],
+    "open": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 425,
+      "h": 365,
+      "visible": 365,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 316
+    },
+    "afterTab": {
+      "body": "CASPIAN TO CAUCASUS\n\nNear Qusar · Greater Caucasus\n\nShahdag\n\nReserve a flexible day. Check the snow report and operating lifts.",
+      "y": 425,
+      "h": 365,
+      "visible": 365,
+      "active": "Winter across the five\n▷",
+      "activeVisible": 44,
+      "activeY": 368
+    },
+    "frame": "1",
+    "escaped": true,
+    "loading": {
+      "body": "Loading visual briefing",
+      "y": 545,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 436
+    },
+    "error": {
+      "body": "The visual briefing could not load. The guide above is ready.",
+      "y": 545,
+      "h": 53,
+      "visible": 53,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 436
+    }
+  },
+  {
+    "viewport": [
+      667,
+      375
+    ],
+    "open": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 61,
+      "h": 365,
+      "visible": 271,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 0,
+      "activeY": 4
+    },
+    "afterTab": {
+      "body": "CASPIAN TO CAUCASUS\n\nNear Qusar · Greater Caucasus\n\nShahdag\n\nReserve a flexible day. Check the snow report and operating lifts.",
+      "y": 253,
+      "h": 365,
+      "visible": 122,
+      "active": "Winter across the five\n▷",
+      "activeVisible": 44,
+      "activeY": 196
+    },
+    "frame": "1",
+    "escaped": true,
+    "loading": {
+      "body": "Loading visual briefing",
+      "y": 253,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 196
+    },
+    "error": {
+      "body": "The visual briefing could not load. The guide above is ready.",
+      "y": 253,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 196
+    }
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "open": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 583,
+      "h": 323,
+      "visible": 323,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 526
+    },
+    "afterTab": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 583,
+      "h": 323,
+      "visible": 323,
+      "active": "Winter across the five\n▷",
+      "activeVisible": 44,
+      "activeY": 526
+    },
+    "frame": "0",
+    "escaped": true,
+    "loading": {
+      "body": "Loading visual briefing",
+      "y": 583,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 526
+    },
+    "error": {
+      "body": "The visual briefing could not load. The guide above is ready.",
+      "y": 583,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 526
+    }
+  },
+  {
+    "viewport": [
+      1440,
+      900
+    ],
+    "open": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 508,
+      "h": 338,
+      "visible": 338,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 429
+    },
+    "afterTab": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 508,
+      "h": 338,
+      "visible": 338,
+      "active": "Winter across the five\n▷",
+      "activeVisible": 44,
+      "activeY": 429
+    },
+    "frame": "0",
+    "escaped": true,
+    "loading": {
+      "body": "Loading visual briefing",
+      "y": 543,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 464
+    },
+    "error": {
+      "body": "The visual briefing could not load. The guide above is ready.",
+      "y": 543,
+      "h": 26,
+      "visible": 26,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 464
+    }
+  },
+  {
+    "viewport": [
+      2560,
+      1440
+    ],
+    "open": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 1049,
+      "h": 338,
+      "visible": 338,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 970
+    },
+    "afterTab": {
+      "body": "CASPIAN TO CAUCASUS\n\nCaspian coast\n\nBaku\n\nPlan for a chilly, windy coast. Treat city snowfall as a bonus.",
+      "y": 1049,
+      "h": 338,
+      "visible": 338,
+      "active": "Winter across the five\n▷",
+      "activeVisible": 44,
+      "activeY": 970
+    },
+    "frame": "0",
+    "escaped": true,
+    "loading": {
+      "body": "Loading visual briefing",
+      "y": 1430,
+      "h": 26,
+      "visible": 10,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 1351
+    },
+    "error": {
+      "body": "The visual briefing could not load. The guide above is ready.",
+      "y": 1430,
+      "h": 26,
+      "visible": 10,
+      "active": "Caspian to Caucasus\n▷",
+      "activeVisible": 44,
+      "activeY": 1351
+    }
+  }
+]

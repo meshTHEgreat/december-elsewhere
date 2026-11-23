@@ -1,0 +1,42 @@
+{
+  "baseline": "6f017c54f0a6ad67ec4db8ab53d2cff767caf361",
+  "source": "Owner instruction in this conversation to proceed with recommendations. Mobile first. Wider layouts are a bonus.",
+  "decisions": {
+    "UI-01": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-02": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-03": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-04": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-05": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-06": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-07": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-08": {
+      "decision": "yes",
+      "note": "Proceed as specified."
+    },
+    "UI-09": {
+      "decision": "later",
+      "note": "Keep for a later pass."
+    }
+  }
+}

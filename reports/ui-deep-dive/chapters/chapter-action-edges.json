@@ -1,0 +1,4352 @@
+[
+  {
+    "city": "baku",
+    "width": 320,
+    "height": 725,
+    "stay": {
+      "heading": 174,
+      "firstPrice": 871,
+      "firstChoice": 1488,
+      "buttons": [
+        1420,
+        2229
+      ],
+      "titles": [
+        807,
+        1615
+      ],
+      "prices": [
+        871,
+        1707
+      ],
+      "firstFacts": "AIRBNB\nApartment on Nizami. Free transfer\n\nSAR 1,418\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\n2 queen beds\n1 bath\n4.9/5 · 221 reviews\n\nSahil / Nizami Street · Host lists a full kitchen, a private balcony and Fountains Square about 5 min away on",
+      "beforeStay": 764,
+      "outdoorH": 377
+    },
+    "routeChoices": [
+      {
+        "option": "Fountains Square · 8 min",
+        "usableWidth": 250.4,
+        "fullText": 153.5,
+        "name": 110.7,
+        "note": "SELECTED WALK\nFountains Square\n8 min · 0.7 km\nOffline estimate\n\nA · Sahil metro entrance → B · Fountains Square",
+        "traceHeight": 41.3,
+        "traceVisible": 41.3,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Maiden Tower / Old City · 11 min",
+        "usableWidth": 250.4,
+        "fullText": 193.9,
+        "name": 147.4,
+        "note": "SELECTED WALK\nMaiden Tower / Old City\n11 min · 0.9 km\nOffline estimate\n\nA · Sahil metro entrance → B · Maiden Tower / Old City",
+        "traceHeight": 101.2,
+        "traceVisible": 101.2,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Baku Boulevard promenade · 6 min",
+        "usableWidth": 250.4,
+        "fullText": 213.7,
+        "name": 170.8,
+        "note": "SELECTED WALK\nBaku Boulevard promenade\n6 min · 0.52 km\nOffline estimate\n\nA · Sahil metro entrance → B · Baku Boulevard promenade",
+        "traceHeight": 101,
+        "traceVisible": 101,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Park Bulvar mall · 10 min",
+        "usableWidth": 250.4,
+        "fullText": 148.9,
+        "name": 99.6,
+        "note": "SELECTED WALK\nPark Bulvar mall\n10 min · 0.84 km\nOffline estimate\n\nA · Sahil metro entrance → B · Park Bulvar mall",
+        "traceHeight": 78.7,
+        "traceVisible": 78.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "28 May railway / airport bus area · 19 min",
+        "usableWidth": 250.4,
+        "fullText": 249.8,
+        "name": 201.1,
+        "note": "SELECTED WALK\n28 May railway / airport bus area\n19 min · 1.56 km\nOffline estimate\n\nA · Sahil metro entrance → B · 28 May railway / airport bus area",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 464.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Nizami Street cafés · 7 min",
+        "usableWidth": 250.4,
+        "fullText": 164.7,
+        "name": 122.9,
+        "note": "SELECTED WALK\nNizami Street cafés\n7 min · 0.6 km\nOffline estimate\n\nA · Sahil metro entrance → B · Nizami Street cafés",
+        "traceHeight": 53.6,
+        "traceVisible": 53.6,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Caspian promenade near Port Baku · 10 min",
+        "usableWidth": 250.4,
+        "fullText": 269.1,
+        "name": 219.8,
+        "note": "SELECTED WALK\nCaspian promenade near Port Baku\n10 min · 0.83 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Caspian promenade near Port Baku",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 464.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Baku Museum of Modern Art · 10 min",
+        "usableWidth": 250.4,
+        "fullText": 225.1,
+        "name": 175.8,
+        "note": "SELECTED WALK\nBaku Museum of Modern Art\n10 min · 0.82 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Baku Museum of Modern Art",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "28 May metro and rail area · 19 min",
+        "usableWidth": 250.4,
+        "fullText": 212.2,
+        "name": 163.5,
+        "note": "SELECTED WALK\n28 May metro and rail area\n19 min · 1.54 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · 28 May metro and rail area",
+        "traceHeight": 100.8,
+        "traceVisible": 100.8,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Port Baku shops and food · 1 min",
+        "usableWidth": 250.4,
+        "fullText": 199.1,
+        "name": 158.4,
+        "note": "SELECTED WALK\nPort Baku shops and food\n1 min · 0.1 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Port Baku shops and food",
+        "traceHeight": 22.6,
+        "traceVisible": 22.6,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Sahil metro · 24 min",
+        "usableWidth": 250.4,
+        "fullText": 122.8,
+        "name": 72.6,
+        "note": "SELECTED WALK\nSahil metro\n24 min · 1.91 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Sahil metro",
+        "traceHeight": 73.4,
+        "traceVisible": 73.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 392.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Old City (Baku).JPG",
+      "rendered": [
+        296,
+        196
+      ],
+      "frame": [
+        296,
+        486
+      ],
+      "firstArrow": [
+        676,
+        720
+      ],
+      "download": [
+        620,
+        664
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 7,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "tbilisi",
+    "width": 320,
+    "height": 725,
+    "stay": {
+      "heading": 174,
+      "firstPrice": 865,
+      "firstChoice": 1429,
+      "buttons": [
+        1361,
+        2124
+      ],
+      "titles": [
+        801,
+        1556
+      ],
+      "prices": [
+        865,
+        1648
+      ],
+      "firstFacts": "AIRBNB\nA 5-star stay in Old Tbilisi\n\nSAR 1,917\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\nDouble + 2 singles, plus sofa\n1 bath\n4.92/5 · 118 reviews\n\nOld Tbilisi / Pushkin Square · Host lists a full kitchen and Galleria Tbilisi about 5 min away. T",
+      "beforeStay": 758,
+      "outdoorH": 370
+    },
+    "routeChoices": [
+      {
+        "option": "Liberty Square metro · 7 min",
+        "usableWidth": 250.4,
+        "fullText": 174.9,
+        "name": 133,
+        "note": "SELECTED WALK\nLiberty Square metro\n7 min · 0.52 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Liberty Square metro",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Georgian National Museum · 8 min",
+        "usableWidth": 250.4,
+        "fullText": 213.2,
+        "name": 170.3,
+        "note": "SELECTED WALK\nGeorgian National Museum\n8 min · 0.6 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Georgian National Museum",
+        "traceHeight": 100.7,
+        "traceVisible": 100.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Bridge of Peace west end · 8 min",
+        "usableWidth": 250.4,
+        "fullText": 199.7,
+        "name": 156.8,
+        "note": "SELECTED WALK\nBridge of Peace west end\n8 min · 0.62 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Bridge of Peace west end",
+        "traceHeight": 47.1,
+        "traceVisible": 47.1,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Abanotubani sulphur baths · 14 min",
+        "usableWidth": 250.4,
+        "fullText": 219.9,
+        "name": 171.3,
+        "note": "SELECTED WALK\nAbanotubani sulphur baths\n14 min · 1.19 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Abanotubani sulphur baths",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Galleria Tbilisi shopping & food · 4 min",
+        "usableWidth": 250.4,
+        "fullText": 236.2,
+        "name": 193.4,
+        "note": "SELECTED WALK\nGalleria Tbilisi shopping & food\n4 min · 0.33 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Galleria Tbilisi shopping & food",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Erekle II Street restaurants · 9 min",
+        "usableWidth": 250.4,
+        "fullText": 212.6,
+        "name": 169.7,
+        "note": "SELECTED WALK\nErekle II Street restaurants\n9 min · 0.75 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Erekle II Street restaurants",
+        "traceHeight": 57.1,
+        "traceVisible": 57.1,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Station Square metro · 3 min",
+        "usableWidth": 250.4,
+        "fullText": 178.3,
+        "name": 135.8,
+        "note": "SELECTED WALK\nStation Square metro\n3 min · 0.25 km\nOffline estimate\n\nA · Station Square public frontage → B · Station Square metro",
+        "traceHeight": 68.7,
+        "traceVisible": 68.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Dezerter Bazaar area · 6 min",
+        "usableWidth": 250.4,
+        "fullText": 172.6,
+        "name": 129.7,
+        "note": "SELECTED WALK\nDezerter Bazaar area\n6 min · 0.49 km\nOffline estimate\n\nA · Station Square public frontage → B · Dezerter Bazaar area",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Fabrika courtyard · 19 min",
+        "usableWidth": 250.4,
+        "fullText": 158.7,
+        "name": 110,
+        "note": "SELECTED WALK\nFabrika courtyard\n19 min · 1.64 km\nOffline estimate\n\nA · Station Square public frontage → B · Fabrika courtyard",
+        "traceHeight": 99.7,
+        "traceVisible": 99.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Marjanishvili metro · 25 min",
+        "usableWidth": 250.4,
+        "fullText": 171.8,
+        "name": 121.6,
+        "note": "SELECTED WALK\nMarjanishvili metro\n25 min · 2.1 km\nOffline estimate\n\nA · Station Square public frontage → B · Marjanishvili metro",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "David Aghmashenebeli Avenue · 20 min",
+        "usableWidth": 250.4,
+        "fullText": 244.6,
+        "name": 193.3,
+        "note": "SELECTED WALK\nDavid Aghmashenebeli Avenue\n20 min · 1.67 km\nOffline estimate\n\nA · Station Square public frontage → B · David Aghmashenebeli Avenue",
+        "traceHeight": 101.3,
+        "traceVisible": 101.3,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Tbilisi, Old Tbilisi 2, Georgia.jpg",
+      "rendered": [
+        296,
+        197
+      ],
+      "frame": [
+        296,
+        486
+      ],
+      "firstArrow": [
+        676,
+        720
+      ],
+      "download": [
+        620,
+        664
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 7,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "budapest",
+    "width": 320,
+    "height": 725,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 626,
+      "firstChoice": 1166,
+      "buttons": [
+        1098,
+        1987
+      ],
+      "titles": [
+        534,
+        1293
+      ],
+      "prices": [
+        626,
+        1384
+      ],
+      "firstFacts": "AIRBNB\nCHROMATIC Vibe – Sky Terrace with A/C & Sauna\n\nSAR 2,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\nListing overview: 1 king bed + couch\n1.5 bath\n4.56/5 · 153 reviews\n\nPest / Opera · Pest / Opera. The listing overview calls it a studio; the host desc",
+      "beforeStay": 491,
+      "outdoorH": 103
+    },
+    "routeChoices": [
+      {
+        "option": "Deák Ferenc tér interchange · 10 min",
+        "usableWidth": 250.4,
+        "fullText": 226.8,
+        "name": 177.4,
+        "note": "SELECTED WALK\nDeák Ferenc tér interchange\n10 min · 0.78 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Deák Ferenc tér interchange",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "St Stephen’s Basilica / Advent market · 6 min",
+        "usableWidth": 250.4,
+        "fullText": 277.2,
+        "name": 234.3,
+        "note": "SELECTED WALK\nSt Stephen’s Basilica / Advent market\n6 min · 0.49 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · St Stephen’s Basilica / Advent market",
+        "traceHeight": 93.4,
+        "traceVisible": 93.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 464,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Hold Street Market Hall area · 12 min",
+        "usableWidth": 250.4,
+        "fullText": 224.9,
+        "name": 176.4,
+        "note": "SELECTED WALK\nHold Street Market Hall area\n12 min · 0.91 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Hold Street Market Hall area",
+        "traceHeight": 62,
+        "traceVisible": 62,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Danube promenade at Széchenyi Square · 17 min",
+        "usableWidth": 250.4,
+        "fullText": 301.5,
+        "name": 253.8,
+        "note": "SELECTED WALK\nDanube promenade at Széchenyi Square\n17 min · 1.34 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Danube promenade at Széchenyi Square",
+        "traceHeight": 89.9,
+        "traceVisible": 89.9,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 484.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Gozsdu Courtyard dining · 9 min",
+        "usableWidth": 250.4,
+        "fullText": 199.2,
+        "name": 156.3,
+        "note": "SELECTED WALK\nGozsdu Courtyard dining\n9 min · 0.67 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Gozsdu Courtyard dining",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Nyugati railway station · 13 min",
+        "usableWidth": 250.4,
+        "fullText": 193.5,
+        "name": 145.2,
+        "note": "SELECTED WALK\nNyugati railway station\n13 min · 1.1 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Nyugati railway station",
+        "traceHeight": 98.9,
+        "traceVisible": 98.9,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Móricz M4 and tram stop · 1 min",
+        "usableWidth": 250.4,
+        "fullText": 194.1,
+        "name": 153.3,
+        "note": "SELECTED WALK\nMóricz M4 and tram stop\n1 min · 0.08 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Móricz M4 and tram stop",
+        "traceHeight": 20.2,
+        "traceVisible": 20.2,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Allee shopping centre · 6 min",
+        "usableWidth": 250.4,
+        "fullText": 180.6,
+        "name": 137.7,
+        "note": "SELECTED WALK\nAllee shopping centre\n6 min · 0.46 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Allee shopping centre",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Gellért Square · 10 min",
+        "usableWidth": 250.4,
+        "fullText": 140.6,
+        "name": 91.3,
+        "note": "SELECTED WALK\nGellért Square\n10 min · 0.86 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Gellért Square",
+        "traceHeight": 100.8,
+        "traceVisible": 100.8,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 392,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Feneketlen Lake park · 8 min",
+        "usableWidth": 250.4,
+        "fullText": 174.8,
+        "name": 131.9,
+        "note": "SELECTED WALK\nFeneketlen Lake park\n8 min · 0.54 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Feneketlen Lake park",
+        "traceHeight": 66,
+        "traceVisible": 66,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Bartók Béla Boulevard cafés · 14 min",
+        "usableWidth": 250.4,
+        "fullText": 222.4,
+        "name": 173.8,
+        "note": "SELECTED WALK\nBartók Béla Boulevard cafés\n14 min · 1.02 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Bartók Béla Boulevard cafés",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Budapest Parliament Sunset Danube River Panorama 2026.jpg",
+      "rendered": [
+        296,
+        167
+      ],
+      "frame": [
+        296,
+        486
+      ],
+      "firstArrow": [
+        676,
+        720
+      ],
+      "download": [
+        620,
+        664
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 7,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "vienna",
+    "width": 320,
+    "height": 725,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 873,
+      "firstChoice": 1510,
+      "buttons": [
+        1442,
+        2368
+      ],
+      "titles": [
+        781,
+        1637
+      ],
+      "prices": [
+        873,
+        1729
+      ],
+      "firstFacts": "AIRBNB\nRenovated Apartment near Center\n\nSAR 4,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.\n\n1 bedrooms\nDouble bed + sofa bed\n1 bath\n4.67/5 · 6 reviews\n\nRudolfsheim-Fünfhaus / Johns",
+      "beforeStay": 738,
+      "outdoorH": 350
+    },
+    "routeChoices": [
+      {
+        "option": "Upper Belvedere · 17 min",
+        "usableWidth": 250.4,
+        "fullText": 151.8,
+        "name": 104.1,
+        "note": "SELECTED WALK\nUpper Belvedere\n17 min · 1.3 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Upper Belvedere",
+        "traceHeight": 99.9,
+        "traceVisible": 99.9,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 391.7,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Südtiroler Platz U1 entrance · 2 min",
+        "usableWidth": 250.4,
+        "fullText": 218.8,
+        "name": 176.2,
+        "note": "SELECTED WALK\nSüdtiroler Platz U1 entrance\n2 min · 0.14 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Südtiroler Platz U1 entrance",
+        "traceHeight": 82.4,
+        "traceVisible": 82.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Hauptbahnhof shopping and food hall · 1 min",
+        "usableWidth": 250.4,
+        "fullText": 276.9,
+        "name": 236.2,
+        "note": "SELECTED WALK\nHauptbahnhof shopping and food hall\n1 min · 0.12 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Hauptbahnhof shopping and food hall",
+        "traceHeight": 58.1,
+        "traceVisible": 58.1,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 463.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Museum of Military History · 13 min",
+        "usableWidth": 250.4,
+        "fullText": 216.4,
+        "name": 168.1,
+        "note": "SELECTED WALK\nMuseum of Military History\n13 min · 1.11 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Museum of Military History",
+        "traceHeight": 49.7,
+        "traceVisible": 49.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Karlsplatz / Karlskirche · 21 min",
+        "usableWidth": 250.4,
+        "fullText": 194.5,
+        "name": 146.1,
+        "note": "SELECTED WALK\nKarlsplatz / Karlskirche\n21 min · 1.75 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Karlsplatz / Karlskirche",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Vienna State Opera · 28 min",
+        "usableWidth": 250.4,
+        "fullText": 171.9,
+        "name": 121.2,
+        "note": "SELECTED WALK\nVienna State Opera\n28 min · 2.31 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Vienna State Opera",
+        "traceHeight": 99.3,
+        "traceVisible": 99.3,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Vienna International Centre visitor area · 11 min",
+        "usableWidth": 250.4,
+        "fullText": 294.8,
+        "name": 248.3,
+        "note": "SELECTED WALK\nVienna International Centre visitor area\n11 min · 0.84 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Vienna International Centre visitor area",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 483.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Donaupark entrance area · 18 min",
+        "usableWidth": 250.4,
+        "fullText": 207.3,
+        "name": 158.6,
+        "note": "SELECTED WALK\nDonaupark entrance area\n18 min · 1.36 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Donaupark entrance area",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.7,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Alte Donau U1 / Old Danube · 13 min",
+        "usableWidth": 250.4,
+        "fullText": 218.5,
+        "name": 170.2,
+        "note": "SELECTED WALK\nAlte Donau U1 / Old Danube\n13 min · 1.07 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Alte Donau U1 / Old Danube",
+        "traceHeight": 98.1,
+        "traceVisible": 98.1,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 441.7,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Donau Zentrum retail and dining · 23 min",
+        "usableWidth": 250.4,
+        "fullText": 253.5,
+        "name": 203.3,
+        "note": "SELECTED WALK\nDonau Zentrum retail and dining\n23 min · 1.84 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Donau Zentrum retail and dining",
+        "traceHeight": 101.4,
+        "traceVisible": 101.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 463.7,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Danube Island path access near Reichsbrücke · 15 min",
+        "usableWidth": 250.4,
+        "fullText": 335.5,
+        "name": 287.3,
+        "note": "SELECTED WALK\nDanube Island path access near Reichsbrücke\n15 min · 1.2 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Danube Island path access near Reichsbrücke",
+        "traceHeight": 96.2,
+        "traceVisible": 96.2,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 483.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Vienna - Rathaus.jpg",
+      "rendered": [
+        296,
+        197
+      ],
+      "frame": [
+        296,
+        486
+      ],
+      "firstArrow": [
+        696,
+        740
+      ],
+      "download": [
+        640,
+        684
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 27,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "prague",
+    "width": 320,
+    "height": 725,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 845,
+      "firstChoice": 1469,
+      "buttons": [
+        1401,
+        2148
+      ],
+      "titles": [
+        781,
+        1595
+      ],
+      "prices": [
+        845,
+        1632
+      ],
+      "firstFacts": "AIRBNB\nDesigner Digest; Live like a local\n\nSAR 3,052\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n1 bedrooms\nQueen + double convertible\n1.5 bath\n4.83/5 · 145 reviews\n\nŽižkov / Vinohrady border · Host lists full kitchen, washer and dryer. Value pick if adult b",
+      "beforeStay": 738,
+      "outdoorH": 350
+    },
+    "routeChoices": [
+      {
+        "option": "Žižkov Television Tower · 6 min",
+        "usableWidth": 250.4,
+        "fullText": 190.2,
+        "name": 147.3,
+        "note": "SELECTED WALK\nŽižkov Television Tower\n6 min · 0.48 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Žižkov Television Tower",
+        "traceHeight": 100.4,
+        "traceVisible": 100.4,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Riegrovy sady park · 9 min",
+        "usableWidth": 250.4,
+        "fullText": 161.1,
+        "name": 118.2,
+        "note": "SELECTED WALK\nRiegrovy sady park\n9 min · 0.75 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Riegrovy sady park",
+        "traceHeight": 97.2,
+        "traceVisible": 97.2,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Atrium Flora shopping & metro · 10 min",
+        "usableWidth": 250.4,
+        "fullText": 239.8,
+        "name": 190.5,
+        "note": "SELECTED WALK\nAtrium Flora shopping & metro\n10 min · 0.81 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Atrium Flora shopping & metro",
+        "traceHeight": 26,
+        "traceVisible": 26,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Antonínovo Pekařství bakery area · 1 min",
+        "usableWidth": 250.4,
+        "fullText": 251.4,
+        "name": 210.7,
+        "note": "SELECTED WALK\nAntonínovo Pekařství bakery area\n1 min · 0.11 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Antonínovo Pekařství bakery area",
+        "traceHeight": 70.7,
+        "traceVisible": 70.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 464.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "National Museum · 19 min",
+        "usableWidth": 250.4,
+        "fullText": 158.7,
+        "name": 110,
+        "note": "SELECTED WALK\nNational Museum\n19 min · 1.58 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · National Museum",
+        "traceHeight": 28.6,
+        "traceVisible": 28.6,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Prague Astronomical Clock · 1 min",
+        "usableWidth": 250.4,
+        "fullText": 211.3,
+        "name": 170.6,
+        "note": "SELECTED WALK\nPrague Astronomical Clock\n1 min · 0.01 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Prague Astronomical Clock",
+        "traceHeight": 2.7,
+        "traceVisible": 2.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Charles Bridge east entrance · 8 min",
+        "usableWidth": 250.4,
+        "fullText": 225.4,
+        "name": 182.6,
+        "note": "SELECTED WALK\nCharles Bridge east entrance\n8 min · 0.65 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Charles Bridge east entrance",
+        "traceHeight": 68,
+        "traceVisible": 68,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Staroměstská metro entrance · 6 min",
+        "usableWidth": 250.4,
+        "fullText": 231.3,
+        "name": 188.5,
+        "note": "SELECTED WALK\nStaroměstská metro entrance\n6 min · 0.48 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Staroměstská metro entrance",
+        "traceHeight": 85.7,
+        "traceVisible": 85.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Havelská market area · 5 min",
+        "usableWidth": 250.4,
+        "fullText": 176.9,
+        "name": 134.4,
+        "note": "SELECTED WALK\nHavelská market area\n5 min · 0.44 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Havelská market area",
+        "traceHeight": 100.7,
+        "traceVisible": 100.7,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Municipal House · 11 min",
+        "usableWidth": 250.4,
+        "fullText": 150.8,
+        "name": 104.3,
+        "note": "SELECTED WALK\nMunicipal House\n11 min · 0.9 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Municipal House",
+        "traceHeight": 68.3,
+        "traceVisible": 68.3,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 391.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      },
+      {
+        "option": "Prague Main railway station · 21 min",
+        "usableWidth": 250.4,
+        "fullText": 221.8,
+        "name": 173.3,
+        "note": "SELECTED WALK\nPrague Main railway station\n21 min · 1.72 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Prague Main railway station",
+        "traceHeight": 100.5,
+        "traceVisible": 100.5,
+        "mapHeight": 153,
+        "mapVisible": 153,
+        "mapTop": 442.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Charles Bridge - panorama.jpg",
+      "rendered": [
+        296,
+        128
+      ],
+      "frame": [
+        296,
+        486
+      ],
+      "firstArrow": [
+        676,
+        720
+      ],
+      "download": [
+        620,
+        664
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 7,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "baku",
+    "width": 390,
+    "height": 844,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 772,
+      "firstChoice": 1216,
+      "buttons": [
+        1200,
+        1836
+      ],
+      "titles": [
+        708,
+        1342
+      ],
+      "prices": [
+        772,
+        1406
+      ],
+      "firstFacts": "AIRBNB\nApartment on Nizami. Free transfer\n\nSAR 1,418\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\n2 queen beds\n1 bath\n4.9/5 · 221 reviews\n\nSahil / Nizami Street · Host lists a full kitchen, a private balcony and Fountains Square about 5 min away on",
+      "beforeStay": 665,
+      "outdoorH": 304
+    },
+    "routeChoices": [
+      {
+        "option": "Fountains Square · 8 min",
+        "usableWidth": 319.4,
+        "fullText": 153.5,
+        "name": 110.7,
+        "note": "SELECTED WALK\nFountains Square\n8 min · 0.7 km\nOffline estimate\n\nA · Sahil metro entrance → B · Fountains Square",
+        "traceHeight": 52.3,
+        "traceVisible": 52.3,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 371.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Maiden Tower / Old City · 11 min",
+        "usableWidth": 319.4,
+        "fullText": 193.9,
+        "name": 147.4,
+        "note": "SELECTED WALK\nMaiden Tower / Old City\n11 min · 0.9 km\nOffline estimate\n\nA · Sahil metro entrance → B · Maiden Tower / Old City",
+        "traceHeight": 128.3,
+        "traceVisible": 128.3,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 371.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Baku Boulevard promenade · 6 min",
+        "usableWidth": 319.4,
+        "fullText": 213.7,
+        "name": 170.8,
+        "note": "SELECTED WALK\nBaku Boulevard promenade\n6 min · 0.52 km\nOffline estimate\n\nA · Sahil metro entrance → B · Baku Boulevard promenade",
+        "traceHeight": 128,
+        "traceVisible": 128,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Park Bulvar mall · 10 min",
+        "usableWidth": 319.4,
+        "fullText": 148.9,
+        "name": 99.6,
+        "note": "SELECTED WALK\nPark Bulvar mall\n10 min · 0.84 km\nOffline estimate\n\nA · Sahil metro entrance → B · Park Bulvar mall",
+        "traceHeight": 99.8,
+        "traceVisible": 99.8,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 371.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "28 May railway / airport bus area · 19 min",
+        "usableWidth": 319.4,
+        "fullText": 249.8,
+        "name": 201.1,
+        "note": "SELECTED WALK\n28 May railway / airport bus area\n19 min · 1.56 km\nOffline estimate\n\nA · Sahil metro entrance → B · 28 May railway / airport bus area",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Nizami Street cafés · 7 min",
+        "usableWidth": 319.4,
+        "fullText": 164.7,
+        "name": 122.9,
+        "note": "SELECTED WALK\nNizami Street cafés\n7 min · 0.6 km\nOffline estimate\n\nA · Sahil metro entrance → B · Nizami Street cafés",
+        "traceHeight": 67.9,
+        "traceVisible": 67.9,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 371.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Caspian promenade near Port Baku · 10 min",
+        "usableWidth": 319.4,
+        "fullText": 269.1,
+        "name": 219.8,
+        "note": "SELECTED WALK\nCaspian promenade near Port Baku\n10 min · 0.83 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Caspian promenade near Port Baku",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Baku Museum of Modern Art · 10 min",
+        "usableWidth": 319.4,
+        "fullText": 225.1,
+        "name": 175.8,
+        "note": "SELECTED WALK\nBaku Museum of Modern Art\n10 min · 0.82 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Baku Museum of Modern Art",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "28 May metro and rail area · 19 min",
+        "usableWidth": 319.4,
+        "fullText": 212.2,
+        "name": 163.5,
+        "note": "SELECTED WALK\n28 May metro and rail area\n19 min · 1.54 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · 28 May metro and rail area",
+        "traceHeight": 127.7,
+        "traceVisible": 127.7,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Port Baku shops and food · 1 min",
+        "usableWidth": 319.4,
+        "fullText": 199.1,
+        "name": 158.4,
+        "note": "SELECTED WALK\nPort Baku shops and food\n1 min · 0.1 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Port Baku shops and food",
+        "traceHeight": 28.6,
+        "traceVisible": 28.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Sahil metro · 24 min",
+        "usableWidth": 319.4,
+        "fullText": 122.8,
+        "name": 72.6,
+        "note": "SELECTED WALK\nSahil metro\n24 min · 1.91 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Sahil metro",
+        "traceHeight": 93,
+        "traceVisible": 93,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 371.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Old City (Baku).JPG",
+      "rendered": [
+        366,
+        242
+      ],
+      "frame": [
+        366,
+        565
+      ],
+      "firstArrow": [
+        762,
+        806
+      ],
+      "download": [
+        706,
+        750
+      ],
+      "close": [
+        38,
+        82
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "tbilisi",
+    "width": 390,
+    "height": 844,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 791,
+      "firstChoice": 1209,
+      "buttons": [
+        1194,
+        1803
+      ],
+      "titles": [
+        755,
+        1336
+      ],
+      "prices": [
+        791,
+        1400
+      ],
+      "firstFacts": "AIRBNB\nA 5-star stay in Old Tbilisi\n\nSAR 1,917\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\nDouble + 2 singles, plus sofa\n1 bath\n4.92/5 · 118 reviews\n\nOld Tbilisi / Pushkin Square · Host lists a full kitchen and Galleria Tbilisi about 5 min away. T",
+      "beforeStay": 711,
+      "outdoorH": 350
+    },
+    "routeChoices": [
+      {
+        "option": "Liberty Square metro · 7 min",
+        "usableWidth": 319.4,
+        "fullText": 174.9,
+        "name": 133,
+        "note": "SELECTED WALK\nLiberty Square metro\n7 min · 0.52 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Liberty Square metro",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Georgian National Museum · 8 min",
+        "usableWidth": 319.4,
+        "fullText": 213.2,
+        "name": 170.3,
+        "note": "SELECTED WALK\nGeorgian National Museum\n8 min · 0.6 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Georgian National Museum",
+        "traceHeight": 127.6,
+        "traceVisible": 127.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Bridge of Peace west end · 8 min",
+        "usableWidth": 319.4,
+        "fullText": 199.7,
+        "name": 156.8,
+        "note": "SELECTED WALK\nBridge of Peace west end\n8 min · 0.62 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Bridge of Peace west end",
+        "traceHeight": 59.7,
+        "traceVisible": 59.7,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Abanotubani sulphur baths · 14 min",
+        "usableWidth": 319.4,
+        "fullText": 219.9,
+        "name": 171.3,
+        "note": "SELECTED WALK\nAbanotubani sulphur baths\n14 min · 1.19 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Abanotubani sulphur baths",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Galleria Tbilisi shopping & food · 4 min",
+        "usableWidth": 319.4,
+        "fullText": 236.2,
+        "name": 193.4,
+        "note": "SELECTED WALK\nGalleria Tbilisi shopping & food\n4 min · 0.33 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Galleria Tbilisi shopping & food",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Erekle II Street restaurants · 9 min",
+        "usableWidth": 319.4,
+        "fullText": 212.6,
+        "name": 169.7,
+        "note": "SELECTED WALK\nErekle II Street restaurants\n9 min · 0.75 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Erekle II Street restaurants",
+        "traceHeight": 72.4,
+        "traceVisible": 72.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Station Square metro · 3 min",
+        "usableWidth": 319.4,
+        "fullText": 178.3,
+        "name": 135.8,
+        "note": "SELECTED WALK\nStation Square metro\n3 min · 0.25 km\nOffline estimate\n\nA · Station Square public frontage → B · Station Square metro",
+        "traceHeight": 87,
+        "traceVisible": 87,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Dezerter Bazaar area · 6 min",
+        "usableWidth": 319.4,
+        "fullText": 172.6,
+        "name": 129.7,
+        "note": "SELECTED WALK\nDezerter Bazaar area\n6 min · 0.49 km\nOffline estimate\n\nA · Station Square public frontage → B · Dezerter Bazaar area",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Fabrika courtyard · 19 min",
+        "usableWidth": 319.4,
+        "fullText": 158.7,
+        "name": 110,
+        "note": "SELECTED WALK\nFabrika courtyard\n19 min · 1.64 km\nOffline estimate\n\nA · Station Square public frontage → B · Fabrika courtyard",
+        "traceHeight": 126.4,
+        "traceVisible": 126.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Marjanishvili metro · 25 min",
+        "usableWidth": 319.4,
+        "fullText": 171.8,
+        "name": 121.6,
+        "note": "SELECTED WALK\nMarjanishvili metro\n25 min · 2.1 km\nOffline estimate\n\nA · Station Square public frontage → B · Marjanishvili metro",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "David Aghmashenebeli Avenue · 20 min",
+        "usableWidth": 319.4,
+        "fullText": 244.6,
+        "name": 193.3,
+        "note": "SELECTED WALK\nDavid Aghmashenebeli Avenue\n20 min · 1.67 km\nOffline estimate\n\nA · Station Square public frontage → B · David Aghmashenebeli Avenue",
+        "traceHeight": 128.4,
+        "traceVisible": 128.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.8,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Tbilisi, Old Tbilisi 2, Georgia.jpg",
+      "rendered": [
+        366,
+        243
+      ],
+      "frame": [
+        366,
+        565
+      ],
+      "firstArrow": [
+        762,
+        806
+      ],
+      "download": [
+        706,
+        750
+      ],
+      "close": [
+        38,
+        82
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "budapest",
+    "width": 390,
+    "height": 844,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 572,
+      "firstChoice": 990,
+      "buttons": [
+        975,
+        1665
+      ],
+      "titles": [
+        508,
+        1117
+      ],
+      "prices": [
+        572,
+        1181
+      ],
+      "firstFacts": "AIRBNB\nCHROMATIC Vibe – Sky Terrace with A/C & Sauna\n\nSAR 2,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\nListing overview: 1 king bed + couch\n1.5 bath\n4.56/5 · 153 reviews\n\nPest / Opera · Pest / Opera. The listing overview calls it a studio; the host desc",
+      "beforeStay": 464,
+      "outdoorH": 103
+    },
+    "routeChoices": [
+      {
+        "option": "Deák Ferenc tér interchange · 10 min",
+        "usableWidth": 319.4,
+        "fullText": 226.8,
+        "name": 177.4,
+        "note": "SELECTED WALK\nDeák Ferenc tér interchange\n10 min · 0.78 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Deák Ferenc tér interchange",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "St Stephen’s Basilica / Advent market · 6 min",
+        "usableWidth": 319.4,
+        "fullText": 277.2,
+        "name": 234.3,
+        "note": "SELECTED WALK\nSt Stephen’s Basilica / Advent market\n6 min · 0.49 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · St Stephen’s Basilica / Advent market",
+        "traceHeight": 118.4,
+        "traceVisible": 118.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Hold Street Market Hall area · 12 min",
+        "usableWidth": 319.4,
+        "fullText": 224.9,
+        "name": 176.4,
+        "note": "SELECTED WALK\nHold Street Market Hall area\n12 min · 0.91 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Hold Street Market Hall area",
+        "traceHeight": 78.6,
+        "traceVisible": 78.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Danube promenade at Széchenyi Square · 17 min",
+        "usableWidth": 319.4,
+        "fullText": 301.5,
+        "name": 253.8,
+        "note": "SELECTED WALK\nDanube promenade at Széchenyi Square\n17 min · 1.34 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Danube promenade at Széchenyi Square",
+        "traceHeight": 113.9,
+        "traceVisible": 113.9,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 464.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Gozsdu Courtyard dining · 9 min",
+        "usableWidth": 319.4,
+        "fullText": 199.2,
+        "name": 156.3,
+        "note": "SELECTED WALK\nGozsdu Courtyard dining\n9 min · 0.67 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Gozsdu Courtyard dining",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Nyugati railway station · 13 min",
+        "usableWidth": 319.4,
+        "fullText": 193.5,
+        "name": 145.2,
+        "note": "SELECTED WALK\nNyugati railway station\n13 min · 1.1 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Nyugati railway station",
+        "traceHeight": 125.4,
+        "traceVisible": 125.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.9,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Móricz M4 and tram stop · 1 min",
+        "usableWidth": 319.4,
+        "fullText": 194.1,
+        "name": 153.3,
+        "note": "SELECTED WALK\nMóricz M4 and tram stop\n1 min · 0.08 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Móricz M4 and tram stop",
+        "traceHeight": 25.6,
+        "traceVisible": 25.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Allee shopping centre · 6 min",
+        "usableWidth": 319.4,
+        "fullText": 180.6,
+        "name": 137.7,
+        "note": "SELECTED WALK\nAllee shopping centre\n6 min · 0.46 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Allee shopping centre",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Gellért Square · 10 min",
+        "usableWidth": 319.4,
+        "fullText": 140.6,
+        "name": 91.3,
+        "note": "SELECTED WALK\nGellért Square\n10 min · 0.86 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Gellért Square",
+        "traceHeight": 127.7,
+        "traceVisible": 127.7,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Feneketlen Lake park · 8 min",
+        "usableWidth": 319.4,
+        "fullText": 174.8,
+        "name": 131.9,
+        "note": "SELECTED WALK\nFeneketlen Lake park\n8 min · 0.54 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Feneketlen Lake park",
+        "traceHeight": 83.7,
+        "traceVisible": 83.7,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Bartók Béla Boulevard cafés · 14 min",
+        "usableWidth": 319.4,
+        "fullText": 222.4,
+        "name": 173.8,
+        "note": "SELECTED WALK\nBartók Béla Boulevard cafés\n14 min · 1.02 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Bartók Béla Boulevard cafés",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.2,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Budapest Parliament Sunset Danube River Panorama 2026.jpg",
+      "rendered": [
+        366,
+        206
+      ],
+      "frame": [
+        366,
+        565
+      ],
+      "firstArrow": [
+        762,
+        806
+      ],
+      "download": [
+        706,
+        750
+      ],
+      "close": [
+        38,
+        82
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "vienna",
+    "width": 390,
+    "height": 844,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 799,
+      "firstChoice": 1244,
+      "buttons": [
+        1229,
+        1912
+      ],
+      "titles": [
+        735,
+        1371
+      ],
+      "prices": [
+        799,
+        1462
+      ],
+      "firstFacts": "AIRBNB\nRenovated Apartment near Center\n\nSAR 4,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.\n\n1 bedrooms\nDouble bed + sofa bed\n1 bath\n4.67/5 · 6 reviews\n\nRudolfsheim-Fünfhaus / Johns",
+      "beforeStay": 692,
+      "outdoorH": 330
+    },
+    "routeChoices": [
+      {
+        "option": "Upper Belvedere · 17 min",
+        "usableWidth": 319.4,
+        "fullText": 151.8,
+        "name": 104.1,
+        "note": "SELECTED WALK\nUpper Belvedere\n17 min · 1.3 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Upper Belvedere",
+        "traceHeight": 126.6,
+        "traceVisible": 126.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Südtiroler Platz U1 entrance · 2 min",
+        "usableWidth": 319.4,
+        "fullText": 218.8,
+        "name": 176.2,
+        "note": "SELECTED WALK\nSüdtiroler Platz U1 entrance\n2 min · 0.14 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Südtiroler Platz U1 entrance",
+        "traceHeight": 104.4,
+        "traceVisible": 104.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Hauptbahnhof shopping and food hall · 1 min",
+        "usableWidth": 319.4,
+        "fullText": 276.9,
+        "name": 236.2,
+        "note": "SELECTED WALK\nHauptbahnhof shopping and food hall\n1 min · 0.12 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Hauptbahnhof shopping and food hall",
+        "traceHeight": 73.7,
+        "traceVisible": 73.7,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Museum of Military History · 13 min",
+        "usableWidth": 319.4,
+        "fullText": 216.4,
+        "name": 168.1,
+        "note": "SELECTED WALK\nMuseum of Military History\n13 min · 1.11 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Museum of Military History",
+        "traceHeight": 63,
+        "traceVisible": 63,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Karlsplatz / Karlskirche · 21 min",
+        "usableWidth": 319.4,
+        "fullText": 194.5,
+        "name": 146.1,
+        "note": "SELECTED WALK\nKarlsplatz / Karlskirche\n21 min · 1.75 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Karlsplatz / Karlskirche",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Vienna State Opera · 28 min",
+        "usableWidth": 319.4,
+        "fullText": 171.9,
+        "name": 121.2,
+        "note": "SELECTED WALK\nVienna State Opera\n28 min · 2.31 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Vienna State Opera",
+        "traceHeight": 125.9,
+        "traceVisible": 125.9,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 392.1,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Vienna International Centre visitor area · 11 min",
+        "usableWidth": 319.4,
+        "fullText": 294.8,
+        "name": 248.3,
+        "note": "SELECTED WALK\nVienna International Centre visitor area\n11 min · 0.84 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Vienna International Centre visitor area",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Donaupark entrance area · 18 min",
+        "usableWidth": 319.4,
+        "fullText": 207.3,
+        "name": 158.6,
+        "note": "SELECTED WALK\nDonaupark entrance area\n18 min · 1.36 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Donaupark entrance area",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Alte Donau U1 / Old Danube · 13 min",
+        "usableWidth": 319.4,
+        "fullText": 218.5,
+        "name": 170.2,
+        "note": "SELECTED WALK\nAlte Donau U1 / Old Danube\n13 min · 1.07 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Alte Donau U1 / Old Danube",
+        "traceHeight": 124.4,
+        "traceVisible": 124.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Donau Zentrum retail and dining · 23 min",
+        "usableWidth": 319.4,
+        "fullText": 253.5,
+        "name": 203.3,
+        "note": "SELECTED WALK\nDonau Zentrum retail and dining\n23 min · 1.84 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Donau Zentrum retail and dining",
+        "traceHeight": 128.5,
+        "traceVisible": 128.5,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 442.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Danube Island path access near Reichsbrücke · 15 min",
+        "usableWidth": 319.4,
+        "fullText": 335.5,
+        "name": 287.3,
+        "note": "SELECTED WALK\nDanube Island path access near Reichsbrücke\n15 min · 1.2 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Danube Island path access near Reichsbrücke",
+        "traceHeight": 122,
+        "traceVisible": 122,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 464.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Vienna - Rathaus.jpg",
+      "rendered": [
+        366,
+        244
+      ],
+      "frame": [
+        366,
+        565
+      ],
+      "firstArrow": [
+        772,
+        816
+      ],
+      "download": [
+        716,
+        760
+      ],
+      "close": [
+        28,
+        72
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "prague",
+    "width": 390,
+    "height": 844,
+    "stay": {
+      "heading": 175,
+      "firstPrice": 799,
+      "firstChoice": 1250,
+      "buttons": [
+        1235,
+        1816
+      ],
+      "titles": [
+        735,
+        1377
+      ],
+      "prices": [
+        799,
+        1413
+      ],
+      "firstFacts": "AIRBNB\nDesigner Digest; Live like a local\n\nSAR 3,052\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n1 bedrooms\nQueen + double convertible\n1.5 bath\n4.83/5 · 145 reviews\n\nŽižkov / Vinohrady border · Host lists full kitchen, washer and dryer. Value pick if adult b",
+      "beforeStay": 692,
+      "outdoorH": 330
+    },
+    "routeChoices": [
+      {
+        "option": "Žižkov Television Tower · 6 min",
+        "usableWidth": 319.4,
+        "fullText": 190.2,
+        "name": 147.3,
+        "note": "SELECTED WALK\nŽižkov Television Tower\n6 min · 0.48 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Žižkov Television Tower",
+        "traceHeight": 127.2,
+        "traceVisible": 127.2,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.4,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Riegrovy sady park · 9 min",
+        "usableWidth": 319.4,
+        "fullText": 161.1,
+        "name": 118.2,
+        "note": "SELECTED WALK\nRiegrovy sady park\n9 min · 0.75 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Riegrovy sady park",
+        "traceHeight": 123.2,
+        "traceVisible": 123.2,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.4,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Atrium Flora shopping & metro · 10 min",
+        "usableWidth": 319.4,
+        "fullText": 239.8,
+        "name": 190.5,
+        "note": "SELECTED WALK\nAtrium Flora shopping & metro\n10 min · 0.81 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Atrium Flora shopping & metro",
+        "traceHeight": 33,
+        "traceVisible": 33,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Antonínovo Pekařství bakery area · 1 min",
+        "usableWidth": 319.4,
+        "fullText": 251.4,
+        "name": 210.7,
+        "note": "SELECTED WALK\nAntonínovo Pekařství bakery area\n1 min · 0.11 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Antonínovo Pekařství bakery area",
+        "traceHeight": 89.6,
+        "traceVisible": 89.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "National Museum · 19 min",
+        "usableWidth": 319.4,
+        "fullText": 158.7,
+        "name": 110,
+        "note": "SELECTED WALK\nNational Museum\n19 min · 1.58 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · National Museum",
+        "traceHeight": 36.3,
+        "traceVisible": 36.3,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.4,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Prague Astronomical Clock · 1 min",
+        "usableWidth": 319.4,
+        "fullText": 211.3,
+        "name": 170.6,
+        "note": "SELECTED WALK\nPrague Astronomical Clock\n1 min · 0.01 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Prague Astronomical Clock",
+        "traceHeight": 3.4,
+        "traceVisible": 3.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Charles Bridge east entrance · 8 min",
+        "usableWidth": 319.4,
+        "fullText": 225.4,
+        "name": 182.6,
+        "note": "SELECTED WALK\nCharles Bridge east entrance\n8 min · 0.65 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Charles Bridge east entrance",
+        "traceHeight": 86.2,
+        "traceVisible": 86.2,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Staroměstská metro entrance · 6 min",
+        "usableWidth": 319.4,
+        "fullText": 231.3,
+        "name": 188.5,
+        "note": "SELECTED WALK\nStaroměstská metro entrance\n6 min · 0.48 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Staroměstská metro entrance",
+        "traceHeight": 108.6,
+        "traceVisible": 108.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Havelská market area · 5 min",
+        "usableWidth": 319.4,
+        "fullText": 176.9,
+        "name": 134.4,
+        "note": "SELECTED WALK\nHavelská market area\n5 min · 0.44 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Havelská market area",
+        "traceHeight": 127.6,
+        "traceVisible": 127.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 391.4,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Municipal House · 11 min",
+        "usableWidth": 319.4,
+        "fullText": 150.8,
+        "name": 104.3,
+        "note": "SELECTED WALK\nMunicipal House\n11 min · 0.9 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Municipal House",
+        "traceHeight": 86.6,
+        "traceVisible": 86.6,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 371.3,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      },
+      {
+        "option": "Prague Main railway station · 21 min",
+        "usableWidth": 319.4,
+        "fullText": 221.8,
+        "name": 173.3,
+        "note": "SELECTED WALK\nPrague Main railway station\n21 min · 1.72 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Prague Main railway station",
+        "traceHeight": 127.4,
+        "traceVisible": 127.4,
+        "mapHeight": 193.4,
+        "mapVisible": 193.4,
+        "mapTop": 441.6,
+        "stickyBottom": 114,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Charles Bridge - panorama.jpg",
+      "rendered": [
+        366,
+        158
+      ],
+      "frame": [
+        366,
+        565
+      ],
+      "firstArrow": [
+        762,
+        806
+      ],
+      "download": [
+        706,
+        750
+      ],
+      "close": [
+        38,
+        82
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "baku",
+    "width": 667,
+    "height": 375,
+    "stay": {
+      "heading": 164,
+      "firstPrice": 661,
+      "firstChoice": 985,
+      "buttons": [
+        970,
+        1458
+      ],
+      "titles": [
+        624,
+        1112
+      ],
+      "prices": [
+        661,
+        1176
+      ],
+      "firstFacts": "AIRBNB\nApartment on Nizami. Free transfer\n\nSAR 1,418\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\n2 queen beds\n1 bath\n4.9/5 · 221 reviews\n\nSahil / Nizami Street · Host lists a full kitchen, a private balcony and Fountains Square about 5 min away on",
+      "beforeStay": 581,
+      "outdoorH": 257
+    },
+    "routeChoices": [
+      {
+        "option": "Fountains Square · 8 min",
+        "usableWidth": 573.4,
+        "fullText": 153.5,
+        "name": 110.7,
+        "note": "SELECTED WALK\nFountains Square\n8 min · 0.7 km\nOffline estimate\n\nA · Sahil metro entrance → B · Fountains Square",
+        "traceHeight": 92.8,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Maiden Tower / Old City · 11 min",
+        "usableWidth": 573.4,
+        "fullText": 193.9,
+        "name": 147.4,
+        "note": "SELECTED WALK\nMaiden Tower / Old City\n11 min · 0.9 km\nOffline estimate\n\nA · Sahil metro entrance → B · Maiden Tower / Old City",
+        "traceHeight": 227.6,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Baku Boulevard promenade · 6 min",
+        "usableWidth": 573.4,
+        "fullText": 213.7,
+        "name": 170.8,
+        "note": "SELECTED WALK\nBaku Boulevard promenade\n6 min · 0.52 km\nOffline estimate\n\nA · Sahil metro entrance → B · Baku Boulevard promenade",
+        "traceHeight": 227,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Park Bulvar mall · 10 min",
+        "usableWidth": 573.4,
+        "fullText": 148.9,
+        "name": 99.6,
+        "note": "SELECTED WALK\nPark Bulvar mall\n10 min · 0.84 km\nOffline estimate\n\nA · Sahil metro entrance → B · Park Bulvar mall",
+        "traceHeight": 177,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "28 May railway / airport bus area · 19 min",
+        "usableWidth": 573.4,
+        "fullText": 249.8,
+        "name": 201.1,
+        "note": "SELECTED WALK\n28 May railway / airport bus area\n19 min · 1.56 km\nOffline estimate\n\nA · Sahil metro entrance → B · 28 May railway / airport bus area",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Nizami Street cafés · 7 min",
+        "usableWidth": 573.4,
+        "fullText": 164.7,
+        "name": 122.9,
+        "note": "SELECTED WALK\nNizami Street cafés\n7 min · 0.6 km\nOffline estimate\n\nA · Sahil metro entrance → B · Nizami Street cafés",
+        "traceHeight": 120.4,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Caspian promenade near Port Baku · 10 min",
+        "usableWidth": 573.4,
+        "fullText": 269.1,
+        "name": 219.8,
+        "note": "SELECTED WALK\nCaspian promenade near Port Baku\n10 min · 0.83 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Caspian promenade near Port Baku",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Baku Museum of Modern Art · 10 min",
+        "usableWidth": 573.4,
+        "fullText": 225.1,
+        "name": 175.8,
+        "note": "SELECTED WALK\nBaku Museum of Modern Art\n10 min · 0.82 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Baku Museum of Modern Art",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "28 May metro and rail area · 19 min",
+        "usableWidth": 573.4,
+        "fullText": 212.2,
+        "name": 163.5,
+        "note": "SELECTED WALK\n28 May metro and rail area\n19 min · 1.54 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · 28 May metro and rail area",
+        "traceHeight": 226.5,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Port Baku shops and food · 1 min",
+        "usableWidth": 573.4,
+        "fullText": 199.1,
+        "name": 158.4,
+        "note": "SELECTED WALK\nPort Baku shops and food\n1 min · 0.1 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Port Baku shops and food",
+        "traceHeight": 50.7,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Sahil metro · 24 min",
+        "usableWidth": 573.4,
+        "fullText": 122.8,
+        "name": 72.6,
+        "note": "SELECTED WALK\nSahil metro\n24 min · 1.91 km\nOffline estimate\n\nA · Port Baku Mall public frontage → B · Sahil metro",
+        "traceHeight": 164.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.3,
+        "mapTop": 361.7,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Old City (Baku).JPG",
+      "rendered": [
+        277,
+        184
+      ],
+      "frame": [
+        627,
+        184
+      ],
+      "firstArrow": [
+        319,
+        363
+      ],
+      "download": [
+        269,
+        313
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "tbilisi",
+    "width": 667,
+    "height": 375,
+    "stay": {
+      "heading": 164,
+      "firstPrice": 661,
+      "firstChoice": 958,
+      "buttons": [
+        943,
+        1432
+      ],
+      "titles": [
+        624,
+        1085
+      ],
+      "prices": [
+        661,
+        1149
+      ],
+      "firstFacts": "AIRBNB\nA 5-star stay in Old Tbilisi\n\nSAR 1,917\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\nDouble + 2 singles, plus sofa\n1 bath\n4.92/5 · 118 reviews\n\nOld Tbilisi / Pushkin Square · Host lists a full kitchen and Galleria Tbilisi about 5 min away. T",
+      "beforeStay": 581,
+      "outdoorH": 257
+    },
+    "routeChoices": [
+      {
+        "option": "Liberty Square metro · 7 min",
+        "usableWidth": 573.4,
+        "fullText": 174.9,
+        "name": 133,
+        "note": "SELECTED WALK\nLiberty Square metro\n7 min · 0.52 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Liberty Square metro",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Georgian National Museum · 8 min",
+        "usableWidth": 573.4,
+        "fullText": 213.2,
+        "name": 170.3,
+        "note": "SELECTED WALK\nGeorgian National Museum\n8 min · 0.6 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Georgian National Museum",
+        "traceHeight": 226.3,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Bridge of Peace west end · 8 min",
+        "usableWidth": 573.4,
+        "fullText": 199.7,
+        "name": 156.8,
+        "note": "SELECTED WALK\nBridge of Peace west end\n8 min · 0.62 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Bridge of Peace west end",
+        "traceHeight": 106,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Abanotubani sulphur baths · 14 min",
+        "usableWidth": 573.4,
+        "fullText": 219.9,
+        "name": 171.3,
+        "note": "SELECTED WALK\nAbanotubani sulphur baths\n14 min · 1.19 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Abanotubani sulphur baths",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Galleria Tbilisi shopping & food · 4 min",
+        "usableWidth": 573.4,
+        "fullText": 236.2,
+        "name": 193.4,
+        "note": "SELECTED WALK\nGalleria Tbilisi shopping & food\n4 min · 0.33 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Galleria Tbilisi shopping & food",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Erekle II Street restaurants · 9 min",
+        "usableWidth": 573.4,
+        "fullText": 212.6,
+        "name": 169.7,
+        "note": "SELECTED WALK\nErekle II Street restaurants\n9 min · 0.75 km\nOffline estimate\n\nA · Liberty Square public plaza → B · Erekle II Street restaurants",
+        "traceHeight": 128.3,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Station Square metro · 3 min",
+        "usableWidth": 573.4,
+        "fullText": 178.3,
+        "name": 135.8,
+        "note": "SELECTED WALK\nStation Square metro\n3 min · 0.25 km\nOffline estimate\n\nA · Station Square public frontage → B · Station Square metro",
+        "traceHeight": 154.3,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Dezerter Bazaar area · 6 min",
+        "usableWidth": 573.4,
+        "fullText": 172.6,
+        "name": 129.7,
+        "note": "SELECTED WALK\nDezerter Bazaar area\n6 min · 0.49 km\nOffline estimate\n\nA · Station Square public frontage → B · Dezerter Bazaar area",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Fabrika courtyard · 19 min",
+        "usableWidth": 573.4,
+        "fullText": 158.7,
+        "name": 110,
+        "note": "SELECTED WALK\nFabrika courtyard\n19 min · 1.64 km\nOffline estimate\n\nA · Station Square public frontage → B · Fabrika courtyard",
+        "traceHeight": 224.1,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Marjanishvili metro · 25 min",
+        "usableWidth": 573.4,
+        "fullText": 171.8,
+        "name": 121.6,
+        "note": "SELECTED WALK\nMarjanishvili metro\n25 min · 2.1 km\nOffline estimate\n\nA · Station Square public frontage → B · Marjanishvili metro",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "David Aghmashenebeli Avenue · 20 min",
+        "usableWidth": 573.4,
+        "fullText": 244.6,
+        "name": 193.3,
+        "note": "SELECTED WALK\nDavid Aghmashenebeli Avenue\n20 min · 1.67 km\nOffline estimate\n\nA · Station Square public frontage → B · David Aghmashenebeli Avenue",
+        "traceHeight": 227.6,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Tbilisi, Old Tbilisi 2, Georgia.jpg",
+      "rendered": [
+        277,
+        184
+      ],
+      "frame": [
+        627,
+        184
+      ],
+      "firstArrow": [
+        319,
+        363
+      ],
+      "download": [
+        269,
+        313
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "budapest",
+    "width": 667,
+    "height": 375,
+    "stay": {
+      "heading": 164,
+      "firstPrice": 508,
+      "firstChoice": 806,
+      "buttons": [
+        790,
+        1278
+      ],
+      "titles": [
+        444,
+        932
+      ],
+      "prices": [
+        508,
+        969
+      ],
+      "firstFacts": "AIRBNB\nCHROMATIC Vibe – Sky Terrace with A/C & Sauna\n\nSAR 2,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\nListing overview: 1 king bed + couch\n1.5 bath\n4.56/5 · 153 reviews\n\nPest / Opera · Pest / Opera. The listing overview calls it a studio; the host desc",
+      "beforeStay": 401,
+      "outdoorH": 77
+    },
+    "routeChoices": [
+      {
+        "option": "Deák Ferenc tér interchange · 10 min",
+        "usableWidth": 573.4,
+        "fullText": 226.8,
+        "name": 177.4,
+        "note": "SELECTED WALK\nDeák Ferenc tér interchange\n10 min · 0.78 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Deák Ferenc tér interchange",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "St Stephen’s Basilica / Advent market · 6 min",
+        "usableWidth": 573.4,
+        "fullText": 277.2,
+        "name": 234.3,
+        "note": "SELECTED WALK\nSt Stephen’s Basilica / Advent market\n6 min · 0.49 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · St Stephen’s Basilica / Advent market",
+        "traceHeight": 210,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Hold Street Market Hall area · 12 min",
+        "usableWidth": 573.4,
+        "fullText": 224.9,
+        "name": 176.4,
+        "note": "SELECTED WALK\nHold Street Market Hall area\n12 min · 0.91 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Hold Street Market Hall area",
+        "traceHeight": 139.4,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Danube promenade at Széchenyi Square · 17 min",
+        "usableWidth": 573.4,
+        "fullText": 301.5,
+        "name": 253.8,
+        "note": "SELECTED WALK\nDanube promenade at Széchenyi Square\n17 min · 1.34 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Danube promenade at Széchenyi Square",
+        "traceHeight": 202,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Gozsdu Courtyard dining · 9 min",
+        "usableWidth": 573.4,
+        "fullText": 199.2,
+        "name": 156.3,
+        "note": "SELECTED WALK\nGozsdu Courtyard dining\n9 min · 0.67 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Gozsdu Courtyard dining",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Nyugati railway station · 13 min",
+        "usableWidth": 573.4,
+        "fullText": 193.5,
+        "name": 145.2,
+        "note": "SELECTED WALK\nNyugati railway station\n13 min · 1.1 km\nOffline estimate\n\nA · Hungarian State Opera frontage → B · Nyugati railway station",
+        "traceHeight": 222.3,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Móricz M4 and tram stop · 1 min",
+        "usableWidth": 573.4,
+        "fullText": 194.1,
+        "name": 153.3,
+        "note": "SELECTED WALK\nMóricz M4 and tram stop\n1 min · 0.08 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Móricz M4 and tram stop",
+        "traceHeight": 45.4,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Allee shopping centre · 6 min",
+        "usableWidth": 573.4,
+        "fullText": 180.6,
+        "name": 137.7,
+        "note": "SELECTED WALK\nAllee shopping centre\n6 min · 0.46 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Allee shopping centre",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Gellért Square · 10 min",
+        "usableWidth": 573.4,
+        "fullText": 140.6,
+        "name": 91.3,
+        "note": "SELECTED WALK\nGellért Square\n10 min · 0.86 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Gellért Square",
+        "traceHeight": 226.5,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Feneketlen Lake park · 8 min",
+        "usableWidth": 573.4,
+        "fullText": 174.8,
+        "name": 131.9,
+        "note": "SELECTED WALK\nFeneketlen Lake park\n8 min · 0.54 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Feneketlen Lake park",
+        "traceHeight": 148.4,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Bartók Béla Boulevard cafés · 14 min",
+        "usableWidth": 573.4,
+        "fullText": 222.4,
+        "name": 173.8,
+        "note": "SELECTED WALK\nBartók Béla Boulevard cafés\n14 min · 1.02 km\nOffline estimate\n\nA · Móricz Zsigmond körtér transit hub → B · Bartók Béla Boulevard cafés",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Budapest Parliament Sunset Danube River Panorama 2026.jpg",
+      "rendered": [
+        326,
+        184
+      ],
+      "frame": [
+        627,
+        184
+      ],
+      "firstArrow": [
+        319,
+        363
+      ],
+      "download": [
+        269,
+        313
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "vienna",
+    "width": 667,
+    "height": 375,
+    "stay": {
+      "heading": 164,
+      "firstPrice": 641,
+      "firstChoice": 985,
+      "buttons": [
+        970,
+        1504
+      ],
+      "titles": [
+        604,
+        1112
+      ],
+      "prices": [
+        641,
+        1176
+      ],
+      "firstFacts": "AIRBNB\nRenovated Apartment near Center\n\nSAR 4,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.\n\n1 bedrooms\nDouble bed + sofa bed\n1 bath\n4.67/5 · 6 reviews\n\nRudolfsheim-Fünfhaus / Johns",
+      "beforeStay": 561,
+      "outdoorH": 237
+    },
+    "routeChoices": [
+      {
+        "option": "Upper Belvedere · 17 min",
+        "usableWidth": 573.4,
+        "fullText": 151.8,
+        "name": 104.1,
+        "note": "SELECTED WALK\nUpper Belvedere\n17 min · 1.3 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Upper Belvedere",
+        "traceHeight": 224.5,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Südtiroler Platz U1 entrance · 2 min",
+        "usableWidth": 573.4,
+        "fullText": 218.8,
+        "name": 176.2,
+        "note": "SELECTED WALK\nSüdtiroler Platz U1 entrance\n2 min · 0.14 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Südtiroler Platz U1 entrance",
+        "traceHeight": 185.2,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Hauptbahnhof shopping and food hall · 1 min",
+        "usableWidth": 573.4,
+        "fullText": 276.9,
+        "name": 236.2,
+        "note": "SELECTED WALK\nHauptbahnhof shopping and food hall\n1 min · 0.12 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Hauptbahnhof shopping and food hall",
+        "traceHeight": 130.7,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Museum of Military History · 13 min",
+        "usableWidth": 573.4,
+        "fullText": 216.4,
+        "name": 168.1,
+        "note": "SELECTED WALK\nMuseum of Military History\n13 min · 1.11 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Museum of Military History",
+        "traceHeight": 111.8,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "Karlsplatz / Karlskirche · 21 min",
+        "usableWidth": 573.4,
+        "fullText": 194.5,
+        "name": 146.1,
+        "note": "SELECTED WALK\nKarlsplatz / Karlskirche\n21 min · 1.75 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Karlsplatz / Karlskirche",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Vienna State Opera · 28 min",
+        "usableWidth": 573.4,
+        "fullText": 171.9,
+        "name": 121.2,
+        "note": "SELECTED WALK\nVienna State Opera\n28 min · 2.31 km\nOffline estimate\n\nA · Wien Hauptbahnhof main entrance → B · Vienna State Opera",
+        "traceHeight": 223.2,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.7,
+        "mapTop": 361.3,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 0
+      },
+      {
+        "option": "Vienna International Centre visitor area · 11 min",
+        "usableWidth": 573.4,
+        "fullText": 294.8,
+        "name": 248.3,
+        "note": "SELECTED WALK\nVienna International Centre visitor area\n11 min · 0.84 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Vienna International Centre visitor area",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.8,
+        "mapTop": 361.2,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Donaupark entrance area · 18 min",
+        "usableWidth": 573.4,
+        "fullText": 207.3,
+        "name": 158.6,
+        "note": "SELECTED WALK\nDonaupark entrance area\n18 min · 1.36 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Donaupark entrance area",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.8,
+        "mapTop": 361.2,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Alte Donau U1 / Old Danube · 13 min",
+        "usableWidth": 573.4,
+        "fullText": 218.5,
+        "name": 170.2,
+        "note": "SELECTED WALK\nAlte Donau U1 / Old Danube\n13 min · 1.07 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Alte Donau U1 / Old Danube",
+        "traceHeight": 220.6,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.8,
+        "mapTop": 361.2,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Donau Zentrum retail and dining · 23 min",
+        "usableWidth": 573.4,
+        "fullText": 253.5,
+        "name": 203.3,
+        "note": "SELECTED WALK\nDonau Zentrum retail and dining\n23 min · 1.84 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Donau Zentrum retail and dining",
+        "traceHeight": 227.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.8,
+        "mapTop": 361.2,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Danube Island path access near Reichsbrücke · 15 min",
+        "usableWidth": 573.4,
+        "fullText": 335.5,
+        "name": 287.3,
+        "note": "SELECTED WALK\nDanube Island path access near Reichsbrücke\n15 min · 1.2 km\nOffline estimate\n\nA · Kaisermühlen–VIC U1 frontage → B · Danube Island path access near Reichsbrücke",
+        "traceHeight": 216.4,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 13.8,
+        "mapTop": 361.2,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Vienna - Rathaus.jpg",
+      "rendered": [
+        276,
+        184
+      ],
+      "frame": [
+        627,
+        184
+      ],
+      "firstArrow": [
+        319,
+        363
+      ],
+      "download": [
+        269,
+        313
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "prague",
+    "width": 667,
+    "height": 375,
+    "stay": {
+      "heading": 164,
+      "firstPrice": 641,
+      "firstChoice": 945,
+      "buttons": [
+        929,
+        1390
+      ],
+      "titles": [
+        604,
+        1071
+      ],
+      "prices": [
+        641,
+        1108
+      ],
+      "firstFacts": "AIRBNB\nDesigner Digest; Live like a local\n\nSAR 3,052\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n1 bedrooms\nQueen + double convertible\n1.5 bath\n4.83/5 · 145 reviews\n\nŽižkov / Vinohrady border · Host lists full kitchen, washer and dryer. Value pick if adult b",
+      "beforeStay": 561,
+      "outdoorH": 237
+    },
+    "routeChoices": [
+      {
+        "option": "Žižkov Television Tower · 6 min",
+        "usableWidth": 573.4,
+        "fullText": 190.2,
+        "name": 147.3,
+        "note": "SELECTED WALK\nŽižkov Television Tower\n6 min · 0.48 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Žižkov Television Tower",
+        "traceHeight": 225.6,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 0
+      },
+      {
+        "option": "Riegrovy sady park · 9 min",
+        "usableWidth": 573.4,
+        "fullText": 161.1,
+        "name": 118.2,
+        "note": "SELECTED WALK\nRiegrovy sady park\n9 min · 0.75 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Riegrovy sady park",
+        "traceHeight": 218.5,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 0
+      },
+      {
+        "option": "Atrium Flora shopping & metro · 10 min",
+        "usableWidth": 573.4,
+        "fullText": 239.8,
+        "name": 190.5,
+        "note": "SELECTED WALK\nAtrium Flora shopping & metro\n10 min · 0.81 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Atrium Flora shopping & metro",
+        "traceHeight": 58.5,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 0
+      },
+      {
+        "option": "Antonínovo Pekařství bakery area · 1 min",
+        "usableWidth": 573.4,
+        "fullText": 251.4,
+        "name": 210.7,
+        "note": "SELECTED WALK\nAntonínovo Pekařství bakery area\n1 min · 0.11 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · Antonínovo Pekařství bakery area",
+        "traceHeight": 158.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 0
+      },
+      {
+        "option": "National Museum · 19 min",
+        "usableWidth": 573.4,
+        "fullText": 158.7,
+        "name": 110,
+        "note": "SELECTED WALK\nNational Museum\n19 min · 1.58 km\nOffline estimate\n\nA · Jiřího z Poděbrad metro plaza → B · National Museum",
+        "traceHeight": 64.3,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 0
+      },
+      {
+        "option": "Prague Astronomical Clock · 1 min",
+        "usableWidth": 573.4,
+        "fullText": 211.3,
+        "name": 170.6,
+        "note": "SELECTED WALK\nPrague Astronomical Clock\n1 min · 0.01 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Prague Astronomical Clock",
+        "traceHeight": 6,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 0,
+        "anchor": 1
+      },
+      {
+        "option": "Charles Bridge east entrance · 8 min",
+        "usableWidth": 573.4,
+        "fullText": 225.4,
+        "name": 182.6,
+        "note": "SELECTED WALK\nCharles Bridge east entrance\n8 min · 0.65 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Charles Bridge east entrance",
+        "traceHeight": 152.8,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 1,
+        "anchor": 1
+      },
+      {
+        "option": "Staroměstská metro entrance · 6 min",
+        "usableWidth": 573.4,
+        "fullText": 231.3,
+        "name": 188.5,
+        "note": "SELECTED WALK\nStaroměstská metro entrance\n6 min · 0.48 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Staroměstská metro entrance",
+        "traceHeight": 192.6,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 2,
+        "anchor": 1
+      },
+      {
+        "option": "Havelská market area · 5 min",
+        "usableWidth": 573.4,
+        "fullText": 176.9,
+        "name": 134.4,
+        "note": "SELECTED WALK\nHavelská market area\n5 min · 0.44 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Havelská market area",
+        "traceHeight": 226.4,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 3,
+        "anchor": 1
+      },
+      {
+        "option": "Municipal House · 11 min",
+        "usableWidth": 573.4,
+        "fullText": 150.8,
+        "name": 104.3,
+        "note": "SELECTED WALK\nMunicipal House\n11 min · 0.9 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Municipal House",
+        "traceHeight": 153.6,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 4,
+        "anchor": 1
+      },
+      {
+        "option": "Prague Main railway station · 21 min",
+        "usableWidth": 573.4,
+        "fullText": 221.8,
+        "name": 173.3,
+        "note": "SELECTED WALK\nPrague Main railway station\n21 min · 1.72 km\nOffline estimate\n\nA · Old Town Square public plaza → B · Prague Main railway station",
+        "traceHeight": 225.9,
+        "traceVisible": 0,
+        "mapHeight": 341.4,
+        "mapVisible": 14.1,
+        "mapTop": 360.9,
+        "stickyBottom": 103.6,
+        "focus": "route-select",
+        "documentOverflow": 0,
+        "index": 5,
+        "anchor": 1
+      }
+    ],
+    "photo": {
+      "alt": "Charles Bridge - panorama.jpg",
+      "rendered": [
+        426,
+        184
+      ],
+      "frame": [
+        627,
+        184
+      ],
+      "firstArrow": [
+        319,
+        363
+      ],
+      "download": [
+        269,
+        313
+      ],
+      "close": [
+        12,
+        56
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "baku",
+    "width": 768,
+    "height": 1024,
+    "stay": {
+      "heading": 179,
+      "firstPrice": 690,
+      "firstChoice": 1163,
+      "buttons": [
+        1148,
+        1148
+      ],
+      "titles": [
+        626,
+        626
+      ],
+      "prices": [
+        690,
+        718
+      ],
+      "firstFacts": "AIRBNB\nApartment on Nizami. Free transfer\n\nSAR 1,418\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\n2 queen beds\n1 bath\n4.9/5 · 221 reviews\n\nSahil / Nizami Street · Host lists a full kitchen, a private balcony and Fountains Square about 5 min away on",
+      "beforeStay": 583,
+      "outdoorH": 237
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Old City (Baku).JPG",
+      "rendered": [
+        722,
+        478
+      ],
+      "frame": [
+        722,
+        686
+      ],
+      "firstArrow": [
+        902,
+        946
+      ],
+      "download": [
+        846,
+        890
+      ],
+      "close": [
+        78,
+        122
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "tbilisi",
+    "width": 768,
+    "height": 1024,
+    "stay": {
+      "heading": 179,
+      "firstPrice": 663,
+      "firstChoice": 1136,
+      "buttons": [
+        1121,
+        1121
+      ],
+      "titles": [
+        626,
+        626
+      ],
+      "prices": [
+        663,
+        718
+      ],
+      "firstFacts": "AIRBNB\nA 5-star stay in Old Tbilisi\n\nSAR 1,917\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\nDouble + 2 singles, plus sofa\n1 bath\n4.92/5 · 118 reviews\n\nOld Tbilisi / Pushkin Square · Host lists a full kitchen and Galleria Tbilisi about 5 min away. T",
+      "beforeStay": 583,
+      "outdoorH": 237
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Tbilisi, Old Tbilisi 2, Georgia.jpg",
+      "rendered": [
+        722,
+        480
+      ],
+      "frame": [
+        722,
+        686
+      ],
+      "firstArrow": [
+        902,
+        946
+      ],
+      "download": [
+        846,
+        890
+      ],
+      "close": [
+        78,
+        122
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "budapest",
+    "width": 768,
+    "height": 1024,
+    "stay": {
+      "heading": 179,
+      "firstPrice": 530,
+      "firstChoice": 1055,
+      "buttons": [
+        1040,
+        1040
+      ],
+      "titles": [
+        466,
+        466
+      ],
+      "prices": [
+        530,
+        530
+      ],
+      "firstFacts": "AIRBNB\nCHROMATIC Vibe – Sky Terrace with A/C & Sauna\n\nSAR 2,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\nListing overview: 1 king bed + couch\n1.5 bath\n4.56/5 · 153 reviews\n\nPest / Opera · Pest / Opera. The listing overview calls it a studio; the host desc",
+      "beforeStay": 423,
+      "outdoorH": 77
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Budapest Parliament Sunset Danube River Panorama 2026.jpg",
+      "rendered": [
+        722,
+        407
+      ],
+      "frame": [
+        722,
+        686
+      ],
+      "firstArrow": [
+        902,
+        946
+      ],
+      "download": [
+        846,
+        890
+      ],
+      "close": [
+        78,
+        122
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "vienna",
+    "width": 768,
+    "height": 1024,
+    "stay": {
+      "heading": 179,
+      "firstPrice": 690,
+      "firstChoice": 1229,
+      "buttons": [
+        1214,
+        1214
+      ],
+      "titles": [
+        626,
+        626
+      ],
+      "prices": [
+        690,
+        718
+      ],
+      "firstFacts": "AIRBNB\nRenovated Apartment near Center\n\nSAR 4,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.\n\n1 bedrooms\nDouble bed + sofa bed\n1 bath\n4.67/5 · 6 reviews\n\nRudolfsheim-Fünfhaus / Johns",
+      "beforeStay": 583,
+      "outdoorH": 237
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Vienna - Rathaus.jpg",
+      "rendered": [
+        722,
+        481
+      ],
+      "frame": [
+        722,
+        686
+      ],
+      "firstArrow": [
+        902,
+        946
+      ],
+      "download": [
+        846,
+        890
+      ],
+      "close": [
+        78,
+        122
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "prague",
+    "width": 768,
+    "height": 1024,
+    "stay": {
+      "heading": 179,
+      "firstPrice": 691,
+      "firstChoice": 1168,
+      "buttons": [
+        1153,
+        1153
+      ],
+      "titles": [
+        627,
+        627
+      ],
+      "prices": [
+        691,
+        663
+      ],
+      "firstFacts": "AIRBNB\nDesigner Digest; Live like a local\n\nSAR 3,052\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n1 bedrooms\nQueen + double convertible\n1.5 bath\n4.83/5 · 145 reviews\n\nŽižkov / Vinohrady border · Host lists full kitchen, washer and dryer. Value pick if adult b",
+      "beforeStay": 583,
+      "outdoorH": 237
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Charles Bridge - panorama.jpg",
+      "rendered": [
+        722,
+        312
+      ],
+      "frame": [
+        722,
+        686
+      ],
+      "firstArrow": [
+        902,
+        946
+      ],
+      "download": [
+        846,
+        890
+      ],
+      "close": [
+        78,
+        122
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "baku",
+    "width": 1440,
+    "height": 900,
+    "stay": {
+      "heading": 226,
+      "firstPrice": 745,
+      "firstChoice": 1068,
+      "buttons": [
+        1053,
+        1053
+      ],
+      "titles": [
+        653,
+        653
+      ],
+      "prices": [
+        745,
+        745
+      ],
+      "firstFacts": "AIRBNB\nApartment on Nizami. Free transfer\n\nSAR 1,418\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\n2 queen beds\n1 bath\n4.9/5 · 221 reviews\n\nSahil / Nizami Street · Host lists a full kitchen, a private balcony and Fountains Square about 5 min away on",
+      "beforeStay": 609,
+      "outdoorH": 172
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Old City (Baku).JPG",
+      "rendered": [
+        910,
+        603
+      ],
+      "frame": [
+        1082,
+        603
+      ],
+      "firstArrow": [
+        788,
+        832
+      ],
+      "download": [
+        732,
+        776
+      ],
+      "close": [
+        68,
+        112
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "tbilisi",
+    "width": 1440,
+    "height": 900,
+    "stay": {
+      "heading": 226,
+      "firstPrice": 703,
+      "firstChoice": 1042,
+      "buttons": [
+        1027,
+        1027
+      ],
+      "titles": [
+        653,
+        653
+      ],
+      "prices": [
+        703,
+        744
+      ],
+      "firstFacts": "AIRBNB\nA 5-star stay in Old Tbilisi\n\nSAR 1,917\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\nDouble + 2 singles, plus sofa\n1 bath\n4.92/5 · 118 reviews\n\nOld Tbilisi / Pushkin Square · Host lists a full kitchen and Galleria Tbilisi about 5 min away. T",
+      "beforeStay": 609,
+      "outdoorH": 172
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Tbilisi, Old Tbilisi 2, Georgia.jpg",
+      "rendered": [
+        908,
+        603
+      ],
+      "frame": [
+        1082,
+        603
+      ],
+      "firstArrow": [
+        788,
+        832
+      ],
+      "download": [
+        732,
+        776
+      ],
+      "close": [
+        68,
+        112
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "budapest",
+    "width": 1440,
+    "height": 900,
+    "stay": {
+      "heading": 226,
+      "firstPrice": 650,
+      "firstChoice": 974,
+      "buttons": [
+        958,
+        958
+      ],
+      "titles": [
+        558,
+        558
+      ],
+      "prices": [
+        650,
+        650
+      ],
+      "firstFacts": "AIRBNB\nCHROMATIC Vibe – Sky Terrace with A/C & Sauna\n\nSAR 2,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\nListing overview: 1 king bed + couch\n1.5 bath\n4.56/5 · 153 reviews\n\nPest / Opera · Pest / Opera. The listing overview calls it a studio; the host desc",
+      "beforeStay": 515,
+      "outdoorH": 77
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Budapest Parliament Sunset Danube River Panorama 2026.jpg",
+      "rendered": [
+        1071,
+        603
+      ],
+      "frame": [
+        1082,
+        603
+      ],
+      "firstArrow": [
+        788,
+        832
+      ],
+      "download": [
+        732,
+        776
+      ],
+      "close": [
+        68,
+        112
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "vienna",
+    "width": 1440,
+    "height": 900,
+    "stay": {
+      "heading": 226,
+      "firstPrice": 724,
+      "firstChoice": 1068,
+      "buttons": [
+        1053,
+        1053
+      ],
+      "titles": [
+        633,
+        633
+      ],
+      "prices": [
+        724,
+        724
+      ],
+      "firstFacts": "AIRBNB\nRenovated Apartment near Center\n\nSAR 4,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.\n\n1 bedrooms\nDouble bed + sofa bed\n1 bath\n4.67/5 · 6 reviews\n\nRudolfsheim-Fünfhaus / Johns",
+      "beforeStay": 589,
+      "outdoorH": 151
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Vienna - Rathaus.jpg",
+      "rendered": [
+        905,
+        603
+      ],
+      "frame": [
+        1082,
+        603
+      ],
+      "firstArrow": [
+        798,
+        842
+      ],
+      "download": [
+        742,
+        786
+      ],
+      "close": [
+        58,
+        102
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "prague",
+    "width": 1440,
+    "height": 900,
+    "stay": {
+      "heading": 226,
+      "firstPrice": 683,
+      "firstChoice": 987,
+      "buttons": [
+        971,
+        971
+      ],
+      "titles": [
+        633,
+        633
+      ],
+      "prices": [
+        683,
+        683
+      ],
+      "firstFacts": "AIRBNB\nDesigner Digest; Live like a local\n\nSAR 3,052\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n1 bedrooms\nQueen + double convertible\n1.5 bath\n4.83/5 · 145 reviews\n\nŽižkov / Vinohrady border · Host lists full kitchen, washer and dryer. Value pick if adult b",
+      "beforeStay": 589,
+      "outdoorH": 151
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Charles Bridge - panorama.jpg",
+      "rendered": [
+        1082,
+        467
+      ],
+      "frame": [
+        1082,
+        603
+      ],
+      "firstArrow": [
+        788,
+        832
+      ],
+      "download": [
+        732,
+        776
+      ],
+      "close": [
+        68,
+        112
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "baku",
+    "width": 2560,
+    "height": 1440,
+    "stay": {
+      "heading": 237,
+      "firstPrice": 760,
+      "firstChoice": 1084,
+      "buttons": [
+        1069,
+        1069
+      ],
+      "titles": [
+        669,
+        669
+      ],
+      "prices": [
+        760,
+        760
+      ],
+      "firstFacts": "AIRBNB\nApartment on Nizami. Free transfer\n\nSAR 1,418\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\n2 queen beds\n1 bath\n4.9/5 · 221 reviews\n\nSahil / Nizami Street · Host lists a full kitchen, a private balcony and Fountains Square about 5 min away on",
+      "beforeStay": 625,
+      "outdoorH": 172
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Old City (Baku).JPG",
+      "rendered": [
+        1082,
+        717
+      ],
+      "frame": [
+        1082,
+        840
+      ],
+      "firstArrow": [
+        1177,
+        1221
+      ],
+      "download": [
+        1121,
+        1165
+      ],
+      "close": [
+        219,
+        263
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "tbilisi",
+    "width": 2560,
+    "height": 1440,
+    "stay": {
+      "heading": 237,
+      "firstPrice": 718,
+      "firstChoice": 1057,
+      "buttons": [
+        1042,
+        1042
+      ],
+      "titles": [
+        668,
+        668
+      ],
+      "prices": [
+        718,
+        760
+      ],
+      "firstFacts": "AIRBNB\nA 5-star stay in Old Tbilisi\n\nSAR 1,917\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n2 bedrooms\nDouble + 2 singles, plus sofa\n1 bath\n4.92/5 · 118 reviews\n\nOld Tbilisi / Pushkin Square · Host lists a full kitchen and Galleria Tbilisi about 5 min away. T",
+      "beforeStay": 625,
+      "outdoorH": 172
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Tbilisi, Old Tbilisi 2, Georgia.jpg",
+      "rendered": [
+        1082,
+        719
+      ],
+      "frame": [
+        1082,
+        840
+      ],
+      "firstArrow": [
+        1177,
+        1221
+      ],
+      "download": [
+        1121,
+        1165
+      ],
+      "close": [
+        219,
+        263
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "budapest",
+    "width": 2560,
+    "height": 1440,
+    "stay": {
+      "heading": 237,
+      "firstPrice": 666,
+      "firstChoice": 990,
+      "buttons": [
+        974,
+        974
+      ],
+      "titles": [
+        574,
+        574
+      ],
+      "prices": [
+        666,
+        666
+      ],
+      "firstFacts": "AIRBNB\nCHROMATIC Vibe – Sky Terrace with A/C & Sauna\n\nSAR 2,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\nListing overview: 1 king bed + couch\n1.5 bath\n4.56/5 · 153 reviews\n\nPest / Opera · Pest / Opera. The listing overview calls it a studio; the host desc",
+      "beforeStay": 531,
+      "outdoorH": 77
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Budapest Parliament Sunset Danube River Panorama 2026.jpg",
+      "rendered": [
+        1082,
+        609
+      ],
+      "frame": [
+        1082,
+        840
+      ],
+      "firstArrow": [
+        1177,
+        1221
+      ],
+      "download": [
+        1121,
+        1165
+      ],
+      "close": [
+        219,
+        263
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "vienna",
+    "width": 2560,
+    "height": 1440,
+    "stay": {
+      "heading": 237,
+      "firstPrice": 740,
+      "firstChoice": 1084,
+      "buttons": [
+        1068,
+        1068
+      ],
+      "titles": [
+        648,
+        648
+      ],
+      "prices": [
+        740,
+        740
+      ],
+      "firstFacts": "AIRBNB\nRenovated Apartment near Center\n\nSAR 4,456\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability. Public listing details rechecked. Current checkout availability unverified.\n\n1 bedrooms\nDouble bed + sofa bed\n1 bath\n4.67/5 · 6 reviews\n\nRudolfsheim-Fünfhaus / Johns",
+      "beforeStay": 604,
+      "outdoorH": 151
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Vienna - Rathaus.jpg",
+      "rendered": [
+        1082,
+        720
+      ],
+      "frame": [
+        1082,
+        840
+      ],
+      "firstArrow": [
+        1187,
+        1231
+      ],
+      "download": [
+        1131,
+        1175
+      ],
+      "close": [
+        209,
+        253
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  },
+  {
+    "city": "prague",
+    "width": 2560,
+    "height": 1440,
+    "stay": {
+      "heading": 237,
+      "firstPrice": 698,
+      "firstChoice": 1002,
+      "buttons": [
+        987,
+        987
+      ],
+      "titles": [
+        648,
+        648
+      ],
+      "prices": [
+        698,
+        698
+      ],
+      "firstFacts": "AIRBNB\nDesigner Digest; Live like a local\n\nSAR 3,052\n\nAirbnb search total displayed for three adults on 23 Nov 2026 (Medina local date). Recheck final fees, cancellation and availability.\n\n1 bedrooms\nQueen + double convertible\n1.5 bath\n4.83/5 · 145 reviews\n\nŽižkov / Vinohrady border · Host lists full kitchen, washer and dryer. Value pick if adult b",
+      "beforeStay": 604,
+      "outdoorH": 151
+    },
+    "routeChoices": [],
+    "photo": {
+      "alt": "Charles Bridge - panorama.jpg",
+      "rendered": [
+        1082,
+        467
+      ],
+      "frame": [
+        1082,
+        840
+      ],
+      "firstArrow": [
+        1177,
+        1221
+      ],
+      "download": [
+        1121,
+        1165
+      ],
+      "close": [
+        219,
+        263
+      ],
+      "modalScroll": 0,
+      "restoredFocus": true
+    }
+  }
+]

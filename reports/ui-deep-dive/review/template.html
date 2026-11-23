@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>December, Elsewhere | UI review</title>
+  <style>
+    :root { color: #18221c; background: #f6f3eb; font: 16px/1.6 system-ui, sans-serif; --rail: 72rem; --forest: #172722; --line: #b9beb0; }
+    * { box-sizing: border-box; }
+    body, figure { margin: 0; }
+    .rail { width: min(calc(100% - 2rem), var(--rail)); margin-inline: auto; }
+    header { padding-block: clamp(2rem, 7vw, 6rem) 2rem; color: #fffaf0; background: var(--forest); }
+    header p { color: #ead7b2; }
+    h1, h2, h3 { line-height: 1.1; text-wrap: balance; font-family: Georgia, serif; font-weight: 500; }
+    h1 { font-size: clamp(2.8rem, 8vw, 6.5rem); margin-block: .35em .22em; }
+    h2 { font-size: clamp(2rem, 5.5vw, 4rem); margin-block: .25em .4em; }
+    h3 { font-size: clamp(1.65rem, 3vw, 2.8rem); margin: .35em 0; }
+    p { max-width: 64ch; }
+    .caption, .index, .status { font-size: .9rem; }
+    .index { margin: .75rem 0; }
+    .index a, .index button { display: inline-flex; align-items: center; min-height: 44px; }
+    main { padding-block: 1.5rem 3rem; }
+    .item { border-block-start: 1px solid var(--line); padding-block: 1.6rem 2rem; }
+    .photos { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 1rem; margin-block: 1.3rem; align-items: start; }
+    .photos figure { min-width: 0; }
+    .photos img { display: block; width: 100%; height: auto; max-height: 52rem; object-fit: contain; object-position: top; border: 1px solid var(--line); background: #eee9dc; }
+    details > img { display:block; max-width:100%; height:auto; }
+    figcaption { padding-block: .35rem; font-size: .84rem; }
+    form { margin-block: .8rem 0; }
+    fieldset { border: 0; padding: 0; margin: 0; }
+    legend { padding: 0; font-weight: 700; }
+    .decisions { display: flex; flex-wrap: wrap; gap: .45rem; margin-block: .4rem .8rem; }
+    .decisions label { display: flex; align-items: center; gap: .42rem; min-height: 44px; padding: 0 .6rem; border: 1px solid var(--line); min-width: 44px; }
+    .decisions label:has(input:checked) { background: #d3dfd1; border-color: #587461; }
+    label > textarea { display: block; width: min(100%, 42rem); min-height: 70px; margin-top: .3rem; padding: .5rem; font: inherit; }
+    button, summary { min-height: 44px; font: inherit; cursor: pointer; }
+    button { border: 1px solid #304137; background: var(--forest); color: #fffaf0; padding: .35rem .8rem; }
+    summary { padding-top: .5rem; }
+    :focus-visible { outline: 2px solid #a65721; outline-offset: 3px; }
+    a { color: inherit; text-underline-offset: .2em; }
+    code { overflow-wrap: anywhere; }
+    .mock-link { display: inline-flex; align-items: center; min-height: 44px; }
+    ul.copy { padding-inline-start: 1.15rem; }
+    .copy li { margin-bottom: .5rem; }
+    @media (max-width: 34rem) {
+      .photos { grid-template-columns: 1fr; }
+      .photos img { width: min(100%, 390px); }
+    }
+  </style>
+</head>
+<body>
+<header><div class="rail">
+  <p>December, Elsewhere</p>
+  <h1>Mobile UI review</h1>
+  <p>Start with the changes that make the next step easier to find on a phone.</p>
+</div></header>
+<main class="rail">
+<p>The owner's instruction to proceed with recommended items is recorded below. You can select Yes, No or Later and add a note. A note sets the limits of that decision. Changes you make here save in this browser.</p>
+<button id="export" type="button">Download decisions</button>
+<p id="saved" class="status" role="status"></p>
+__CONTENT__
+</main>
+<script id="defaults" type="application/json">__DEFAULTS__</script>
+<script>
+  const initial = JSON.parse(document.querySelector('#defaults').textContent);
+  const key = 'december-ui-review-' + initial.baseline;
+  let stored = {};
+  try { stored = JSON.parse(localStorage.getItem(key) || '{}'); } catch {}
+  const current = { ...initial.decisions, ...stored };
+  const status = document.querySelector('#saved');
+  for (const form of document.querySelectorAll('form[data-proposal]')) {
+    const id = form.dataset.proposal;
+    form.querySelector('[value="' + current[id].decision + '"]').checked = true;
+    form.querySelector('textarea').value = current[id].note;
+    form.addEventListener('input', () => {
+      const data = new FormData(form);
+      current[id] = { decision: data.get(id), note: data.get('note') };
+      try {
+        localStorage.setItem(key, JSON.stringify(current));
+        status.textContent = id + ' saved on this device.';
+      } catch {
+        status.textContent = 'Download decisions to keep your edits.';
+      }
+    });
+  }
+  document.querySelector('#export').addEventListener('click', () => {
+    const text = JSON.stringify({ ...initial, decisions: current }, null, 2);
+    const url = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
+    const file = document.createElement('a');
+    file.href = url;
+    file.download = 'december-ui-decisions.json';
+    file.click();
+    setTimeout(() => URL.revokeObjectURL(url), 3000);
+  });
+</script>
+</body></html>
